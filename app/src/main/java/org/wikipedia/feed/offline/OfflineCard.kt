@@ -1,7 +1,7 @@
-package org.wikipedia.feed.offline
+package org.akhil.nitcwiki.feed.offline
 
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.model.CardType
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.model.CardType
 
 class OfflineCard : Card() {
 

@@ -1,4 +1,4 @@
-package org.wikipedia.main
+package org.akhil.nitcwiki.main
 
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.*
@@ -12,9 +12,9 @@ import org.hamcrest.Matchers.`is`
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.wikipedia.BuildConfig
-import org.wikipedia.R
-import org.wikipedia.TestUtil
+import org.akhil.nitcwiki.BuildConfig
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.TestUtil
 
 @LargeTest
 @RunWith(AndroidJUnit4::class)
@@ -52,10 +52,10 @@ class LoggedInTests {
         TestUtil.delay(2)
 
         // Type in an incorrect username and password
-        onView(allOf(TestUtil.withGrandparent(withId(R.id.login_username_text)), withClassName(`is`("org.wikipedia.views.PlainPasteEditText"))))
+        onView(allOf(TestUtil.withGrandparent(withId(R.id.login_username_text)), withClassName(`is`("org.akhil.nitcwiki.views.PlainPasteEditText"))))
                 .perform(replaceText(BuildConfig.TEST_LOGIN_USERNAME), closeSoftKeyboard())
 
-        onView(allOf(TestUtil.withGrandparent(withId(R.id.login_password_input)), withClassName(`is`("org.wikipedia.views.PlainPasteEditText"))))
+        onView(allOf(TestUtil.withGrandparent(withId(R.id.login_password_input)), withClassName(`is`("org.akhil.nitcwiki.views.PlainPasteEditText"))))
                 .perform(replaceText(BuildConfig.TEST_LOGIN_PASSWORD), closeSoftKeyboard())
 
         // Click the login button

@@ -1,7 +1,7 @@
-package org.wikipedia
+package org.akhil.nitcwiki
 
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.WikiSite
 
 object Constants {
 

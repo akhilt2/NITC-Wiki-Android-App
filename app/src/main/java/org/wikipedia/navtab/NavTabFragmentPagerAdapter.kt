@@ -1,7 +1,7 @@
-package org.wikipedia.navtab
+package org.akhil.nitcwiki.navtab
 
 import androidx.fragment.app.Fragment
-import org.wikipedia.views.PositionAwareFragmentStateAdapter
+import org.akhil.nitcwiki.views.PositionAwareFragmentStateAdapter
 
 class NavTabFragmentPagerAdapter(fragment: Fragment) : PositionAwareFragmentStateAdapter(fragment) {
     override fun createFragment(position: Int): Fragment {

@@ -1,15 +1,15 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import android.app.Activity
 import android.net.Uri
 import android.widget.TextView
 import androidx.core.widget.TextViewCompat
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.UriUtil
 
 object SuggestedEditsSurvey {
 

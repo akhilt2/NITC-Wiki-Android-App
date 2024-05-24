@@ -1,4 +1,4 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentManager

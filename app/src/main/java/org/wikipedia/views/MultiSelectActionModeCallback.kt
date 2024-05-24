@@ -1,9 +1,9 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.view.ActionMode
-import org.wikipedia.R
+import org.akhil.nitcwiki.R
 
 abstract class MultiSelectActionModeCallback : ActionMode.Callback {
 

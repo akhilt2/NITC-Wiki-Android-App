@@ -1,6 +1,6 @@
-package org.wikipedia.feed.announcement
+package org.akhil.nitcwiki.feed.announcement
 
-import org.wikipedia.feed.model.CardType
+import org.akhil.nitcwiki.feed.model.CardType
 
 class FundraisingCard(announcement: Announcement) : AnnouncementCard(announcement) {
 

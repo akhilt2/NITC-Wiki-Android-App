@@ -1,8 +1,8 @@
-package org.wikipedia.feed.offline
+package org.akhil.nitcwiki.feed.offline
 
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.feed.dataclient.DummyClient
-import org.wikipedia.feed.model.Card
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.feed.dataclient.DummyClient
+import org.akhil.nitcwiki.feed.model.Card
 
 class OfflineCardClient : DummyClient() {
 

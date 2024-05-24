@@ -1,9 +1,9 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
-import org.wikipedia.analytics.eventplatform.ArticleFindInPageInteractionEvent
-import org.wikipedia.analytics.metricsplatform.ArticleFindInPageInteraction
-import org.wikipedia.views.FindInPageActionProvider
-import org.wikipedia.views.FindInPageActionProvider.FindInPageListener
+import org.akhil.nitcwiki.analytics.eventplatform.ArticleFindInPageInteractionEvent
+import org.akhil.nitcwiki.analytics.metricsplatform.ArticleFindInPageInteraction
+import org.akhil.nitcwiki.views.FindInPageActionProvider
+import org.akhil.nitcwiki.views.FindInPageActionProvider.FindInPageListener
 
 class FindInWebPageActionProvider(private val fragment: PageFragment,
                                   private val articleFindInPageInteractionEvent: ArticleFindInPageInteractionEvent,

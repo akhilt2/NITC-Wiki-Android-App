@@ -22,7 +22,7 @@
             app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
             app:navigationIconTint="?attr/primary_color">
 
-            <org.wikipedia.views.CabSearchView
+            <org.akhil.nitcwiki.views.CabSearchView
                 android:id="@+id/searchCabView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -34,7 +34,7 @@
                 app:iconifiedByDefault="false"
                 app:defaultQueryHint="@string/templates_search_hint">
                 <requestFocus />
-            </org.wikipedia.views.CabSearchView>
+            </org.akhil.nitcwiki.views.CabSearchView>
 
             <TextView
                 style="@style/H3.Button"
@@ -89,7 +89,7 @@
 
             <androidx.fragment.app.FragmentContainerView
                 android:id="@+id/insertTemplateFragment"
-                android:name="org.wikipedia.edit.templates.InsertTemplateFragment"
+                android:name="org.akhil.nitcwiki.edit.templates.InsertTemplateFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 

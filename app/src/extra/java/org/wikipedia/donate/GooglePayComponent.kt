@@ -1,4 +1,4 @@
-package org.wikipedia.donate
+package org.akhil.nitcwiki.donate
 
 import android.app.Activity
 import android.content.Intent
@@ -9,7 +9,7 @@ import com.google.android.gms.wallet.WalletConstants
 import kotlinx.coroutines.tasks.await
 import org.json.JSONArray
 import org.json.JSONObject
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.settings.Prefs
 import java.text.DecimalFormat
 import java.text.DecimalFormatSymbols
 import java.util.Locale

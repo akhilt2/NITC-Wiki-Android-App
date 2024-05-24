@@ -1,10 +1,10 @@
-package org.wikipedia.descriptions
+package org.akhil.nitcwiki.descriptions
 
 import android.content.Context
 import android.content.Intent
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.activity.SingleFragmentActivityTransparent
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.activity.SingleFragmentActivityTransparent
 
 class DescriptionEditSuccessActivity : SingleFragmentActivityTransparent<DescriptionEditSuccessFragment>(), DescriptionEditSuccessFragment.Callback {
     override fun createFragment(): DescriptionEditSuccessFragment {

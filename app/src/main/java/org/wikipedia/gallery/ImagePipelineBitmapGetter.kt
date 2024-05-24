@@ -1,4 +1,4 @@
-package org.wikipedia.gallery
+package org.akhil.nitcwiki.gallery
 
 import android.content.Context
 import android.graphics.Bitmap

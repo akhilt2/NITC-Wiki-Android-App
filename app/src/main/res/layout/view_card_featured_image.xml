@@ -5,12 +5,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <org.wikipedia.feed.view.CardHeaderView
+    <org.akhil.nitcwiki.feed.view.CardHeaderView
         android:id="@+id/view_featured_image_card_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <org.wikipedia.views.WikiCardView
+    <org.akhil.nitcwiki.views.WikiCardView
         android:id="@+id/view_featured_image_card_content_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -81,6 +81,6 @@
 
         </LinearLayout>
 
-    </org.wikipedia.views.WikiCardView>
+    </org.akhil.nitcwiki.views.WikiCardView>
     
 </LinearLayout>

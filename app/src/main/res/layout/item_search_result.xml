@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/page_list_item_title"
         tools:text="Redirected from..." />
 
-    <org.wikipedia.views.GoneIfEmptyTextView
+    <org.akhil.nitcwiki.views.GoneIfEmptyTextView
         android:id="@+id/page_list_item_description"
         style="@style/List.MaterialListSubtitle"
         android:layout_width="0dp"

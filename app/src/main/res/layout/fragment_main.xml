@@ -41,7 +41,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">
 
-        <org.wikipedia.navtab.NavTabLayout
+        <org.akhil.nitcwiki.navtab.NavTabLayout
             android:id="@+id/main_nav_tab_layout"
             android:layout_width="0dp"
             android:layout_height="match_parent"

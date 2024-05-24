@@ -1,9 +1,9 @@
-package org.wikipedia.dataclient.okhttp
+package org.akhil.nitcwiki.dataclient.okhttp
 
 import okhttp3.Response
-import org.wikipedia.dataclient.ServiceError
-import org.wikipedia.dataclient.restbase.RbServiceError
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.dataclient.ServiceError
+import org.akhil.nitcwiki.dataclient.restbase.RbServiceError
+import org.akhil.nitcwiki.util.log.L
 import java.io.IOException
 
 class HttpStatusException : IOException {

@@ -1,11 +1,11 @@
-package org.wikipedia.feed.becauseyouread
+package org.akhil.nitcwiki.feed.becauseyouread
 
 import android.content.Context
-import org.wikipedia.feed.view.ListCardItemView
-import org.wikipedia.feed.view.ListCardRecyclerAdapter
-import org.wikipedia.feed.view.ListCardView
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.views.DefaultViewHolder
+import org.akhil.nitcwiki.feed.view.ListCardItemView
+import org.akhil.nitcwiki.feed.view.ListCardRecyclerAdapter
+import org.akhil.nitcwiki.feed.view.ListCardView
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.views.DefaultViewHolder
 
 class BecauseYouReadCardView(context: Context) : ListCardView<BecauseYouReadCard>(context) {
     override var card: BecauseYouReadCard? = null

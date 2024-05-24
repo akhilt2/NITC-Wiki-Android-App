@@ -1,8 +1,8 @@
-package org.wikipedia.edit
+package org.akhil.nitcwiki.edit
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.mwapi.MwPostResponse
+import org.akhil.nitcwiki.dataclient.mwapi.MwPostResponse
 
 @Serializable
 class Edit : MwPostResponse() {

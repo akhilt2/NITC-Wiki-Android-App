@@ -1,9 +1,9 @@
-package org.wikipedia.descriptions
+package org.akhil.nitcwiki.descriptions
 
 import android.content.Context
 import android.content.Intent
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.onboarding.OnboardingFragment
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.onboarding.OnboardingFragment
 
 class DescriptionEditTutorialActivity : SingleFragmentActivity<DescriptionEditTutorialFragment>(), OnboardingFragment.Callback {
     override fun onSkip() {}

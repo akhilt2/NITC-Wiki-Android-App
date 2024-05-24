@@ -1,9 +1,9 @@
-package org.wikipedia.activity
+package org.akhil.nitcwiki.activity
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
-import org.wikipedia.R
+import org.akhil.nitcwiki.R
 
 /**
  * Boilerplate for a FragmentActivity containing a single stack of Fragments.

@@ -1,4 +1,4 @@
-package org.wikipedia.random
+package org.akhil.nitcwiki.random
 
 import android.net.Uri
 import android.os.Bundle
@@ -13,15 +13,15 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.databinding.FragmentRandomItemBinding
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.ImageUrlUtil.getUrlForPreferredSize
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.Resource
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.databinding.FragmentRandomItemBinding
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.ImageUrlUtil.getUrlForPreferredSize
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.log.L
 
 class RandomItemFragment : Fragment() {
 

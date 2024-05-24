@@ -29,7 +29,7 @@
                 android:layout_gravity="center_vertical"
                 android:gravity="center_vertical">
 
-                <org.wikipedia.views.CabSearchView
+                <org.akhil.nitcwiki.views.CabSearchView
                     android:id="@+id/search_cab_view"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -41,7 +41,7 @@
                     app:searchHintIcon="@null"
                     app:defaultQueryHint="@string/search_hint" />
 
-                <org.wikipedia.views.LangCodeView
+                <org.akhil.nitcwiki.views.LangCodeView
                     android:id="@+id/search_lang_button"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
@@ -80,7 +80,7 @@
             android:layout_height="0.5dp"
             android:background="?attr/border_color" />
 
-        <org.wikipedia.views.LanguageScrollView
+        <org.akhil.nitcwiki.views.LanguageScrollView
             android:id="@+id/search_language_scroll_view"
             android:layout_width="match_parent"
             android:layout_height="48dp"
@@ -96,14 +96,14 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragment_search_results"
-            android:name="org.wikipedia.search.SearchResultsFragment"
+            android:name="org.akhil.nitcwiki.search.SearchResultsFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:layout="@layout/fragment_search_results" />
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/search_panel_recent"
-            android:name="org.wikipedia.search.RecentSearchesFragment"
+            android:name="org.akhil.nitcwiki.search.RecentSearchesFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:layout="@layout/fragment_search_recent" />

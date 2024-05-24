@@ -1,4 +1,4 @@
-package org.wikipedia.test;
+package org.akhil.nitcwiki.test;
 
 import androidx.annotation.NonNull;
 

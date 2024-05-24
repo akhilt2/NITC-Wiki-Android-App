@@ -1,7 +1,7 @@
-package org.wikipedia.feed.progress
+package org.akhil.nitcwiki.feed.progress
 
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.model.CardType
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.model.CardType
 
 class ProgressCard : Card() {
 

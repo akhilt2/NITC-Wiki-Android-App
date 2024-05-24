@@ -1,12 +1,12 @@
-package org.wikipedia.test
+package org.akhil.nitcwiki.test
 
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import okhttp3.MediaType.Companion.toMediaType
 import org.junit.Before
-import org.wikipedia.dataclient.RestService
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.WikiSite.Companion.forLanguageCode
-import org.wikipedia.json.JsonUtil
+import org.akhil.nitcwiki.dataclient.RestService
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.WikiSite.Companion.forLanguageCode
+import org.akhil.nitcwiki.json.JsonUtil
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory
 

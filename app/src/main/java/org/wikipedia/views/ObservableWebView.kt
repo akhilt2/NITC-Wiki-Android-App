@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,10 +8,10 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.ViewConfiguration
 import android.webkit.WebView
-import org.wikipedia.WikipediaApp
-import org.wikipedia.events.WebViewInvalidateEvent
-import org.wikipedia.util.DimenUtil.densityScalar
-import org.wikipedia.views.FrameLayoutNavMenuTriggerer.Companion.setChildViewScrolled
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.events.WebViewInvalidateEvent
+import org.akhil.nitcwiki.util.DimenUtil.densityScalar
+import org.akhil.nitcwiki.views.FrameLayoutNavMenuTriggerer.Companion.setChildViewScrolled
 import java.util.*
 import kotlin.math.abs
 

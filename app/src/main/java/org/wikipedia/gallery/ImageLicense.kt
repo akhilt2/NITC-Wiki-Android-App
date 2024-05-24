@@ -1,9 +1,9 @@
-package org.wikipedia.gallery
+package org.akhil.nitcwiki.gallery
 
 import androidx.annotation.DrawableRes
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.R
+import org.akhil.nitcwiki.R
 
 @Serializable
 class ImageLicense(

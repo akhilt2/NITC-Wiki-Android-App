@@ -1,4 +1,4 @@
-package org.wikipedia.database
+package org.akhil.nitcwiki.database
 
 import androidx.room.Room
 import androidx.room.testing.MigrationTestHelper
@@ -14,14 +14,14 @@ import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.Parameterized
-import org.wikipedia.history.db.HistoryEntryDao
-import org.wikipedia.history.db.HistoryEntryWithImageDao
-import org.wikipedia.offline.db.OfflineObjectDao
-import org.wikipedia.pageimages.db.PageImageDao
-import org.wikipedia.readinglist.db.ReadingListDao
-import org.wikipedia.readinglist.db.ReadingListPageDao
-import org.wikipedia.search.db.RecentSearchDao
-import org.wikipedia.talk.db.TalkPageSeenDao
+import org.akhil.nitcwiki.history.db.HistoryEntryDao
+import org.akhil.nitcwiki.history.db.HistoryEntryWithImageDao
+import org.akhil.nitcwiki.offline.db.OfflineObjectDao
+import org.akhil.nitcwiki.pageimages.db.PageImageDao
+import org.akhil.nitcwiki.readinglist.db.ReadingListDao
+import org.akhil.nitcwiki.readinglist.db.ReadingListPageDao
+import org.akhil.nitcwiki.search.db.RecentSearchDao
+import org.akhil.nitcwiki.talk.db.TalkPageSeenDao
 
 @RunWith(Parameterized::class)
 class UpgradeFromPreRoomTest(private val fromVersion: Int) {
@@ -81,7 +81,7 @@ class UpgradeFromPreRoomTest(private val fromVersion: Int) {
 
         assertThat(readingLists[0].pages[1].apiTitle, equalTo("Barack_Obama"))
         assertThat(readingLists[0].pages[1].displayTitle, equalTo("Barack Obama"))
-        assertThat(readingLists[0].pages[1].thumbUrl, equalTo("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/256px-President_Barack_Obama.jpg"))
+        assertThat(readingLists[0].pages[1].thumbUrl, equalTo("https://upload.wikimedia.org.akhil.nitcwiki/commons/thumb/8/8d/President_Barack_Obama.jpg/256px-President_Barack_Obama.jpg"))
         assertThat(readingLists[0].pages[1].lang, equalTo("en"))
         assertThat(readingLists[0].pages[1].description, equalTo("44th president of the United States"))
         assertThat(readingLists[0].pages[1].sizeBytes, equalTo(5695183))
@@ -107,14 +107,14 @@ class UpgradeFromPreRoomTest(private val fromVersion: Int) {
         val pageImages = pageImageDao.getAllPageImages()
         assertThat(pageImages.size, equalTo(7))
         assertThat(pageImages[0].apiTitle, equalTo("Barack_Obama"))
-        assertThat(pageImages[0].imageName, equalTo("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/256px-President_Barack_Obama.jpg"))
+        assertThat(pageImages[0].imageName, equalTo("https://upload.wikimedia.org.akhil.nitcwiki/commons/thumb/8/8d/President_Barack_Obama.jpg/256px-President_Barack_Obama.jpg"))
 
         val historyEntries = historyWithImageDao.findEntriesBySearchTerm("%%")
         assertThat(historyEntries.size, equalTo(6))
         assertThat(historyEntries[0].apiTitle, equalTo("ברק_אובמה"))
         assertThat(historyEntries[0].displayTitle, equalTo("ברק אובמה"))
         assertThat(historyEntries[0].lang, equalTo("he"))
-        assertThat(historyEntries[0].imageName, equalTo("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/256px-President_Barack_Obama.jpg"))
+        assertThat(historyEntries[0].imageName, equalTo("https://upload.wikimedia.org.akhil.nitcwiki/commons/thumb/8/8d/President_Barack_Obama.jpg/256px-President_Barack_Obama.jpg"))
         assertThat(historyEntries[4].apiTitle, equalTo("Joe_Biden"))
         assertThat(historyEntries[4].lang, equalTo("en"))
 
@@ -123,7 +123,7 @@ class UpgradeFromPreRoomTest(private val fromVersion: Int) {
 
         if (fromVersion == 22) {
             assertThat(talkPageSeenDao.getAll().count(), equalTo(2))
-            assertThat(offlineObjectDao.getOfflineObject("https://en.wikipedia.org/api/rest_v1/page/summary/Joe_Biden")!!.path, equalTo("/data/user/0/org.wikipedia.dev/files/offline_files/481b1ef996728fd9994bd97ab19733d8"))
+            assertThat(offlineObjectDao.getOfflineObject("https://en.wikipedia.org/api/rest_v1/page/summary/Joe_Biden")!!.path, equalTo("/data/user/0/org.akhil.nitcwiki.dev/files/offline_files/481b1ef996728fd9994bd97ab19733d8"))
         } else {
             assertThat(talkPageSeenDao.getAll().count(), equalTo(0))
             assertThat(offlineObjectDao.getOfflineObject("https://en.wikipedia.org/api/rest_v1/page/summary/Joe_Biden"), nullValue())

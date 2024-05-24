@@ -1,4 +1,4 @@
-package org.wikipedia.gallery
+package org.akhil.nitcwiki.gallery
 
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.SerialName

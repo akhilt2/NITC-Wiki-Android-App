@@ -1,4 +1,4 @@
-package org.wikipedia.watchlist
+package org.akhil.nitcwiki.watchlist
 
 import android.graphics.Typeface
 import android.os.Bundle
@@ -14,14 +14,14 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import kotlinx.coroutines.launch
-import org.wikipedia.R
-import org.wikipedia.activity.FragmentUtil
-import org.wikipedia.databinding.DialogWatchlistExpiryBinding
-import org.wikipedia.page.ExtendedBottomSheetDialogFragment
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.Resource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.FragmentUtil
+import org.akhil.nitcwiki.databinding.DialogWatchlistExpiryBinding
+import org.akhil.nitcwiki.page.ExtendedBottomSheetDialogFragment
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.Resource
 
 class WatchlistExpiryDialog : ExtendedBottomSheetDialogFragment() {
 

@@ -1,4 +1,4 @@
-package org.wikipedia.talk.template
+package org.akhil.nitcwiki.talk.template
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -11,11 +11,11 @@ import android.view.ViewGroup
 import android.widget.LinearLayout
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.view.isVisible
-import org.wikipedia.R
-import org.wikipedia.databinding.ItemTalkTemplatesBinding
-import org.wikipedia.talk.db.TalkTemplate
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ItemTalkTemplatesBinding
+import org.akhil.nitcwiki.talk.db.TalkTemplate
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.ResourceUtil
 
 class TalkTemplatesItemView(context: Context, attrs: AttributeSet? = null) : LinearLayout(context, attrs) {
 

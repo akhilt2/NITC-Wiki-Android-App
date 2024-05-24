@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient.donate
+package org.akhil.nitcwiki.dataclient.donate
 
 import kotlinx.serialization.Serializable
 

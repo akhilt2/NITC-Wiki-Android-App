@@ -1,4 +1,4 @@
-package org.wikipedia.richtext
+package org.akhil.nitcwiki.richtext
 
 import android.text.Spannable
 import android.text.Spanned
@@ -9,8 +9,8 @@ import androidx.annotation.IntRange
 import androidx.core.text.getSpans
 import androidx.core.text.toSpannable
 import androidx.core.text.toSpanned
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
 
 object RichTextUtil {
     /**

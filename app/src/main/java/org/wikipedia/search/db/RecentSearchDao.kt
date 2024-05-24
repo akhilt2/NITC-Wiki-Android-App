@@ -1,4 +1,4 @@
-package org.wikipedia.search.db
+package org.akhil.nitcwiki.search.db
 
 import androidx.room.Dao
 import androidx.room.Insert

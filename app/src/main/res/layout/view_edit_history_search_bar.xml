@@ -1,4 +1,4 @@
-<org.wikipedia.views.WikiCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<org.akhil.nitcwiki.views.WikiCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/search_container"
     android:layout_width="match_parent"
@@ -51,4 +51,4 @@
         app:srcCompat="@drawable/ic_baseline_tune_24"
         app:tint="?attr/primary_color" />
 
-</org.wikipedia.views.WikiCardView>
+</org.akhil.nitcwiki.views.WikiCardView>

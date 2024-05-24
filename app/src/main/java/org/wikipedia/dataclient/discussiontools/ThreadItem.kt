@@ -1,12 +1,12 @@
-package org.wikipedia.dataclient.discussiontools
+package org.akhil.nitcwiki.dataclient.discussiontools
 
 import android.os.Parcelable
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.StringUtil
 
 @Serializable
 @Parcelize

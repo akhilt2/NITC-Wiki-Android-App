@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.widget.Button
 import androidx.core.widget.doAfterTextChanged

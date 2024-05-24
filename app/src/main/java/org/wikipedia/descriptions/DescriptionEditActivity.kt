@@ -1,26 +1,26 @@
-package org.wikipedia.descriptions
+package org.akhil.nitcwiki.descriptions
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.annotation.ColorInt
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.analytics.eventplatform.ABTest.Companion.GROUP_1
-import org.wikipedia.analytics.eventplatform.MachineGeneratedArticleDescriptionsAnalyticsHelper
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.commons.ImagePreviewDialog
-import org.wikipedia.extensions.parcelableExtra
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.ExclusiveBottomSheetPresenter
-import org.wikipedia.page.PageTitle
-import org.wikipedia.page.linkpreview.LinkPreviewDialog
-import org.wikipedia.settings.Prefs
-import org.wikipedia.suggestededits.PageSummaryForEdit
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.ReleaseUtil
-import org.wikipedia.views.SuggestedArticleDescriptionsDialog
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.analytics.eventplatform.ABTest.Companion.GROUP_1
+import org.akhil.nitcwiki.analytics.eventplatform.MachineGeneratedArticleDescriptionsAnalyticsHelper
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.commons.ImagePreviewDialog
+import org.akhil.nitcwiki.extensions.parcelableExtra
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.ExclusiveBottomSheetPresenter
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.page.linkpreview.LinkPreviewDialog
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.suggestededits.PageSummaryForEdit
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.ReleaseUtil
+import org.akhil.nitcwiki.views.SuggestedArticleDescriptionsDialog
 
 class DescriptionEditActivity : SingleFragmentActivity<DescriptionEditFragment>(), DescriptionEditFragment.Callback {
     enum class Action {

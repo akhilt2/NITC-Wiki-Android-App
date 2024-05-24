@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <org.wikipedia.views.AppTextView
+            <org.akhil.nitcwiki.views.AppTextView
                 android:id="@+id/reference_title_text"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"

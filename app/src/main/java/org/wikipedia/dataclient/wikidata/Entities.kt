@@ -1,12 +1,12 @@
-package org.wikipedia.dataclient.wikidata
+package org.akhil.nitcwiki.dataclient.wikidata
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.decodeFromJsonElement
-import org.wikipedia.dataclient.mwapi.MwResponse
-import org.wikipedia.json.JsonUtil
+import org.akhil.nitcwiki.dataclient.mwapi.MwResponse
+import org.akhil.nitcwiki.json.JsonUtil
 
 @Serializable
 class Entities : MwResponse() {

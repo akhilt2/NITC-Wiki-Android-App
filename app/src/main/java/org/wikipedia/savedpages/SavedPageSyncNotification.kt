@@ -1,12 +1,12 @@
-package org.wikipedia.savedpages
+package org.akhil.nitcwiki.savedpages
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.notifications.NotificationCategory
-import org.wikipedia.views.NotificationWithProgressBar
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.notifications.NotificationCategory
+import org.akhil.nitcwiki.views.NotificationWithProgressBar
 
 class SavedPageSyncNotification : BroadcastReceiver() {
     private val notification = NotificationWithProgressBar()

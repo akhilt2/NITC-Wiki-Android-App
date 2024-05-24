@@ -1,14 +1,14 @@
-package org.wikipedia.page.linkpreview
+package org.akhil.nitcwiki.page.linkpreview
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewLinkPreviewErrorBinding
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewLinkPreviewErrorBinding
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.StringUtil
 
 class LinkPreviewErrorView : LinearLayout {
     interface Callback {

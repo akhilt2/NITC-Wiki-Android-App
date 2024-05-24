@@ -1,7 +1,7 @@
-package org.wikipedia.captcha
+package org.akhil.nitcwiki.captcha
 
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.mwapi.MwResponse
+import org.akhil.nitcwiki.dataclient.mwapi.MwResponse
 
 @Serializable
 data class Captcha(private val fancycaptchareload: FancyCaptchaReload) : MwResponse() {

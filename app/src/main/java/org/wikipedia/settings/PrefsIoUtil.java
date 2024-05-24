@@ -1,4 +1,4 @@
-package org.wikipedia.settings;
+package org.akhil.nitcwiki.settings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
-import org.wikipedia.WikipediaApp;
+import org.akhil.nitcwiki.WikipediaApp;
 
 import java.util.Collections;
 import java.util.Set;

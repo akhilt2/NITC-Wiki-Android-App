@@ -1,12 +1,12 @@
-package org.wikipedia.descriptions
+package org.akhil.nitcwiki.descriptions
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import org.wikipedia.activity.FragmentUtil.getCallback
-import org.wikipedia.databinding.FragmentDescriptionEditSuccessBinding
+import org.akhil.nitcwiki.activity.FragmentUtil.getCallback
+import org.akhil.nitcwiki.databinding.FragmentDescriptionEditSuccessBinding
 
 class DescriptionEditSuccessFragment : Fragment(), DescriptionEditSuccessView.Callback {
     private var _binding: FragmentDescriptionEditSuccessBinding? = null

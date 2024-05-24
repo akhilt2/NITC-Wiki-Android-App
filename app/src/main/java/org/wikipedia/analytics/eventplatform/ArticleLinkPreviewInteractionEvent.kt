@@ -1,8 +1,8 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.settings.Prefs
 
 class ArticleLinkPreviewInteractionEvent(private val wikiDb: String,
                                          private val pageId: Int,

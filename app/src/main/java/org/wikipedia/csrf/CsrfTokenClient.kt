@@ -1,16 +1,16 @@
-package org.wikipedia.csrf
+package org.akhil.nitcwiki.csrf
 
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.WikipediaApp
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.events.LoggedOutInBackgroundEvent
-import org.wikipedia.login.LoginClient
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.events.LoggedOutInBackgroundEvent
+import org.akhil.nitcwiki.login.LoginClient
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.log.L
 import java.io.IOException
 import java.util.concurrent.Semaphore
 

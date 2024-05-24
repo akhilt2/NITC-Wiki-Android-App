@@ -1,4 +1,4 @@
-package org.wikipedia.talk.template
+package org.akhil.nitcwiki.talk.template
 
 import android.app.Activity
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isVisible
 import androidx.core.widget.doOnTextChanged
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.wikipedia.R
-import org.wikipedia.databinding.DialogTalkTemplatesTextInputBinding
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.DialogTalkTemplatesTextInputBinding
 
 class TalkTemplatesTextInputDialog(
     activity: Activity,

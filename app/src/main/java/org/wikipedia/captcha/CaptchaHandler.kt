@@ -1,4 +1,4 @@
-package org.wikipedia.captcha
+package org.akhil.nitcwiki.captcha
 
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -6,16 +6,16 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
-import org.wikipedia.R
-import org.wikipedia.databinding.GroupCaptchaBinding
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.ViewAnimations
-import org.wikipedia.views.ViewUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.GroupCaptchaBinding
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.ViewAnimations
+import org.akhil.nitcwiki.views.ViewUtil
 
 class CaptchaHandler(private val activity: AppCompatActivity, private val wiki: WikiSite,
                      captchaView: View, private val primaryView: View,

@@ -1,9 +1,9 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.util.AttributeSet
 import com.google.android.material.textview.MaterialTextView
-import org.wikipedia.util.L10nUtil
+import org.akhil.nitcwiki.util.L10nUtil
 
 open class ConfigurableTextView constructor(context: Context, attrs: AttributeSet? = null) : MaterialTextView(context, attrs) {
     fun setText(text: CharSequence?, languageCode: String?) {

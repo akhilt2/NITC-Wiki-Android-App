@@ -1,8 +1,8 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import android.content.Context
-import org.wikipedia.WikipediaApp
-import org.wikipedia.page.PageTitle
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.page.PageTitle
 
 object WatchlistAnalyticsHelper {
 

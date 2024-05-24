@@ -1,4 +1,4 @@
-package org.wikipedia.history.db
+package org.akhil.nitcwiki.history.db
 
 import java.util.Date
 

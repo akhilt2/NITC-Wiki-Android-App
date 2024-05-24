@@ -1,12 +1,12 @@
-package org.wikipedia.search
+package org.akhil.nitcwiki.search
 
 import kotlinx.coroutines.runBlocking
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryResponse
-import org.wikipedia.test.MockRetrofitTest
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResponse
+import org.akhil.nitcwiki.test.MockRetrofitTest
 
 class FullTextSearchClientTest : MockRetrofitTest() {
 

@@ -1,14 +1,14 @@
-package org.wikipedia.language
+package org.akhil.nitcwiki.language
 
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.WikipediaApp.Companion.instance
-import org.wikipedia.dataclient.WikiSite.Companion.forLanguageCode
-import org.wikipedia.language.LangLinksViewModel.Companion.addVariantEntriesIfNeeded
-import org.wikipedia.page.PageTitle
+import org.akhil.nitcwiki.WikipediaApp.Companion.instance
+import org.akhil.nitcwiki.dataclient.WikiSite.Companion.forLanguageCode
+import org.akhil.nitcwiki.language.LangLinksViewModel.Companion.addVariantEntriesIfNeeded
+import org.akhil.nitcwiki.page.PageTitle
 
 @RunWith(RobolectricTestRunner::class)
 class LangLinksActivityTest {

@@ -1,4 +1,4 @@
-package org.wikipedia.offline.db
+package org.akhil.nitcwiki.offline.db
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

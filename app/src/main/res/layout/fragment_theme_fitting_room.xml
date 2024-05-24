@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.wikipedia.views.WikiCardView
+    <org.akhil.nitcwiki.views.WikiCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp">
@@ -40,7 +40,7 @@
                     android:text="@string/color_theme_test_text"
                     android:textColor="?attr/primary_color" />
 
-                <org.wikipedia.views.FaceAndColorDetectImageView
+                <org.akhil.nitcwiki.views.FaceAndColorDetectImageView
                     android:id="@+id/theme_test_image"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
@@ -52,6 +52,6 @@
 
         </LinearLayout>
 
-    </org.wikipedia.views.WikiCardView>
+    </org.akhil.nitcwiki.views.WikiCardView>
 
 </FrameLayout>

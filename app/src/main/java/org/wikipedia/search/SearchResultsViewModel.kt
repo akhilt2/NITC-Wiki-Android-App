@@ -1,4 +1,4 @@
-package org.wikipedia.search
+package org.akhil.nitcwiki.search
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -16,13 +16,13 @@ import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.flow.debounce
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryResponse
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResponse
+import org.akhil.nitcwiki.util.StringUtil
 
 class SearchResultsViewModel : ViewModel() {
 

@@ -27,13 +27,13 @@
             android:layout_height="match_parent"
             android:gravity="end|center_vertical">
 
-            <org.wikipedia.views.TabCountsView
+            <org.akhil.nitcwiki.views.TabCountsView
                 android:id="@+id/tab_counts_view"
                 android:layout_width="48dp"
                 android:layout_height="match_parent"
                 android:contentDescription="@string/page_tabs_back" />
 
-            <org.wikipedia.views.NotificationButtonView
+            <org.akhil.nitcwiki.views.NotificationButtonView
                 android:id="@+id/tab_button_notifications"
                 android:layout_width="48dp"
                 android:layout_height="match_parent"

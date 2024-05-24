@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.view.animation.AnimationUtils
 import android.widget.FrameLayout
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewNotificationDotBinding
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewNotificationDotBinding
 import kotlin.math.min
 
 class NotificationDotView constructor(context: Context, attrs: AttributeSet? = null) : FrameLayout(context, attrs) {

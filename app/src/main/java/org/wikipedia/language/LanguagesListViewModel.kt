@@ -1,4 +1,4 @@
-package org.wikipedia.language
+package org.akhil.nitcwiki.language
 
 import android.content.Context
 import androidx.lifecycle.MutableLiveData
@@ -7,12 +7,12 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.launch
 import org.apache.commons.lang3.StringUtils
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.mwapi.SiteMatrix
-import org.wikipedia.util.Resource
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.mwapi.SiteMatrix
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.log.L
 
 class LanguagesListViewModel : ViewModel() {
 

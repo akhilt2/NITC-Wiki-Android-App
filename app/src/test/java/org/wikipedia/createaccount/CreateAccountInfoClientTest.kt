@@ -1,7 +1,7 @@
-package org.wikipedia.createaccount
+package org.akhil.nitcwiki.createaccount
 
 import org.junit.Test
-import org.wikipedia.test.MockRetrofitTest
+import org.akhil.nitcwiki.test.MockRetrofitTest
 
 class CreateAccountInfoClientTest : MockRetrofitTest() {
     @Test

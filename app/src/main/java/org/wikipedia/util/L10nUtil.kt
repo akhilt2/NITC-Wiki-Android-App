@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.content.res.Configuration
 import android.content.res.Resources
@@ -7,17 +7,17 @@ import android.util.SparseArray
 import android.view.View
 import androidx.annotation.StringRes
 import androidx.core.os.ConfigurationCompat
-import org.wikipedia.WikipediaApp
-import org.wikipedia.language.AppLanguageLookUpTable.Companion.CHINESE_CN_LANGUAGE_CODE
-import org.wikipedia.language.AppLanguageLookUpTable.Companion.CHINESE_HK_LANGUAGE_CODE
-import org.wikipedia.language.AppLanguageLookUpTable.Companion.CHINESE_LANGUAGE_CODE
-import org.wikipedia.language.AppLanguageLookUpTable.Companion.CHINESE_MO_LANGUAGE_CODE
-import org.wikipedia.language.AppLanguageLookUpTable.Companion.CHINESE_MY_LANGUAGE_CODE
-import org.wikipedia.language.AppLanguageLookUpTable.Companion.CHINESE_SG_LANGUAGE_CODE
-import org.wikipedia.language.AppLanguageLookUpTable.Companion.CHINESE_TW_LANGUAGE_CODE
-import org.wikipedia.language.AppLanguageLookUpTable.Companion.SIMPLIFIED_CHINESE_LANGUAGE_CODE
-import org.wikipedia.language.AppLanguageLookUpTable.Companion.TRADITIONAL_CHINESE_LANGUAGE_CODE
-import org.wikipedia.page.PageTitle
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.language.AppLanguageLookUpTable.Companion.CHINESE_CN_LANGUAGE_CODE
+import org.akhil.nitcwiki.language.AppLanguageLookUpTable.Companion.CHINESE_HK_LANGUAGE_CODE
+import org.akhil.nitcwiki.language.AppLanguageLookUpTable.Companion.CHINESE_LANGUAGE_CODE
+import org.akhil.nitcwiki.language.AppLanguageLookUpTable.Companion.CHINESE_MO_LANGUAGE_CODE
+import org.akhil.nitcwiki.language.AppLanguageLookUpTable.Companion.CHINESE_MY_LANGUAGE_CODE
+import org.akhil.nitcwiki.language.AppLanguageLookUpTable.Companion.CHINESE_SG_LANGUAGE_CODE
+import org.akhil.nitcwiki.language.AppLanguageLookUpTable.Companion.CHINESE_TW_LANGUAGE_CODE
+import org.akhil.nitcwiki.language.AppLanguageLookUpTable.Companion.SIMPLIFIED_CHINESE_LANGUAGE_CODE
+import org.akhil.nitcwiki.language.AppLanguageLookUpTable.Companion.TRADITIONAL_CHINESE_LANGUAGE_CODE
+import org.akhil.nitcwiki.page.PageTitle
 import java.util.*
 
 object L10nUtil {

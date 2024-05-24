@@ -1,27 +1,27 @@
-package org.wikipedia.readinglist.sync
+package org.akhil.nitcwiki.readinglist.sync
 
 import android.content.*
 import android.os.Bundle
 import androidx.core.app.JobIntentService
 import androidx.core.os.bundleOf
-import org.wikipedia.WikipediaApp
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.csrf.CsrfTokenClient
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.events.ReadingListsEnableDialogEvent
-import org.wikipedia.events.ReadingListsEnabledStatusEvent
-import org.wikipedia.events.ReadingListsNoLongerSyncedEvent
-import org.wikipedia.page.PageTitle
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.readinglist.sync.SyncedReadingLists.RemoteReadingList
-import org.wikipedia.readinglist.sync.SyncedReadingLists.RemoteReadingListEntry
-import org.wikipedia.savedpages.SavedPageSyncService
-import org.wikipedia.settings.Prefs
-import org.wikipedia.settings.RemoteConfig
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.csrf.CsrfTokenClient
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.events.ReadingListsEnableDialogEvent
+import org.akhil.nitcwiki.events.ReadingListsEnabledStatusEvent
+import org.akhil.nitcwiki.events.ReadingListsNoLongerSyncedEvent
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.readinglist.sync.SyncedReadingLists.RemoteReadingList
+import org.akhil.nitcwiki.readinglist.sync.SyncedReadingLists.RemoteReadingListEntry
+import org.akhil.nitcwiki.savedpages.SavedPageSyncService
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.settings.RemoteConfig
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
 
 class ReadingListSyncAdapter : JobIntentService() {
 

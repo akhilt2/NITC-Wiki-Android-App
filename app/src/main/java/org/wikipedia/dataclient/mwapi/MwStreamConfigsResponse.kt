@@ -1,7 +1,7 @@
-package org.wikipedia.dataclient.mwapi
+package org.akhil.nitcwiki.dataclient.mwapi
 
 import kotlinx.serialization.Serializable
-import org.wikipedia.analytics.eventplatform.StreamConfig
+import org.akhil.nitcwiki.analytics.eventplatform.StreamConfig
 
 @Serializable
 class MwStreamConfigsResponse : MwResponse() {

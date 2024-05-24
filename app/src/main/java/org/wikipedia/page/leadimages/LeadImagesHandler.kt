@@ -1,4 +1,4 @@
-package org.wikipedia.page.leadimages
+package org.akhil.nitcwiki.page.leadimages
 
 import android.net.Uri
 import androidx.core.app.ActivityOptionsCompat
@@ -7,28 +7,28 @@ import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.Constants.ImageEditType
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.bridge.JavaScriptActionHandler
-import org.wikipedia.commons.ImageTagsProvider
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.descriptions.DescriptionEditActivity
-import org.wikipedia.gallery.GalleryActivity
-import org.wikipedia.page.PageFragment
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.suggestededits.PageSummaryForEdit
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
-import org.wikipedia.views.ObservableWebView
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.ImageEditType
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.bridge.JavaScriptActionHandler
+import org.akhil.nitcwiki.commons.ImageTagsProvider
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity
+import org.akhil.nitcwiki.gallery.GalleryActivity
+import org.akhil.nitcwiki.page.PageFragment
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.suggestededits.PageSummaryForEdit
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.ObservableWebView
 
 class LeadImagesHandler(private val parentFragment: PageFragment,
                         webView: ObservableWebView,

@@ -1,8 +1,8 @@
-package org.wikipedia.feed.mainpage
+package org.akhil.nitcwiki.feed.mainpage
 
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.feed.model.CardType
-import org.wikipedia.feed.model.WikiSiteCard
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.feed.model.CardType
+import org.akhil.nitcwiki.feed.model.WikiSiteCard
 
 class MainPageCard(wiki: WikiSite) : WikiSiteCard(wiki) {
 

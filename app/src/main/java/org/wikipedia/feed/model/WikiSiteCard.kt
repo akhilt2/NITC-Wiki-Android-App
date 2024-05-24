@@ -1,6 +1,6 @@
-package org.wikipedia.feed.model
+package org.akhil.nitcwiki.feed.model
 
-import org.wikipedia.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.WikiSite
 
 abstract class WikiSiteCard(val wiki: WikiSite) : Card() {
 

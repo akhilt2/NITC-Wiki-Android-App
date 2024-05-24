@@ -1,19 +1,19 @@
-package org.wikipedia.feed
+package org.akhil.nitcwiki.feed
 
 import androidx.annotation.StringRes
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.feed.accessibility.AccessibilityCardClient
-import org.wikipedia.feed.aggregated.AggregatedFeedContentClient
-import org.wikipedia.feed.becauseyouread.BecauseYouReadClient
-import org.wikipedia.feed.dataclient.FeedClient
-import org.wikipedia.feed.mainpage.MainPageClient
-import org.wikipedia.feed.random.RandomClient
-import org.wikipedia.feed.suggestededits.SuggestedEditsFeedClient
-import org.wikipedia.model.EnumCode
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DeviceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.feed.accessibility.AccessibilityCardClient
+import org.akhil.nitcwiki.feed.aggregated.AggregatedFeedContentClient
+import org.akhil.nitcwiki.feed.becauseyouread.BecauseYouReadClient
+import org.akhil.nitcwiki.feed.dataclient.FeedClient
+import org.akhil.nitcwiki.feed.mainpage.MainPageClient
+import org.akhil.nitcwiki.feed.random.RandomClient
+import org.akhil.nitcwiki.feed.suggestededits.SuggestedEditsFeedClient
+import org.akhil.nitcwiki.model.EnumCode
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DeviceUtil
 
 enum class FeedContentType(private val code: Int,
                            @StringRes val titleId: Int,

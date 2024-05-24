@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
 
-    <org.wikipedia.views.WikiErrorView
+    <org.akhil.nitcwiki.views.WikiErrorView
         android:id="@+id/cardItemErrorView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
                 android:textColor="?attr/primary_color"
                 android:textSize="26sp" />
 
-            <org.wikipedia.views.GoneIfEmptyTextView
+            <org.akhil.nitcwiki.views.GoneIfEmptyTextView
                 android:id="@+id/articleDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -190,7 +190,7 @@
                 android:text="@string/image_recommendation_task_instruction"/>
 
             <!-- Container layout is necessary to make the ImageView zoomable in-place. -->
-            <org.wikipedia.views.WikiCardView
+            <org.akhil.nitcwiki.views.WikiCardView
                 android:id="@+id/imageCard"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -208,7 +208,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="180dp">
 
-                    <org.wikipedia.views.FaceAndColorDetectImageView
+                    <org.akhil.nitcwiki.views.FaceAndColorDetectImageView
                         android:id="@+id/imageView"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -285,7 +285,7 @@
 
                 </LinearLayout>
 
-            </org.wikipedia.views.WikiCardView>
+            </org.akhil.nitcwiki.views.WikiCardView>
 
             <androidx.constraintlayout.helper.widget.Flow
                 android:layout_width="0dp"

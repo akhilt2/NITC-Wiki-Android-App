@@ -1,4 +1,4 @@
-package org.wikipedia.feed.view
+package org.akhil.nitcwiki.feed.view
 
 import android.content.Context
 import android.util.AttributeSet
@@ -12,19 +12,19 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
-import org.wikipedia.databinding.ViewListCardItemBinding
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.feed.model.Card
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.PageAvailableOfflineHandler
-import org.wikipedia.readinglist.LongPressMenu
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.TransitionUtil
-import org.wikipedia.views.ViewUtil
+import org.akhil.nitcwiki.databinding.ViewListCardItemBinding
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.PageAvailableOfflineHandler
+import org.akhil.nitcwiki.readinglist.LongPressMenu
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.TransitionUtil
+import org.akhil.nitcwiki.views.ViewUtil
 
 class ListCardItemView(context: Context, attrs: AttributeSet? = null) : ConstraintLayout(context, attrs) {
     interface Callback {

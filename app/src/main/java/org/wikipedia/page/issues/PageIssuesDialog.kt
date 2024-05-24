@@ -1,4 +1,4 @@
-package org.wikipedia.page.issues
+package org.akhil.nitcwiki.page.issues
 
 import android.app.Activity
 import android.view.View
@@ -8,14 +8,14 @@ import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.wikipedia.R
-import org.wikipedia.databinding.DialogPageIssuesBinding
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.DrawableItemDecoration
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.DialogPageIssuesBinding
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.DrawableItemDecoration
 
 class PageIssuesDialog constructor(
     activity: Activity,

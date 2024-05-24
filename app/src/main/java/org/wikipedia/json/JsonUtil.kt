@@ -1,9 +1,9 @@
-package org.wikipedia.json
+package org.akhil.nitcwiki.json
 
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.util.log.L
 
 object JsonUtil {
     val json = Json {

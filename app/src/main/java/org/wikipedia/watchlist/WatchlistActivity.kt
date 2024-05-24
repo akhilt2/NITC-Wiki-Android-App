@@ -1,8 +1,8 @@
-package org.wikipedia.watchlist
+package org.akhil.nitcwiki.watchlist
 
 import android.content.Context
 import android.content.Intent
-import org.wikipedia.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
 
 class WatchlistActivity : SingleFragmentActivity<WatchlistFragment>() {
     public override fun createFragment(): WatchlistFragment {

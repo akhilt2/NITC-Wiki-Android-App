@@ -1,4 +1,4 @@
-package org.wikipedia.descriptions
+package org.akhil.nitcwiki.descriptions
 
 import android.app.Activity
 import android.content.Context
@@ -16,18 +16,18 @@ import androidx.core.view.isVisible
 import androidx.core.widget.ImageViewCompat
 import androidx.core.widget.addTextChangedListener
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.MachineGeneratedArticleDescriptionsAnalyticsHelper
-import org.wikipedia.databinding.GroupCaptchaBinding
-import org.wikipedia.databinding.ViewDescriptionEditBinding
-import org.wikipedia.language.LanguageUtil
-import org.wikipedia.mlkit.MlKitLanguageDetector
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.suggestededits.PageSummaryForEdit
-import org.wikipedia.util.*
-import org.wikipedia.views.SuggestedArticleDescriptionsDialog
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.MachineGeneratedArticleDescriptionsAnalyticsHelper
+import org.akhil.nitcwiki.databinding.GroupCaptchaBinding
+import org.akhil.nitcwiki.databinding.ViewDescriptionEditBinding
+import org.akhil.nitcwiki.language.LanguageUtil
+import org.akhil.nitcwiki.mlkit.MlKitLanguageDetector
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.suggestededits.PageSummaryForEdit
+import org.akhil.nitcwiki.util.*
+import org.akhil.nitcwiki.views.SuggestedArticleDescriptionsDialog
 import java.util.*
 
 class DescriptionEditView : LinearLayout, MlKitLanguageDetector.Callback {

@@ -2,7 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <PreferenceCategory android:title="@string/preferences_account_heading">
-        <org.wikipedia.settings.LogoutPreference
+        <org.akhil.nitcwiki.settings.LogoutPreference
             android:key="@string/preference_key_logout" />
     </PreferenceCategory>
 

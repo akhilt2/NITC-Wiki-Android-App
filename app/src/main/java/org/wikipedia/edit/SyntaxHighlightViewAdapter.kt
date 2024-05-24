@@ -1,4 +1,4 @@
-package org.wikipedia.edit
+package org.akhil.nitcwiki.edit
 
 import android.content.Intent
 import android.view.View
@@ -6,18 +6,18 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
-import org.wikipedia.Constants
-import org.wikipedia.analytics.eventplatform.PatrollerExperienceEvent
-import org.wikipedia.edit.insertmedia.InsertMediaActivity
-import org.wikipedia.edit.templates.TemplatesSearchActivity
-import org.wikipedia.extensions.parcelableExtra
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.ExclusiveBottomSheetPresenter
-import org.wikipedia.page.PageTitle
-import org.wikipedia.page.linkpreview.LinkPreviewDialog
-import org.wikipedia.search.SearchActivity
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.DimenUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.analytics.eventplatform.PatrollerExperienceEvent
+import org.akhil.nitcwiki.edit.insertmedia.InsertMediaActivity
+import org.akhil.nitcwiki.edit.templates.TemplatesSearchActivity
+import org.akhil.nitcwiki.extensions.parcelableExtra
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.ExclusiveBottomSheetPresenter
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.page.linkpreview.LinkPreviewDialog
+import org.akhil.nitcwiki.search.SearchActivity
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.DimenUtil
 
 class SyntaxHighlightViewAdapter(
     val activity: AppCompatActivity,

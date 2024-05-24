@@ -1,4 +1,4 @@
-package org.wikipedia.edit
+package org.akhil.nitcwiki.edit
 
 import android.content.Context
 import android.content.Intent
@@ -25,53 +25,53 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.analytics.eventplatform.BreadCrumbLogEvent
-import org.wikipedia.analytics.eventplatform.EditAttemptStepEvent
-import org.wikipedia.analytics.eventplatform.ImageRecommendationsEvent
-import org.wikipedia.auth.AccountUtil.isLoggedIn
-import org.wikipedia.captcha.CaptchaHandler
-import org.wikipedia.captcha.CaptchaResult
-import org.wikipedia.csrf.CsrfTokenClient
-import org.wikipedia.databinding.ActivityEditSectionBinding
-import org.wikipedia.databinding.DialogWithCheckboxBinding
-import org.wikipedia.databinding.ItemEditActionbarButtonBinding
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.mwapi.MwException
-import org.wikipedia.dataclient.mwapi.MwParseResponse
-import org.wikipedia.dataclient.mwapi.MwServiceError
-import org.wikipedia.dataclient.okhttp.OkHttpConnectionFactory
-import org.wikipedia.edit.insertmedia.InsertMediaActivity
-import org.wikipedia.edit.insertmedia.InsertMediaViewModel
-import org.wikipedia.edit.preview.EditPreviewFragment
-import org.wikipedia.edit.richtext.SyntaxHighlighter
-import org.wikipedia.edit.summaries.EditSummaryFragment
-import org.wikipedia.extensions.parcelableExtra
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.login.LoginActivity
-import org.wikipedia.notifications.AnonymousNotificationHelper
-import org.wikipedia.page.ExclusiveBottomSheetPresenter
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.page.Namespace
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.page.linkpreview.LinkPreviewDialog
-import org.wikipedia.settings.Prefs
-import org.wikipedia.suggestededits.SuggestedEditsImageRecsFragment
-import org.wikipedia.theme.ThemeChooserDialog
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.UriUtil
-import org.wikipedia.util.log.L
-import org.wikipedia.views.EditNoticesDialog
-import org.wikipedia.views.ViewUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.analytics.eventplatform.BreadCrumbLogEvent
+import org.akhil.nitcwiki.analytics.eventplatform.EditAttemptStepEvent
+import org.akhil.nitcwiki.analytics.eventplatform.ImageRecommendationsEvent
+import org.akhil.nitcwiki.auth.AccountUtil.isLoggedIn
+import org.akhil.nitcwiki.captcha.CaptchaHandler
+import org.akhil.nitcwiki.captcha.CaptchaResult
+import org.akhil.nitcwiki.csrf.CsrfTokenClient
+import org.akhil.nitcwiki.databinding.ActivityEditSectionBinding
+import org.akhil.nitcwiki.databinding.DialogWithCheckboxBinding
+import org.akhil.nitcwiki.databinding.ItemEditActionbarButtonBinding
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.mwapi.MwException
+import org.akhil.nitcwiki.dataclient.mwapi.MwParseResponse
+import org.akhil.nitcwiki.dataclient.mwapi.MwServiceError
+import org.akhil.nitcwiki.dataclient.okhttp.OkHttpConnectionFactory
+import org.akhil.nitcwiki.edit.insertmedia.InsertMediaActivity
+import org.akhil.nitcwiki.edit.insertmedia.InsertMediaViewModel
+import org.akhil.nitcwiki.edit.preview.EditPreviewFragment
+import org.akhil.nitcwiki.edit.richtext.SyntaxHighlighter
+import org.akhil.nitcwiki.edit.summaries.EditSummaryFragment
+import org.akhil.nitcwiki.extensions.parcelableExtra
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.login.LoginActivity
+import org.akhil.nitcwiki.notifications.AnonymousNotificationHelper
+import org.akhil.nitcwiki.page.ExclusiveBottomSheetPresenter
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.page.linkpreview.LinkPreviewDialog
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.suggestededits.SuggestedEditsImageRecsFragment
+import org.akhil.nitcwiki.theme.ThemeChooserDialog
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.UriUtil
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.EditNoticesDialog
+import org.akhil.nitcwiki.views.ViewUtil
 import java.io.IOException
 import java.util.concurrent.TimeUnit
 
@@ -833,9 +833,9 @@ class EditSectionActivity : BaseActivity(), ThemeChooserDialog.Callback, EditPre
         private const val EXTRA_KEY_SECTION_TEXT_MODIFIED = "sectionTextModified"
         private const val EXTRA_KEY_TEMPORARY_WIKITEXT_STORED = "hasTemporaryWikitextStored"
         private const val EXTRA_KEY_EDITING_ALLOWED = "editingAllowed"
-        const val EXTRA_SECTION_ID = "org.wikipedia.edit_section.sectionid"
-        const val EXTRA_SECTION_ANCHOR = "org.wikipedia.edit_section.anchor"
-        const val EXTRA_HIGHLIGHT_TEXT = "org.wikipedia.edit_section.highlight"
+        const val EXTRA_SECTION_ID = "org.akhil.nitcwiki.edit_section.sectionid"
+        const val EXTRA_SECTION_ANCHOR = "org.akhil.nitcwiki.edit_section.anchor"
+        const val EXTRA_HIGHLIGHT_TEXT = "org.akhil.nitcwiki.edit_section.highlight"
         const val EXTRA_REV_ID = "revId"
 
         fun newIntent(context: Context, sectionId: Int, sectionAnchor: String?, title: PageTitle,

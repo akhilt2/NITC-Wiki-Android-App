@@ -34,7 +34,7 @@
                         android:layout_height="wrap_content"
                         android:hint="@string/create_account_username_hint">
 
-                        <org.wikipedia.views.PlainPasteEditText
+                        <org.akhil.nitcwiki.views.PlainPasteEditText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:imeOptions="flagNoExtractUi"
@@ -52,7 +52,7 @@
                         app:passwordToggleEnabled="true"
                         app:passwordToggleTint="?android:textColorHint">
 
-                        <org.wikipedia.views.PlainPasteEditText
+                        <org.akhil.nitcwiki.views.PlainPasteEditText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:imeOptions="flagNoExtractUi"
@@ -70,7 +70,7 @@
                         app:passwordToggleEnabled="true"
                         app:passwordToggleTint="?android:textColorHint">
 
-                        <org.wikipedia.views.PlainPasteEditText
+                        <org.akhil.nitcwiki.views.PlainPasteEditText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:imeOptions="flagNoExtractUi"
@@ -86,7 +86,7 @@
                         android:layout_marginTop="8dp"
                         android:hint="@string/create_account_email_hint">
 
-                        <org.wikipedia.views.PlainPasteEditText
+                        <org.akhil.nitcwiki.views.PlainPasteEditText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:imeOptions="actionDone|flagNoExtractUi"
@@ -161,7 +161,7 @@
         </FrameLayout>
     </ScrollView>
 
-    <org.wikipedia.views.WikiErrorView
+    <org.akhil.nitcwiki.views.WikiErrorView
         android:id="@+id/view_create_account_error"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

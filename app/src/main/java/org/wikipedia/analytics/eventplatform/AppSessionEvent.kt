@@ -1,12 +1,12 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import android.text.format.DateUtils
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.SessionData
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.SessionData
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.settings.Prefs
 
 class AppSessionEvent {
 

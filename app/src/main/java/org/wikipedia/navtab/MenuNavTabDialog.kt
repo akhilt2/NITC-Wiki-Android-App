@@ -1,4 +1,4 @@
-package org.wikipedia.navtab
+package org.akhil.nitcwiki.navtab
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,17 +6,17 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.widget.ImageViewCompat
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import org.wikipedia.R
-import org.wikipedia.activity.FragmentUtil
-import org.wikipedia.analytics.eventplatform.BreadCrumbLogEvent
-import org.wikipedia.analytics.eventplatform.DonorExperienceEvent
-import org.wikipedia.analytics.eventplatform.PlacesEvent
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.databinding.ViewMainDrawerBinding
-import org.wikipedia.page.ExtendedBottomSheetDialogFragment
-import org.wikipedia.places.PlacesActivity
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.ResourceUtil.getThemedColorStateList
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.FragmentUtil
+import org.akhil.nitcwiki.analytics.eventplatform.BreadCrumbLogEvent
+import org.akhil.nitcwiki.analytics.eventplatform.DonorExperienceEvent
+import org.akhil.nitcwiki.analytics.eventplatform.PlacesEvent
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.databinding.ViewMainDrawerBinding
+import org.akhil.nitcwiki.page.ExtendedBottomSheetDialogFragment
+import org.akhil.nitcwiki.places.PlacesActivity
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.ResourceUtil.getThemedColorStateList
 
 class MenuNavTabDialog : ExtendedBottomSheetDialogFragment() {
     interface Callback {

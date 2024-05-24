@@ -1,12 +1,12 @@
-package org.wikipedia.pageimages
+package org.akhil.nitcwiki.pageimages
 
 import io.reactivex.rxjava3.core.Observable
 import org.junit.Test
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.page.PageTitle
-import org.wikipedia.pageimages.db.PageImage
-import org.wikipedia.test.MockRetrofitTest
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.pageimages.db.PageImage
+import org.akhil.nitcwiki.test.MockRetrofitTest
 
 class PageImagesClientTest : MockRetrofitTest() {
     @Test
@@ -21,7 +21,7 @@ class PageImagesClientTest : MockRetrofitTest() {
             .assertValue {
                 val biden = it[PAGE_TITLE_BIDEN]
                 val obama = it[PAGE_TITLE_OBAMA]
-                biden!!.apiTitle == "Joe_Biden" && biden.imageName == "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Official_portrait_of_Vice_President_Joe_Biden.jpg/255px-Official_portrait_of_Vice_President_Joe_Biden.jpg" && obama!!.apiTitle == "Barack_Obama" && obama.imageName == "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/256px-President_Barack_Obama.jpg"
+                biden!!.apiTitle == "Joe_Biden" && biden.imageName == "https://upload.wikimedia.org.akhil.nitcwiki/commons/thumb/e/ea/Official_portrait_of_Vice_President_Joe_Biden.jpg/255px-Official_portrait_of_Vice_President_Joe_Biden.jpg" && obama!!.apiTitle == "Barack_Obama" && obama.imageName == "https://upload.wikimedia.org.akhil.nitcwiki/commons/thumb/8/8d/President_Barack_Obama.jpg/256px-President_Barack_Obama.jpg"
             }
     }
 

@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 tools:text="Lorem ipsum" />
 
-            <org.wikipedia.views.GoneIfEmptyTextView
+            <org.akhil.nitcwiki.views.GoneIfEmptyTextView
                 android:id="@+id/feed_content_type_subtitle"
                 style="@style/List.MaterialListSubtitle"
                 android:layout_width="wrap_content"

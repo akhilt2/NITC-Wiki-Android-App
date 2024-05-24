@@ -1,8 +1,8 @@
-package org.wikipedia.dataclient.rollback
+package org.akhil.nitcwiki.dataclient.rollback
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.mwapi.MwResponse
+import org.akhil.nitcwiki.dataclient.mwapi.MwResponse
 
 @Serializable
 class Rollback(

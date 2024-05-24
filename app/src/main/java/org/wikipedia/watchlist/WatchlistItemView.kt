@@ -1,4 +1,4 @@
-package org.wikipedia.watchlist
+package org.akhil.nitcwiki.watchlist
 
 import android.content.Context
 import android.graphics.Typeface
@@ -10,14 +10,14 @@ import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.annotation.DrawableRes
 import androidx.core.view.isVisible
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.databinding.ItemWatchlistBinding
-import org.wikipedia.dataclient.mwapi.MwQueryResult
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.databinding.ItemWatchlistBinding
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResult
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.StringUtil
 
 class WatchlistItemView constructor(context: Context, attrs: AttributeSet? = null) : FrameLayout(context, attrs) {
     val binding = ItemWatchlistBinding.inflate(LayoutInflater.from(context), this, true)

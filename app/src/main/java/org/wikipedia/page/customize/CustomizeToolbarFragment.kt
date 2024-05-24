@@ -1,4 +1,4 @@
-package org.wikipedia.page.customize
+package org.akhil.nitcwiki.page.customize
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,12 +12,12 @@ import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.R
-import org.wikipedia.analytics.eventplatform.CustomizeToolbarEvent
-import org.wikipedia.databinding.FragmentCustomizeToolbarBinding
-import org.wikipedia.page.action.PageActionItem
-import org.wikipedia.settings.Prefs
-import org.wikipedia.views.DefaultViewHolder
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.analytics.eventplatform.CustomizeToolbarEvent
+import org.akhil.nitcwiki.databinding.FragmentCustomizeToolbarBinding
+import org.akhil.nitcwiki.page.action.PageActionItem
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.views.DefaultViewHolder
 
 class CustomizeToolbarFragment : Fragment() {
     private var _binding: FragmentCustomizeToolbarBinding? = null

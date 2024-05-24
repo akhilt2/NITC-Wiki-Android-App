@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.content.ContentResolver
 import android.content.Context

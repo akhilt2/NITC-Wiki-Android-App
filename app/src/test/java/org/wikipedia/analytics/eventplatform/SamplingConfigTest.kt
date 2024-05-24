@@ -1,9 +1,9 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import org.hamcrest.CoreMatchers
 import org.hamcrest.MatcherAssert
 import org.junit.Test
-import org.wikipedia.json.JsonUtil
+import org.akhil.nitcwiki.json.JsonUtil
 
 class SamplingConfigTest {
     @Test

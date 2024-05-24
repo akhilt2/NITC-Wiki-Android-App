@@ -1,7 +1,7 @@
-package org.wikipedia.csrf;
+package org.akhil.nitcwiki.csrf;
 
 import org.junit.Test;
-import org.wikipedia.test.MockRetrofitTest;
+import org.akhil.nitcwiki.test.MockRetrofitTest;
 
 public class CsrfTokenClientTest extends MockRetrofitTest {
 

@@ -1,4 +1,4 @@
-package org.wikipedia.commons
+package org.akhil.nitcwiki.commons
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -12,15 +12,15 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import kotlinx.coroutines.launch
-import org.wikipedia.R
-import org.wikipedia.databinding.DialogImagePreviewBinding
-import org.wikipedia.descriptions.DescriptionEditActivity.Action
-import org.wikipedia.page.ExtendedBottomSheetDialogFragment
-import org.wikipedia.suggestededits.PageSummaryForEdit
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.L10nUtil.setConditionalLayoutDirection
-import org.wikipedia.util.Resource
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.DialogImagePreviewBinding
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action
+import org.akhil.nitcwiki.page.ExtendedBottomSheetDialogFragment
+import org.akhil.nitcwiki.suggestededits.PageSummaryForEdit
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.L10nUtil.setConditionalLayoutDirection
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.StringUtil
 
 class ImagePreviewDialog : ExtendedBottomSheetDialogFragment(), DialogInterface.OnDismissListener {
 

@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -10,15 +10,15 @@ import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.wikipedia.R
-import org.wikipedia.databinding.DialogEditNoticesBinding
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.UriUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.DialogEditNoticesBinding
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.UriUtil
+import org.akhil.nitcwiki.util.log.L
 
 @SuppressLint("ViewConstructor")
 class EditNoticesDialog constructor(

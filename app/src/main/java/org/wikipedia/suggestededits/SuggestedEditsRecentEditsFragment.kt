@@ -1,4 +1,4 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import android.content.Context
 import android.os.Bundle
@@ -33,30 +33,30 @@ import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.distinctUntilChangedBy
 import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.analytics.eventplatform.PatrollerExperienceEvent
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.databinding.FragmentSuggestedEditsRecentEditsBinding
-import org.wikipedia.databinding.ViewEditHistoryEmptyMessagesBinding
-import org.wikipedia.databinding.ViewEditHistorySearchBarBinding
-import org.wikipedia.dataclient.mwapi.MwQueryResult
-import org.wikipedia.descriptions.DescriptionEditActivity
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.history.SearchActionModeCallback
-import org.wikipedia.notifications.NotificationActivity
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.staticdata.UserAliasData
-import org.wikipedia.talk.UserTalkPopupHelper
-import org.wikipedia.talk.template.TalkTemplatesActivity
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.NotificationButtonView
-import org.wikipedia.views.SearchAndFilterActionProvider
-import org.wikipedia.views.WikiErrorView
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.analytics.eventplatform.PatrollerExperienceEvent
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.databinding.FragmentSuggestedEditsRecentEditsBinding
+import org.akhil.nitcwiki.databinding.ViewEditHistoryEmptyMessagesBinding
+import org.akhil.nitcwiki.databinding.ViewEditHistorySearchBarBinding
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResult
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.history.SearchActionModeCallback
+import org.akhil.nitcwiki.notifications.NotificationActivity
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.staticdata.UserAliasData
+import org.akhil.nitcwiki.talk.UserTalkPopupHelper
+import org.akhil.nitcwiki.talk.template.TalkTemplatesActivity
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.NotificationButtonView
+import org.akhil.nitcwiki.views.SearchAndFilterActionProvider
+import org.akhil.nitcwiki.views.WikiErrorView
 
 class SuggestedEditsRecentEditsFragment : Fragment(), MenuProvider {
     private var _binding: FragmentSuggestedEditsRecentEditsBinding? = null

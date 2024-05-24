@@ -1,4 +1,4 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,12 +6,12 @@ import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.FrameLayout
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewReadingListHeaderBinding
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.util.GradientUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.views.ViewUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewReadingListHeaderBinding
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.util.GradientUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.views.ViewUtil
 
 class ReadingListHeaderView : FrameLayout {
 

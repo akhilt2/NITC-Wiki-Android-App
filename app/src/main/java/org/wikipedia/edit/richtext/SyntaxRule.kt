@@ -1,4 +1,4 @@
-package org.wikipedia.edit.richtext
+package org.akhil.nitcwiki.edit.richtext
 
 /**
  * Represents a single syntax highlighting rule.

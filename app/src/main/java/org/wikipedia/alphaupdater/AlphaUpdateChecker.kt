@@ -1,4 +1,4 @@
-package org.wikipedia.alphaupdater
+package org.akhil.nitcwiki.alphaupdater
 
 import android.content.Context
 import android.content.Intent
@@ -8,10 +8,10 @@ import androidx.core.app.NotificationManagerCompat
 import androidx.core.app.PendingIntentCompat
 import okhttp3.Request
 import okhttp3.Response
-import org.wikipedia.dataclient.okhttp.OkHttpConnectionFactory.client
-import org.wikipedia.notifications.NotificationCategory
-import org.wikipedia.recurring.RecurringTask
-import org.wikipedia.settings.PrefsIoUtil
+import org.akhil.nitcwiki.dataclient.okhttp.OkHttpConnectionFactory.client
+import org.akhil.nitcwiki.notifications.NotificationCategory
+import org.akhil.nitcwiki.recurring.RecurringTask
+import org.akhil.nitcwiki.settings.PrefsIoUtil
 import java.io.IOException
 import java.util.*
 import java.util.concurrent.TimeUnit

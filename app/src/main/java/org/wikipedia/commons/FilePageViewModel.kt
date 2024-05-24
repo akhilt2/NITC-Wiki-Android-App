@@ -1,4 +1,4 @@
-package org.wikipedia.commons
+package org.akhil.nitcwiki.commons
 
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
@@ -9,14 +9,14 @@ import kotlinx.coroutines.async
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.language.LanguageUtil
-import org.wikipedia.page.PageTitle
-import org.wikipedia.suggestededits.PageSummaryForEdit
-import org.wikipedia.util.Resource
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.language.LanguageUtil
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.suggestededits.PageSummaryForEdit
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.StringUtil
 
 class FilePageViewModel(bundle: Bundle) : ViewModel() {
 

@@ -1,4 +1,4 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.content.Context
 import android.util.AttributeSet
@@ -10,17 +10,17 @@ import androidx.core.view.isVisible
 import androidx.core.widget.doOnTextChanged
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.R
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.databinding.ItemReadingListPreviewSaveSelectItemBinding
-import org.wikipedia.databinding.ViewReadingListPreviewSaveDialogBinding
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.DefaultViewHolder
-import org.wikipedia.views.DrawableItemDecoration
-import org.wikipedia.views.ViewUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.databinding.ItemReadingListPreviewSaveSelectItemBinding
+import org.akhil.nitcwiki.databinding.ViewReadingListPreviewSaveDialogBinding
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.DefaultViewHolder
+import org.akhil.nitcwiki.views.DrawableItemDecoration
+import org.akhil.nitcwiki.views.ViewUtil
 import java.util.Date
 
 class ReadingListPreviewSaveDialogView : FrameLayout {

@@ -1,9 +1,9 @@
-package org.wikipedia.dataclient.okhttp
+package org.akhil.nitcwiki.dataclient.okhttp
 
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
-import org.wikipedia.test.TestFileUtil
+import org.akhil.nitcwiki.test.TestFileUtil
 import java.io.ByteArrayInputStream
 
 class AvailableInputStreamTest {

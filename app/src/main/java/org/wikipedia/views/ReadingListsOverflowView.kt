@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.graphics.Color
@@ -7,11 +7,11 @@ import android.view.*
 import android.widget.FrameLayout
 import android.widget.PopupWindow
 import androidx.core.widget.PopupWindowCompat
-import org.wikipedia.R
-import org.wikipedia.analytics.eventplatform.BreadCrumbLogEvent
-import org.wikipedia.databinding.ViewReadingListsOverflowBinding
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DateUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.analytics.eventplatform.BreadCrumbLogEvent
+import org.akhil.nitcwiki.databinding.ViewReadingListsOverflowBinding
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DateUtil
 import java.text.ParseException
 
 class ReadingListsOverflowView(context: Context) : FrameLayout(context) {

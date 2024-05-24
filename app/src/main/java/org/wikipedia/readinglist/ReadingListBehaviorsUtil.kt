@@ -1,4 +1,4 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.app.Activity
 import android.content.DialogInterface
@@ -15,20 +15,20 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.apache.commons.lang3.StringUtils
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.page.ExclusiveBottomSheetPresenter
-import org.wikipedia.page.PageTitle
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
-import org.wikipedia.views.CircularProgressBar.Companion.MIN_PROGRESS
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.page.ExclusiveBottomSheetPresenter
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.CircularProgressBar.Companion.MIN_PROGRESS
 
 object ReadingListBehaviorsUtil {
 

@@ -21,8 +21,8 @@
 -keep class com.bumptech.glide.GeneratedAppGlideModuleImpl
 
 # --- Wikipedia ---
--keep class org.wikipedia.** { <init>(...); *; }
--keep enum org.wikipedia.** { <init>(...); *; }
+-keep class org.akhil.nitcwiki.** { <init>(...); *; }
+-keep enum org.akhil.nitcwiki.** { <init>(...); *; }
 # --- /Wikipedia ---
 
 -keepattributes *Annotation*, InnerClasses
@@ -35,11 +35,11 @@
     kotlinx.serialization.KSerializer serializer(...);
 }
 
--keep,includedescriptorclasses class org.wikipedia.**$$serializer { *; }
--keepclassmembers class org.wikipedia.** {
+-keep,includedescriptorclasses class org.akhil.nitcwiki.**$$serializer { *; }
+-keepclassmembers class org.akhil.nitcwiki.** {
     *** Companion;
 }
--keepclasseswithmembers class org.wikipedia.** {
+-keepclasseswithmembers class org.akhil.nitcwiki.** {
     kotlinx.serialization.KSerializer serializer(...);
 }
 

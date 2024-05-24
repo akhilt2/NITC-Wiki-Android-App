@@ -1,4 +1,4 @@
-package org.wikipedia.settings
+package org.akhil.nitcwiki.settings
 
 import android.os.Bundle
 import android.view.Menu
@@ -10,12 +10,12 @@ import androidx.lifecycle.Lifecycle
 import androidx.preference.SwitchPreferenceCompat
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.functions.Consumer
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.events.ReadingListsEnableSyncStatusEvent
-import org.wikipedia.events.ReadingListsEnabledStatusEvent
-import org.wikipedia.events.ReadingListsNoLongerSyncedEvent
-import org.wikipedia.settings.DeveloperSettingsActivity.Companion.newIntent
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.events.ReadingListsEnableSyncStatusEvent
+import org.akhil.nitcwiki.events.ReadingListsEnabledStatusEvent
+import org.akhil.nitcwiki.events.ReadingListsNoLongerSyncedEvent
+import org.akhil.nitcwiki.settings.DeveloperSettingsActivity.Companion.newIntent
 
 class SettingsFragment : PreferenceLoaderFragment(), MenuProvider {
     private lateinit var preferenceLoader: SettingsPreferenceLoader

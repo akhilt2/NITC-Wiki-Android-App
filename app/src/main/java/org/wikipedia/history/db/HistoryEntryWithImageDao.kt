@@ -1,13 +1,13 @@
-package org.wikipedia.history.db
+package org.akhil.nitcwiki.history.db
 
 import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.RewriteQueriesToDropUnusedColumns
 import org.apache.commons.lang3.StringUtils
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.search.SearchResult
-import org.wikipedia.search.SearchResults
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.search.SearchResult
+import org.akhil.nitcwiki.search.SearchResults
+import org.akhil.nitcwiki.util.StringUtil
 import java.text.DateFormat
 import java.util.Date
 import java.util.Locale

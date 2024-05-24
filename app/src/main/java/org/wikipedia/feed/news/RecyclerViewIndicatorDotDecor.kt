@@ -1,4 +1,4 @@
-package org.wikipedia.feed.news
+package org.akhil.nitcwiki.feed.news
 
 import android.content.res.Resources
 import android.graphics.Canvas

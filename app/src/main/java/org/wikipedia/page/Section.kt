@@ -1,4 +1,4 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
 import kotlinx.serialization.Serializable
 

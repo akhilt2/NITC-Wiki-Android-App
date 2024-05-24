@@ -1,10 +1,10 @@
-package org.wikipedia.feed.configure
+package org.akhil.nitcwiki.feed.configure
 
 import android.content.Context
 import android.content.Intent
-import org.wikipedia.Constants
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.feed.configure.ConfigureFragment.Companion.newInstance
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.feed.configure.ConfigureFragment.Companion.newInstance
 
 class ConfigureActivity : SingleFragmentActivity<ConfigureFragment>() {
     override fun createFragment(): ConfigureFragment {

@@ -1,11 +1,11 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.wikipedia.Constants
-import org.wikipedia.gallery.ExtMetadata
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.ImageUrlUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.gallery.ExtMetadata
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.ImageUrlUtil
 
 @Parcelize
 data class PageSummaryForEdit(

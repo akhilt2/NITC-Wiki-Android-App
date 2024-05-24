@@ -1,4 +1,4 @@
-package org.wikipedia.page.edithistory
+package org.akhil.nitcwiki.page.edithistory
 
 import android.content.Context
 import android.content.Intent
@@ -29,32 +29,32 @@ import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.distinctUntilChangedBy
 import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.analytics.eventplatform.EditHistoryInteractionEvent
-import org.wikipedia.databinding.ActivityEditHistoryBinding
-import org.wikipedia.databinding.ViewEditHistoryEmptyMessagesBinding
-import org.wikipedia.databinding.ViewEditHistorySearchBarBinding
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.dataclient.restbase.EditCount
-import org.wikipedia.diff.ArticleEditDetailsActivity
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.history.SearchActionModeCallback
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.staticdata.UserAliasData
-import org.wikipedia.talk.UserTalkPopupHelper
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.Resource
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.EditHistoryFilterOverflowView
-import org.wikipedia.views.EditHistoryStatsView
-import org.wikipedia.views.SearchAndFilterActionProvider
-import org.wikipedia.views.WikiErrorView
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.analytics.eventplatform.EditHistoryInteractionEvent
+import org.akhil.nitcwiki.databinding.ActivityEditHistoryBinding
+import org.akhil.nitcwiki.databinding.ViewEditHistoryEmptyMessagesBinding
+import org.akhil.nitcwiki.databinding.ViewEditHistorySearchBarBinding
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.dataclient.restbase.EditCount
+import org.akhil.nitcwiki.diff.ArticleEditDetailsActivity
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.history.SearchActionModeCallback
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.staticdata.UserAliasData
+import org.akhil.nitcwiki.talk.UserTalkPopupHelper
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.EditHistoryFilterOverflowView
+import org.akhil.nitcwiki.views.EditHistoryStatsView
+import org.akhil.nitcwiki.views.SearchAndFilterActionProvider
+import org.akhil.nitcwiki.views.WikiErrorView
 
 class EditHistoryListActivity : BaseActivity() {
 

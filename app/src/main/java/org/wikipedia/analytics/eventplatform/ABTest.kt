@@ -1,6 +1,6 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
-import org.wikipedia.settings.PrefsIoUtil
+import org.akhil.nitcwiki.settings.PrefsIoUtil
 import kotlin.random.Random
 
 open class ABTest(private val abTestName: String, private val abTestGroupCount: Int) {

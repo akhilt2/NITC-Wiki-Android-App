@@ -1,6 +1,6 @@
-package org.wikipedia.notifications
+package org.akhil.nitcwiki.notifications
 
-import org.wikipedia.notifications.db.Notification
+import org.akhil.nitcwiki.notifications.db.Notification
 
 class NotificationListItemContainer(
     val notification: Notification? = null,

@@ -1,4 +1,4 @@
-package org.wikipedia.pageimages.db
+package org.akhil.nitcwiki.pageimages.db
 
 import androidx.room.Dao
 import androidx.room.Insert

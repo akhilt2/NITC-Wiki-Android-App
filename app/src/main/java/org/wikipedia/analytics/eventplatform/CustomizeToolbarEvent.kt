@@ -1,10 +1,10 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.page.action.PageActionItem
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.page.action.PageActionItem
+import org.akhil.nitcwiki.settings.Prefs
 
 class CustomizeToolbarEvent : TimedEvent() {
 

@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient.page
+package org.akhil.nitcwiki.dataclient.page
 
 import kotlinx.serialization.Serializable
 

@@ -1,4 +1,4 @@
-package org.wikipedia.language
+package org.akhil.nitcwiki.language
 
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers

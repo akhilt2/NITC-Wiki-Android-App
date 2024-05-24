@@ -1,6 +1,6 @@
-package org.wikipedia.descriptions
+package org.akhil.nitcwiki.descriptions
 
-import org.wikipedia.page.Page
+import org.akhil.nitcwiki.page.Page
 
 object DescriptionEditUtil {
 

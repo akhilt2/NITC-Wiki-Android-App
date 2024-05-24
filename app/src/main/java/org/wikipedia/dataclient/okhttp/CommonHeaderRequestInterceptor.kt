@@ -1,9 +1,9 @@
-package org.wikipedia.dataclient.okhttp
+package org.akhil.nitcwiki.dataclient.okhttp
 
 import okhttp3.Interceptor
 import okhttp3.Response
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.RestService
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.RestService
 import java.io.IOException
 
 internal class CommonHeaderRequestInterceptor : Interceptor {

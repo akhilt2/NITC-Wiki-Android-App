@@ -1,4 +1,4 @@
-package org.wikipedia.categories
+package org.akhil.nitcwiki.categories
 
 import android.content.Context
 import android.content.Intent
@@ -23,21 +23,21 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.tabs.TabLayout
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.databinding.ActivityCategoryBinding
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.ExclusiveBottomSheetPresenter
-import org.wikipedia.page.Namespace
-import org.wikipedia.page.PageTitle
-import org.wikipedia.page.linkpreview.LinkPreviewDialog
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.DrawableItemDecoration
-import org.wikipedia.views.PageItemView
-import org.wikipedia.views.WikiErrorView
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.databinding.ActivityCategoryBinding
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.ExclusiveBottomSheetPresenter
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.page.linkpreview.LinkPreviewDialog
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.DrawableItemDecoration
+import org.akhil.nitcwiki.views.PageItemView
+import org.akhil.nitcwiki.views.WikiErrorView
 
 class CategoryActivity : BaseActivity() {
     private lateinit var binding: ActivityCategoryBinding

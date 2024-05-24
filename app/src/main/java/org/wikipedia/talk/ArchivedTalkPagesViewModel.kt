@@ -1,15 +1,15 @@
-package org.wikipedia.talk
+package org.akhil.nitcwiki.talk
 
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import androidx.paging.*
-import org.wikipedia.Constants
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.page.PageTitle
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.page.PageTitle
 
 class ArchivedTalkPagesViewModel(bundle: Bundle) : ViewModel() {
     val pageTitle = bundle.parcelable<PageTitle>(Constants.ARG_TITLE)!!

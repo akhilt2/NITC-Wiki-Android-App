@@ -1,16 +1,16 @@
-package org.wikipedia.page.campaign
+package org.akhil.nitcwiki.page.campaign
 
 import android.app.Activity
 import android.content.Context
 import androidx.appcompat.app.AlertDialog
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.analytics.eventplatform.DonorExperienceEvent
-import org.wikipedia.dataclient.donate.Campaign
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.CustomTabsUtil
-import org.wikipedia.util.FeedbackUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.analytics.eventplatform.DonorExperienceEvent
+import org.akhil.nitcwiki.dataclient.donate.Campaign
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.CustomTabsUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
 import java.time.Duration
 import java.time.Instant
 import java.time.LocalDateTime

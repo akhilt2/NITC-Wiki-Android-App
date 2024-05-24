@@ -1,4 +1,4 @@
-package org.wikipedia.edit.db
+package org.akhil.nitcwiki.edit.db
 
 import androidx.room.Dao
 import androidx.room.Insert

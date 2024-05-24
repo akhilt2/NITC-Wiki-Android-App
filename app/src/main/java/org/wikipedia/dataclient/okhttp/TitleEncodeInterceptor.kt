@@ -1,8 +1,8 @@
-package org.wikipedia.dataclient.okhttp
+package org.akhil.nitcwiki.dataclient.okhttp
 
 import okhttp3.Interceptor
 import okhttp3.Response
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.util.UriUtil
 import java.io.IOException
 
 internal class TitleEncodeInterceptor : Interceptor {

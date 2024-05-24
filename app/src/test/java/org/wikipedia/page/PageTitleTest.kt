@@ -1,4 +1,4 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
 import android.net.Uri
 import org.hamcrest.MatcherAssert
@@ -6,8 +6,8 @@ import org.hamcrest.Matchers
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.staticdata.MainPageNameData
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.staticdata.MainPageNameData
 
 @RunWith(RobolectricTestRunner::class)
 class PageTitleTest {

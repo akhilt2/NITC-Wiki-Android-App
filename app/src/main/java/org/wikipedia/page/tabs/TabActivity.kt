@@ -1,4 +1,4 @@
-package org.wikipedia.page.tabs
+package org.akhil.nitcwiki.page.tabs
 
 import android.content.Context
 import android.content.Intent
@@ -17,22 +17,22 @@ import de.mrapp.android.tabswitcher.TabSwitcher
 import de.mrapp.android.tabswitcher.TabSwitcherDecorator
 import de.mrapp.android.tabswitcher.TabSwitcherListener
 import de.mrapp.android.util.logging.LogLevel
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.databinding.ActivityTabsBinding
-import org.wikipedia.main.MainActivity
-import org.wikipedia.navtab.NavTab
-import org.wikipedia.notifications.NotificationActivity
-import org.wikipedia.page.ExclusiveBottomSheetPresenter
-import org.wikipedia.page.PageActivity
-import org.wikipedia.readinglist.AddToReadingListDialog
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.*
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.databinding.ActivityTabsBinding
+import org.akhil.nitcwiki.main.MainActivity
+import org.akhil.nitcwiki.navtab.NavTab
+import org.akhil.nitcwiki.notifications.NotificationActivity
+import org.akhil.nitcwiki.page.ExclusiveBottomSheetPresenter
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.readinglist.AddToReadingListDialog
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.*
+import org.akhil.nitcwiki.util.log.L
 
 class TabActivity : BaseActivity() {
     private lateinit var binding: ActivityTabsBinding

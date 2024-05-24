@@ -1,4 +1,4 @@
-package org.wikipedia.language
+package org.akhil.nitcwiki.language
 
 import android.content.Context
 import android.content.Intent
@@ -13,19 +13,19 @@ import androidx.activity.viewModels
 import androidx.appcompat.view.ActionMode
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.databinding.ActivityLanglinksBinding
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.history.SearchActionModeCallback
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.Resource
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.ViewAnimations
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.databinding.ActivityLanglinksBinding
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.history.SearchActionModeCallback
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.ViewAnimations
 
 class LangLinksActivity : BaseActivity() {
     private lateinit var binding: ActivityLanglinksBinding

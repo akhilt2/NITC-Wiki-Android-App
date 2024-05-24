@@ -1,4 +1,4 @@
-package org.wikipedia.commons
+package org.akhil.nitcwiki.commons
 
 import android.content.Context
 import android.icu.text.ListFormatter
@@ -11,26 +11,26 @@ import android.view.View
 import android.view.View.OnClickListener
 import android.view.ViewGroup
 import android.widget.LinearLayout
-import org.wikipedia.Constants
-import org.wikipedia.Constants.PREFERRED_GALLERY_IMAGE_SIZE
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.databinding.ViewFilePageBinding
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.descriptions.DescriptionEditActivity
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.suggestededits.PageSummaryForEdit
-import org.wikipedia.util.ImageUrlUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.UriUtil
-import org.wikipedia.views.ImageDetailView
-import org.wikipedia.views.ImageZoomHelper
-import org.wikipedia.views.ViewUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.PREFERRED_GALLERY_IMAGE_SIZE
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.databinding.ViewFilePageBinding
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.suggestededits.PageSummaryForEdit
+import org.akhil.nitcwiki.util.ImageUrlUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.UriUtil
+import org.akhil.nitcwiki.views.ImageDetailView
+import org.akhil.nitcwiki.views.ImageZoomHelper
+import org.akhil.nitcwiki.views.ViewUtil
 import java.util.Locale
 
 class FilePageView constructor(context: Context, attrs: AttributeSet? = null) : LinearLayout(context, attrs) {

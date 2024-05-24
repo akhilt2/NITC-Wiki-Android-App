@@ -1,4 +1,4 @@
-package org.wikipedia.categories
+package org.akhil.nitcwiki.categories
 
 import android.os.Bundle
 import androidx.lifecycle.MutableLiveData
@@ -7,11 +7,11 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.Resource
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.Resource
 
 class CategoryDialogViewModel(bundle: Bundle) : ViewModel() {
     val pageTitle = bundle.parcelable<PageTitle>(Constants.ARG_TITLE)!!

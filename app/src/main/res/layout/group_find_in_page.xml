@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="top">
 
-    <org.wikipedia.views.CabSearchView
+    <org.akhil.nitcwiki.views.CabSearchView
         android:id="@+id/find_in_page_input"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

@@ -1,11 +1,11 @@
-package org.wikipedia.readinglist.database
+package org.akhil.nitcwiki.readinglist.database
 
 import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
 import org.apache.commons.lang3.StringUtils
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
 import java.io.Serializable
 
 // TODO: create default reading list upon initial DB creation.

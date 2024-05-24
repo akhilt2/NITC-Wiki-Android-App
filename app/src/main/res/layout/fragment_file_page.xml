@@ -19,7 +19,7 @@
                 android:layout_height="wrap_content"
                 android:indeterminate="true" />
 
-            <org.wikipedia.views.WikiErrorView
+            <org.akhil.nitcwiki.views.WikiErrorView
                 android:id="@+id/errorView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
                 android:layout_gravity="center"
                 android:visibility="gone" />
 
-            <org.wikipedia.commons.FilePageView
+            <org.akhil.nitcwiki.commons.FilePageView
                 android:id="@+id/filePageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

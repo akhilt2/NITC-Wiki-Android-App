@@ -1,4 +1,4 @@
-package org.wikipedia.createaccount
+package org.akhil.nitcwiki.createaccount
 
 import android.content.Context
 import android.content.DialogInterface
@@ -15,22 +15,22 @@ import com.google.android.material.textfield.TextInputLayout
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.analytics.eventplatform.CreateAccountEvent
-import org.wikipedia.captcha.CaptchaHandler
-import org.wikipedia.captcha.CaptchaResult
-import org.wikipedia.databinding.ActivityCreateAccountBinding
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.UriUtil.visitInExternalBrowser
-import org.wikipedia.util.log.L
-import org.wikipedia.views.NonEmptyValidator
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.analytics.eventplatform.CreateAccountEvent
+import org.akhil.nitcwiki.captcha.CaptchaHandler
+import org.akhil.nitcwiki.captcha.CaptchaResult
+import org.akhil.nitcwiki.databinding.ActivityCreateAccountBinding
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.UriUtil.visitInExternalBrowser
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.NonEmptyValidator
 import java.util.concurrent.TimeUnit
 import java.util.regex.Pattern
 

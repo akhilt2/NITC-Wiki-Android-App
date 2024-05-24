@@ -1,12 +1,12 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-import org.wikipedia.WikipediaApp
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.util.log.L
 
 object PageAvailableOfflineHandler {
     fun interface Callback {

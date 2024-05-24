@@ -1,4 +1,4 @@
-package org.wikipedia.talk.db
+package org.akhil.nitcwiki.talk.db
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

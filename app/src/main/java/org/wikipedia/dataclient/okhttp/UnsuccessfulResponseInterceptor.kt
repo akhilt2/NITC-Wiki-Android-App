@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient.okhttp
+package org.akhil.nitcwiki.dataclient.okhttp
 
 import okhttp3.Interceptor
 import okhttp3.Response

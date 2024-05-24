@@ -1,4 +1,4 @@
-package org.wikipedia.extensions
+package org.akhil.nitcwiki.extensions
 
 import android.content.Intent
 import android.os.Parcelable

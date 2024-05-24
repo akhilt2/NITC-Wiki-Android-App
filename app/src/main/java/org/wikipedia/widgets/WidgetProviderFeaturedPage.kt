@@ -1,4 +1,4 @@
-package org.wikipedia.widgets
+package org.akhil.nitcwiki.widgets
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -20,15 +20,15 @@ import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.load.resource.bitmap.DownsampleStrategy
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.request.target.AppWidgetTarget
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
 import java.util.concurrent.TimeUnit
 
 class WidgetProviderFeaturedPage : AppWidgetProvider() {

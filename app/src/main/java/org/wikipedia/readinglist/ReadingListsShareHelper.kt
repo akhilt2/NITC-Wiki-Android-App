@@ -1,4 +1,4 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.content.Intent
 import android.util.Base64
@@ -8,19 +8,19 @@ import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.launch
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonPrimitive
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.ReadingListsAnalyticsHelper
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.GeoUtil
-import org.wikipedia.util.ReleaseUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.ReadingListsAnalyticsHelper
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.GeoUtil
+import org.akhil.nitcwiki.util.ReleaseUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
 
 object ReadingListsShareHelper {
 

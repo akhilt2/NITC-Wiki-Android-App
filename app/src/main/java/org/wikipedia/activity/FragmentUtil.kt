@@ -1,4 +1,4 @@
-package org.wikipedia.activity
+package org.akhil.nitcwiki.activity
 
 import androidx.fragment.app.Fragment
 

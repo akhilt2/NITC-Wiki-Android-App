@@ -1,13 +1,13 @@
-package org.wikipedia.feed.news
+package org.akhil.nitcwiki.feed.news
 
 import android.net.Uri
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.Serializable
-import org.wikipedia.Constants
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.util.ImageUrlUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.util.ImageUrlUtil
 
 @Parcelize
 @Serializable

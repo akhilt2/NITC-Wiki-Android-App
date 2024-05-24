@@ -1,6 +1,6 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
-import org.wikipedia.WikipediaApp
+import org.akhil.nitcwiki.WikipediaApp
 
 class DonorExperienceEvent {
 

@@ -1,17 +1,17 @@
-package org.wikipedia.page.shareafact
+package org.akhil.nitcwiki.page.shareafact
 
 import android.os.Build
 import android.view.ActionMode
 import android.view.MenuItem
 import kotlinx.serialization.Serializable
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.bridge.CommunicationBridge
-import org.wikipedia.bridge.JavaScriptActionHandler
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.page.PageFragment
-import org.wikipedia.util.log.L
-import org.wikipedia.wiktionary.WiktionaryDialog
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.bridge.CommunicationBridge
+import org.akhil.nitcwiki.bridge.JavaScriptActionHandler
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.page.PageFragment
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.wiktionary.WiktionaryDialog
 
 class ShareHandler(private val fragment: PageFragment, private val bridge: CommunicationBridge) {
     private var webViewActionMode: ActionMode? = null

@@ -1,10 +1,10 @@
-package org.wikipedia.language
+package org.akhil.nitcwiki.language
 
 import org.junit.Assert
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.WikipediaApp
+import org.akhil.nitcwiki.WikipediaApp
 
 @RunWith(RobolectricTestRunner::class)
 class AppLanguageStateTests {

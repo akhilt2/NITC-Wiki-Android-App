@@ -1,4 +1,4 @@
-package org.wikipedia.auth
+package org.akhil.nitcwiki.auth
 
 import android.accounts.AbstractAccountAuthenticator
 import android.app.Service

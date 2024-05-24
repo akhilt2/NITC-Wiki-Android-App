@@ -1,4 +1,4 @@
-package org.wikipedia.feed.configure
+package org.akhil.nitcwiki.feed.configure
 
 import android.os.Bundle
 import android.view.*
@@ -12,18 +12,18 @@ import androidx.recyclerview.widget.RecyclerView
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.databinding.FragmentFeedConfigureBinding
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.feed.FeedContentType
-import org.wikipedia.settings.Prefs
-import org.wikipedia.settings.SettingsActivity
-import org.wikipedia.util.log.L
-import org.wikipedia.views.DefaultViewHolder
-import org.wikipedia.views.DrawableItemDecoration
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.databinding.FragmentFeedConfigureBinding
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.feed.FeedContentType
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.settings.SettingsActivity
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.DefaultViewHolder
+import org.akhil.nitcwiki.views.DrawableItemDecoration
 import java.util.*
 
 class ConfigureFragment : Fragment(), MenuProvider, ConfigureItemView.Callback {

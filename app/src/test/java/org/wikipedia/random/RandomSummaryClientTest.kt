@@ -1,11 +1,11 @@
-package org.wikipedia.random
+package org.akhil.nitcwiki.random
 
 import kotlinx.coroutines.runBlocking
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.test.MockRetrofitTest
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.test.MockRetrofitTest
 
 class RandomSummaryClientTest : MockRetrofitTest() {
     @Test

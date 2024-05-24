@@ -1,10 +1,10 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.LongPressHandler.WebViewMenuCallback
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.readinglist.ReadingListBehaviorsUtil
-import org.wikipedia.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.LongPressHandler.WebViewMenuCallback
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.readinglist.ReadingListBehaviorsUtil
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
 
 class PageContainerLongPressHandler(private val fragment: PageFragment) : WebViewMenuCallback {
 

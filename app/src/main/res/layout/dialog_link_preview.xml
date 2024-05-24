@@ -110,7 +110,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="8dp" />
 
-                <org.wikipedia.gallery.GalleryThumbnailScrollView
+                <org.akhil.nitcwiki.gallery.GalleryThumbnailScrollView
                     android:id="@+id/link_preview_thumbnail_gallery"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
                     tools:visibility="visible" />
             </LinearLayout>
 
-            <org.wikipedia.page.linkpreview.LinkPreviewErrorView
+            <org.akhil.nitcwiki.page.linkpreview.LinkPreviewErrorView
                 android:id="@+id/dialog_link_preview_error_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

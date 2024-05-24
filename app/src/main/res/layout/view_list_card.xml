@@ -5,14 +5,14 @@
     android:layout_height="wrap_content"
     android:clipChildren="false">
 
-    <org.wikipedia.feed.view.CardHeaderView
+    <org.akhil.nitcwiki.feed.view.CardHeaderView
         android:id="@+id/view_list_card_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/view_list_card_large_header_container"/>
 
-    <org.wikipedia.views.WikiCardView
+    <org.akhil.nitcwiki.views.WikiCardView
         android:id="@+id/view_list_card_large_header_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,14 +25,14 @@
         app:hasBorder="false"
         app:layout_constraintBottom_toTopOf="@id/view_list_card_list_container">
 
-        <org.wikipedia.feed.view.CardLargeHeaderView
+        <org.akhil.nitcwiki.feed.view.CardLargeHeaderView
             android:id="@+id/view_list_card_large_header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-    </org.wikipedia.views.WikiCardView>
+    </org.akhil.nitcwiki.views.WikiCardView>
 
-    <org.wikipedia.views.WikiCardView
+    <org.akhil.nitcwiki.views.WikiCardView
         android:id="@+id/view_list_card_list_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,9 +46,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-    </org.wikipedia.views.WikiCardView>
+    </org.akhil.nitcwiki.views.WikiCardView>
 
-    <org.wikipedia.feed.view.CardFooterView
+    <org.akhil.nitcwiki.feed.view.CardFooterView
         android:id="@+id/view_list_card_footer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

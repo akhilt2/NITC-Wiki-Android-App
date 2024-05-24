@@ -1,9 +1,9 @@
 /* THIS IS AN AUTOMATICALLY GENERATED FILE
    IF YOU MODIFY THIS BY HAND BE PREPARED!
    TO HAVE YOUR CHANGES OVERWRITTEN */
-package org.wikipedia.staticdata
+package org.akhil.nitcwiki.staticdata
 
-import org.wikipedia.util.L10nUtil.getDesiredLanguageCode
+import org.akhil.nitcwiki.util.L10nUtil.getDesiredLanguageCode
 
 object UserAliasData {
     @JvmStatic

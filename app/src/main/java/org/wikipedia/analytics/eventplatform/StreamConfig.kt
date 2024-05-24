@@ -1,8 +1,8 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.analytics.eventplatform.DestinationEventService.ANALYTICS
+import org.akhil.nitcwiki.analytics.eventplatform.DestinationEventService.ANALYTICS
 import java.lang.IllegalArgumentException
 
 @Serializable

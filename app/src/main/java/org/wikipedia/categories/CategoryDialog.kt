@@ -1,4 +1,4 @@
-package org.wikipedia.categories
+package org.akhil.nitcwiki.categories
 
 import android.graphics.Typeface
 import android.os.Bundle
@@ -10,18 +10,18 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.databinding.DialogCategoriesBinding
-import org.wikipedia.page.ExtendedBottomSheetDialogFragment
-import org.wikipedia.page.PageTitle
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.Resource
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
-import org.wikipedia.views.DrawableItemDecoration
-import org.wikipedia.views.PageItemView
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.DialogCategoriesBinding
+import org.akhil.nitcwiki.page.ExtendedBottomSheetDialogFragment
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.DrawableItemDecoration
+import org.akhil.nitcwiki.views.PageItemView
 
 class CategoryDialog : ExtendedBottomSheetDialogFragment() {
     private var _binding: DialogCategoriesBinding? = null

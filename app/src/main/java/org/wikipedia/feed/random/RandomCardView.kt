@@ -1,8 +1,8 @@
-package org.wikipedia.feed.random
+package org.akhil.nitcwiki.feed.random
 
 import android.content.Context
-import org.wikipedia.feed.featured.FeaturedArticleCardView
-import org.wikipedia.feed.view.CardFooterView
+import org.akhil.nitcwiki.feed.featured.FeaturedArticleCardView
+import org.akhil.nitcwiki.feed.view.CardFooterView
 
 class RandomCardView(context: Context) : FeaturedArticleCardView(context) {
     interface Callback {

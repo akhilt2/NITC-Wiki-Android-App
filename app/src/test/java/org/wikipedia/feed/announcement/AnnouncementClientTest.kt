@@ -1,13 +1,13 @@
-package org.wikipedia.feed.announcement
+package org.akhil.nitcwiki.feed.announcement
 
 import kotlinx.coroutines.runBlocking
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Before
 import org.junit.Test
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.test.MockRetrofitTest
-import org.wikipedia.test.TestFileUtil
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.test.MockRetrofitTest
+import org.akhil.nitcwiki.test.TestFileUtil
 import java.text.SimpleDateFormat
 import java.util.*
 

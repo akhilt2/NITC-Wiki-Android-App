@@ -18,7 +18,7 @@
             android:orientation="vertical"
             app:layout_constraintTop_toTopOf="parent">
 
-            <org.wikipedia.views.MessageCardView
+            <org.akhil.nitcwiki.views.MessageCardView
                 android:id="@+id/onboarding_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -75,7 +75,7 @@
             </LinearLayout>
         </ScrollView>
 
-        <org.wikipedia.views.SearchEmptyView
+        <org.akhil.nitcwiki.views.SearchEmptyView
             android:id="@+id/search_empty_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

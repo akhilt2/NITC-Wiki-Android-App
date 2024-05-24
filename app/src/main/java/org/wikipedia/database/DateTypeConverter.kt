@@ -1,4 +1,4 @@
-package org.wikipedia.database
+package org.akhil.nitcwiki.database
 
 import androidx.room.TypeConverter
 import java.util.*

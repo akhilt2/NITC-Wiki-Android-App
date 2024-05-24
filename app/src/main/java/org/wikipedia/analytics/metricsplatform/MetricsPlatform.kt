@@ -1,14 +1,14 @@
-package org.wikipedia.analytics.metricsplatform
+package org.akhil.nitcwiki.analytics.metricsplatform
 
 import android.os.Build
 import org.wikimedia.metrics_platform.MetricsClient
 import org.wikimedia.metrics_platform.context.AgentData
 import org.wikimedia.metrics_platform.context.ClientData
 import org.wikimedia.metrics_platform.context.MediawikiData
-import org.wikipedia.BuildConfig
-import org.wikipedia.WikipediaApp
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.ReleaseUtil
+import org.akhil.nitcwiki.BuildConfig
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.ReleaseUtil
 import java.time.Duration
 
 object MetricsPlatform {

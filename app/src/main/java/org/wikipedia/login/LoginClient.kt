@@ -1,4 +1,4 @@
-package org.wikipedia.login
+package org.akhil.nitcwiki.login
 
 import android.widget.Toast
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
@@ -7,13 +7,13 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwResponse
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwResponse
+import org.akhil.nitcwiki.util.log.L
 import java.io.IOException
 
 class LoginClient {

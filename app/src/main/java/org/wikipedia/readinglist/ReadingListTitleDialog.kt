@@ -1,8 +1,8 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.app.Activity
-import org.wikipedia.R
-import org.wikipedia.views.TextInputDialog
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.views.TextInputDialog
 
 object ReadingListTitleDialog {
     interface Callback {

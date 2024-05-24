@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.net.Uri
@@ -7,13 +7,13 @@ import android.util.Pair
 import android.view.LayoutInflater
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
-import org.wikipedia.databinding.ViewWikiArticleCardBinding
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.TransitionUtil
+import org.akhil.nitcwiki.databinding.ViewWikiArticleCardBinding
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.TransitionUtil
 
 class WikiArticleCardView constructor(context: Context, attrs: AttributeSet? = null) : ConstraintLayout(context, attrs) {
 

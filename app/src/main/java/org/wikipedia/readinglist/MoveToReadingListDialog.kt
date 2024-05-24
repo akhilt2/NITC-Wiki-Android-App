@@ -1,4 +1,4 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -14,13 +14,13 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.page.PageTitle
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.util.log.L
 
 class MoveToReadingListDialog : AddToReadingListDialog() {
     private var sourceReadingList: ReadingList? = null

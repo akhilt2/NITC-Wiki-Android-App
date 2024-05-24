@@ -1,4 +1,4 @@
-package org.wikipedia.edit.insertmedia
+package org.akhil.nitcwiki.edit.insertmedia
 
 import android.content.Context
 import android.content.Intent
@@ -26,26 +26,26 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.appbar.AppBarLayout
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.analytics.eventplatform.ImageRecommendationsEvent
-import org.wikipedia.commons.FilePageActivity
-import org.wikipedia.databinding.ActivityInsertMediaBinding
-import org.wikipedia.databinding.ItemEditActionbarButtonBinding
-import org.wikipedia.databinding.ItemInsertMediaBinding
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.history.SearchActionModeCallback
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.ImageUrlUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.FaceAndColorDetectImageView
-import org.wikipedia.views.ImageZoomHelper
-import org.wikipedia.views.SearchActionProvider
-import org.wikipedia.views.ViewUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.analytics.eventplatform.ImageRecommendationsEvent
+import org.akhil.nitcwiki.commons.FilePageActivity
+import org.akhil.nitcwiki.databinding.ActivityInsertMediaBinding
+import org.akhil.nitcwiki.databinding.ItemEditActionbarButtonBinding
+import org.akhil.nitcwiki.databinding.ItemInsertMediaBinding
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.history.SearchActionModeCallback
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.ImageUrlUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.FaceAndColorDetectImageView
+import org.akhil.nitcwiki.views.ImageZoomHelper
+import org.akhil.nitcwiki.views.SearchActionProvider
+import org.akhil.nitcwiki.views.ViewUtil
 
 class InsertMediaActivity : BaseActivity() {
     private lateinit var binding: ActivityInsertMediaBinding

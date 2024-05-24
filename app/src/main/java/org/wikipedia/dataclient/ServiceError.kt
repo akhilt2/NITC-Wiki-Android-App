@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient
+package org.akhil.nitcwiki.dataclient
 
 interface ServiceError {
     val title: String

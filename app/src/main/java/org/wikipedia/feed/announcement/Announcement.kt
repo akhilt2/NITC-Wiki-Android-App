@@ -1,11 +1,11 @@
-package org.wikipedia.feed.announcement
+package org.akhil.nitcwiki.feed.announcement
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.intOrNull
 import kotlinx.serialization.json.jsonPrimitive
-import org.wikipedia.util.DateUtil
+import org.akhil.nitcwiki.util.DateUtil
 import java.util.*
 
 @Serializable

@@ -1,14 +1,14 @@
-package org.wikipedia.notifications
+package org.akhil.nitcwiki.notifications
 
 import kotlinx.coroutines.runBlocking
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
-import org.wikipedia.dataclient.mwapi.MwQueryResponse
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.notifications.db.Notification
-import org.wikipedia.test.MockRetrofitTest
-import org.wikipedia.test.TestFileUtil
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResponse
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.notifications.db.Notification
+import org.akhil.nitcwiki.test.MockRetrofitTest
+import org.akhil.nitcwiki.test.TestFileUtil
 
 class NotificationClientTest : MockRetrofitTest() {
 

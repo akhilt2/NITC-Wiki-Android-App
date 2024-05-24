@@ -1,30 +1,30 @@
-package org.wikipedia.dataclient
+package org.akhil.nitcwiki.dataclient
 
 import io.reactivex.rxjava3.core.Observable
-import org.wikipedia.captcha.Captcha
-import org.wikipedia.dataclient.discussiontools.DiscussionToolsEditResponse
-import org.wikipedia.dataclient.discussiontools.DiscussionToolsInfoResponse
-import org.wikipedia.dataclient.discussiontools.DiscussionToolsSubscribeResponse
-import org.wikipedia.dataclient.discussiontools.DiscussionToolsSubscriptionList
-import org.wikipedia.dataclient.donate.PaymentResponseContainer
-import org.wikipedia.dataclient.mwapi.CreateAccountResponse
-import org.wikipedia.dataclient.mwapi.MwParseResponse
-import org.wikipedia.dataclient.mwapi.MwPostResponse
-import org.wikipedia.dataclient.mwapi.MwQueryResponse
-import org.wikipedia.dataclient.mwapi.MwStreamConfigsResponse
-import org.wikipedia.dataclient.mwapi.ParamInfoResponse
-import org.wikipedia.dataclient.mwapi.ShortenUrlResponse
-import org.wikipedia.dataclient.mwapi.SiteMatrix
-import org.wikipedia.dataclient.mwapi.TemplateDataResponse
-import org.wikipedia.dataclient.okhttp.OfflineCacheInterceptor
-import org.wikipedia.dataclient.rollback.RollbackPostResponse
-import org.wikipedia.dataclient.watch.WatchPostResponse
-import org.wikipedia.dataclient.wikidata.Claims
-import org.wikipedia.dataclient.wikidata.Entities
-import org.wikipedia.dataclient.wikidata.EntityPostResponse
-import org.wikipedia.dataclient.wikidata.Search
-import org.wikipedia.edit.Edit
-import org.wikipedia.login.LoginClient.LoginResponse
+import org.akhil.nitcwiki.captcha.Captcha
+import org.akhil.nitcwiki.dataclient.discussiontools.DiscussionToolsEditResponse
+import org.akhil.nitcwiki.dataclient.discussiontools.DiscussionToolsInfoResponse
+import org.akhil.nitcwiki.dataclient.discussiontools.DiscussionToolsSubscribeResponse
+import org.akhil.nitcwiki.dataclient.discussiontools.DiscussionToolsSubscriptionList
+import org.akhil.nitcwiki.dataclient.donate.PaymentResponseContainer
+import org.akhil.nitcwiki.dataclient.mwapi.CreateAccountResponse
+import org.akhil.nitcwiki.dataclient.mwapi.MwParseResponse
+import org.akhil.nitcwiki.dataclient.mwapi.MwPostResponse
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResponse
+import org.akhil.nitcwiki.dataclient.mwapi.MwStreamConfigsResponse
+import org.akhil.nitcwiki.dataclient.mwapi.ParamInfoResponse
+import org.akhil.nitcwiki.dataclient.mwapi.ShortenUrlResponse
+import org.akhil.nitcwiki.dataclient.mwapi.SiteMatrix
+import org.akhil.nitcwiki.dataclient.mwapi.TemplateDataResponse
+import org.akhil.nitcwiki.dataclient.okhttp.OfflineCacheInterceptor
+import org.akhil.nitcwiki.dataclient.rollback.RollbackPostResponse
+import org.akhil.nitcwiki.dataclient.watch.WatchPostResponse
+import org.akhil.nitcwiki.dataclient.wikidata.Claims
+import org.akhil.nitcwiki.dataclient.wikidata.Entities
+import org.akhil.nitcwiki.dataclient.wikidata.EntityPostResponse
+import org.akhil.nitcwiki.dataclient.wikidata.Search
+import org.akhil.nitcwiki.edit.Edit
+import org.akhil.nitcwiki.login.LoginClient.LoginResponse
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
 import retrofit2.http.GET
@@ -745,7 +745,7 @@ interface Service {
     suspend fun getVariantTitlesByTitles(@Query("titles") titles: String): MwQueryResponse
 
     companion object {
-        const val WIKIPEDIA_URL = "https://wikipedia.org/"
+        const val WIKIPEDIA_URL = "https://wiki.fosscell.org/"
         const val WIKIDATA_URL = "https://www.wikidata.org/"
         const val COMMONS_URL = "https://commons.wikimedia.org/"
         const val URL_FRAGMENT_FROM_COMMONS = "/wikipedia/commons/"

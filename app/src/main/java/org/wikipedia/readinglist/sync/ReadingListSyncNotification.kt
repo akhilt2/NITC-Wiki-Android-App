@@ -1,9 +1,9 @@
-package org.wikipedia.readinglist.sync
+package org.akhil.nitcwiki.readinglist.sync
 
 import android.content.Context
-import org.wikipedia.R
-import org.wikipedia.notifications.NotificationCategory
-import org.wikipedia.views.NotificationWithProgressBar
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.notifications.NotificationCategory
+import org.akhil.nitcwiki.views.NotificationWithProgressBar
 
 class ReadingListSyncNotification private constructor() {
     private val notification: NotificationWithProgressBar = NotificationWithProgressBar()

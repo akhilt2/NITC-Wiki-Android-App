@@ -1,4 +1,4 @@
-package org.wikipedia.wiktionary
+package org.akhil.nitcwiki.wiktionary
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,19 +10,19 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.activity.FragmentUtil
-import org.wikipedia.databinding.DialogWiktionaryBinding
-import org.wikipedia.databinding.ItemWiktionaryDefinitionWithExamplesBinding
-import org.wikipedia.databinding.ItemWiktionaryDefinitionsListBinding
-import org.wikipedia.databinding.ItemWiktionaryExampleBinding
-import org.wikipedia.dataclient.restbase.RbDefinition
-import org.wikipedia.page.ExtendedBottomSheetDialogFragment
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.Resource
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.activity.FragmentUtil
+import org.akhil.nitcwiki.databinding.DialogWiktionaryBinding
+import org.akhil.nitcwiki.databinding.ItemWiktionaryDefinitionWithExamplesBinding
+import org.akhil.nitcwiki.databinding.ItemWiktionaryDefinitionsListBinding
+import org.akhil.nitcwiki.databinding.ItemWiktionaryExampleBinding
+import org.akhil.nitcwiki.dataclient.restbase.RbDefinition
+import org.akhil.nitcwiki.page.ExtendedBottomSheetDialogFragment
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.StringUtil
 
 class WiktionaryDialog : ExtendedBottomSheetDialogFragment() {
 

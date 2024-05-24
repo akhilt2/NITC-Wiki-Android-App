@@ -1,10 +1,10 @@
-package org.wikipedia.activity
+package org.akhil.nitcwiki.activity
 
 import android.os.Bundle
 import android.view.View
 import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
-import org.wikipedia.R
+import org.akhil.nitcwiki.R
 
 /**
  * Boilerplate for a FragmentActivity containing a single stack of

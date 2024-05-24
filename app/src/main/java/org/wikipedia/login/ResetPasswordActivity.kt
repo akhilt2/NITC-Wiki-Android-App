@@ -1,4 +1,4 @@
-package org.wikipedia.login
+package org.akhil.nitcwiki.login
 
 import android.accounts.AccountAuthenticatorResponse
 import android.accounts.AccountManager
@@ -8,19 +8,19 @@ import android.os.Bundle
 import android.view.View
 import android.view.inputmethod.EditorInfo
 import com.google.android.material.textfield.TextInputLayout
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.auth.AccountUtil.updateAccount
-import org.wikipedia.createaccount.CreateAccountActivity.Companion.validateInput
-import org.wikipedia.createaccount.CreateAccountActivity.ValidateResult
-import org.wikipedia.databinding.ActivityResetPasswordBinding
-import org.wikipedia.extensions.parcelableExtra
-import org.wikipedia.login.LoginClient.LoginFailedException
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.log.L
-import org.wikipedia.views.NonEmptyValidator
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.auth.AccountUtil.updateAccount
+import org.akhil.nitcwiki.createaccount.CreateAccountActivity.Companion.validateInput
+import org.akhil.nitcwiki.createaccount.CreateAccountActivity.ValidateResult
+import org.akhil.nitcwiki.databinding.ActivityResetPasswordBinding
+import org.akhil.nitcwiki.extensions.parcelableExtra
+import org.akhil.nitcwiki.login.LoginClient.LoginFailedException
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.NonEmptyValidator
 
 class ResetPasswordActivity : BaseActivity() {
     private lateinit var binding: ActivityResetPasswordBinding

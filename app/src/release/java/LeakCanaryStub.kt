@@ -1,4 +1,4 @@
-package org.wikipedia
+package org.akhil.nitcwiki
 
 fun setupLeakCanary() {
 }

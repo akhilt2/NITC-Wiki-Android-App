@@ -1,12 +1,12 @@
-package org.wikipedia.settings
+package org.akhil.nitcwiki.settings
 
 import android.os.Bundle
-import org.wikipedia.R
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.databinding.ActivityLicenseBinding
-import org.wikipedia.util.FileUtil.readFile
-import org.wikipedia.util.ResourceUtil.getThemedColor
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.databinding.ActivityLicenseBinding
+import org.akhil.nitcwiki.util.FileUtil.readFile
+import org.akhil.nitcwiki.util.ResourceUtil.getThemedColor
+import org.akhil.nitcwiki.util.StringUtil
 import java.io.IOException
 
 class LicenseActivity : BaseActivity() {

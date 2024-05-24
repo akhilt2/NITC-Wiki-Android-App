@@ -97,7 +97,7 @@
 
                 </ScrollView>
 
-                <org.wikipedia.views.WikiErrorView
+                <org.akhil.nitcwiki.views.WikiErrorView
                     android:id="@+id/talkErrorView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

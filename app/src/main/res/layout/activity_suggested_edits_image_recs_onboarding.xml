@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.wikipedia.onboarding.OnboardingPageView
+    <org.akhil.nitcwiki.onboarding.OnboardingPageView
         android:id="@+id/onboarding_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

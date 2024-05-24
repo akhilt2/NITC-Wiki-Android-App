@@ -87,7 +87,7 @@
                 android:visibility="gone"
                 tools:visibility="visible"/>
 
-            <org.wikipedia.views.WikiErrorView
+            <org.akhil.nitcwiki.views.WikiErrorView
                 android:id="@+id/categories_error"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

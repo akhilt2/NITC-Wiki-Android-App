@@ -1,4 +1,4 @@
-package org.wikipedia.database
+package org.akhil.nitcwiki.database
 
 import android.content.Context
 import androidx.room.Room
@@ -14,14 +14,14 @@ import org.junit.After
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.notifications.db.Notification
-import org.wikipedia.notifications.db.NotificationDao
-import org.wikipedia.search.db.RecentSearch
-import org.wikipedia.search.db.RecentSearchDao
-import org.wikipedia.talk.db.TalkPageSeen
-import org.wikipedia.talk.db.TalkPageSeenDao
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.notifications.db.Notification
+import org.akhil.nitcwiki.notifications.db.NotificationDao
+import org.akhil.nitcwiki.search.db.RecentSearch
+import org.akhil.nitcwiki.search.db.RecentSearchDao
+import org.akhil.nitcwiki.talk.db.TalkPageSeen
+import org.akhil.nitcwiki.talk.db.TalkPageSeenDao
+import org.akhil.nitcwiki.util.log.L
 import java.util.*
 
 @RunWith(AndroidJUnit4::class)

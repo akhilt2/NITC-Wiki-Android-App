@@ -17,7 +17,7 @@
             android:orientation="vertical"
             android:paddingBottom="64dp">
 
-            <org.wikipedia.talk.TalkThreadItemView
+            <org.akhil.nitcwiki.talk.TalkThreadItemView
                 android:id="@+id/threadItemView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -30,7 +30,7 @@
                 android:layout_marginTop="16dp"
                 android:hint="@string/talk_reply_subject">
 
-                <org.wikipedia.views.PlainPasteEditText
+                <org.akhil.nitcwiki.views.PlainPasteEditText
                     android:id="@+id/replySubjectText"
                     style="@style/P"
                     android:layout_width="match_parent"
@@ -39,7 +39,7 @@
                     android:inputType="textEmailSubject" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <org.wikipedia.views.UserMentionInputView
+            <org.akhil.nitcwiki.views.UserMentionInputView
                 android:id="@+id/replyInputView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
     </ScrollView>
 
 
-    <org.wikipedia.edit.WikiTextKeyboardHeadingsView
+    <org.akhil.nitcwiki.edit.WikiTextKeyboardHeadingsView
         android:id="@+id/edit_keyboard_overlay_headings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
         android:background="?attr/paper_color"
         android:elevation="12dp" />
 
-    <org.wikipedia.edit.WikiTextKeyboardFormattingView
+    <org.akhil.nitcwiki.edit.WikiTextKeyboardFormattingView
         android:id="@+id/edit_keyboard_overlay_formatting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
         android:background="?attr/paper_color"
         android:elevation="12dp" />
 
-    <org.wikipedia.edit.WikiTextKeyboardView
+    <org.akhil.nitcwiki.edit.WikiTextKeyboardView
         android:id="@+id/edit_keyboard_overlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/message_preview_fragment"
-        android:name="org.wikipedia.edit.preview.EditPreviewFragment"
+        android:name="org.akhil.nitcwiki.edit.preview.EditPreviewFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="?attr/actionBarSize"

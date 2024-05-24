@@ -38,7 +38,7 @@
             android:textSize="16sp" />
     </LinearLayout>
 
-    <org.wikipedia.views.GraphView
+    <org.akhil.nitcwiki.views.GraphView
         android:id="@+id/statsGraphView"
         android:layout_width="0dp"
         android:layout_height="140dp"

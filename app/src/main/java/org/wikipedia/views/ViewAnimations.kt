@@ -1,9 +1,9 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
 import android.view.View
-import org.wikipedia.WikipediaApp
+import org.akhil.nitcwiki.WikipediaApp
 
 object ViewAnimations {
     private val SHORT_ANIMATION_DURATION = WikipediaApp.instance.resources.getInteger(android.R.integer.config_shortAnimTime).toLong()

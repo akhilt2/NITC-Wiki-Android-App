@@ -1,9 +1,9 @@
-package org.wikipedia.test
+package org.akhil.nitcwiki.test
 
 import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.MockWebServer
 import okhttp3.mockwebserver.RecordedRequest
-import org.wikipedia.util.ReleaseUtil.isDevRelease
+import org.akhil.nitcwiki.util.ReleaseUtil.isDevRelease
 import java.io.IOException
 import java.util.concurrent.TimeUnit
 

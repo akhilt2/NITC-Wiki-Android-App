@@ -21,7 +21,7 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             app:contentScrim="?attr/paper_color">
 
-            <org.wikipedia.readinglist.ReadingListHeaderView
+            <org.akhil.nitcwiki.readinglist.ReadingListHeaderView
                 android:id="@+id/reading_list_header"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/readingListLeadHeight"
@@ -68,7 +68,7 @@
                 android:visibility="gone"
                 tools:visibility="visible" />
 
-            <org.wikipedia.views.SearchEmptyView
+            <org.akhil.nitcwiki.views.SearchEmptyView
                 android:id="@+id/search_empty_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

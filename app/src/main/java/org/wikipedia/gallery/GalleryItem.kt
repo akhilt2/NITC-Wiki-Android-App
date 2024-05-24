@@ -1,10 +1,10 @@
-package org.wikipedia.gallery
+package org.akhil.nitcwiki.gallery
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.Constants.PREFERRED_GALLERY_IMAGE_SIZE
-import org.wikipedia.dataclient.Service
-import org.wikipedia.util.ImageUrlUtil
+import org.akhil.nitcwiki.Constants.PREFERRED_GALLERY_IMAGE_SIZE
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.util.ImageUrlUtil
 
 @Serializable
 open class GalleryItem {

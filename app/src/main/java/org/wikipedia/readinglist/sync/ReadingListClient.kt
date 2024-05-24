@@ -1,9 +1,9 @@
-package org.wikipedia.readinglist.sync
+package org.akhil.nitcwiki.readinglist.sync
 
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.okhttp.HttpStatusException
-import org.wikipedia.readinglist.sync.SyncedReadingLists.*
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.okhttp.HttpStatusException
+import org.akhil.nitcwiki.readinglist.sync.SyncedReadingLists.*
 import retrofit2.Response
 import java.io.IOException
 import java.time.Instant

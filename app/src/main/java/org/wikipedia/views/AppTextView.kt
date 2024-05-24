@@ -1,12 +1,12 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.os.Build
 import android.util.AttributeSet
 import android.view.MotionEvent
 import androidx.core.content.res.use
-import org.wikipedia.R
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.util.StringUtil
 
 // TODO: Document where it is desirable to use this class vs. a vanilla TextView
 open class AppTextView constructor(context: Context, attrs: AttributeSet? = null) : ConfigurableTextView(context, attrs) {

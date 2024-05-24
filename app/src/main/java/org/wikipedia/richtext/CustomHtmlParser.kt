@@ -1,4 +1,4 @@
-package org.wikipedia.richtext
+package org.akhil.nitcwiki.richtext
 
 import android.content.Context
 import android.content.res.Resources
@@ -21,13 +21,13 @@ import androidx.core.text.HtmlCompat
 import androidx.core.text.getSpans
 import androidx.core.text.parseAsHtml
 import androidx.core.text.toSpanned
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.gallery.ImagePipelineBitmapGetter
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.WhiteBackgroundTransformation
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.gallery.ImagePipelineBitmapGetter
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.WhiteBackgroundTransformation
+import org.akhil.nitcwiki.util.log.L
 import org.xml.sax.Attributes
 import org.xml.sax.ContentHandler
 import org.xml.sax.Locator

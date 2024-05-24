@@ -1,6 +1,6 @@
-package org.wikipedia.analytics.metricsplatform
+package org.akhil.nitcwiki.analytics.metricsplatform
 
-import org.wikipedia.util.ActiveTimer
+import org.akhil.nitcwiki.util.ActiveTimer
 
 open class TimedMetricsEvent : MetricsEvent() {
     protected val timer = ActiveTimer()

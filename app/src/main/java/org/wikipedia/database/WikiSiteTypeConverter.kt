@@ -1,7 +1,7 @@
-package org.wikipedia.database
+package org.akhil.nitcwiki.database
 
 import androidx.room.TypeConverter
-import org.wikipedia.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.WikiSite
 
 class WikiSiteTypeConverter {
     @TypeConverter

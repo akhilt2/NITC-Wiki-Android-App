@@ -1,4 +1,4 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
@@ -13,24 +13,24 @@ import kotlinx.coroutines.withContext
 import okhttp3.FormBody
 import okhttp3.Request
 import okhttp3.Response
-import org.wikipedia.Constants
-import org.wikipedia.analytics.eventplatform.ImageRecommendationsEvent
-import org.wikipedia.csrf.CsrfTokenClient
-import org.wikipedia.dataclient.RestService
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.growthtasks.GrowthImageSuggestion
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.dataclient.okhttp.OkHttpConnectionFactory
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.edit.insertmedia.InsertMediaViewModel
-import org.wikipedia.page.PageTitle
-import org.wikipedia.staticdata.FileAliasData
-import org.wikipedia.suggestededits.provider.EditingSuggestionsProvider
-import org.wikipedia.util.ImageUrlUtil
-import org.wikipedia.util.Resource
-import org.wikipedia.util.UriUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.analytics.eventplatform.ImageRecommendationsEvent
+import org.akhil.nitcwiki.csrf.CsrfTokenClient
+import org.akhil.nitcwiki.dataclient.RestService
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.growthtasks.GrowthImageSuggestion
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.dataclient.okhttp.OkHttpConnectionFactory
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.edit.insertmedia.InsertMediaViewModel
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.staticdata.FileAliasData
+import org.akhil.nitcwiki.suggestededits.provider.EditingSuggestionsProvider
+import org.akhil.nitcwiki.util.ImageUrlUtil
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.UriUtil
+import org.akhil.nitcwiki.util.log.L
 import java.io.IOException
 
 class SuggestedEditsImageRecsFragmentViewModel(bundle: Bundle) : ViewModel() {

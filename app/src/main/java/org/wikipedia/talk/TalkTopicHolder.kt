@@ -1,4 +1,4 @@
-package org.wikipedia.talk
+package org.akhil.nitcwiki.talk
 
 import android.app.Activity
 import android.content.Context
@@ -11,14 +11,14 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.databinding.ItemTalkTopicBinding
-import org.wikipedia.dataclient.discussiontools.ThreadItem
-import org.wikipedia.page.Namespace
-import org.wikipedia.richtext.RichTextUtil
-import org.wikipedia.util.*
-import org.wikipedia.views.SwipeableItemTouchHelperCallback
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ItemTalkTopicBinding
+import org.akhil.nitcwiki.dataclient.discussiontools.ThreadItem
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.richtext.RichTextUtil
+import org.akhil.nitcwiki.util.*
+import org.akhil.nitcwiki.views.SwipeableItemTouchHelperCallback
 import java.util.*
 
 class TalkTopicHolder internal constructor(

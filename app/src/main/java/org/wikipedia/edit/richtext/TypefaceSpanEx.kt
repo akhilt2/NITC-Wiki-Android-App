@@ -1,4 +1,4 @@
-package org.wikipedia.edit.richtext
+package org.akhil.nitcwiki.edit.richtext
 
 import android.graphics.Typeface
 import android.os.Build

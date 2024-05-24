@@ -1,4 +1,4 @@
-package org.wikipedia.page.linkpreview
+package org.akhil.nitcwiki.page.linkpreview
 
 import android.text.style.SuperscriptSpan
 import androidx.core.text.getSpans
@@ -8,11 +8,11 @@ import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.dataclient.WikiSite.Companion.forLanguageCode
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.test.TestFileUtil
-import org.wikipedia.util.StringUtil.fromHtml
+import org.akhil.nitcwiki.dataclient.WikiSite.Companion.forLanguageCode
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.test.TestFileUtil
+import org.akhil.nitcwiki.util.StringUtil.fromHtml
 
 @RunWith(RobolectricTestRunner::class)
 class LinkPreviewContentsTest {

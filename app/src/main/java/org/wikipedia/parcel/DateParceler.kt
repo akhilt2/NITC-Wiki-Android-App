@@ -1,4 +1,4 @@
-package org.wikipedia.parcel
+package org.akhil.nitcwiki.parcel
 
 import android.os.Parcel
 import kotlinx.parcelize.Parceler

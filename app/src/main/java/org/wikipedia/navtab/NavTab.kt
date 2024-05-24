@@ -1,14 +1,14 @@
-package org.wikipedia.navtab
+package org.akhil.nitcwiki.navtab
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
-import org.wikipedia.R
-import org.wikipedia.feed.FeedFragment
-import org.wikipedia.history.HistoryFragment
-import org.wikipedia.model.EnumCode
-import org.wikipedia.readinglist.ReadingListsFragment
-import org.wikipedia.suggestededits.SuggestedEditsTasksFragment
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.feed.FeedFragment
+import org.akhil.nitcwiki.history.HistoryFragment
+import org.akhil.nitcwiki.model.EnumCode
+import org.akhil.nitcwiki.readinglist.ReadingListsFragment
+import org.akhil.nitcwiki.suggestededits.SuggestedEditsTasksFragment
 
 enum class NavTab constructor(
     @StringRes val text: Int,

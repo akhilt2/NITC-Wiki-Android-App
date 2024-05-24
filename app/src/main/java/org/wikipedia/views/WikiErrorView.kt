@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,18 +6,18 @@ import android.view.LayoutInflater
 import android.widget.LinearLayout
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewWikiErrorBinding
-import org.wikipedia.dataclient.mwapi.MwException
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.page.Namespace
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.ThrowableUtil.is404
-import org.wikipedia.util.ThrowableUtil.isEmptyException
-import org.wikipedia.util.ThrowableUtil.isOffline
-import org.wikipedia.util.ThrowableUtil.isTimeout
-import org.wikipedia.views.WikiErrorView.ErrorType.USER_PAGE_MISSING
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewWikiErrorBinding
+import org.akhil.nitcwiki.dataclient.mwapi.MwException
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.ThrowableUtil.is404
+import org.akhil.nitcwiki.util.ThrowableUtil.isEmptyException
+import org.akhil.nitcwiki.util.ThrowableUtil.isOffline
+import org.akhil.nitcwiki.util.ThrowableUtil.isTimeout
+import org.akhil.nitcwiki.views.WikiErrorView.ErrorType.USER_PAGE_MISSING
 
 class WikiErrorView : LinearLayout {
 

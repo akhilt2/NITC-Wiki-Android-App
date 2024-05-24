@@ -1,4 +1,4 @@
-package org.wikipedia.edit.insertmedia
+package org.akhil.nitcwiki.edit.insertmedia
 
 import android.graphics.Typeface
 import android.os.Bundle
@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import org.wikipedia.activity.FragmentUtil
-import org.wikipedia.databinding.DialogInsertMediaPositionBinding
-import org.wikipedia.page.ExtendedBottomSheetDialogFragment
+import org.akhil.nitcwiki.activity.FragmentUtil
+import org.akhil.nitcwiki.databinding.DialogInsertMediaPositionBinding
+import org.akhil.nitcwiki.page.ExtendedBottomSheetDialogFragment
 
 class InsertMediaImagePositionDialog : ExtendedBottomSheetDialogFragment() {
     interface Callback {

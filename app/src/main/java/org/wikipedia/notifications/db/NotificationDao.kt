@@ -1,4 +1,4 @@
-package org.wikipedia.notifications.db
+package org.akhil.nitcwiki.notifications.db
 
 import androidx.room.*
 import kotlinx.coroutines.flow.Flow

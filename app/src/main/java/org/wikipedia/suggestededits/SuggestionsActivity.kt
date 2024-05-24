@@ -1,14 +1,14 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import org.wikipedia.Constants
-import org.wikipedia.Constants.INTENT_EXTRA_ACTION
-import org.wikipedia.Constants.INTENT_EXTRA_INVOKE_SOURCE
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.descriptions.DescriptionEditActivity.Action
-import org.wikipedia.suggestededits.SuggestedEditsCardsFragment.Companion.newInstance
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.INTENT_EXTRA_ACTION
+import org.akhil.nitcwiki.Constants.INTENT_EXTRA_INVOKE_SOURCE
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action
+import org.akhil.nitcwiki.suggestededits.SuggestedEditsCardsFragment.Companion.newInstance
 
 class SuggestionsActivity : SingleFragmentActivity<SuggestedEditsCardsFragment>() {
 

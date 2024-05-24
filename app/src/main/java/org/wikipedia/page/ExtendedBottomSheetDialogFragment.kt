@@ -1,4 +1,4 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
 import android.app.Dialog
 import android.content.Context
@@ -7,11 +7,11 @@ import android.view.MotionEvent
 import androidx.annotation.StyleRes
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import org.wikipedia.R
-import org.wikipedia.analytics.BreadcrumbsContextHelper
-import org.wikipedia.analytics.eventplatform.BreadCrumbLogEvent
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.analytics.BreadcrumbsContextHelper
+import org.akhil.nitcwiki.analytics.eventplatform.BreadCrumbLogEvent
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.ResourceUtil
 
 open class ExtendedBottomSheetDialogFragment : BottomSheetDialogFragment() {
 

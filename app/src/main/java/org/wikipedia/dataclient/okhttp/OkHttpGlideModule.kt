@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient.okhttp
+package org.akhil.nitcwiki.dataclient.okhttp
 
 import android.content.Context
 import com.bumptech.glide.Glide

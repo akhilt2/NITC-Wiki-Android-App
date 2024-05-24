@@ -1,4 +1,4 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.Manifest
 import android.app.DownloadManager
@@ -14,19 +14,19 @@ import androidx.core.app.PendingIntentCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
 import kotlinx.serialization.Serializable
-import org.wikipedia.R
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.analytics.eventplatform.ReadingListsAnalyticsHelper
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.notifications.NotificationCategory
-import org.wikipedia.notifications.NotificationPresenter
-import org.wikipedia.page.Namespace
-import org.wikipedia.page.PageTitle
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.FileUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.analytics.eventplatform.ReadingListsAnalyticsHelper
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.notifications.NotificationCategory
+import org.akhil.nitcwiki.notifications.NotificationPresenter
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.FileUtil
 
 object ReadingListsExportImportHelper : BaseActivity.Callback {
 

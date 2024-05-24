@@ -1,4 +1,4 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import android.content.Context
 import android.graphics.Typeface
@@ -12,10 +12,10 @@ import android.widget.LinearLayout
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.view.isVisible
 import androidx.core.widget.ImageViewCompat
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.databinding.ItemSuggestedEditsRecentEditsFilterBinding
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.databinding.ItemSuggestedEditsRecentEditsFilterBinding
+import org.akhil.nitcwiki.util.ResourceUtil
 
 class SuggestedEditsRecentEditsFilterItemView constructor(context: Context, attrs: AttributeSet? = null) : LinearLayout(context, attrs) {
 

@@ -1,4 +1,4 @@
-package org.wikipedia.navtab
+package org.akhil.nitcwiki.navtab
 
 import android.content.Context
 import android.util.AttributeSet

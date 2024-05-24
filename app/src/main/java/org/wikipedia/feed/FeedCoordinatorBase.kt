@@ -1,26 +1,26 @@
-package org.wikipedia.feed
+package org.akhil.nitcwiki.feed
 
 import android.content.Context
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.feed.accessibility.AccessibilityCard
-import org.wikipedia.feed.announcement.AnnouncementClient
-import org.wikipedia.feed.becauseyouread.BecauseYouReadClient
-import org.wikipedia.feed.dataclient.FeedClient
-import org.wikipedia.feed.dayheader.DayHeaderCard
-import org.wikipedia.feed.featured.FeaturedArticleCard
-import org.wikipedia.feed.image.FeaturedImageCard
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.model.CardType
-import org.wikipedia.feed.news.NewsCard
-import org.wikipedia.feed.offline.OfflineCard
-import org.wikipedia.feed.onthisday.OnThisDayCard
-import org.wikipedia.feed.progress.ProgressCard
-import org.wikipedia.feed.suggestededits.SuggestedEditsFeedClient
-import org.wikipedia.feed.topread.TopReadListCard
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.ThrowableUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.feed.accessibility.AccessibilityCard
+import org.akhil.nitcwiki.feed.announcement.AnnouncementClient
+import org.akhil.nitcwiki.feed.becauseyouread.BecauseYouReadClient
+import org.akhil.nitcwiki.feed.dataclient.FeedClient
+import org.akhil.nitcwiki.feed.dayheader.DayHeaderCard
+import org.akhil.nitcwiki.feed.featured.FeaturedArticleCard
+import org.akhil.nitcwiki.feed.image.FeaturedImageCard
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.model.CardType
+import org.akhil.nitcwiki.feed.news.NewsCard
+import org.akhil.nitcwiki.feed.offline.OfflineCard
+import org.akhil.nitcwiki.feed.onthisday.OnThisDayCard
+import org.akhil.nitcwiki.feed.progress.ProgressCard
+import org.akhil.nitcwiki.feed.suggestededits.SuggestedEditsFeedClient
+import org.akhil.nitcwiki.feed.topread.TopReadListCard
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.ThrowableUtil
+import org.akhil.nitcwiki.util.log.L
 import java.util.Collections
 
 abstract class FeedCoordinatorBase(private val context: Context) {

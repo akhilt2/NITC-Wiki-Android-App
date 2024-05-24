@@ -1,13 +1,13 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.location.Location
 import android.net.Uri
-import org.wikipedia.R
-import org.wikipedia.feed.announcement.GeoIPCookieUnmarshaller
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.feed.announcement.GeoIPCookieUnmarshaller
+import org.akhil.nitcwiki.settings.Prefs
 import java.text.DecimalFormat
 import java.util.Locale
 

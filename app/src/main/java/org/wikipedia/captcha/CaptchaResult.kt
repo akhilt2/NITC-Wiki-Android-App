@@ -1,7 +1,7 @@
-package org.wikipedia.captcha
+package org.akhil.nitcwiki.captcha
 
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.edit.EditResult
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.edit.EditResult
 
 // Handles only Image Captchas
 class CaptchaResult(val captchaId: String) : EditResult("Failure") {

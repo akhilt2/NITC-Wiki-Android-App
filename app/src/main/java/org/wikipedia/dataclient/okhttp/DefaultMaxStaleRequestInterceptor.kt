@@ -1,9 +1,9 @@
-package org.wikipedia.dataclient.okhttp
+package org.akhil.nitcwiki.dataclient.okhttp
 
 import okhttp3.Interceptor
 import okhttp3.Response
-import org.wikipedia.WikipediaApp
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.settings.Prefs
 import java.io.IOException
 
 /**

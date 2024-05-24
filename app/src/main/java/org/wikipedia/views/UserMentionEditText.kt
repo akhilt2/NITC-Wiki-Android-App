@@ -1,14 +1,14 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.text.TextWatcher
 import android.util.AttributeSet
 import androidx.core.text.buildSpannedString
 import androidx.core.widget.doOnTextChanged
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.edit.SyntaxHighlightableEditText
-import org.wikipedia.staticdata.UserAliasData
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.edit.SyntaxHighlightableEditText
+import org.akhil.nitcwiki.staticdata.UserAliasData
+import org.akhil.nitcwiki.util.log.L
 
 class UserMentionEditText : SyntaxHighlightableEditText {
     interface Listener {

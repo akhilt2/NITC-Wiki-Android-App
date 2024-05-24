@@ -1,7 +1,7 @@
-package org.wikipedia.login
+package org.akhil.nitcwiki.login
 
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.WikiSite
 
 @Serializable
 open class LoginResult internal constructor(val site: WikiSite,

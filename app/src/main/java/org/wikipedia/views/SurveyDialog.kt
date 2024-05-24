@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.app.Activity
 import android.view.View
@@ -6,12 +6,12 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.textfield.TextInputEditText
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.analytics.eventplatform.PatrollerExperienceEvent
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.FeedbackUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.analytics.eventplatform.PatrollerExperienceEvent
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
 
 object SurveyDialog {
 

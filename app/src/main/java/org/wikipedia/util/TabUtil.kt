@@ -1,10 +1,10 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.PageBackStackItem
-import org.wikipedia.page.tabs.Tab
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.PageBackStackItem
+import org.akhil.nitcwiki.page.tabs.Tab
 
 object TabUtil {
 

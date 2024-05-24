@@ -1,8 +1,8 @@
-package org.wikipedia.mlkit
+package org.akhil.nitcwiki.mlkit
 
 import com.google.mlkit.nl.languageid.LanguageIdentification
 import com.google.mlkit.nl.languageid.LanguageIdentificationOptions
-import org.wikipedia.language.AppLanguageLookUpTable
+import org.akhil.nitcwiki.language.AppLanguageLookUpTable
 
 class MlKitLanguageDetector {
     interface Callback {

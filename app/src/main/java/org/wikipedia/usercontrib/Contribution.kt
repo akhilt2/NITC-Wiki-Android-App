@@ -1,10 +1,10 @@
-package org.wikipedia.usercontrib
+package org.akhil.nitcwiki.usercontrib
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 import kotlinx.parcelize.TypeParceler
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.parcel.DateParceler
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.parcel.DateParceler
 import java.util.*
 
 @Parcelize

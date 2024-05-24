@@ -1,13 +1,13 @@
-package org.wikipedia.feed.onthisday
+package org.akhil.nitcwiki.feed.onthisday
 
-import org.wikipedia.R
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.feed.model.CardType
-import org.wikipedia.feed.model.WikiSiteCard
-import org.wikipedia.feed.view.FeedAdapter
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.L10nUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.feed.model.CardType
+import org.akhil.nitcwiki.feed.model.WikiSiteCard
+import org.akhil.nitcwiki.feed.view.FeedAdapter
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.L10nUtil
 import java.util.*
 import java.util.concurrent.TimeUnit
 

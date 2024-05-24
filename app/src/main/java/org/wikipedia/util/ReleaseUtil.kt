@@ -1,9 +1,9 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.content.Context
 import android.content.pm.PackageManager
-import org.wikipedia.BuildConfig
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.BuildConfig
+import org.akhil.nitcwiki.settings.Prefs
 
 object ReleaseUtil {
     private const val RELEASE_PROD = 0

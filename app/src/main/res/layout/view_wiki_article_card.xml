@@ -12,7 +12,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <org.wikipedia.views.FaceAndColorDetectImageView
+        <org.akhil.nitcwiki.views.FaceAndColorDetectImageView
             android:id="@+id/articleImage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -39,7 +39,7 @@
         android:textSize="26sp"
         android:transitionName="@string/transition_article_title" />
 
-    <org.wikipedia.views.GoneIfEmptyTextView
+    <org.akhil.nitcwiki.views.GoneIfEmptyTextView
         android:id="@+id/articleDescription"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

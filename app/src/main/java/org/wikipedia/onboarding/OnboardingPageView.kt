@@ -1,4 +1,4 @@
-package org.wikipedia.onboarding
+package org.akhil.nitcwiki.onboarding
 
 import android.content.Context
 import android.util.AttributeSet
@@ -15,12 +15,12 @@ import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.databinding.ViewOnboardingPageBinding
-import org.wikipedia.onboarding.OnboardingPageView.LanguageListAdapter.OptionsViewHolder
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.databinding.ViewOnboardingPageBinding
+import org.akhil.nitcwiki.onboarding.OnboardingPageView.LanguageListAdapter.OptionsViewHolder
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.util.StringUtil
 import java.util.Locale
 
 class OnboardingPageView constructor(context: Context, attrs: AttributeSet? = null) : ConstraintLayout(context, attrs) {

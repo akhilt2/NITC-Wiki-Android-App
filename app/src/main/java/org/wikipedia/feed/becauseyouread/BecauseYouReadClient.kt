@@ -1,4 +1,4 @@
-package org.wikipedia.feed.becauseyouread
+package org.akhil.nitcwiki.feed.becauseyouread
 
 import android.content.Context
 import kotlinx.coroutines.CoroutineExceptionHandler
@@ -6,17 +6,17 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.feed.FeedCoordinator
-import org.wikipedia.feed.dataclient.FeedClient
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.feed.FeedCoordinator
+import org.akhil.nitcwiki.feed.dataclient.FeedClient
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
 
 class BecauseYouReadClient : FeedClient {
     private var clientJob: Job? = null

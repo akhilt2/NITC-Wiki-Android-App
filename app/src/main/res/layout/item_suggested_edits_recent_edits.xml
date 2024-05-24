@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.wikipedia.views.WikiCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<org.akhil.nitcwiki.views.WikiCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/containerView"
@@ -42,7 +42,7 @@
             android:textColor="?attr/secondary_color"
             tools:text="12:00"/>
 
-        <org.wikipedia.views.GoneIfEmptyTextView
+        <org.akhil.nitcwiki.views.GoneIfEmptyTextView
             android:id="@+id/summaryText"
             style="@style/P"
             android:layout_width="0dp"
@@ -57,7 +57,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             tools:text="Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum"/>
 
-        <org.wikipedia.views.GoneIfEmptyTextView
+        <org.akhil.nitcwiki.views.GoneIfEmptyTextView
             android:id="@+id/tagsText"
             style="@style/P"
             android:layout_width="0dp"
@@ -103,4 +103,4 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</org.wikipedia.views.WikiCardView>
+</org.akhil.nitcwiki.views.WikiCardView>

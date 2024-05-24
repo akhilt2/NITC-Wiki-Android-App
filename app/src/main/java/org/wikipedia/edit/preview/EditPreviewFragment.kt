@@ -1,4 +1,4 @@
-package org.wikipedia.edit.preview
+package org.akhil.nitcwiki.edit.preview
 
 import android.content.Context
 import android.net.Uri
@@ -10,31 +10,31 @@ import android.webkit.WebView
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.wikipedia.R
-import org.wikipedia.activity.FragmentUtil
-import org.wikipedia.bridge.CommunicationBridge
-import org.wikipedia.bridge.CommunicationBridge.CommunicationBridgeListener
-import org.wikipedia.bridge.JavaScriptActionHandler
-import org.wikipedia.databinding.FragmentPreviewEditBinding
-import org.wikipedia.dataclient.RestService
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.okhttp.OkHttpWebViewClient
-import org.wikipedia.diff.ArticleEditDetailsActivity
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.page.ExclusiveBottomSheetPresenter
-import org.wikipedia.page.LinkHandler
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.page.PageViewModel
-import org.wikipedia.page.references.PageReferences
-import org.wikipedia.page.references.ReferenceDialog
-import org.wikipedia.staticdata.MainPageNameData
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.FragmentUtil
+import org.akhil.nitcwiki.bridge.CommunicationBridge
+import org.akhil.nitcwiki.bridge.CommunicationBridge.CommunicationBridgeListener
+import org.akhil.nitcwiki.bridge.JavaScriptActionHandler
+import org.akhil.nitcwiki.databinding.FragmentPreviewEditBinding
+import org.akhil.nitcwiki.dataclient.RestService
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.okhttp.OkHttpWebViewClient
+import org.akhil.nitcwiki.diff.ArticleEditDetailsActivity
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.page.ExclusiveBottomSheetPresenter
+import org.akhil.nitcwiki.page.LinkHandler
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.page.PageViewModel
+import org.akhil.nitcwiki.page.references.PageReferences
+import org.akhil.nitcwiki.page.references.ReferenceDialog
+import org.akhil.nitcwiki.staticdata.MainPageNameData
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.UriUtil
 
 class EditPreviewFragment : Fragment(), CommunicationBridgeListener, ReferenceDialog.Callback {
 

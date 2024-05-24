@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient.growthtasks
+package org.akhil.nitcwiki.dataclient.growthtasks
 
 import kotlinx.serialization.EncodeDefault
 import kotlinx.serialization.ExperimentalSerializationApi

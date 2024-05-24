@@ -1,4 +1,4 @@
-package org.wikipedia.talk.db
+package org.akhil.nitcwiki.talk.db
 
 import android.os.Parcelable
 import androidx.room.Entity

@@ -1,4 +1,4 @@
-package org.wikipedia.talk
+package org.akhil.nitcwiki.talk
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -8,26 +8,26 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.WatchlistAnalyticsHelper
-import org.wikipedia.csrf.CsrfTokenClient
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.discussiontools.ThreadItem
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.dataclient.okhttp.OfflineCacheInterceptor
-import org.wikipedia.edit.Edit
-import org.wikipedia.page.Namespace
-import org.wikipedia.page.PageTitle
-import org.wikipedia.richtext.RichTextUtil
-import org.wikipedia.settings.Prefs
-import org.wikipedia.staticdata.TalkAliasData
-import org.wikipedia.staticdata.UserTalkAliasData
-import org.wikipedia.talk.db.TalkPageSeen
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.UriUtil
-import org.wikipedia.views.TalkTopicsSortOverflowView
-import org.wikipedia.watchlist.WatchlistExpiry
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.WatchlistAnalyticsHelper
+import org.akhil.nitcwiki.csrf.CsrfTokenClient
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.discussiontools.ThreadItem
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.dataclient.okhttp.OfflineCacheInterceptor
+import org.akhil.nitcwiki.edit.Edit
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.richtext.RichTextUtil
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.staticdata.TalkAliasData
+import org.akhil.nitcwiki.staticdata.UserTalkAliasData
+import org.akhil.nitcwiki.talk.db.TalkPageSeen
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.UriUtil
+import org.akhil.nitcwiki.views.TalkTopicsSortOverflowView
+import org.akhil.nitcwiki.watchlist.WatchlistExpiry
 
 class TalkTopicsViewModel(var pageTitle: PageTitle, private val sidePanel: Boolean) : ViewModel() {
 

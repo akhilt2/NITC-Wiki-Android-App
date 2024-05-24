@@ -1,11 +1,11 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.graphics.Rect
 import android.view.View
 import androidx.annotation.DimenRes
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.util.DimenUtil.roundedDpToPx
+import org.akhil.nitcwiki.util.DimenUtil.roundedDpToPx
 
 class HeaderMarginItemDecoration : MarginItemDecoration {
 

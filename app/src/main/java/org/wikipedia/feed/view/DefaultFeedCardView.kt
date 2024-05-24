@@ -1,11 +1,11 @@
-package org.wikipedia.feed.view
+package org.akhil.nitcwiki.feed.view
 
 import android.content.Context
 import android.view.View
 import android.widget.LinearLayout
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.feed.model.Card
-import org.wikipedia.util.L10nUtil
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.util.L10nUtil
 
 abstract class DefaultFeedCardView<T : Card?>(context: Context?) : LinearLayout(context), FeedCardView<T> {
     override var card: T? = null

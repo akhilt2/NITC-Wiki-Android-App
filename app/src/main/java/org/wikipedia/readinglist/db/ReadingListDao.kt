@@ -1,13 +1,13 @@
-package org.wikipedia.readinglist.db
+package org.akhil.nitcwiki.readinglist.db
 
 import androidx.room.*
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.readinglist.sync.ReadingListSyncAdapter
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.readinglist.sync.ReadingListSyncAdapter
+import org.akhil.nitcwiki.util.log.L
 
 @Dao
 interface ReadingListDao {

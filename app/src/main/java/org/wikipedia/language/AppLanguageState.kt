@@ -1,11 +1,11 @@
-package org.wikipedia.language
+package org.akhil.nitcwiki.language
 
 import android.content.Context
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.ReleaseUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.ReleaseUtil
 import java.util.*
 
 class AppLanguageState(context: Context) {

@@ -1,4 +1,4 @@
-package org.wikipedia.gallery
+package org.akhil.nitcwiki.gallery
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -28,25 +28,25 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.FragmentUtil
-import org.wikipedia.commons.FilePageActivity
-import org.wikipedia.databinding.FragmentGalleryItemBinding
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.dataclient.mwapi.MwQueryResponse
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.FileUtil
-import org.wikipedia.util.ImageUrlUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
-import org.wikipedia.views.ViewUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.FragmentUtil
+import org.akhil.nitcwiki.commons.FilePageActivity
+import org.akhil.nitcwiki.databinding.FragmentGalleryItemBinding
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResponse
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.FileUtil
+import org.akhil.nitcwiki.util.ImageUrlUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.ViewUtil
 import kotlin.math.abs
 
 class GalleryItemFragment : Fragment(), MenuProvider, RequestListener<Drawable?> {

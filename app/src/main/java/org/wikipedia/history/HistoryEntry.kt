@@ -1,4 +1,4 @@
-package org.wikipedia.history
+package org.akhil.nitcwiki.history
 
 import android.os.Parcelable
 import androidx.room.Entity
@@ -9,10 +9,10 @@ import kotlinx.parcelize.Parcelize
 import kotlinx.parcelize.TypeParceler
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.json.DateSerializer
-import org.wikipedia.page.PageTitle
-import org.wikipedia.parcel.DateParceler
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.json.DateSerializer
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.parcel.DateParceler
 import java.util.Date
 
 @Serializable

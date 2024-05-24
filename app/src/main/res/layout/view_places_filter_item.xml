@@ -13,7 +13,7 @@
         android:background="?selectableItemBackground"
         android:orientation="horizontal">
 
-        <org.wikipedia.views.LangCodeView
+        <org.akhil.nitcwiki.views.LangCodeView
             android:id="@+id/placesFilterLangCode"
             android:layout_width="48dp"
             android:layout_height="match_parent"

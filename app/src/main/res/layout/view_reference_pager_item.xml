@@ -10,7 +10,7 @@
     android:paddingTop="16dp"
     android:paddingBottom="16dp">
 
-    <org.wikipedia.views.AppTextView
+    <org.akhil.nitcwiki.views.AppTextView
         android:id="@+id/reference_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
         android:textSize="16sp"
         tools:text="1." />
 
-    <org.wikipedia.views.AppTextView
+    <org.akhil.nitcwiki.views.AppTextView
         android:id="@+id/reference_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

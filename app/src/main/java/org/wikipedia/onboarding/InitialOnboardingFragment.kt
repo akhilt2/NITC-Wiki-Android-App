@@ -1,4 +1,4 @@
-package org.wikipedia.onboarding
+package org.akhil.nitcwiki.onboarding
 
 import android.net.Uri
 import android.os.Bundle
@@ -10,14 +10,14 @@ import androidx.annotation.LayoutRes
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.activity.FragmentUtil
-import org.wikipedia.login.LoginActivity
-import org.wikipedia.model.EnumCode
-import org.wikipedia.settings.languages.WikipediaLanguagesActivity
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.FragmentUtil
+import org.akhil.nitcwiki.login.LoginActivity
+import org.akhil.nitcwiki.model.EnumCode
+import org.akhil.nitcwiki.settings.languages.WikipediaLanguagesActivity
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.UriUtil
 
 class InitialOnboardingFragment : OnboardingFragment(), OnboardingPageView.Callback {
     private var onboardingPageView: OnboardingPageView? = null

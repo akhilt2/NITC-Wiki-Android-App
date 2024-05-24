@@ -11,7 +11,7 @@
         android:layout_height="86dp"
         android:layout_marginBottom="16dp">
 
-        <org.wikipedia.views.FaceAndColorDetectImageView
+        <org.akhil.nitcwiki.views.FaceAndColorDetectImageView
             android:id="@+id/talkLeadImage"
             android:layout_width="match_parent"
             android:layout_height="300dp"
@@ -21,7 +21,7 @@
 
     </FrameLayout>
 
-    <org.wikipedia.views.WikiCardView
+    <org.akhil.nitcwiki.views.WikiCardView
         android:id="@+id/search_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -64,5 +64,5 @@
             app:srcCompat="@drawable/ic_baseline_tune_24"
             app:tint="?attr/primary_color" />
 
-    </org.wikipedia.views.WikiCardView>
+    </org.akhil.nitcwiki.views.WikiCardView>
 </LinearLayout>

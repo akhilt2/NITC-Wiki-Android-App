@@ -58,7 +58,7 @@
                 android:textColor="?attr/primary_color"
                 android:textSize="16sp" />
 
-            <org.wikipedia.views.AppTextView
+            <org.akhil.nitcwiki.views.AppTextView
                 android:id="@+id/about_contributors"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
                 android:textColor="?attr/primary_color"
                 android:textSize="16sp" />
 
-            <org.wikipedia.views.AppTextView
+            <org.akhil.nitcwiki.views.AppTextView
                 android:id="@+id/about_translators"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
                 android:textColor="?attr/primary_color"
                 android:textSize="16sp" />
 
-            <org.wikipedia.views.AppTextView
+            <org.akhil.nitcwiki.views.AppTextView
                 android:id="@+id/activity_about_libraries"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -120,7 +120,7 @@
                 android:textColor="?attr/primary_color"
                 android:textSize="16sp" />
 
-            <org.wikipedia.views.AppTextView
+            <org.akhil.nitcwiki.views.AppTextView
                 android:id="@+id/about_app_license"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -151,7 +151,7 @@
             app:tint="?attr/placeholder_color"
             app:srcCompat="@drawable/ic_wmf_logo" />
 
-        <org.wikipedia.views.AppTextView
+        <org.akhil.nitcwiki.views.AppTextView
             android:id="@+id/about_wmf"
             style="?android:textAppearanceSmall"
             android:layout_width="wrap_content"

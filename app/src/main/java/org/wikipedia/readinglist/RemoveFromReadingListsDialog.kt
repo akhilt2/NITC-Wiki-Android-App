@@ -1,11 +1,11 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.content.Context
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.wikipedia.R
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
 
 class RemoveFromReadingListsDialog(private val listsContainingPage: List<ReadingList>) {
     fun interface Callback {

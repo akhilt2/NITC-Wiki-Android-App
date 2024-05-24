@@ -1,14 +1,14 @@
-package org.wikipedia.usercontrib
+package org.akhil.nitcwiki.usercontrib
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.withContext
-import org.wikipedia.Constants
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryResponse
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResponse
+import org.akhil.nitcwiki.settings.Prefs
 import java.util.*
 import kotlin.math.ceil
 

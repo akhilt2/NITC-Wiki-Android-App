@@ -1,15 +1,15 @@
-package org.wikipedia.notifications
+package org.akhil.nitcwiki.notifications
 
 import android.content.Context
 import android.net.Uri
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.diff.ArticleEditDetailsActivity
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.LinkHandler
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.CustomTabsUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.diff.ArticleEditDetailsActivity
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.LinkHandler
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.CustomTabsUtil
+import org.akhil.nitcwiki.util.log.L
 
 class NotificationLinkHandler constructor(context: Context) : LinkHandler(context) {
 

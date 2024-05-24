@@ -1,9 +1,9 @@
-package org.wikipedia.suggestededits.provider
+package org.akhil.nitcwiki.suggestededits.provider
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.wikidata.Entities
-import org.wikipedia.gallery.GalleryItem
+import org.akhil.nitcwiki.dataclient.wikidata.Entities
+import org.akhil.nitcwiki.gallery.GalleryItem
 
 @Serializable
 class SuggestedEditItem {

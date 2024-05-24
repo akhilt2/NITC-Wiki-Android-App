@@ -1,11 +1,11 @@
-package org.wikipedia.notifications
+package org.akhil.nitcwiki.notifications
 
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.notifications.db.Notification
-import org.wikipedia.notifications.db.NotificationDao
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.notifications.db.Notification
+import org.akhil.nitcwiki.notifications.db.NotificationDao
 
 class NotificationRepository(private val notificationDao: NotificationDao) {
 

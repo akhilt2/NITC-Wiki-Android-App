@@ -1,12 +1,12 @@
-package org.wikipedia.edit.richtext
+package org.akhil.nitcwiki.edit.richtext
 
 import android.content.Context
 import android.graphics.Color
 import android.graphics.Typeface
 import android.os.Build
 import androidx.annotation.RequiresApi
-import org.wikipedia.R
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.util.ResourceUtil
 
 enum class SyntaxRuleStyle {
     PRE_TEMPLATE {

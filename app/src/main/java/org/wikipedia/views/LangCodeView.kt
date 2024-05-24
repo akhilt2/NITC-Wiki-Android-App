@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -11,11 +11,11 @@ import androidx.annotation.ColorInt
 import androidx.core.content.res.use
 import androidx.core.view.ViewCompat
 import androidx.core.widget.TextViewCompat
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewLangCodeBinding
-import org.wikipedia.language.LanguageUtil
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewLangCodeBinding
+import org.akhil.nitcwiki.language.LanguageUtil
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.ResourceUtil
 
 class LangCodeView(context: Context, attrs: AttributeSet? = null) : FrameLayout(context, attrs) {
 

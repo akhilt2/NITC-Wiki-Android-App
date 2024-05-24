@@ -1,16 +1,16 @@
-package org.wikipedia.auth
+package org.akhil.nitcwiki.auth
 
 import android.accounts.Account
 import android.accounts.AccountAuthenticatorResponse
 import android.accounts.AccountManager
 import android.os.Build
 import androidx.core.os.bundleOf
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.login.LoginResult
-import org.wikipedia.util.log.L.d
-import org.wikipedia.util.log.L.logRemoteErrorIfProd
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.login.LoginResult
+import org.akhil.nitcwiki.util.log.L.d
+import org.akhil.nitcwiki.util.log.L.logRemoteErrorIfProd
 import java.util.*
 
 object AccountUtil {

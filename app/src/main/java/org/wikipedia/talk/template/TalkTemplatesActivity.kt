@@ -1,13 +1,13 @@
-package org.wikipedia.talk.template
+package org.akhil.nitcwiki.talk.template
 
 import android.content.Context
 import android.content.Intent
-import org.wikipedia.Constants
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.extensions.parcelableExtra
-import org.wikipedia.page.PageTitle
-import org.wikipedia.talk.TalkReplyActivity
-import org.wikipedia.talk.TalkReplyActivity.Companion.EXTRA_TEMPLATE_MANAGEMENT
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.extensions.parcelableExtra
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.talk.TalkReplyActivity
+import org.akhil.nitcwiki.talk.TalkReplyActivity.Companion.EXTRA_TEMPLATE_MANAGEMENT
 
 class TalkTemplatesActivity : SingleFragmentActivity<TalkTemplatesFragment>() {
     public override fun createFragment(): TalkTemplatesFragment {

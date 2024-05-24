@@ -1,4 +1,4 @@
-package org.wikipedia.auth
+package org.akhil.nitcwiki.auth
 
 import android.accounts.AbstractAccountAuthenticator
 import android.accounts.Account
@@ -7,10 +7,10 @@ import android.accounts.AccountManager
 import android.content.Context
 import android.os.Bundle
 import androidx.core.os.bundleOf
-import org.wikipedia.R
-import org.wikipedia.auth.AccountUtil.account
-import org.wikipedia.auth.AccountUtil.accountType
-import org.wikipedia.login.LoginActivity
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.auth.AccountUtil.account
+import org.akhil.nitcwiki.auth.AccountUtil.accountType
+import org.akhil.nitcwiki.login.LoginActivity
 
 class WikimediaAuthenticator(private val context: Context) : AbstractAccountAuthenticator(context) {
     override fun editProperties(response: AccountAuthenticatorResponse, accountType: String): Bundle {

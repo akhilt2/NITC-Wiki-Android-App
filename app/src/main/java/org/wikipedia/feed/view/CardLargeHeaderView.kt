@@ -1,4 +1,4 @@
-package org.wikipedia.feed.view
+package org.akhil.nitcwiki.feed.view
 
 import android.content.Context
 import android.graphics.drawable.GradientDrawable
@@ -9,15 +9,15 @@ import androidx.annotation.ColorInt
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.palette.graphics.Palette
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.databinding.ViewCardHeaderLargeBinding
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.TransitionUtil
-import org.wikipedia.views.FaceAndColorDetectImageView.OnImageLoadListener
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.databinding.ViewCardHeaderLargeBinding
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.TransitionUtil
+import org.akhil.nitcwiki.views.FaceAndColorDetectImageView.OnImageLoadListener
 
 class CardLargeHeaderView : ConstraintLayout {
     constructor(context: Context) : super(context)

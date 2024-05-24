@@ -1,14 +1,14 @@
-package org.wikipedia.feed.topread
+package org.akhil.nitcwiki.feed.topread
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.wikipedia.R
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.feed.model.CardType
-import org.wikipedia.feed.model.ListCard
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.L10nUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.feed.model.CardType
+import org.akhil.nitcwiki.feed.model.ListCard
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.L10nUtil
 
 @Parcelize
 class TopReadListCard(private val articles: TopRead, val site: WikiSite) :

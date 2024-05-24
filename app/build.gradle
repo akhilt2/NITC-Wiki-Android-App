@@ -34,11 +34,11 @@ android {
     }
 
     defaultConfig {
-        applicationId 'org.wikipedia'
+        applicationId 'org.akhil.nitcwiki'
         minSdk 21
         targetSdk 34
         versionCode 50489
-        testApplicationId 'org.wikipedia.test'
+        testApplicationId 'org.akhil.nitcwiki.test'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         testInstrumentationRunnerArguments clearPackageData: 'true'
 
@@ -150,7 +150,7 @@ android {
             enableSplit false
         }
     }
-    namespace 'org.wikipedia'
+    namespace 'org.akhil.nitcwiki'
 }
 
 ksp {

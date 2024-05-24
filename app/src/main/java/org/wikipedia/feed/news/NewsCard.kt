@@ -1,11 +1,11 @@
-package org.wikipedia.feed.news
+package org.akhil.nitcwiki.feed.news
 
-import org.wikipedia.R
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.feed.model.CardType
-import org.wikipedia.feed.model.UtcDate
-import org.wikipedia.feed.model.WikiSiteCard
-import org.wikipedia.util.L10nUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.feed.model.CardType
+import org.akhil.nitcwiki.feed.model.UtcDate
+import org.akhil.nitcwiki.feed.model.WikiSiteCard
+import org.akhil.nitcwiki.util.L10nUtil
 import java.util.concurrent.TimeUnit
 
 class NewsCard(private val news: List<NewsItem>,

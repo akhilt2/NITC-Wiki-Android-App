@@ -29,7 +29,7 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/login_username_hint">
 
-                    <org.wikipedia.views.PlainPasteEditText
+                    <org.akhil.nitcwiki.views.PlainPasteEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:autofillHints="username"
@@ -47,7 +47,7 @@
                     app:passwordToggleEnabled="true"
                     app:passwordToggleTint="?android:textColorHint">
 
-                    <org.wikipedia.views.PlainPasteEditText
+                    <org.akhil.nitcwiki.views.PlainPasteEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:autofillHints="password"
@@ -63,7 +63,7 @@
                     android:hint="@string/login_2fa_hint"
                     android:visibility="gone">
 
-                    <org.wikipedia.views.PlainPasteEditText
+                    <org.akhil.nitcwiki.views.PlainPasteEditText
                         style="?android:textAppearanceMedium"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -120,7 +120,7 @@
 
     </ScrollView>
 
-    <org.wikipedia.views.WikiErrorView
+    <org.akhil.nitcwiki.views.WikiErrorView
         android:id="@+id/view_login_error"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

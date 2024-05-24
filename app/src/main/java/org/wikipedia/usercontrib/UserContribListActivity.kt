@@ -1,4 +1,4 @@
-package org.wikipedia.usercontrib
+package org.akhil.nitcwiki.usercontrib
 
 import android.content.Context
 import android.content.Intent
@@ -29,29 +29,29 @@ import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.distinctUntilChangedBy
 import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.databinding.ActivityUserContribBinding
-import org.wikipedia.databinding.ViewEditHistoryEmptyMessagesBinding
-import org.wikipedia.databinding.ViewEditHistorySearchBarBinding
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.UserContribution
-import org.wikipedia.diff.ArticleEditDetailsActivity
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.history.SearchActionModeCallback
-import org.wikipedia.page.LinkHandler
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.talk.UserTalkPopupHelper
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.Resource
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.UriUtil
-import org.wikipedia.views.SearchAndFilterActionProvider
-import org.wikipedia.views.WikiErrorView
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.databinding.ActivityUserContribBinding
+import org.akhil.nitcwiki.databinding.ViewEditHistoryEmptyMessagesBinding
+import org.akhil.nitcwiki.databinding.ViewEditHistorySearchBarBinding
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.UserContribution
+import org.akhil.nitcwiki.diff.ArticleEditDetailsActivity
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.history.SearchActionModeCallback
+import org.akhil.nitcwiki.page.LinkHandler
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.talk.UserTalkPopupHelper
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.UriUtil
+import org.akhil.nitcwiki.views.SearchAndFilterActionProvider
+import org.akhil.nitcwiki.views.WikiErrorView
 
 class UserContribListActivity : BaseActivity() {
 

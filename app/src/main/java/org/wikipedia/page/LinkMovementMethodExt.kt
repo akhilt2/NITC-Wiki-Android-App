@@ -1,4 +1,4 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
 import android.net.Uri
 import android.text.Selection
@@ -9,11 +9,11 @@ import android.text.style.URLSpan
 import android.view.MotionEvent
 import android.widget.TextView
 import androidx.core.text.getSpans
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.BreadCrumbLogEvent
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.util.UriUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.BreadCrumbLogEvent
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.util.UriUtil
+import org.akhil.nitcwiki.util.log.L
 
 class LinkMovementMethodExt : LinkMovementMethod {
 

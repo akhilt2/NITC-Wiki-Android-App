@@ -1,4 +1,4 @@
-package org.wikipedia.edit.db
+package org.akhil.nitcwiki.edit.db
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

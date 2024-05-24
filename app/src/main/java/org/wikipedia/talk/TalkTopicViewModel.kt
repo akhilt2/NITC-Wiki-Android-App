@@ -1,4 +1,4 @@
-package org.wikipedia.talk
+package org.akhil.nitcwiki.talk
 
 import android.os.Bundle
 import androidx.lifecycle.MutableLiveData
@@ -8,20 +8,20 @@ import androidx.lifecycle.viewModelScope
 import androidx.recyclerview.widget.DiffUtil
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.discussiontools.ThreadItem
-import org.wikipedia.dataclient.okhttp.OfflineCacheInterceptor
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.talk.db.TalkPageSeen
-import org.wikipedia.util.Resource
-import org.wikipedia.util.SingleLiveData
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.discussiontools.ThreadItem
+import org.akhil.nitcwiki.dataclient.okhttp.OfflineCacheInterceptor
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.talk.db.TalkPageSeen
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.SingleLiveData
+import org.akhil.nitcwiki.util.UriUtil
 
 class TalkTopicViewModel(bundle: Bundle) : ViewModel() {
     private val topicName = bundle.getString(TalkTopicActivity.EXTRA_TOPIC_NAME)!!

@@ -1,12 +1,12 @@
-package org.wikipedia.settings.languages
+package org.akhil.nitcwiki.settings.languages
 
 import android.content.Context
 import android.content.Intent
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.settings.languages.WikipediaLanguagesFragment.Companion.newInstance
-import org.wikipedia.widgets.WidgetProviderFeaturedPage.Companion.forceUpdateWidget
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.settings.languages.WikipediaLanguagesFragment.Companion.newInstance
+import org.akhil.nitcwiki.widgets.WidgetProviderFeaturedPage.Companion.forceUpdateWidget
 
 class WikipediaLanguagesActivity : SingleFragmentActivity<WikipediaLanguagesFragment>() {
     override fun createFragment(): WikipediaLanguagesFragment {

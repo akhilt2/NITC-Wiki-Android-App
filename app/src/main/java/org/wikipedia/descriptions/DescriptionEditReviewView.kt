@@ -1,18 +1,18 @@
-package org.wikipedia.descriptions
+package org.akhil.nitcwiki.descriptions
 
 import android.content.Context
 import android.net.Uri
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import androidx.constraintlayout.widget.ConstraintLayout
-import org.wikipedia.databinding.ViewDescriptionEditReviewBinding
-import org.wikipedia.descriptions.DescriptionEditLicenseView.Companion.ARG_NOTICE_ARTICLE_DESCRIPTION
-import org.wikipedia.descriptions.DescriptionEditLicenseView.Companion.ARG_NOTICE_DEFAULT
-import org.wikipedia.descriptions.DescriptionEditLicenseView.Companion.ARG_NOTICE_IMAGE_CAPTION
-import org.wikipedia.suggestededits.PageSummaryForEdit
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.ViewUtil
+import org.akhil.nitcwiki.databinding.ViewDescriptionEditReviewBinding
+import org.akhil.nitcwiki.descriptions.DescriptionEditLicenseView.Companion.ARG_NOTICE_ARTICLE_DESCRIPTION
+import org.akhil.nitcwiki.descriptions.DescriptionEditLicenseView.Companion.ARG_NOTICE_DEFAULT
+import org.akhil.nitcwiki.descriptions.DescriptionEditLicenseView.Companion.ARG_NOTICE_IMAGE_CAPTION
+import org.akhil.nitcwiki.suggestededits.PageSummaryForEdit
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.ViewUtil
 
 class DescriptionEditReviewView constructor(context: Context, attrs: AttributeSet? = null) : ConstraintLayout(context, attrs) {
     private val binding = ViewDescriptionEditReviewBinding.inflate(LayoutInflater.from(context), this)

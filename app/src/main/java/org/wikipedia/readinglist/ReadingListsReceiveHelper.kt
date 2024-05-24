@@ -1,20 +1,20 @@
 
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.content.Context
 import android.util.Base64
 import kotlinx.serialization.json.int
-import org.wikipedia.R
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.ImageUrlUtil
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.ImageUrlUtil
+import org.akhil.nitcwiki.util.StringUtil
 import java.util.*
 
 object ReadingListsReceiveHelper {

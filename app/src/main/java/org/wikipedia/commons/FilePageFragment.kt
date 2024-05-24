@@ -1,4 +1,4 @@
-package org.wikipedia.commons
+package org.akhil.nitcwiki.commons
 
 import android.app.Activity.RESULT_OK
 import android.os.Bundle
@@ -13,19 +13,19 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.analytics.eventplatform.ImageRecommendationsEvent
-import org.wikipedia.databinding.FragmentFilePageBinding
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.descriptions.DescriptionEditActivity
-import org.wikipedia.descriptions.DescriptionEditActivity.Action
-import org.wikipedia.page.PageTitle
-import org.wikipedia.suggestededits.PageSummaryForEdit
-import org.wikipedia.suggestededits.SuggestedEditsImageTagEditActivity
-import org.wikipedia.suggestededits.SuggestedEditsSnackbars
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.Resource
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.analytics.eventplatform.ImageRecommendationsEvent
+import org.akhil.nitcwiki.databinding.FragmentFilePageBinding
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.suggestededits.PageSummaryForEdit
+import org.akhil.nitcwiki.suggestededits.SuggestedEditsImageTagEditActivity
+import org.akhil.nitcwiki.suggestededits.SuggestedEditsSnackbars
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.Resource
 
 class FilePageFragment : Fragment(), FilePageView.Callback {
     private var _binding: FragmentFilePageBinding? = null

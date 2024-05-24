@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.graphics.Typeface
@@ -12,10 +12,10 @@ import androidx.annotation.StringRes
 import androidx.core.view.isVisible
 import androidx.core.widget.TextViewCompat
 import com.google.android.material.chip.Chip
-import org.wikipedia.R
-import org.wikipedia.databinding.ItemPageListEntryBinding
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.util.*
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ItemPageListEntryBinding
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.util.*
 
 /*
  * TODO: Use this for future RecyclerView updates where we show a list of pages

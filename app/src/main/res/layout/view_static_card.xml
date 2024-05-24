@@ -6,12 +6,12 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <org.wikipedia.feed.view.CardHeaderView
+    <org.akhil.nitcwiki.feed.view.CardHeaderView
         android:id="@+id/card_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <org.wikipedia.feed.view.CardFooterView
+    <org.akhil.nitcwiki.feed.view.CardFooterView
         android:id="@+id/card_footer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

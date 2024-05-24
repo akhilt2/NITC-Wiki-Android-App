@@ -1,16 +1,16 @@
-package org.wikipedia.diff
+package org.akhil.nitcwiki.diff
 
 import android.content.Context
 import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
 import androidx.core.widget.doOnTextChanged
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.analytics.eventplatform.EditHistoryInteractionEvent
-import org.wikipedia.analytics.eventplatform.PatrollerExperienceEvent
-import org.wikipedia.databinding.DialogUndoEditBinding
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.analytics.eventplatform.EditHistoryInteractionEvent
+import org.akhil.nitcwiki.analytics.eventplatform.PatrollerExperienceEvent
+import org.akhil.nitcwiki.databinding.DialogUndoEditBinding
+import org.akhil.nitcwiki.util.ResourceUtil
 
 class UndoEditDialog constructor(
     private val editHistoryInteractionEvent: EditHistoryInteractionEvent?,

@@ -1,4 +1,4 @@
-package org.wikipedia.places
+package org.akhil.nitcwiki.places
 
 import android.graphics.Bitmap
 import android.location.Location
@@ -10,14 +10,14 @@ import androidx.lifecycle.viewModelScope
 import com.mapbox.mapboxsdk.plugins.annotation.Symbol
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.ImageUrlUtil
-import org.wikipedia.util.Resource
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.ImageUrlUtil
+import org.akhil.nitcwiki.util.Resource
 
 class PlacesFragmentViewModel(bundle: Bundle) : ViewModel() {
 

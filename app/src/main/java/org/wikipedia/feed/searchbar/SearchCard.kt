@@ -1,7 +1,7 @@
-package org.wikipedia.feed.searchbar
+package org.akhil.nitcwiki.feed.searchbar
 
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.model.CardType
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.model.CardType
 
 class SearchCard : Card() {
     override fun type(): CardType {

@@ -1,12 +1,12 @@
-package org.wikipedia.commons
+package org.akhil.nitcwiki.commons
 
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.Constants
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.mwapi.MwQueryResponse
-import org.wikipedia.dataclient.wikidata.Claims
-import org.wikipedia.language.LanguageUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResponse
+import org.akhil.nitcwiki.dataclient.wikidata.Claims
+import org.akhil.nitcwiki.language.LanguageUtil
 
 object ImageTagsProvider {
     fun getImageTagsObservable(pageId: Int, langCode: String): Observable<Map<String, List<String>>> {

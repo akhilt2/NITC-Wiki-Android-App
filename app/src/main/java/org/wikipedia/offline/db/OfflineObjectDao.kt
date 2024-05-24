@@ -1,10 +1,10 @@
-package org.wikipedia.offline.db
+package org.akhil.nitcwiki.offline.db
 
 import androidx.room.*
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.log.L
 import java.io.File
 
 @Dao

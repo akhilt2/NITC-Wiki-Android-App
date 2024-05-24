@@ -1,9 +1,9 @@
-package org.wikipedia.feed.onboarding
+package org.akhil.nitcwiki.feed.onboarding
 
 import androidx.annotation.StringRes
-import org.wikipedia.feed.announcement.Announcement
-import org.wikipedia.feed.announcement.AnnouncementCard
-import org.wikipedia.settings.PrefsIoUtil
+import org.akhil.nitcwiki.feed.announcement.Announcement
+import org.akhil.nitcwiki.feed.announcement.AnnouncementCard
+import org.akhil.nitcwiki.settings.PrefsIoUtil
 
 abstract class OnboardingCard(announcement: Announcement) : AnnouncementCard(announcement) {
 

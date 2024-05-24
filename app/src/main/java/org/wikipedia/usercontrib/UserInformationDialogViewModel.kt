@@ -1,4 +1,4 @@
-package org.wikipedia.usercontrib
+package org.akhil.nitcwiki.usercontrib
 
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
@@ -7,10 +7,10 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.util.Resource
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.util.Resource
 import java.util.*
 
 class UserInformationDialogViewModel(bundle: Bundle) : ViewModel() {

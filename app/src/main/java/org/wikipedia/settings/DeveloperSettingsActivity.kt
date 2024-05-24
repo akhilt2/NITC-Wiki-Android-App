@@ -1,8 +1,8 @@
-package org.wikipedia.settings
+package org.akhil.nitcwiki.settings
 
 import android.content.Context
 import android.content.Intent
-import org.wikipedia.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
 
 class DeveloperSettingsActivity : SingleFragmentActivity<DeveloperSettingsFragment>() {
     public override fun createFragment(): DeveloperSettingsFragment {

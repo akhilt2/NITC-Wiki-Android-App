@@ -1,4 +1,4 @@
-package org.wikipedia.edit.templates
+package org.akhil.nitcwiki.edit.templates
 
 import android.net.Uri
 import android.os.Bundle
@@ -10,15 +10,15 @@ import androidx.core.view.isVisible
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
 import com.google.android.material.textfield.TextInputLayout
-import org.wikipedia.R
-import org.wikipedia.databinding.FragmentInsertTemplateBinding
-import org.wikipedia.databinding.ItemInsertTemplateBinding
-import org.wikipedia.dataclient.mwapi.TemplateDataResponse
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.UriUtil
-import org.wikipedia.views.PlainPasteEditText
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.FragmentInsertTemplateBinding
+import org.akhil.nitcwiki.databinding.ItemInsertTemplateBinding
+import org.akhil.nitcwiki.dataclient.mwapi.TemplateDataResponse
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.UriUtil
+import org.akhil.nitcwiki.views.PlainPasteEditText
 
 class InsertTemplateFragment : Fragment() {
 

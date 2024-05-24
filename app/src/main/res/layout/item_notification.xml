@@ -113,7 +113,7 @@
             app:tint="?attr/primary_color"
             tools:src="@drawable/ic_wikidata_logo" />
 
-        <org.wikipedia.views.LangCodeView
+        <org.akhil.nitcwiki.views.LangCodeView
             android:id="@+id/notificationWikiCode"
             android:layout_width="24dp"
             android:layout_height="24dp"

@@ -79,7 +79,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <org.wikipedia.descriptions.DescriptionEditReviewView
+            <org.akhil.nitcwiki.descriptions.DescriptionEditReviewView
                 android:id="@+id/view_description_edit_review_container"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -180,7 +180,7 @@
                                     app:chipIconTint="?attr/primary_color"
                                     tools:visibility="visible" />
 
-                                <org.wikipedia.views.PlainPasteEditText
+                                <org.akhil.nitcwiki.views.PlainPasteEditText
                                     android:id="@+id/view_description_edit_text"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -191,7 +191,7 @@
                                     android:textSize="16sp">
 
                                     <requestFocus />
-                                </org.wikipedia.views.PlainPasteEditText>
+                                </org.akhil.nitcwiki.views.PlainPasteEditText>
 
                             </com.google.android.material.textfield.TextInputLayout>
                         </FrameLayout>
@@ -212,7 +212,7 @@
                     </LinearLayout>
                 </ScrollView>
 
-                <org.wikipedia.descriptions.DescriptionEditBottomBarView
+                <org.akhil.nitcwiki.descriptions.DescriptionEditBottomBarView
                     android:id="@+id/view_description_edit_read_article_bar_container"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

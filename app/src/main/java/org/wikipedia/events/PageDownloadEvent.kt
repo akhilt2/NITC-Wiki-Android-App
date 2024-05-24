@@ -1,5 +1,5 @@
-package org.wikipedia.events
+package org.akhil.nitcwiki.events
 
-import org.wikipedia.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
 
 class PageDownloadEvent(val page: ReadingListPage)

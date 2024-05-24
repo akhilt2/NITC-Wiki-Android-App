@@ -1,13 +1,13 @@
-package org.wikipedia.feed.image
+package org.akhil.nitcwiki.feed.image
 
 import android.net.Uri
 import androidx.core.net.toUri
-import org.wikipedia.R
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.feed.model.CardType
-import org.wikipedia.feed.model.WikiSiteCard
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.L10nUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.feed.model.CardType
+import org.akhil.nitcwiki.feed.model.WikiSiteCard
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.L10nUtil
 
 class FeaturedImageCard(private val featuredImage: FeaturedImage,
                         private val age: Int,

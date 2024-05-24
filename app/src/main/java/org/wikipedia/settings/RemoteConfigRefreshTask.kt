@@ -1,11 +1,11 @@
-package org.wikipedia.settings
+package org.akhil.nitcwiki.settings
 
 import okhttp3.Request
 import okhttp3.Response
 import okhttp3.internal.closeQuietly
-import org.wikipedia.dataclient.okhttp.OkHttpConnectionFactory.client
-import org.wikipedia.recurring.RecurringTask
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.dataclient.okhttp.OkHttpConnectionFactory.client
+import org.akhil.nitcwiki.recurring.RecurringTask
+import org.akhil.nitcwiki.util.log.L
 import java.util.*
 import java.util.concurrent.TimeUnit
 

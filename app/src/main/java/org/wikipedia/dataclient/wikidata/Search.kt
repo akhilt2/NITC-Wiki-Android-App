@@ -1,8 +1,8 @@
-package org.wikipedia.dataclient.wikidata
+package org.akhil.nitcwiki.dataclient.wikidata
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.mwapi.MwResponse
+import org.akhil.nitcwiki.dataclient.mwapi.MwResponse
 
 @Serializable
 class Search : MwResponse() {

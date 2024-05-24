@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient.mwapi
+package org.akhil.nitcwiki.dataclient.mwapi
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
@@ -7,8 +7,8 @@ import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.contentOrNull
 import kotlinx.serialization.json.decodeFromJsonElement
 import kotlinx.serialization.json.jsonPrimitive
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.util.log.L
 
 @Serializable
 class TemplateDataResponse : MwResponse() {

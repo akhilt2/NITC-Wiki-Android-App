@@ -1,4 +1,4 @@
-package org.wikipedia.descriptions
+package org.akhil.nitcwiki.descriptions
 
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.observers.TestObserver
@@ -6,13 +6,13 @@ import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
 import org.mockito.Mockito
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwException
-import org.wikipedia.dataclient.wikidata.EntityPostResponse
-import org.wikipedia.page.Page
-import org.wikipedia.page.PageProperties
-import org.wikipedia.page.PageTitle
-import org.wikipedia.test.MockRetrofitTest
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwException
+import org.akhil.nitcwiki.dataclient.wikidata.EntityPostResponse
+import org.akhil.nitcwiki.page.Page
+import org.akhil.nitcwiki.page.PageProperties
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.test.MockRetrofitTest
 import java.util.regex.Pattern
 
 class DescriptionEditClientTest : MockRetrofitTest() {

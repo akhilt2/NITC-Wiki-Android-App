@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.wikipedia.views.WikiCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<org.akhil.nitcwiki.views.WikiCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/dialogContainer"
@@ -105,4 +105,4 @@
         android:background="?android:attr/selectableItemBackgroundBorderless"
         app:tint="?attr/primary_color"/>
 
-</org.wikipedia.views.WikiCardView>
+</org.akhil.nitcwiki.views.WikiCardView>

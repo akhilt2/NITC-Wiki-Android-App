@@ -1,9 +1,9 @@
-package org.wikipedia.dataclient
+package org.akhil.nitcwiki.dataclient
 
-import org.wikipedia.dataclient.growthtasks.GrowthImageSuggestion
-import org.wikipedia.dataclient.restbase.DiffResponse
-import org.wikipedia.dataclient.restbase.EditCount
-import org.wikipedia.dataclient.restbase.Revision
+import org.akhil.nitcwiki.dataclient.growthtasks.GrowthImageSuggestion
+import org.akhil.nitcwiki.dataclient.restbase.DiffResponse
+import org.akhil.nitcwiki.dataclient.restbase.EditCount
+import org.akhil.nitcwiki.dataclient.restbase.Revision
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.PUT

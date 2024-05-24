@@ -1,14 +1,14 @@
-package org.wikipedia.feed.featured
+package org.akhil.nitcwiki.feed.featured
 
 import android.net.Uri
-import org.wikipedia.R
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.feed.model.CardType
-import org.wikipedia.feed.model.WikiSiteCard
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.L10nUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.feed.model.CardType
+import org.akhil.nitcwiki.feed.model.WikiSiteCard
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.L10nUtil
 
 open class FeaturedArticleCard(private val page: PageSummary,
                                private val age: Int, wiki: WikiSite) : WikiSiteCard(wiki) {

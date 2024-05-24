@@ -1,24 +1,24 @@
-package org.wikipedia.analytics
+package org.akhil.nitcwiki.analytics
 
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import com.android.installreferrer.api.InstallReferrerClient
 import com.android.installreferrer.api.InstallReferrerStateListener
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.InstallReferrerEvent
-import org.wikipedia.events.ImportReadingListsEvent
-import org.wikipedia.page.PageActivity
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.ShareUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.InstallReferrerEvent
+import org.akhil.nitcwiki.events.ImportReadingListsEvent
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.ShareUtil
+import org.akhil.nitcwiki.util.log.L
 
 /**
  * To test the Google Play Install Referrer functionality:
  *
  * - Make sure the app is uninstalled.
  * - Launch the Play Store via the usual specially crafted campaign link, such as:
- * https://play.google.com/store/apps/details?id=org.wikipedia&referrer=utm_source%3Dtest_source%26utm_medium%3Dtest_medium%26utm_term%3Dtest-term%26utm_content%3Dtest_content%26utm_campaign%3Dtest_name
+ * https://play.google.com/store/apps/details?id=org.akhil.nitcwiki&referrer=utm_source%3Dtest_source%26utm_medium%3Dtest_medium%26utm_term%3Dtest-term%26utm_content%3Dtest_content%26utm_campaign%3Dtest_name
  *
  * - ...But do NOT click the "install" button in the Play Store to install the app.
  * - Launch or debug the app in the usual way.

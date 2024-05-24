@@ -1,6 +1,6 @@
-package org.wikipedia.commons
+package org.akhil.nitcwiki.commons
 
-import org.wikipedia.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
 
 class FilePage(
     val thumbnailWidth: Int = 0,

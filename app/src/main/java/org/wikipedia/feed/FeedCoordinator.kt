@@ -1,4 +1,4 @@
-package org.wikipedia.feed
+package org.akhil.nitcwiki.feed
 
 import android.content.Context
 import kotlinx.coroutines.CoroutineScope
@@ -6,14 +6,14 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.wikipedia.WikipediaApp
-import org.wikipedia.feed.aggregated.AggregatedFeedContentClient
-import org.wikipedia.feed.announcement.AnnouncementClient
-import org.wikipedia.feed.dataclient.FeedClient
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.offline.OfflineCardClient
-import org.wikipedia.feed.onboarding.OnboardingClient
-import org.wikipedia.feed.searchbar.SearchClient
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.feed.aggregated.AggregatedFeedContentClient
+import org.akhil.nitcwiki.feed.announcement.AnnouncementClient
+import org.akhil.nitcwiki.feed.dataclient.FeedClient
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.offline.OfflineCardClient
+import org.akhil.nitcwiki.feed.onboarding.OnboardingClient
+import org.akhil.nitcwiki.feed.searchbar.SearchClient
 
 class FeedCoordinator internal constructor(context: Context) : FeedCoordinatorBase(context) {
 

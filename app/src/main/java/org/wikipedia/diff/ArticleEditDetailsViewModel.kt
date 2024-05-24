@@ -1,4 +1,4 @@
-package org.wikipedia.diff
+package org.akhil.nitcwiki.diff
 
 import android.net.Uri
 import android.os.Bundle
@@ -9,26 +9,26 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.analytics.eventplatform.WatchlistAnalyticsHelper
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.dataclient.restbase.DiffResponse
-import org.wikipedia.dataclient.restbase.Revision
-import org.wikipedia.dataclient.rollback.RollbackPostResponse
-import org.wikipedia.dataclient.watch.WatchPostResponse
-import org.wikipedia.dataclient.wikidata.EntityPostResponse
-import org.wikipedia.descriptions.DescriptionEditFragment
-import org.wikipedia.edit.Edit
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.page.PageTitle
-import org.wikipedia.suggestededits.provider.EditingSuggestionsProvider
-import org.wikipedia.util.Resource
-import org.wikipedia.util.SingleLiveData
-import org.wikipedia.watchlist.WatchlistExpiry
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.analytics.eventplatform.WatchlistAnalyticsHelper
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.dataclient.restbase.DiffResponse
+import org.akhil.nitcwiki.dataclient.restbase.Revision
+import org.akhil.nitcwiki.dataclient.rollback.RollbackPostResponse
+import org.akhil.nitcwiki.dataclient.watch.WatchPostResponse
+import org.akhil.nitcwiki.dataclient.wikidata.EntityPostResponse
+import org.akhil.nitcwiki.descriptions.DescriptionEditFragment
+import org.akhil.nitcwiki.edit.Edit
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.suggestededits.provider.EditingSuggestionsProvider
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.SingleLiveData
+import org.akhil.nitcwiki.watchlist.WatchlistExpiry
 
 class ArticleEditDetailsViewModel(bundle: Bundle) : ViewModel() {
 

@@ -1,4 +1,4 @@
-package org.wikipedia.settings
+package org.akhil.nitcwiki.settings
 
 import android.app.Activity
 import android.os.Bundle
@@ -6,12 +6,12 @@ import android.view.View
 import android.widget.TextView
 import androidx.core.text.method.LinkMovementMethodCompat
 import androidx.core.view.descendants
-import org.wikipedia.BuildConfig
-import org.wikipedia.R
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.databinding.ActivityAboutBinding
-import org.wikipedia.richtext.setHtml
-import org.wikipedia.util.FeedbackUtil
+import org.akhil.nitcwiki.BuildConfig
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.databinding.ActivityAboutBinding
+import org.akhil.nitcwiki.richtext.setHtml
+import org.akhil.nitcwiki.util.FeedbackUtil
 
 class AboutActivity : BaseActivity() {
 

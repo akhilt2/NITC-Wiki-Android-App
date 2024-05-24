@@ -1,4 +1,4 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import android.app.Activity.RESULT_OK
 import android.content.Intent
@@ -24,28 +24,28 @@ import androidx.viewpager2.widget.ViewPager2
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.PatrollerExperienceEvent
-import org.wikipedia.databinding.FragmentSuggestedEditsCardsBinding
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.dataclient.mwapi.SiteMatrix
-import org.wikipedia.descriptions.DescriptionEditActivity
-import org.wikipedia.descriptions.DescriptionEditActivity.Action.ADD_CAPTION
-import org.wikipedia.descriptions.DescriptionEditActivity.Action.ADD_DESCRIPTION
-import org.wikipedia.descriptions.DescriptionEditActivity.Action.ADD_IMAGE_TAGS
-import org.wikipedia.descriptions.DescriptionEditActivity.Action.IMAGE_RECOMMENDATIONS
-import org.wikipedia.descriptions.DescriptionEditActivity.Action.TRANSLATE_CAPTION
-import org.wikipedia.descriptions.DescriptionEditActivity.Action.TRANSLATE_DESCRIPTION
-import org.wikipedia.descriptions.DescriptionEditActivity.Action.VANDALISM_PATROL
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.suggestededits.SuggestionsActivity.Companion.EXTRA_SOURCE_ADDED_CONTRIBUTION
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.log.L
-import org.wikipedia.views.PositionAwareFragmentStateAdapter
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.PatrollerExperienceEvent
+import org.akhil.nitcwiki.databinding.FragmentSuggestedEditsCardsBinding
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.dataclient.mwapi.SiteMatrix
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action.ADD_CAPTION
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action.ADD_DESCRIPTION
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action.ADD_IMAGE_TAGS
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action.IMAGE_RECOMMENDATIONS
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action.TRANSLATE_CAPTION
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action.TRANSLATE_DESCRIPTION
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action.VANDALISM_PATROL
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.suggestededits.SuggestionsActivity.Companion.EXTRA_SOURCE_ADDED_CONTRIBUTION
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.PositionAwareFragmentStateAdapter
 
 class SuggestedEditsCardsFragment : Fragment(), MenuProvider, SuggestedEditsItemFragment.Callback {
     private var _binding: FragmentSuggestedEditsCardsBinding? = null

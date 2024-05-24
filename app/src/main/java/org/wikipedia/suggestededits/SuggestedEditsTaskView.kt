@@ -1,17 +1,17 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.View
-import org.wikipedia.Constants.MIN_LANGUAGES_TO_UNLOCK_TRANSLATION
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.databinding.ViewSuggestedEditsTaskItemBinding
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.views.WikiCardView
+import org.akhil.nitcwiki.Constants.MIN_LANGUAGES_TO_UNLOCK_TRANSLATION
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.databinding.ViewSuggestedEditsTaskItemBinding
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.views.WikiCardView
 
 internal class SuggestedEditsTaskView constructor(context: Context, attrs: AttributeSet? = null) : WikiCardView(context, attrs) {
     private val binding = ViewSuggestedEditsTaskItemBinding.inflate(LayoutInflater.from(context), this)

@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient.discussiontools
+package org.akhil.nitcwiki.dataclient.discussiontools
 
 import kotlinx.serialization.Serializable
 

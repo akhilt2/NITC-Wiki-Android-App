@@ -1,11 +1,11 @@
-package org.wikipedia.feed.becauseyouread
+package org.akhil.nitcwiki.feed.becauseyouread
 
 import android.net.Uri
-import org.wikipedia.R
-import org.wikipedia.feed.model.CardType
-import org.wikipedia.feed.model.ListCard
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.L10nUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.feed.model.CardType
+import org.akhil.nitcwiki.feed.model.ListCard
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.L10nUtil
 
 class BecauseYouReadCard(val pageTitle: PageTitle,
                          itemCards: List<BecauseYouReadItemCard>) : ListCard<BecauseYouReadItemCard>(itemCards, pageTitle.wikiSite) {

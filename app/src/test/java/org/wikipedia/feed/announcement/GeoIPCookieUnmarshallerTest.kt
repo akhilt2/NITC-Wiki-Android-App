@@ -1,11 +1,11 @@
-package org.wikipedia.feed.announcement
+package org.akhil.nitcwiki.feed.announcement
 
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.feed.announcement.GeoIPCookieUnmarshaller.unmarshal
+import org.akhil.nitcwiki.feed.announcement.GeoIPCookieUnmarshaller.unmarshal
 
 @RunWith(RobolectricTestRunner::class)
 class GeoIPCookieUnmarshallerTest {

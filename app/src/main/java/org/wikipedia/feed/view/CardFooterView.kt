@@ -1,4 +1,4 @@
-package org.wikipedia.feed.view
+package org.akhil.nitcwiki.feed.view
 
 import android.content.Context
 import android.text.style.ImageSpan
@@ -9,11 +9,11 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.graphics.drawable.toBitmap
 import androidx.core.text.buildSpannedString
 import androidx.core.text.inSpans
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.databinding.ViewCardFooterBinding
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.databinding.ViewCardFooterBinding
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.ResourceUtil
 
 class CardFooterView constructor(context: Context, attrs: AttributeSet? = null) : ConstraintLayout(context, attrs) {
     fun interface Callback {

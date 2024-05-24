@@ -1,9 +1,9 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.theme.Theme
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.theme.Theme
 
 class AppearanceSettingInteractionEvent(private val source: InvokeSource) {
 

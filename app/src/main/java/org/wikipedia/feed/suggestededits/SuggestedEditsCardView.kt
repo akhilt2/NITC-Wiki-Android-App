@@ -1,17 +1,17 @@
-package org.wikipedia.feed.suggestededits
+package org.akhil.nitcwiki.feed.suggestededits
 
 import android.content.Context
 import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.tabs.TabLayoutMediator
-import org.wikipedia.WikipediaApp
-import org.wikipedia.databinding.ViewSuggestedEditsCardBinding
-import org.wikipedia.feed.view.CardFooterView
-import org.wikipedia.feed.view.DefaultFeedCardView
-import org.wikipedia.feed.view.FeedAdapter
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.views.PositionAwareFragmentStateAdapter
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.databinding.ViewSuggestedEditsCardBinding
+import org.akhil.nitcwiki.feed.view.CardFooterView
+import org.akhil.nitcwiki.feed.view.DefaultFeedCardView
+import org.akhil.nitcwiki.feed.view.FeedAdapter
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.views.PositionAwareFragmentStateAdapter
 
 class SuggestedEditsCardView(context: Context) : DefaultFeedCardView<SuggestedEditsCard>(context), CardFooterView.Callback {
     interface Callback {

@@ -1,11 +1,11 @@
-package org.wikipedia.analytics
+package org.akhil.nitcwiki.analytics
 
 import android.graphics.Point
 import android.view.*
 import android.widget.TextView
-import org.wikipedia.analytics.eventplatform.BreadCrumbLogEvent
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.views.ViewUtil
+import org.akhil.nitcwiki.analytics.eventplatform.BreadCrumbLogEvent
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.views.ViewUtil
 import kotlin.math.abs
 
 object BreadcrumbsContextHelper {

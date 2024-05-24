@@ -1,4 +1,4 @@
-package org.wikipedia.concurrency
+package org.akhil.nitcwiki.concurrency
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.annotations.CheckReturnValue

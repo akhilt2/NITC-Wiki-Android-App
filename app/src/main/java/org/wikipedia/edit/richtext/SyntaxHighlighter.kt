@@ -1,4 +1,4 @@
-package org.wikipedia.edit.richtext
+package org.akhil.nitcwiki.edit.richtext
 
 import android.content.Context
 import android.os.Build
@@ -10,8 +10,8 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.edit.SyntaxHighlightableEditText
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.edit.SyntaxHighlightableEditText
+import org.akhil.nitcwiki.util.log.L
 import java.util.*
 import java.util.concurrent.Callable
 import java.util.concurrent.TimeUnit

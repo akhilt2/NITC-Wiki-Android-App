@@ -1,12 +1,12 @@
-package org.wikipedia.language
+package org.akhil.nitcwiki.language
 
 import android.content.Context
 import android.os.Build
 import android.view.inputmethod.InputMethodManager
 import androidx.core.os.LocaleListCompat
 import org.apache.commons.lang3.StringUtils
-import org.wikipedia.WikipediaApp
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.util.StringUtil
 import java.util.Locale
 
 object LanguageUtil {

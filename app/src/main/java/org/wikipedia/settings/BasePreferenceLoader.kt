@@ -1,4 +1,4 @@
-package org.wikipedia.settings
+package org.akhil.nitcwiki.settings
 
 import android.app.Activity
 import androidx.annotation.StringRes

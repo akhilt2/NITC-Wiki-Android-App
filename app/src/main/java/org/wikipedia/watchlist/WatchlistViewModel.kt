@@ -1,4 +1,4 @@
-package org.wikipedia.watchlist
+package org.akhil.nitcwiki.watchlist
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -8,12 +8,12 @@ import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryResult
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.Resource
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResult
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.Resource
 import java.util.Calendar
 
 class WatchlistViewModel : ViewModel() {

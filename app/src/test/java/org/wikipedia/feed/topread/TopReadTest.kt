@@ -1,12 +1,12 @@
-package org.wikipedia.feed.topread
+package org.akhil.nitcwiki.feed.topread
 
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.test.TestFileUtil
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.test.TestFileUtil
 import java.time.LocalDate
 
 @RunWith(RobolectricTestRunner::class)

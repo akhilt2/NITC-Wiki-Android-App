@@ -1,4 +1,4 @@
-package org.wikipedia.talk
+package org.akhil.nitcwiki.talk
 
 import android.content.Context
 import android.content.Intent
@@ -20,21 +20,21 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.databinding.ActivityArchivedTalkPagesBinding
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.util.*
-import org.wikipedia.views.DrawableItemDecoration
-import org.wikipedia.views.PageItemView
-import org.wikipedia.views.ViewUtil
-import org.wikipedia.views.WikiErrorView
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.databinding.ActivityArchivedTalkPagesBinding
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.util.*
+import org.akhil.nitcwiki.views.DrawableItemDecoration
+import org.akhil.nitcwiki.views.PageItemView
+import org.akhil.nitcwiki.views.ViewUtil
+import org.akhil.nitcwiki.views.WikiErrorView
 
 class ArchivedTalkPagesActivity : BaseActivity() {
     private lateinit var binding: ActivityArchivedTalkPagesBinding

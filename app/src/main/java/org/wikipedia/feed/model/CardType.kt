@@ -1,25 +1,25 @@
-package org.wikipedia.feed.model
+package org.akhil.nitcwiki.feed.model
 
 import android.content.Context
-import org.wikipedia.extensions.getByCode
-import org.wikipedia.feed.FeedContentType
-import org.wikipedia.feed.accessibility.AccessibilityCardView
-import org.wikipedia.feed.announcement.AnnouncementCardView
-import org.wikipedia.feed.becauseyouread.BecauseYouReadCardView
-import org.wikipedia.feed.dayheader.DayHeaderCardView
-import org.wikipedia.feed.featured.FeaturedArticleCardView
-import org.wikipedia.feed.image.FeaturedImageCardView
-import org.wikipedia.feed.mainpage.MainPageCardView
-import org.wikipedia.feed.news.NewsCardView
-import org.wikipedia.feed.offline.OfflineCardView
-import org.wikipedia.feed.onthisday.OnThisDayCardView
-import org.wikipedia.feed.progress.ProgressCardView
-import org.wikipedia.feed.random.RandomCardView
-import org.wikipedia.feed.searchbar.SearchCardView
-import org.wikipedia.feed.suggestededits.SuggestedEditsCardView
-import org.wikipedia.feed.topread.TopReadCardView
-import org.wikipedia.feed.view.FeedCardView
-import org.wikipedia.model.EnumCode
+import org.akhil.nitcwiki.extensions.getByCode
+import org.akhil.nitcwiki.feed.FeedContentType
+import org.akhil.nitcwiki.feed.accessibility.AccessibilityCardView
+import org.akhil.nitcwiki.feed.announcement.AnnouncementCardView
+import org.akhil.nitcwiki.feed.becauseyouread.BecauseYouReadCardView
+import org.akhil.nitcwiki.feed.dayheader.DayHeaderCardView
+import org.akhil.nitcwiki.feed.featured.FeaturedArticleCardView
+import org.akhil.nitcwiki.feed.image.FeaturedImageCardView
+import org.akhil.nitcwiki.feed.mainpage.MainPageCardView
+import org.akhil.nitcwiki.feed.news.NewsCardView
+import org.akhil.nitcwiki.feed.offline.OfflineCardView
+import org.akhil.nitcwiki.feed.onthisday.OnThisDayCardView
+import org.akhil.nitcwiki.feed.progress.ProgressCardView
+import org.akhil.nitcwiki.feed.random.RandomCardView
+import org.akhil.nitcwiki.feed.searchbar.SearchCardView
+import org.akhil.nitcwiki.feed.suggestededits.SuggestedEditsCardView
+import org.akhil.nitcwiki.feed.topread.TopReadCardView
+import org.akhil.nitcwiki.feed.view.FeedCardView
+import org.akhil.nitcwiki.model.EnumCode
 
 enum class CardType constructor(private val code: Int,
                                 private val contentType: FeedContentType? = null) : EnumCode {

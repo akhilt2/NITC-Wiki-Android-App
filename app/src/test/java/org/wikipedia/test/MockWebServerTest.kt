@@ -1,4 +1,4 @@
-package org.wikipedia.test
+package org.akhil.nitcwiki.test
 
 import okhttp3.Dispatcher
 import okhttp3.OkHttpClient
@@ -7,7 +7,7 @@ import org.junit.After
 import org.junit.Before
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.dataclient.okhttp.OkHttpConnectionFactory.client
+import org.akhil.nitcwiki.dataclient.okhttp.OkHttpConnectionFactory.client
 
 @RunWith(RobolectricTestRunner::class)
 abstract class MockWebServerTest {

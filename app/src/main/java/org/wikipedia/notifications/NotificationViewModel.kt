@@ -1,4 +1,4 @@
-package org.wikipedia.notifications
+package org.akhil.nitcwiki.notifications
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -6,15 +6,15 @@ import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.NotificationInteractionEvent
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.notifications.db.Notification
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.Resource
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.NotificationInteractionEvent
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.notifications.db.Notification
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.StringUtil
 import java.util.Date
 import java.util.Random
 

@@ -37,7 +37,7 @@
                 android:paddingStart="@dimen/activity_horizontal_margin"
                 android:paddingEnd="@dimen/activity_horizontal_margin">
 
-                <org.wikipedia.views.AppTextView
+                <org.akhil.nitcwiki.views.AppTextView
                     android:id="@+id/primaryTextView"
                     style="@style/H2"
                     android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
                     android:textColor="?attr/primary_color"
                     tools:text="Lorem ipsum" />
 
-                <org.wikipedia.views.AppTextView
+                <org.akhil.nitcwiki.views.AppTextView
                     android:id="@+id/secondaryTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
-                <org.wikipedia.views.GoneIfEmptyTextView
+                <org.akhil.nitcwiki.views.GoneIfEmptyTextView
                     android:id="@+id/tertiaryTextView"
                     style="@style/List"
                     android:layout_width="match_parent"

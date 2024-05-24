@@ -1,4 +1,4 @@
-package org.wikipedia.main
+package org.akhil.nitcwiki.main
 
 import android.graphics.Color
 import android.os.Build
@@ -32,12 +32,12 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.wikipedia.BuildConfig
-import org.wikipedia.R
-import org.wikipedia.TestUtil
-import org.wikipedia.TestUtil.childAtPosition
-import org.wikipedia.TestUtil.isDisplayed
-import org.wikipedia.navtab.NavTab
+import org.akhil.nitcwiki.BuildConfig
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.TestUtil
+import org.akhil.nitcwiki.TestUtil.childAtPosition
+import org.akhil.nitcwiki.TestUtil.isDisplayed
+import org.akhil.nitcwiki.navtab.NavTab
 import java.util.concurrent.TimeUnit
 
 @LargeTest
@@ -473,7 +473,7 @@ class SmokeTests {
 
         // Featured article card seen and saved to reading lists
         onView(allOf(withId(R.id.view_featured_article_card_content_container),
-            childAtPosition(childAtPosition(withClassName(Matchers.`is`("org.wikipedia.feed.featured.FeaturedArticleCardView")), 0), 1), isDisplayed()))
+            childAtPosition(childAtPosition(withClassName(Matchers.`is`("org.akhil.nitcwiki.feed.featured.FeaturedArticleCardView")), 0), 1), isDisplayed()))
             .perform(scrollTo(), longClick())
 
         onView(allOf(withId(R.id.title), withText("Save"),
@@ -558,7 +558,7 @@ class SmokeTests {
 
         // Random article card seen and saved to reading lists
         onView(allOf(withId(R.id.view_featured_article_card_content_container),
-            childAtPosition(childAtPosition(withClassName(Matchers.`is`("org.wikipedia.feed.random.RandomCardView")), 0), 1), isDisplayed()))
+            childAtPosition(childAtPosition(withClassName(Matchers.`is`("org.akhil.nitcwiki.feed.random.RandomCardView")), 0), 1), isDisplayed()))
             .perform(scrollTo(), longClick())
 
         onView(allOf(withId(R.id.title), withText("Save"),
@@ -854,10 +854,10 @@ class SmokeTests {
         TestUtil.delay(2)
 
         // Set environment variables to hold correct username and password
-        onView(allOf(TestUtil.withGrandparent(withId(R.id.login_username_text)), withClassName(Matchers.`is`("org.wikipedia.views.PlainPasteEditText"))))
+        onView(allOf(TestUtil.withGrandparent(withId(R.id.login_username_text)), withClassName(Matchers.`is`("org.akhil.nitcwiki.views.PlainPasteEditText"))))
             .perform(replaceText(BuildConfig.TEST_LOGIN_USERNAME), closeSoftKeyboard())
 
-        onView(allOf(TestUtil.withGrandparent(withId(R.id.login_password_input)), withClassName(Matchers.`is`("org.wikipedia.views.PlainPasteEditText"))))
+        onView(allOf(TestUtil.withGrandparent(withId(R.id.login_password_input)), withClassName(Matchers.`is`("org.akhil.nitcwiki.views.PlainPasteEditText"))))
             .perform(replaceText(BuildConfig.TEST_LOGIN_PASSWORD), closeSoftKeyboard())
 
         // Click the login button
@@ -1140,7 +1140,7 @@ class SmokeTests {
             // Assertion of image caption translation task and subsequent action text
             onView(allOf(withId(R.id.secondaryButton), withText("Translate"),
                 withContentDescription("Translate Image captions"),
-                childAtPosition(childAtPosition(withClassName(Matchers.`is`("org.wikipedia.suggestededits.SuggestedEditsTaskView")), 0), 6), isDisplayed()))
+                childAtPosition(childAtPosition(withClassName(Matchers.`is`("org.akhil.nitcwiki.suggestededits.SuggestedEditsTaskView")), 0), 6), isDisplayed()))
                 .perform(click())
 
             onView(allOf(withId(R.id.addContributionButton), withText("Add translation"),

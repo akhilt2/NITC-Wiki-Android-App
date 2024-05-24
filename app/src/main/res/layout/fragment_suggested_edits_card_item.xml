@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.wikipedia.feed.suggestededits.SuggestedEditsCardItemFragment">
+    tools:context="org.akhil.nitcwiki.feed.suggestededits.SuggestedEditsCardItemFragment">
 
-    <org.wikipedia.views.WikiCardView
+    <org.akhil.nitcwiki.views.WikiCardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +15,7 @@
         android:clickable="true"
         android:focusable="true">
 
-        <org.wikipedia.views.WikiErrorView
+        <org.akhil.nitcwiki.views.WikiErrorView
             android:id="@+id/seCardErrorView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
             android:focusable="true"
             android:orientation="vertical">
 
-            <org.wikipedia.views.FaceAndColorDetectImageView
+            <org.akhil.nitcwiki.views.FaceAndColorDetectImageView
                 android:id="@+id/viewArticleImage"
                 android:layout_width="match_parent"
                 android:layout_height="201dp" />
@@ -68,7 +68,7 @@
                     android:textSize="24sp"
                     tools:text="Lorem ipsum" />
 
-                <org.wikipedia.views.GoneIfEmptyTextView
+                <org.akhil.nitcwiki.views.GoneIfEmptyTextView
                     android:id="@+id/viewArticleSubtitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -130,5 +130,5 @@
                     tools:visibility="visible"/>
             </LinearLayout>
         </LinearLayout>
-    </org.wikipedia.views.WikiCardView>
+    </org.akhil.nitcwiki.views.WikiCardView>
 </FrameLayout>

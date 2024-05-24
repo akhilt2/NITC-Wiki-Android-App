@@ -1,6 +1,6 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
-import org.wikipedia.BuildConfig
+import org.akhil.nitcwiki.BuildConfig
 
 /**
  * Possible event destination endpoints which can be specified in stream configurations.

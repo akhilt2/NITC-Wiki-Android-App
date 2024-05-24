@@ -1,7 +1,7 @@
-package org.wikipedia.talk.template
+package org.akhil.nitcwiki.talk.template
 
-import org.wikipedia.talk.db.TalkTemplate
-import org.wikipedia.talk.db.TalkTemplateDao
+import org.akhil.nitcwiki.talk.db.TalkTemplate
+import org.akhil.nitcwiki.talk.db.TalkTemplateDao
 
 class TalkTemplatesRepository(private val talkTemplateDao: TalkTemplateDao) {
 

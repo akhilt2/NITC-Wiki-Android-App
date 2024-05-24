@@ -7,7 +7,7 @@
     tools:paddingTop="16dp"
     tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
 
-    <org.wikipedia.feed.view.GradientCircleNumberView
+    <org.akhil.nitcwiki.feed.view.GradientCircleNumberView
         android:id="@+id/view_list_card_number"
         android:layout_width="20dp"
         android:layout_height="20dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Lorem ipsum" />
 
-    <org.wikipedia.views.GoneIfEmptyTextView
+    <org.akhil.nitcwiki.views.GoneIfEmptyTextView
         android:id="@+id/view_list_card_item_subtitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/view_list_card_item_title"
         tools:text="Lorem ipsum" />
 
-    <org.wikipedia.views.GraphView
+    <org.akhil.nitcwiki.views.GraphView
         android:id="@+id/view_list_card_item_graph"
         android:layout_width="54dp"
         android:layout_height="13dp"

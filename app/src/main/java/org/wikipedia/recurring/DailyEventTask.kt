@@ -1,10 +1,10 @@
-package org.wikipedia.recurring
+package org.akhil.nitcwiki.recurring
 
 import android.content.Context
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.DailyStatsEvent
-import org.wikipedia.analytics.eventplatform.EventPlatformClient
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.DailyStatsEvent
+import org.akhil.nitcwiki.analytics.eventplatform.EventPlatformClient
 import java.util.*
 import java.util.concurrent.TimeUnit
 

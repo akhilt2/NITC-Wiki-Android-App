@@ -1,15 +1,15 @@
-package org.wikipedia.notifications
+package org.akhil.nitcwiki.notifications
 
 import android.content.Context
 import androidx.work.*
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.WikipediaApp
-import org.wikipedia.csrf.CsrfTokenClient
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwException
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.csrf.CsrfTokenClient
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwException
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.log.L
 
 class PollNotificationWorker(
     private val appContext: Context,

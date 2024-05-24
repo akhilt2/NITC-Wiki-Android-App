@@ -1,8 +1,8 @@
-package org.wikipedia.feed.announcement
+package org.akhil.nitcwiki.feed.announcement
 
 import android.location.Location
 import androidx.annotation.VisibleForTesting
-import org.wikipedia.dataclient.SharedPreferenceCookieManager
+import org.akhil.nitcwiki.dataclient.SharedPreferenceCookieManager
 import java.lang.IllegalArgumentException
 import java.lang.NumberFormatException
 

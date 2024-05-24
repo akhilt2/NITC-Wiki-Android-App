@@ -1,10 +1,10 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import android.content.Context
 import android.content.pm.PackageManager
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.WikipediaApp
+import org.akhil.nitcwiki.WikipediaApp
 import java.util.concurrent.TimeUnit
 
 @Suppress("unused")

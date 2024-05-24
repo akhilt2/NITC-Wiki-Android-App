@@ -1,4 +1,4 @@
-package org.wikipedia.edit.insertmedia
+package org.akhil.nitcwiki.edit.insertmedia
 
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
@@ -11,16 +11,16 @@ import androidx.paging.PagingState
 import androidx.paging.cachedIn
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.page.PageTitle
-import org.wikipedia.staticdata.FileAliasData
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.staticdata.FileAliasData
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
 
 class InsertMediaViewModel(bundle: Bundle) : ViewModel() {
 

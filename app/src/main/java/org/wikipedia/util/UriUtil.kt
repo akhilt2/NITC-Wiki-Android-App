@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.content.ComponentName
 import android.content.Context
@@ -7,13 +7,13 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.TransactionTooLargeException
 import androidx.annotation.StringRes
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.page.PageTitle
-import org.wikipedia.staticdata.UserAliasData
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.staticdata.UserAliasData
+import org.akhil.nitcwiki.util.log.L
 import java.io.UnsupportedEncodingException
 import java.net.URLDecoder
 import java.net.URLEncoder

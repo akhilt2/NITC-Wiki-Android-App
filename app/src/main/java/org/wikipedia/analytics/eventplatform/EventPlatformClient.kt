@@ -1,17 +1,17 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import android.annotation.SuppressLint
 import android.widget.Toast
 import androidx.core.os.postDelayed
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.BuildConfig
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.okhttp.HttpStatusException
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.ReleaseUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.BuildConfig
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.okhttp.HttpStatusException
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.ReleaseUtil
+import org.akhil.nitcwiki.util.log.L
 import java.net.HttpURLConnection
 import java.util.*
 import java.util.concurrent.ConcurrentHashMap

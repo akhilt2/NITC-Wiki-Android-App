@@ -1,4 +1,4 @@
-package org.wikipedia.settings
+package org.akhil.nitcwiki.settings
 
 class DeveloperSettingsFragment : PreferenceLoaderFragment() {
     override fun loadPreferences() {

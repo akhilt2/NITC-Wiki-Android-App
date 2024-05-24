@@ -39,7 +39,7 @@
         app:layout_constraintEnd_toStartOf="@id/view_card_header_large_image"
         tools:text="Lorem ipsum" />
 
-    <org.wikipedia.views.FaceAndColorDetectImageView
+    <org.akhil.nitcwiki.views.FaceAndColorDetectImageView
         android:id="@+id/view_card_header_large_image"
         style="@style/ImageViewDefault"
         android:layout_width="80dp"

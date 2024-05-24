@@ -1,4 +1,4 @@
-package org.wikipedia
+package org.akhil.nitcwiki
 
 import android.graphics.drawable.ColorDrawable
 import android.view.View

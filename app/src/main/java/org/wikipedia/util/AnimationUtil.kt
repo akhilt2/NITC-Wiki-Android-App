@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.view.View
 import androidx.viewpager2.widget.ViewPager2

@@ -1,11 +1,11 @@
-package org.wikipedia.search
+package org.akhil.nitcwiki.search
 
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Before
 import org.junit.Test
-import org.wikipedia.dataclient.mwapi.MwQueryResult
-import org.wikipedia.json.JsonUtil
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResult
+import org.akhil.nitcwiki.json.JsonUtil
 
 class SearchResultsRedirectProcessingTest {
     private lateinit var result: MwQueryResult
@@ -65,7 +65,7 @@ class SearchResultsRedirectProcessingTest {
           ]
         },
         "thumbnail": {
-          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Narthecium_ossifragum_01.jpg/240px-Narthecium_ossifragum_01.jpg",
+          "source": "https://upload.wikimedia.org.akhil.nitcwiki/commons/thumb/2/20/Narthecium_ossifragum_01.jpg/240px-Narthecium_ossifragum_01.jpg",
           "width": 240,
           "height": 320
         }
@@ -82,7 +82,7 @@ class SearchResultsRedirectProcessingTest {
           ]
         },
         "thumbnail": {
-          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Amitriptyline2DACS.svg/318px-Amitriptyline2DACS.svg.png",
+          "source": "https://upload.wikimedia.org.akhil.nitcwiki/commons/thumb/6/68/Amitriptyline2DACS.svg/318px-Amitriptyline2DACS.svg.png",
           "width": 318,
           "height": 320
         }

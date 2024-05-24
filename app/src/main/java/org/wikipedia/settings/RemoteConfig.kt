@@ -1,8 +1,8 @@
-package org.wikipedia.settings
+package org.akhil.nitcwiki.settings
 
 import kotlinx.serialization.Serializable
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.util.log.L
 
 object RemoteConfig {
     private var curConfig: RemoteConfigImpl? = null

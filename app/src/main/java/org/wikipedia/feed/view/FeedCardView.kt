@@ -1,6 +1,6 @@
-package org.wikipedia.feed.view
+package org.akhil.nitcwiki.feed.view
 
-import org.wikipedia.feed.model.Card
+import org.akhil.nitcwiki.feed.model.Card
 
 interface FeedCardView<T : Card?> {
     var card: T?

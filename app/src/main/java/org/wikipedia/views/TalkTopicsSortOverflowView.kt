@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.graphics.Color
@@ -11,7 +11,7 @@ import android.widget.FrameLayout
 import android.widget.PopupWindow
 import androidx.core.view.isVisible
 import androidx.core.widget.PopupWindowCompat
-import org.wikipedia.databinding.ViewTalkTopicsSortOverflowBinding
+import org.akhil.nitcwiki.databinding.ViewTalkTopicsSortOverflowBinding
 
 class TalkTopicsSortOverflowView(context: Context) : FrameLayout(context) {
 

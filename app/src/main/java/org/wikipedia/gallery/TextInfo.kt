@@ -1,4 +1,4 @@
-package org.wikipedia.gallery
+package org.akhil.nitcwiki.gallery
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

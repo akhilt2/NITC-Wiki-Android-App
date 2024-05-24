@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <org.wikipedia.feed.view.CardHeaderView
+    <org.akhil.nitcwiki.feed.view.CardHeaderView
         android:id="@+id/headerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -28,7 +28,7 @@
         app:tabPaddingStart="8dp"
         app:tabRippleColor="?attr/placeholder_color" />
 
-    <org.wikipedia.feed.view.CardFooterView
+    <org.akhil.nitcwiki.feed.view.CardFooterView
         android:id="@+id/cardFooter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

@@ -1,11 +1,11 @@
-package org.wikipedia.test;
+package org.akhil.nitcwiki.test;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import androidx.annotation.NonNull;
 
-import org.wikipedia.page.PageTitle;
+import org.akhil.nitcwiki.page.PageTitle;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;

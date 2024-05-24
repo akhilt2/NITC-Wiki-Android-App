@@ -1,4 +1,4 @@
-package org.wikipedia.feed.announcement
+package org.akhil.nitcwiki.feed.announcement
 
 import android.location.Location
 

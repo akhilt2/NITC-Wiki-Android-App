@@ -1,4 +1,4 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.content.Context
 import android.util.AttributeSet
@@ -8,13 +8,13 @@ import androidx.appcompat.widget.PopupMenu
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
 import androidx.core.widget.TextViewCompat
-import org.wikipedia.R
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.analytics.eventplatform.BreadCrumbLogEvent
-import org.wikipedia.databinding.ItemReadingListBinding
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.util.*
-import org.wikipedia.views.ViewUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.analytics.eventplatform.BreadCrumbLogEvent
+import org.akhil.nitcwiki.databinding.ItemReadingListBinding
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.util.*
+import org.akhil.nitcwiki.views.ViewUtil
 
 class ReadingListItemView : ConstraintLayout {
     interface Callback {

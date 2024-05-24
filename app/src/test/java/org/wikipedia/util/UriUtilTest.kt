@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.net.Uri
 import org.hamcrest.MatcherAssert
@@ -67,11 +67,11 @@ class UriUtilTest {
 
     @Test
     fun testFilenameFromUploadUrl() {
-        MatcherAssert.assertThat(UriUtil.getFilenameFromUploadUrl("https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Oaxaca_in_Mexico.svg/320px-Oaxaca_in_Mexico.svg.png"), Matchers.`is`("Oaxaca_in_Mexico.svg"))
-        MatcherAssert.assertThat(UriUtil.getFilenameFromUploadUrl("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/256px-President_Barack_Obama.jpg"), Matchers.`is`("President_Barack_Obama.jpg"))
-        MatcherAssert.assertThat(UriUtil.getFilenameFromUploadUrl("https://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg"), Matchers.`is`("President_Barack_Obama.jpg"))
-        MatcherAssert.assertThat(UriUtil.getFilenameFromUploadUrl("https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Avengers_Endgame_poster.jpg/216px-Avengers_Endgame_poster.jpg"), Matchers.`is`("Avengers_Endgame_poster.jpg"))
-        MatcherAssert.assertThat(UriUtil.getFilenameFromUploadUrl("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Needle_Galaxy_4565.jpeg/320px-Needle_Galaxy_4565.jpeg"), Matchers.`is`("Needle_Galaxy_4565.jpeg"))
+        MatcherAssert.assertThat(UriUtil.getFilenameFromUploadUrl("https://upload.wikimedia.org.akhil.nitcwiki/commons/thumb/8/83/Oaxaca_in_Mexico.svg/320px-Oaxaca_in_Mexico.svg.png"), Matchers.`is`("Oaxaca_in_Mexico.svg"))
+        MatcherAssert.assertThat(UriUtil.getFilenameFromUploadUrl("https://upload.wikimedia.org.akhil.nitcwiki/commons/thumb/8/8d/President_Barack_Obama.jpg/256px-President_Barack_Obama.jpg"), Matchers.`is`("President_Barack_Obama.jpg"))
+        MatcherAssert.assertThat(UriUtil.getFilenameFromUploadUrl("https://upload.wikimedia.org.akhil.nitcwiki/commons/8/8d/President_Barack_Obama.jpg"), Matchers.`is`("President_Barack_Obama.jpg"))
+        MatcherAssert.assertThat(UriUtil.getFilenameFromUploadUrl("https://upload.wikimedia.org.akhil.nitcwiki/en/thumb/0/0d/Avengers_Endgame_poster.jpg/216px-Avengers_Endgame_poster.jpg"), Matchers.`is`("Avengers_Endgame_poster.jpg"))
+        MatcherAssert.assertThat(UriUtil.getFilenameFromUploadUrl("https://upload.wikimedia.org.akhil.nitcwiki/commons/thumb/2/2c/Needle_Galaxy_4565.jpeg/320px-Needle_Galaxy_4565.jpeg"), Matchers.`is`("Needle_Galaxy_4565.jpeg"))
         MatcherAssert.assertThat(UriUtil.getFilenameFromUploadUrl(""), Matchers.`is`(""))
     }
 

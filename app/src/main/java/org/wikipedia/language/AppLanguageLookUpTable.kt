@@ -1,7 +1,7 @@
-package org.wikipedia.language
+package org.akhil.nitcwiki.language
 
 import android.content.Context
-import org.wikipedia.R
+import org.akhil.nitcwiki.R
 import java.util.*
 
 class AppLanguageLookUpTable(context: Context) {

@@ -1,10 +1,10 @@
-package org.wikipedia.feed.topread
+package org.akhil.nitcwiki.feed.topread
 
 import android.net.Uri
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.model.CardType
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.model.CardType
 
 class TopReadItemCard internal constructor(private val page: PageSummary,
                                            private val wiki: WikiSite) : Card() {

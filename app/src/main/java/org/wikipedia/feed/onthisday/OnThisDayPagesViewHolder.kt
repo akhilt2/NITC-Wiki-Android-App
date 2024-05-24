@@ -1,4 +1,4 @@
-package org.wikipedia.feed.onthisday
+package org.akhil.nitcwiki.feed.onthisday
 
 import android.app.Activity
 import android.app.ActivityOptions
@@ -8,22 +8,22 @@ import android.widget.FrameLayout
 import android.widget.TextView
 import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.PageActivity
-import org.wikipedia.readinglist.LongPressMenu
-import org.wikipedia.readinglist.ReadingListBehaviorsUtil
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.TabUtil
-import org.wikipedia.util.TransitionUtil
-import org.wikipedia.views.FaceAndColorDetectImageView
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.readinglist.LongPressMenu
+import org.akhil.nitcwiki.readinglist.ReadingListBehaviorsUtil
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.TabUtil
+import org.akhil.nitcwiki.util.TransitionUtil
+import org.akhil.nitcwiki.views.FaceAndColorDetectImageView
 
 class OnThisDayPagesViewHolder(
     private val activity: Activity,

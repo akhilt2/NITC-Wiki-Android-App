@@ -1,7 +1,7 @@
-package org.wikipedia.push
+package org.akhil.nitcwiki.push
 
 import io.reactivex.rxjava3.core.Observable
-import org.wikipedia.dataclient.mwapi.MwQueryResponse
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResponse
 
 class WikipediaFirebaseMessagingService {
     companion object {

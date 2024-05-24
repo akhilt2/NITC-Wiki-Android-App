@@ -1,9 +1,9 @@
-package org.wikipedia.dataclient.donate
+package org.akhil.nitcwiki.dataclient.donate
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.mwapi.MwException
-import org.wikipedia.dataclient.mwapi.MwServiceError
+import org.akhil.nitcwiki.dataclient.mwapi.MwException
+import org.akhil.nitcwiki.dataclient.mwapi.MwServiceError
 
 @Suppress("unused")
 @Serializable

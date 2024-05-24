@@ -1,11 +1,11 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.WikipediaApp
-import org.wikipedia.descriptions.DescriptionEditActivity
-import org.wikipedia.util.ActiveTimer
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity
+import org.akhil.nitcwiki.util.ActiveTimer
+import org.akhil.nitcwiki.util.UriUtil
 
 @Suppress("unused")
 @Serializable

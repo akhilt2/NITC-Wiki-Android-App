@@ -1,4 +1,4 @@
-package org.wikipedia.settings.languages
+package org.akhil.nitcwiki.settings.languages
 
 import android.app.Activity
 import android.content.Intent
@@ -15,18 +15,18 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.databinding.FragmentWikipediaLanguagesBinding
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.language.LanguagesListActivity
-import org.wikipedia.push.WikipediaFirebaseMessagingService
-import org.wikipedia.settings.Prefs
-import org.wikipedia.settings.SettingsActivity
-import org.wikipedia.views.DefaultViewHolder
-import org.wikipedia.views.MultiSelectActionModeCallback
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.databinding.FragmentWikipediaLanguagesBinding
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.language.LanguagesListActivity
+import org.akhil.nitcwiki.push.WikipediaFirebaseMessagingService
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.settings.SettingsActivity
+import org.akhil.nitcwiki.views.DefaultViewHolder
+import org.akhil.nitcwiki.views.MultiSelectActionModeCallback
 import java.util.*
 
 class WikipediaLanguagesFragment : Fragment(), MenuProvider, WikipediaLanguagesItemView.Callback {

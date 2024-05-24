@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 open class Resource<T> {
     class Loading<T> : Resource<T>()

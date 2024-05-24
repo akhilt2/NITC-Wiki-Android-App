@@ -1,8 +1,8 @@
-package org.wikipedia.feed.view
+package org.akhil.nitcwiki.feed.view
 
 import android.view.ViewGroup
-import org.wikipedia.views.DefaultRecyclerAdapter
-import org.wikipedia.views.DefaultViewHolder
+import org.akhil.nitcwiki.views.DefaultRecyclerAdapter
+import org.akhil.nitcwiki.views.DefaultViewHolder
 
 abstract class ListCardRecyclerAdapter<T>(items: List<T>) : DefaultRecyclerAdapter<T, ListCardItemView>(items) {
     protected abstract fun callback(): ListCardItemView.Callback?

@@ -1,10 +1,10 @@
-package org.wikipedia.analytics
+package org.akhil.nitcwiki.analytics
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.util.MathUtil
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.util.MathUtil
 import java.util.concurrent.TimeUnit
 
 @Suppress("suspiciousVarProperty")

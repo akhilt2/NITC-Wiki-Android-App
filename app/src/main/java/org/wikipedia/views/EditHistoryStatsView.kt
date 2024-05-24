@@ -1,21 +1,21 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewEditHistoryStatsBinding
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.page.edithistory.EditHistoryListViewModel
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewEditHistoryStatsBinding
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.page.edithistory.EditHistoryListViewModel
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.StringUtil
 import java.time.LocalDateTime
 
 class EditHistoryStatsView constructor(context: Context, attrs: AttributeSet? = null) : ConstraintLayout(context, attrs) {

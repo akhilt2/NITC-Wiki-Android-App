@@ -1,11 +1,11 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.ViewConfiguration
 import android.widget.LinearLayout
-import org.wikipedia.util.DimenUtil.densityScalar
+import org.akhil.nitcwiki.util.DimenUtil.densityScalar
 import kotlin.math.abs
 
 open class LinearLayoutOverWebView : LinearLayout {

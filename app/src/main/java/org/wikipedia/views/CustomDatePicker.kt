@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.app.Dialog
 import android.content.DialogInterface
@@ -11,11 +11,11 @@ import androidx.fragment.app.DialogFragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.wikipedia.R
-import org.wikipedia.databinding.DatePickerDialogBinding
-import org.wikipedia.databinding.ViewCustomCalendarDayBinding
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.DatePickerDialogBinding
+import org.akhil.nitcwiki.databinding.ViewCustomCalendarDayBinding
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.ResourceUtil
 import java.util.*
 
 class CustomDatePicker : DialogFragment() {

@@ -1,4 +1,4 @@
-package org.wikipedia.feed.view
+package org.akhil.nitcwiki.feed.view
 
 import android.content.Context
 import android.view.View
@@ -7,22 +7,22 @@ import androidx.core.view.updateLayoutParams
 import androidx.core.view.updateMargins
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import org.wikipedia.feed.FeedCoordinatorBase
-import org.wikipedia.feed.accessibility.AccessibilityCard
-import org.wikipedia.feed.announcement.AnnouncementCardView
-import org.wikipedia.feed.dayheader.DayHeaderCardView
-import org.wikipedia.feed.image.FeaturedImageCardView
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.model.CardType
-import org.wikipedia.feed.news.NewsCardView
-import org.wikipedia.feed.offline.OfflineCard
-import org.wikipedia.feed.offline.OfflineCardView
-import org.wikipedia.feed.random.RandomCardView
-import org.wikipedia.feed.searchbar.SearchCardView
-import org.wikipedia.feed.suggestededits.SuggestedEditsCardView
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.views.DefaultRecyclerAdapter
-import org.wikipedia.views.DefaultViewHolder
+import org.akhil.nitcwiki.feed.FeedCoordinatorBase
+import org.akhil.nitcwiki.feed.accessibility.AccessibilityCard
+import org.akhil.nitcwiki.feed.announcement.AnnouncementCardView
+import org.akhil.nitcwiki.feed.dayheader.DayHeaderCardView
+import org.akhil.nitcwiki.feed.image.FeaturedImageCardView
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.model.CardType
+import org.akhil.nitcwiki.feed.news.NewsCardView
+import org.akhil.nitcwiki.feed.offline.OfflineCard
+import org.akhil.nitcwiki.feed.offline.OfflineCardView
+import org.akhil.nitcwiki.feed.random.RandomCardView
+import org.akhil.nitcwiki.feed.searchbar.SearchCardView
+import org.akhil.nitcwiki.feed.suggestededits.SuggestedEditsCardView
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.views.DefaultRecyclerAdapter
+import org.akhil.nitcwiki.views.DefaultViewHolder
 
 @Suppress("UNCHECKED_CAST")
 class FeedAdapter<T : View>(private val coordinator: FeedCoordinatorBase, private val callback: Callback?) :

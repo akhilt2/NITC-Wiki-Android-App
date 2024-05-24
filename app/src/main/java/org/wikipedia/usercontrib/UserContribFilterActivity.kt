@@ -1,4 +1,4 @@
-package org.wikipedia.usercontrib
+package org.akhil.nitcwiki.usercontrib
 
 import android.content.Context
 import android.content.Intent
@@ -9,18 +9,18 @@ import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.databinding.ActivityUserContribWikiSelectBinding
-import org.wikipedia.page.Namespace
-import org.wikipedia.settings.Prefs
-import org.wikipedia.settings.languages.WikipediaLanguagesActivity
-import org.wikipedia.staticdata.TalkAliasData
-import org.wikipedia.staticdata.UserAliasData
-import org.wikipedia.staticdata.UserTalkAliasData
-import org.wikipedia.views.DefaultViewHolder
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.databinding.ActivityUserContribWikiSelectBinding
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.settings.languages.WikipediaLanguagesActivity
+import org.akhil.nitcwiki.staticdata.TalkAliasData
+import org.akhil.nitcwiki.staticdata.UserAliasData
+import org.akhil.nitcwiki.staticdata.UserTalkAliasData
+import org.akhil.nitcwiki.views.DefaultViewHolder
 
 class UserContribFilterActivity : BaseActivity() {
 

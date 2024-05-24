@@ -1,4 +1,4 @@
-package org.wikipedia.language
+package org.akhil.nitcwiki.language
 
 import android.content.Context
 import android.content.Intent
@@ -14,15 +14,15 @@ import androidx.appcompat.view.ActionMode
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.databinding.ActivityLanguagesListBinding
-import org.wikipedia.history.SearchActionModeCallback
-import org.wikipedia.settings.languages.WikipediaLanguagesFragment
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.Resource
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.databinding.ActivityLanguagesListBinding
+import org.akhil.nitcwiki.history.SearchActionModeCallback
+import org.akhil.nitcwiki.settings.languages.WikipediaLanguagesFragment
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.StringUtil
 
 class LanguagesListActivity : BaseActivity() {
     private lateinit var binding: ActivityLanguagesListBinding

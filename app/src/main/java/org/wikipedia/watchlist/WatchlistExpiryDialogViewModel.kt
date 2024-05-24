@@ -1,4 +1,4 @@
-package org.wikipedia.watchlist
+package org.akhil.nitcwiki.watchlist
 
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
@@ -8,11 +8,11 @@ import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.wikipedia.analytics.eventplatform.WatchlistAnalyticsHelper
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.Resource
+import org.akhil.nitcwiki.analytics.eventplatform.WatchlistAnalyticsHelper
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.Resource
 
 class WatchlistExpiryDialogViewModel(bundle: Bundle) : ViewModel() {
     private val handler = CoroutineExceptionHandler { _, throwable ->

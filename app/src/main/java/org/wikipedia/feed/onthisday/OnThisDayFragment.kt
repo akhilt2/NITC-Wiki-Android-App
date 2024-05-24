@@ -1,4 +1,4 @@
-package org.wikipedia.feed.onthisday
+package org.akhil.nitcwiki.feed.onthisday
 
 import android.app.Activity
 import android.os.Bundle
@@ -17,20 +17,20 @@ import com.google.android.material.tabs.TabLayoutMediator
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.databinding.FragmentOnThisDayBinding
-import org.wikipedia.databinding.ViewEventsLayoutBinding
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.log.L
-import org.wikipedia.views.CustomDatePicker
-import org.wikipedia.views.HeaderMarginItemDecoration
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.FragmentOnThisDayBinding
+import org.akhil.nitcwiki.databinding.ViewEventsLayoutBinding
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.CustomDatePicker
+import org.akhil.nitcwiki.views.HeaderMarginItemDecoration
 import java.util.*
 import kotlin.math.abs
 

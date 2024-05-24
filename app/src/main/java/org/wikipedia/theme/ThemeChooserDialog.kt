@@ -1,4 +1,4 @@
-package org.wikipedia.theme
+package org.akhil.nitcwiki.theme
 
 import android.content.DialogInterface
 import android.content.res.ColorStateList
@@ -16,19 +16,19 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.button.MaterialButton
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.functions.Consumer
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.FragmentUtil
-import org.wikipedia.analytics.eventplatform.AppearanceSettingInteractionEvent
-import org.wikipedia.databinding.DialogThemeChooserBinding
-import org.wikipedia.events.WebViewInvalidateEvent
-import org.wikipedia.page.ExtendedBottomSheetDialogFragment
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.FragmentUtil
+import org.akhil.nitcwiki.analytics.eventplatform.AppearanceSettingInteractionEvent
+import org.akhil.nitcwiki.databinding.DialogThemeChooserBinding
+import org.akhil.nitcwiki.events.WebViewInvalidateEvent
+import org.akhil.nitcwiki.page.ExtendedBottomSheetDialogFragment
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.ResourceUtil
 
 class ThemeChooserDialog : ExtendedBottomSheetDialogFragment() {
     private var _binding: DialogThemeChooserBinding? = null

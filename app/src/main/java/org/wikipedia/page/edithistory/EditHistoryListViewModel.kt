@@ -1,4 +1,4 @@
-package org.wikipedia.page.edithistory
+package org.akhil.nitcwiki.page.edithistory
 
 import android.os.Bundle
 import androidx.lifecycle.MutableLiveData
@@ -8,18 +8,18 @@ import androidx.lifecycle.viewModelScope
 import androidx.paging.*
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.map
-import org.wikipedia.Constants
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.dataclient.restbase.EditCount
-import org.wikipedia.dataclient.restbase.Metrics
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.Resource
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.dataclient.restbase.EditCount
+import org.akhil.nitcwiki.dataclient.restbase.Metrics
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.log.L
 import retrofit2.HttpException
 import java.io.IOException
 import java.util.*

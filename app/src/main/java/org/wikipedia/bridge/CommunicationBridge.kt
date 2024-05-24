@@ -1,4 +1,4 @@
-package org.wikipedia.bridge
+package org.akhil.nitcwiki.bridge
 
 import android.annotation.SuppressLint
 import android.os.Handler
@@ -7,14 +7,14 @@ import android.os.Message
 import android.webkit.*
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonObject
-import org.wikipedia.bridge.JavaScriptActionHandler.setUp
-import org.wikipedia.dataclient.RestService
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.page.PageTitle
-import org.wikipedia.page.PageViewModel
-import org.wikipedia.util.UriUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.bridge.JavaScriptActionHandler.setUp
+import org.akhil.nitcwiki.dataclient.RestService
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.page.PageViewModel
+import org.akhil.nitcwiki.util.UriUtil
+import org.akhil.nitcwiki.util.log.L
 
 /**
  * Two-way communications bridge between JS in a WebView and Java.

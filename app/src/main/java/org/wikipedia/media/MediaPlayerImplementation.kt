@@ -1,9 +1,9 @@
-package org.wikipedia.media
+package org.akhil.nitcwiki.media
 
 import android.media.MediaPlayer
 import android.media.MediaPlayer.OnCompletionListener
 import android.media.MediaPlayer.OnPreparedListener
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.util.log.L
 import java.io.IOException
 
 class MediaPlayerImplementation {

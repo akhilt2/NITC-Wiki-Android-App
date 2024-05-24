@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.content.Context
 import android.graphics.Color
@@ -16,11 +16,11 @@ import androidx.annotation.IntRange
 import androidx.core.text.buildSpannedString
 import androidx.core.text.set
 import okio.ByteString.Companion.encodeUtf8
-import org.wikipedia.R
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.page.PageTitle
-import org.wikipedia.richtext.CustomHtmlParser
-import org.wikipedia.staticdata.UserAliasData
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.richtext.CustomHtmlParser
+import org.akhil.nitcwiki.staticdata.UserAliasData
 import java.nio.charset.StandardCharsets
 import java.text.Collator
 import java.text.Normalizer

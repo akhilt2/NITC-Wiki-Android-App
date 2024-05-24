@@ -1,11 +1,11 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import org.hamcrest.CoreMatchers
 import org.hamcrest.MatcherAssert
 import org.junit.Test
-import org.wikipedia.dataclient.mwapi.MwStreamConfigsResponse
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.test.TestFileUtil
+import org.akhil.nitcwiki.dataclient.mwapi.MwStreamConfigsResponse
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.test.TestFileUtil
 import java.io.IOException
 
 class StreamConfigTest {

@@ -1,4 +1,4 @@
-package org.wikipedia.talk.template
+package org.akhil.nitcwiki.talk.template
 
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
@@ -10,16 +10,16 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.page.PageTitle
-import org.wikipedia.talk.TalkReplyActivity
-import org.wikipedia.talk.TalkReplyActivity.Companion.EXTRA_TEMPLATE_MANAGEMENT
-import org.wikipedia.talk.db.TalkTemplate
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.Resource
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.talk.TalkReplyActivity
+import org.akhil.nitcwiki.talk.TalkReplyActivity.Companion.EXTRA_TEMPLATE_MANAGEMENT
+import org.akhil.nitcwiki.talk.db.TalkTemplate
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.Resource
 import java.util.Collections
 
 class TalkTemplatesViewModel(bundle: Bundle) : ViewModel() {

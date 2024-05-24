@@ -1,4 +1,4 @@
-package org.wikipedia.feed.onthisday
+package org.akhil.nitcwiki.feed.onthisday
 
 import android.app.Activity
 import android.app.ActivityOptions
@@ -7,20 +7,20 @@ import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewCardOnThisDayBinding
-import org.wikipedia.feed.view.CardFooterView
-import org.wikipedia.feed.view.DefaultFeedCardView
-import org.wikipedia.feed.view.FeedAdapter
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.readinglist.LongPressMenu
-import org.wikipedia.readinglist.ReadingListBehaviorsUtil
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.TransitionUtil
-import org.wikipedia.views.ImageZoomHelper
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewCardOnThisDayBinding
+import org.akhil.nitcwiki.feed.view.CardFooterView
+import org.akhil.nitcwiki.feed.view.DefaultFeedCardView
+import org.akhil.nitcwiki.feed.view.FeedAdapter
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.readinglist.LongPressMenu
+import org.akhil.nitcwiki.readinglist.ReadingListBehaviorsUtil
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.TransitionUtil
+import org.akhil.nitcwiki.views.ImageZoomHelper
 
 class OnThisDayCardView(context: Context) : DefaultFeedCardView<OnThisDayCard>(context), CardFooterView.Callback {
 

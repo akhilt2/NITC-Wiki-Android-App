@@ -1,11 +1,11 @@
-package org.wikipedia.history
+package org.akhil.nitcwiki.history
 
 import android.content.Context
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.view.ActionMode
 import androidx.core.view.MenuItemCompat
-import org.wikipedia.views.SearchActionProvider
+import org.akhil.nitcwiki.views.SearchActionProvider
 
 abstract class SearchActionModeCallback : ActionMode.Callback {
 

@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Lorem ipsum" />
 
-    <org.wikipedia.views.LangCodeView
+    <org.akhil.nitcwiki.views.LangCodeView
         android:id="@+id/view_list_card_header_lang_code"
         android:layout_width="24dp"
         android:layout_height="24dp"

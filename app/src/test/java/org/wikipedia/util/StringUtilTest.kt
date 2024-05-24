@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.location.Location
 import org.hamcrest.MatcherAssert

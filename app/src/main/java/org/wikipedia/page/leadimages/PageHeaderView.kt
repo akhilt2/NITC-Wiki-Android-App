@@ -1,4 +1,4 @@
-package org.wikipedia.page.leadimages
+package org.akhil.nitcwiki.page.leadimages
 
 import android.content.Context
 import android.net.Uri
@@ -7,14 +7,14 @@ import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.coordinatorlayout.widget.CoordinatorLayout
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewPageHeaderBinding
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.GradientUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.views.LinearLayoutOverWebView
-import org.wikipedia.views.ObservableWebView
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewPageHeaderBinding
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.GradientUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.views.LinearLayoutOverWebView
+import org.akhil.nitcwiki.views.ObservableWebView
 
 class PageHeaderView : LinearLayoutOverWebView, ObservableWebView.OnScrollChangeListener {
     interface Callback {

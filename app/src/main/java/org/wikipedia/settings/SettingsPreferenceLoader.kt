@@ -1,4 +1,4 @@
-package org.wikipedia.settings
+package org.akhil.nitcwiki.settings
 
 import android.content.DialogInterface
 import android.content.Intent
@@ -6,15 +6,15 @@ import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreferenceCompat
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.feed.configure.ConfigureActivity
-import org.wikipedia.login.LoginActivity
-import org.wikipedia.readinglist.sync.ReadingListSyncAdapter
-import org.wikipedia.settings.languages.WikipediaLanguagesActivity
-import org.wikipedia.theme.ThemeFittingRoomActivity
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.feed.configure.ConfigureActivity
+import org.akhil.nitcwiki.login.LoginActivity
+import org.akhil.nitcwiki.readinglist.sync.ReadingListSyncAdapter
+import org.akhil.nitcwiki.settings.languages.WikipediaLanguagesActivity
+import org.akhil.nitcwiki.theme.ThemeFittingRoomActivity
 
 /** UI code for app settings used by PreferenceFragment.  */
 internal class SettingsPreferenceLoader(fragment: PreferenceFragmentCompat) : BasePreferenceLoader(fragment) {

@@ -1,9 +1,9 @@
-package org.wikipedia.dataclient.mwapi
+package org.akhil.nitcwiki.dataclient.mwapi
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.decodeFromJsonElement
-import org.wikipedia.json.JsonUtil
+import org.akhil.nitcwiki.json.JsonUtil
 
 @Serializable
 class SiteMatrix : MwResponse() {

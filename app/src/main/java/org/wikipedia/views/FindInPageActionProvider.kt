@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.graphics.Color
@@ -9,10 +9,10 @@ import android.view.inputmethod.EditorInfo
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.widget.SearchView
-import org.wikipedia.R
-import org.wikipedia.databinding.GroupFindInPageBinding
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.GroupFindInPageBinding
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.ResourceUtil
 
 open class FindInPageActionProvider(private val context: Context) : ActionProvider(context) {
 

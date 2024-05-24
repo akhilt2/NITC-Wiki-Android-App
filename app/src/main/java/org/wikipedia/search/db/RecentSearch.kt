@@ -1,4 +1,4 @@
-package org.wikipedia.search.db
+package org.akhil.nitcwiki.search.db
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

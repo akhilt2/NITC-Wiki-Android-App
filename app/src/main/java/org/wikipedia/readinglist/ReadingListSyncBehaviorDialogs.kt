@@ -1,18 +1,18 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.app.Activity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.databinding.DialogWithCheckboxBinding
-import org.wikipedia.events.ReadingListsEnableSyncStatusEvent
-import org.wikipedia.login.LoginActivity
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.readinglist.sync.ReadingListSyncAdapter
-import org.wikipedia.settings.Prefs
-import org.wikipedia.settings.SettingsActivity.Companion.newIntent
-import org.wikipedia.util.FeedbackUtil.showAndroidAppFAQ
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.databinding.DialogWithCheckboxBinding
+import org.akhil.nitcwiki.events.ReadingListsEnableSyncStatusEvent
+import org.akhil.nitcwiki.login.LoginActivity
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.readinglist.sync.ReadingListSyncAdapter
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.settings.SettingsActivity.Companion.newIntent
+import org.akhil.nitcwiki.util.FeedbackUtil.showAndroidAppFAQ
+import org.akhil.nitcwiki.util.StringUtil
 
 object ReadingListSyncBehaviorDialogs {
     private var PROMPT_LOGIN_TO_SYNC_DIALOG_SHOWING = false

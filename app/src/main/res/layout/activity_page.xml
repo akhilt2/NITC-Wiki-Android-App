@@ -8,14 +8,14 @@
     android:layout_gravity="end"
     tools:context=".page.PageActivity">
 
-    <org.wikipedia.views.FrameLayoutNavMenuTriggerer
+    <org.akhil.nitcwiki.views.FrameLayoutNavMenuTriggerer
         android:id="@+id/container_with_nav_trigger"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/page_fragment"
-            android:name="org.wikipedia.page.PageFragment"
+            android:name="org.akhil.nitcwiki.page.PageFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:layout="@layout/fragment_page" />
@@ -55,13 +55,13 @@
                         app:drawableTint="?attr/placeholder_color"
                         app:drawableStartCompat="@drawable/ic_search_white_24dp"/>
 
-                    <org.wikipedia.views.TabCountsView
+                    <org.akhil.nitcwiki.views.TabCountsView
                         android:id="@+id/page_toolbar_button_tabs"
                         android:layout_width="48dp"
                         android:layout_height="match_parent"
                         android:contentDescription="@string/menu_page_show_tabs" />
 
-                    <org.wikipedia.views.NotificationButtonView
+                    <org.akhil.nitcwiki.views.NotificationButtonView
                         android:id="@+id/page_toolbar_button_notifications"
                         android:layout_width="48dp"
                         android:layout_height="match_parent"
@@ -92,13 +92,13 @@
 
         </FrameLayout>
 
-        <org.wikipedia.views.WikiArticleCardView
+        <org.akhil.nitcwiki.views.WikiArticleCardView
             android:id="@+id/wiki_article_card_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="?attr/actionBarSize"/>
 
-    </org.wikipedia.views.FrameLayoutNavMenuTriggerer>
+    </org.akhil.nitcwiki.views.FrameLayoutNavMenuTriggerer>
 
     <FrameLayout
         android:id="@+id/side_panel_container"
@@ -109,7 +109,7 @@
         tools:visibility="visible">
 
         <!-- ToC -->
-        <org.wikipedia.views.SwipeableListView
+        <org.akhil.nitcwiki.views.SwipeableListView
             android:id="@+id/toc_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -131,7 +131,7 @@
             android:layerType="software"
             android:src="@drawable/toc_dotted_line" />
 
-        <org.wikipedia.views.PageScrollerView
+        <org.akhil.nitcwiki.views.PageScrollerView
             android:id="@+id/page_scroller_button"
             android:layout_width="48dp"
             android:layout_height="48dp"

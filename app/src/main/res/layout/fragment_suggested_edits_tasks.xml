@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:focusableInTouchMode="true">
 
-                <org.wikipedia.views.MessageCardView
+                <org.akhil.nitcwiki.views.MessageCardView
                     android:id="@+id/disabledStatesView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
                     android:layout_marginBottom="24dp"
                     android:visibility="gone" />
 
-                <org.wikipedia.views.WikiErrorView
+                <org.akhil.nitcwiki.views.WikiErrorView
                     android:id="@+id/errorView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <org.wikipedia.views.WikiCardView
+                    <org.akhil.nitcwiki.views.WikiCardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/activity_horizontal_margin"
@@ -105,7 +105,7 @@
                                 android:orientation="vertical"
                                 app:layout_constraintGuide_percent="0.5"/>
 
-                            <org.wikipedia.views.ImageTitleDescriptionView
+                            <org.akhil.nitcwiki.views.ImageTitleDescriptionView
                                 android:id="@+id/contributionsStatsView"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -115,7 +115,7 @@
                                 app:layout_constraintEnd_toStartOf="@id/guideLineMiddle"
                                 app:layout_constraintTop_toBottomOf="@id/userNameView" />
 
-                            <org.wikipedia.views.ImageTitleDescriptionView
+                            <org.akhil.nitcwiki.views.ImageTitleDescriptionView
                                 android:id="@+id/editStreakStatsView"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -124,7 +124,7 @@
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintTop_toTopOf="@id/contributionsStatsView" />
 
-                            <org.wikipedia.views.ImageTitleDescriptionView
+                            <org.akhil.nitcwiki.views.ImageTitleDescriptionView
                                 android:id="@+id/pageViewStatsView"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -134,7 +134,7 @@
                                 app:layout_constraintEnd_toEndOf="@id/guideLineMiddle"
                                 app:layout_constraintTop_toBottomOf="@id/editStreakStatsView" />
 
-                            <org.wikipedia.views.ImageTitleDescriptionView
+                            <org.akhil.nitcwiki.views.ImageTitleDescriptionView
                                 android:id="@+id/editQualityStatsView"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
@@ -168,7 +168,7 @@
                                 android:paddingBottom="4dp"/>
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
-                    </org.wikipedia.views.WikiCardView>
+                    </org.akhil.nitcwiki.views.WikiCardView>
 
                     <TextView
                         android:id="@+id/contributeSubtitleView"
@@ -188,7 +188,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
-                    <org.wikipedia.views.WikiCardView
+                    <org.akhil.nitcwiki.views.WikiCardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/activity_horizontal_margin"
@@ -240,7 +240,7 @@
 
                         </LinearLayout>
 
-                    </org.wikipedia.views.WikiCardView>
+                    </org.akhil.nitcwiki.views.WikiCardView>
 
                     <!-- TODO: remove. -->
                     <LinearLayout

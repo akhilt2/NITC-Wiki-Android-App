@@ -1,4 +1,4 @@
-package org.wikipedia.richtext
+package org.akhil.nitcwiki.richtext
 
 import android.widget.TextView
 

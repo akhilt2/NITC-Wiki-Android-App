@@ -1,4 +1,4 @@
-package org.wikipedia.search
+package org.akhil.nitcwiki.search
 
 import android.content.Intent
 import androidx.recyclerview.widget.RecyclerView
@@ -18,9 +18,9 @@ import org.hamcrest.Matchers.allOf
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.TestUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.TestUtil
 
 @LargeTest
 @RunWith(AndroidJUnit4::class)

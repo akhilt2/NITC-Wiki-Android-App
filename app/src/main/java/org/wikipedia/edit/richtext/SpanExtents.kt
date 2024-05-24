@@ -1,4 +1,4 @@
-package org.wikipedia.edit.richtext
+package org.akhil.nitcwiki.edit.richtext
 
 /**
  * Interface for creating Span styles that contain beginning & end information,

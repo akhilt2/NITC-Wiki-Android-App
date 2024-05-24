@@ -1,12 +1,12 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
 import android.view.View
 import androidx.core.content.ContextCompat
-import org.wikipedia.R
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.util.ResourceUtil
 
 class GraphView(context: Context, attributeSet: AttributeSet) : View(context, attributeSet) {
     private val gradientColor1 = ResourceUtil.getThemedColor(context, R.attr.progressive_color)

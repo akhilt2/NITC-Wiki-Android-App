@@ -1,7 +1,7 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
-import org.wikipedia.WikipediaApp
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.settings.Prefs
 
 class PlacesEvent {
     companion object {

@@ -1,4 +1,4 @@
-package org.wikipedia.talk
+package org.akhil.nitcwiki.talk
 
 import android.app.NotificationManager
 import android.content.Context
@@ -10,17 +10,17 @@ import androidx.core.content.getSystemService
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.csrf.CsrfTokenClient
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.okhttp.HttpStatusException
-import org.wikipedia.edit.Edit
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.csrf.CsrfTokenClient
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.okhttp.HttpStatusException
+import org.akhil.nitcwiki.edit.Edit
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
 import java.util.concurrent.TimeUnit
 
 object NotificationDirectReplyHelper {

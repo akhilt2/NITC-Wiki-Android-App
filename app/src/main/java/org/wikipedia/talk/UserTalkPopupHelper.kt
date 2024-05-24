@@ -1,4 +1,4 @@
-package org.wikipedia.talk
+package org.akhil.nitcwiki.talk
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -14,26 +14,26 @@ import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.analytics.eventplatform.EditHistoryInteractionEvent
-import org.wikipedia.analytics.eventplatform.PatrollerExperienceEvent
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.ExclusiveBottomSheetPresenter
-import org.wikipedia.page.Namespace
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.page.linkpreview.LinkPreviewDialog
-import org.wikipedia.staticdata.UserTalkAliasData
-import org.wikipedia.suggestededits.SuggestedEditsRecentEditsActivity
-import org.wikipedia.suggestededits.SuggestionsActivity
-import org.wikipedia.usercontrib.UserContribListActivity
-import org.wikipedia.usercontrib.UserInformationDialog
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.analytics.eventplatform.EditHistoryInteractionEvent
+import org.akhil.nitcwiki.analytics.eventplatform.PatrollerExperienceEvent
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.ExclusiveBottomSheetPresenter
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.page.linkpreview.LinkPreviewDialog
+import org.akhil.nitcwiki.staticdata.UserTalkAliasData
+import org.akhil.nitcwiki.suggestededits.SuggestedEditsRecentEditsActivity
+import org.akhil.nitcwiki.suggestededits.SuggestionsActivity
+import org.akhil.nitcwiki.usercontrib.UserContribListActivity
+import org.akhil.nitcwiki.usercontrib.UserInformationDialog
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.log.L
 
 @SuppressLint("RestrictedApi")
 object UserTalkPopupHelper {

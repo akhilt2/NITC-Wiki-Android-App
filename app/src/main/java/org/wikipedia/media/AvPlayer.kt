@@ -1,4 +1,4 @@
-package org.wikipedia.media
+package org.akhil.nitcwiki.media
 
 class AvPlayer {
     interface Callback {

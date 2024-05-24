@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient.restbase
+package org.akhil.nitcwiki.dataclient.restbase
 
 import kotlinx.serialization.Serializable
 

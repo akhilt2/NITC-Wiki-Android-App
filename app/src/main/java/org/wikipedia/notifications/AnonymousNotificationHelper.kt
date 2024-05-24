@@ -1,12 +1,12 @@
-package org.wikipedia.notifications
+package org.akhil.nitcwiki.notifications
 
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryResponse
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DateUtil
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResponse
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DateUtil
 import java.util.Date
 import java.util.concurrent.TimeUnit
 

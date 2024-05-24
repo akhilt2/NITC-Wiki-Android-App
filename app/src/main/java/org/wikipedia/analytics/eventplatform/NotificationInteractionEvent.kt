@@ -1,13 +1,13 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import android.content.Intent
 import androidx.core.app.NotificationManagerCompat
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.notifications.NotificationPollBroadcastReceiver
-import org.wikipedia.notifications.db.Notification
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.notifications.NotificationPollBroadcastReceiver
+import org.akhil.nitcwiki.notifications.db.Notification
 
 @Suppress("unused")
 @Serializable

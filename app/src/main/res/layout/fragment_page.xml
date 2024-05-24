@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.wikipedia.views.SwipeRefreshLayoutWithScroll
+<org.akhil.nitcwiki.views.SwipeRefreshLayoutWithScroll
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/page_refresh_container"
     android:layout_width="match_parent"
@@ -10,12 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <org.wikipedia.views.ObservableWebView
+        <org.akhil.nitcwiki.views.ObservableWebView
             android:id="@+id/page_web_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <org.wikipedia.page.leadimages.PageHeaderView
+        <org.akhil.nitcwiki.page.leadimages.PageHeaderView
             android:id="@+id/page_header_view"
             android:layout_width="match_parent"
             android:layout_height="16dp"
@@ -28,7 +28,7 @@
             android:transitionName="@string/transition_page_gallery"
             android:contentDescription="@null"/>
 
-        <org.wikipedia.views.WikiErrorView
+        <org.akhil.nitcwiki.views.WikiErrorView
             android:id="@+id/page_error"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom">
-            <org.wikipedia.page.PageActionTabLayout
+            <org.akhil.nitcwiki.page.PageActionTabLayout
                 android:id="@+id/page_actions_tab_layout"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/nav_bar_height"
@@ -64,4 +64,4 @@
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-</org.wikipedia.views.SwipeRefreshLayoutWithScroll>
+</org.akhil.nitcwiki.views.SwipeRefreshLayoutWithScroll>

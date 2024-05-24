@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.net.Uri
@@ -8,13 +8,13 @@ import android.view.View
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewMessageCardBinding
-import org.wikipedia.login.LoginActivity
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewMessageCardBinding
+import org.akhil.nitcwiki.login.LoginActivity
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.UriUtil
 
 class MessageCardView constructor(context: Context, attrs: AttributeSet? = null) : WikiCardView(context, attrs) {
 

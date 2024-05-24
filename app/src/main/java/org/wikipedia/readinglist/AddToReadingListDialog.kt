@@ -1,4 +1,4 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.annotation.SuppressLint
 import android.content.DialogInterface
@@ -16,21 +16,21 @@ import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.databinding.DialogAddToReadingListBinding
-import org.wikipedia.extensions.parcelableArrayList
-import org.wikipedia.page.ExtendedBottomSheetDialogFragment
-import org.wikipedia.page.PageTitle
-import org.wikipedia.readinglist.ReadingListTitleDialog.readingListTitleDialog
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DimenUtil.getDimension
-import org.wikipedia.util.DimenUtil.roundedDpToPx
-import org.wikipedia.util.FeedbackUtil.makeSnackbar
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.databinding.DialogAddToReadingListBinding
+import org.akhil.nitcwiki.extensions.parcelableArrayList
+import org.akhil.nitcwiki.page.ExtendedBottomSheetDialogFragment
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.readinglist.ReadingListTitleDialog.readingListTitleDialog
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DimenUtil.getDimension
+import org.akhil.nitcwiki.util.DimenUtil.roundedDpToPx
+import org.akhil.nitcwiki.util.FeedbackUtil.makeSnackbar
+import org.akhil.nitcwiki.util.log.L
 
 open class AddToReadingListDialog : ExtendedBottomSheetDialogFragment() {
     private var _binding: DialogAddToReadingListBinding? = null

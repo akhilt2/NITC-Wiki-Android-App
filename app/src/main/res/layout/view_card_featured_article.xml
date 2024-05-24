@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <org.wikipedia.feed.view.CardHeaderView
+    <org.akhil.nitcwiki.feed.view.CardHeaderView
         android:id="@+id/view_featured_article_card_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.wikipedia.views.WikiCardView
+    <org.akhil.nitcwiki.views.WikiCardView
         android:id="@+id/view_featured_article_card_content_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,14 +21,14 @@
         android:layout_marginEnd="8dp"
         app:layout_constraintTop_toBottomOf="@id/view_featured_article_card_header">
 
-        <org.wikipedia.views.WikiArticleCardView
+        <org.akhil.nitcwiki.views.WikiArticleCardView
             android:id="@+id/view_wiki_article_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-    </org.wikipedia.views.WikiCardView>
+    </org.akhil.nitcwiki.views.WikiCardView>
 
-    <org.wikipedia.feed.view.CardFooterView
+    <org.akhil.nitcwiki.feed.view.CardFooterView
         android:id="@+id/view_featured_article_card_footer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -1,4 +1,4 @@
-package org.wikipedia.settings
+package org.akhil.nitcwiki.settings
 
 import android.content.DialogInterface
 import androidx.preference.Preference
@@ -9,20 +9,20 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.UserContributionEvent
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.notifications.NotificationPollBroadcastReceiver
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.setupLeakCanary
-import org.wikipedia.suggestededits.provider.EditingSuggestionsProvider
-import org.wikipedia.util.StringUtil.fromHtml
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.UserContributionEvent
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.notifications.NotificationPollBroadcastReceiver
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.setupLeakCanary
+import org.akhil.nitcwiki.suggestededits.provider.EditingSuggestionsProvider
+import org.akhil.nitcwiki.util.StringUtil.fromHtml
 
 internal class DeveloperSettingsPreferenceLoader(fragment: PreferenceFragmentCompat) : BasePreferenceLoader(fragment) {
     private val setMediaWikiBaseUriChangeListener = Preference.OnPreferenceChangeListener { _, _ ->

@@ -1,4 +1,4 @@
-package org.wikipedia
+package org.akhil.nitcwiki
 
 import android.app.Activity
 import android.app.Application.ActivityLifecycleCallbacks
@@ -6,9 +6,9 @@ import android.content.ComponentCallbacks2
 import android.content.res.Configuration
 import android.os.Build
 import android.os.Bundle
-import org.wikipedia.main.MainActivity
-import org.wikipedia.settings.Prefs
-import org.wikipedia.theme.Theme
+import org.akhil.nitcwiki.main.MainActivity
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.theme.Theme
 
 class ActivityLifecycleHandler : ActivityLifecycleCallbacks, ComponentCallbacks2 {
 

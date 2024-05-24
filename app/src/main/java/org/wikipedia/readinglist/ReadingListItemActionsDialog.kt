@@ -1,17 +1,17 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
-import org.wikipedia.R
-import org.wikipedia.activity.FragmentUtil
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.page.ExtendedBottomSheetDialogFragment
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.FragmentUtil
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.page.ExtendedBottomSheetDialogFragment
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.util.ResourceUtil
 
 class ReadingListItemActionsDialog : ExtendedBottomSheetDialogFragment() {
     interface Callback {

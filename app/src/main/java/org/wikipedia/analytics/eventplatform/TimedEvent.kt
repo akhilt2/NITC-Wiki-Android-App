@@ -1,4 +1,4 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 abstract class TimedEvent {
     private var startTime = System.currentTimeMillis()

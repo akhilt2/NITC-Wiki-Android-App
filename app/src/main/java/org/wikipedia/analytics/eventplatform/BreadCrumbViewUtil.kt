@@ -1,4 +1,4 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import android.content.Context
 import android.view.ContextThemeWrapper
@@ -12,17 +12,17 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.bumptech.glide.manager.SupportRequestManagerFragment
 import com.google.android.material.button.MaterialButton
-import org.wikipedia.R
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.feed.view.ListCardItemView
-import org.wikipedia.feed.view.ListCardView
-import org.wikipedia.main.MainActivity
-import org.wikipedia.main.MainFragment
-import org.wikipedia.navtab.NavTab
-import org.wikipedia.onboarding.InitialOnboardingActivity
-import org.wikipedia.onboarding.InitialOnboardingFragment
-import org.wikipedia.onboarding.InitialOnboardingFragment.OnboardingPage
-import org.wikipedia.page.ExclusiveBottomSheetPresenter
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.feed.view.ListCardItemView
+import org.akhil.nitcwiki.feed.view.ListCardView
+import org.akhil.nitcwiki.main.MainActivity
+import org.akhil.nitcwiki.main.MainFragment
+import org.akhil.nitcwiki.navtab.NavTab
+import org.akhil.nitcwiki.onboarding.InitialOnboardingActivity
+import org.akhil.nitcwiki.onboarding.InitialOnboardingFragment
+import org.akhil.nitcwiki.onboarding.InitialOnboardingFragment.OnboardingPage
+import org.akhil.nitcwiki.page.ExclusiveBottomSheetPresenter
 
 object BreadCrumbViewUtil {
     private const val VIEW_UNNAMED = "unnamed"

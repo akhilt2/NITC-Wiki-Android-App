@@ -1,4 +1,4 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import org.hamcrest.CoreMatchers
 import org.hamcrest.MatcherAssert
@@ -8,13 +8,13 @@ import org.junit.Ignore
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.EventPlatformClient.SamplingController
-import org.wikipedia.dataclient.ServiceFactory.getAnalyticsRest
-import org.wikipedia.dataclient.mwapi.MwStreamConfigsResponse
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.settings.Prefs
-import org.wikipedia.test.TestFileUtil
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.EventPlatformClient.SamplingController
+import org.akhil.nitcwiki.dataclient.ServiceFactory.getAnalyticsRest
+import org.akhil.nitcwiki.dataclient.mwapi.MwStreamConfigsResponse
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.test.TestFileUtil
 
 @RunWith(RobolectricTestRunner::class)
 class EventPlatformClientTest {

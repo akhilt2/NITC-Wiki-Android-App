@@ -1,10 +1,10 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import kotlinx.coroutines.runBlocking
-import org.wikipedia.WikipediaApp
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.log.L
 
 class MachineGeneratedArticleDescriptionABCTest : ABTest("mBART25", GROUP_SIZE_2) {
 

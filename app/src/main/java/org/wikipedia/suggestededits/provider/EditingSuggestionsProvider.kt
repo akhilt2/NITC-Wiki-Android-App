@@ -1,18 +1,18 @@
-package org.wikipedia.suggestededits.provider
+package org.akhil.nitcwiki.suggestededits.provider
 
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.withContext
-import org.wikipedia.Constants
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.dataclient.mwapi.MwQueryResult
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.page.PageTitle
-import org.wikipedia.suggestededits.SuggestedEditsRecentEditsViewModel
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResult
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.suggestededits.SuggestedEditsRecentEditsViewModel
 import java.time.Instant
 import java.util.Stack
 import java.util.concurrent.Semaphore

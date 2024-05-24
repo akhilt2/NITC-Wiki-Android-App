@@ -1,11 +1,11 @@
-package org.wikipedia.dataclient.mwapi
+package org.akhil.nitcwiki.dataclient.mwapi
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.ServiceError
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.ThrowableUtil
+import org.akhil.nitcwiki.dataclient.ServiceError
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.ThrowableUtil
 import java.util.*
 
 @Serializable

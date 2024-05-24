@@ -13,7 +13,7 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/imageTagFragment"
-            android:name="org.wikipedia.suggestededits.SuggestedEditsImageTagsFragment"
+            android:name="org.akhil.nitcwiki.suggestededits.SuggestedEditsImageTagsFragment"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"

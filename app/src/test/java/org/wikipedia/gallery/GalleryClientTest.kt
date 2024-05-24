@@ -1,7 +1,7 @@
-package org.wikipedia.gallery
+package org.akhil.nitcwiki.gallery
 
 import org.junit.Test
-import org.wikipedia.test.MockRetrofitTest
+import org.akhil.nitcwiki.test.MockRetrofitTest
 
 class GalleryClientTest : MockRetrofitTest() {
     @Test

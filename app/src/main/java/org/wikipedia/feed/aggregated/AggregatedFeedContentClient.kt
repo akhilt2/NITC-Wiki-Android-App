@@ -1,4 +1,4 @@
-package org.wikipedia.feed.aggregated
+package org.akhil.nitcwiki.feed.aggregated
 
 import android.content.Context
 import kotlinx.coroutines.CoroutineExceptionHandler
@@ -8,24 +8,24 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.feed.FeedContentType
-import org.wikipedia.feed.FeedCoordinator
-import org.wikipedia.feed.dataclient.FeedClient
-import org.wikipedia.feed.featured.FeaturedArticleCard
-import org.wikipedia.feed.image.FeaturedImageCard
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.news.NewsCard
-import org.wikipedia.feed.onthisday.OnThisDayCard
-import org.wikipedia.feed.topread.TopRead
-import org.wikipedia.feed.topread.TopReadListCard
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.feed.FeedContentType
+import org.akhil.nitcwiki.feed.FeedCoordinator
+import org.akhil.nitcwiki.feed.dataclient.FeedClient
+import org.akhil.nitcwiki.feed.featured.FeaturedArticleCard
+import org.akhil.nitcwiki.feed.image.FeaturedImageCard
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.news.NewsCard
+import org.akhil.nitcwiki.feed.onthisday.OnThisDayCard
+import org.akhil.nitcwiki.feed.topread.TopRead
+import org.akhil.nitcwiki.feed.topread.TopReadListCard
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
 
 class AggregatedFeedContentClient {
     private val aggregatedResponses = mutableMapOf<String, AggregatedFeedContent>()

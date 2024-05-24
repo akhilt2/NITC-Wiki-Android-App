@@ -1,12 +1,12 @@
-package org.wikipedia.history
+package org.akhil.nitcwiki.history
 
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.page.PageTitle
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.page.PageTitle
 
 @RunWith(RobolectricTestRunner::class)
 class HistoryEntryTest {

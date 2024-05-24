@@ -1,4 +1,4 @@
-package org.wikipedia.page.customize
+package org.akhil.nitcwiki.page.customize
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,11 +6,11 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.LinearLayout
-import org.wikipedia.R
-import org.wikipedia.databinding.ItemCustomizeToolbarBinding
-import org.wikipedia.page.action.PageActionItem
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ItemCustomizeToolbarBinding
+import org.akhil.nitcwiki.page.action.PageActionItem
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.ResourceUtil
 
 class CustomizeToolbarItemView : LinearLayout {
     private var binding = ItemCustomizeToolbarBinding.inflate(LayoutInflater.from(context), this)

@@ -1,8 +1,8 @@
-package org.wikipedia.feed.dataclient
+package org.akhil.nitcwiki.feed.dataclient
 
 import android.content.Context
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.feed.model.Card
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.feed.model.Card
 
 interface FeedClient {
 

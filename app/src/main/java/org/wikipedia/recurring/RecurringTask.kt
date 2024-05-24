@@ -1,7 +1,7 @@
-package org.wikipedia.recurring
+package org.akhil.nitcwiki.recurring
 
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.log.L
 import java.util.*
 import kotlin.math.max
 import kotlin.math.min

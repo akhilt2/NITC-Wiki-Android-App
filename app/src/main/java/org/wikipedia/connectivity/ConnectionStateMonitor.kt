@@ -1,4 +1,4 @@
-package org.wikipedia.connectivity
+package org.akhil.nitcwiki.connectivity
 
 import android.content.Context
 import android.net.ConnectivityManager
@@ -6,9 +6,9 @@ import android.net.Network
 import android.net.NetworkCapabilities
 import android.net.NetworkRequest
 import android.os.Build
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.EventPlatformClient
-import org.wikipedia.savedpages.SavedPageSyncService
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.EventPlatformClient
+import org.akhil.nitcwiki.savedpages.SavedPageSyncService
 import java.util.concurrent.TimeUnit
 
 class ConnectionStateMonitor : ConnectivityManager.NetworkCallback() {

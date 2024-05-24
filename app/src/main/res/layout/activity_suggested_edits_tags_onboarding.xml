@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.wikipedia.onboarding.OnboardingPageView
+    <org.akhil.nitcwiki.onboarding.OnboardingPageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:centeredImage="?attr/image_tags_onboarding_drawables"

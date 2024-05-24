@@ -1,4 +1,4 @@
-package org.wikipedia.usercontrib
+package org.akhil.nitcwiki.usercontrib
 
 import android.os.Bundle
 import androidx.lifecycle.MutableLiveData
@@ -9,16 +9,16 @@ import androidx.paging.*
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.UserContribution
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.Resource
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.UserContribution
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.log.L
 import retrofit2.HttpException
 import java.io.IOException
 import java.util.*

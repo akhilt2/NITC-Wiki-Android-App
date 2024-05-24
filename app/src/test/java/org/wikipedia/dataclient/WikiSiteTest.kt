@@ -1,13 +1,13 @@
-package org.wikipedia.dataclient
+package org.akhil.nitcwiki.dataclient
 
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.page.PageTitle
-import org.wikipedia.test.TestParcelUtil
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.test.TestParcelUtil
 
 @RunWith(RobolectricTestRunner::class)
 class WikiSiteTest {

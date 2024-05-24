@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <org.wikipedia.views.FaceAndColorDetectImageView
+            <org.akhil.nitcwiki.views.FaceAndColorDetectImageView
                 android:id="@+id/articleImage"
                 android:layout_width="match_parent"
                 android:layout_height="192dp" />
@@ -51,7 +51,7 @@
                     android:textSize="24sp"
                     tools:text="Lorem ipsum" />
 
-                <org.wikipedia.views.GoneIfEmptyTextView
+                <org.akhil.nitcwiki.views.GoneIfEmptyTextView
                     android:id="@+id/articleSubtitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
             android:layout_height="match_parent"
             android:scaleType="fitCenter" />
 
-        <org.wikipedia.views.AppTextView
+        <org.akhil.nitcwiki.views.AppTextView
             android:id="@+id/galleryDescriptionText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
             android:layout_height="0.5dp"
             android:background="?attr/border_color" />
 
-        <org.wikipedia.descriptions.DescriptionEditLicenseView
+        <org.akhil.nitcwiki.descriptions.DescriptionEditLicenseView
             android:id="@+id/licenseView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

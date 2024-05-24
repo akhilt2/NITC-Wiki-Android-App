@@ -18,7 +18,7 @@
         android:orientation="vertical"
         android:layout_margin="16dp">
 
-        <org.wikipedia.views.WikiCardView
+        <org.akhil.nitcwiki.views.WikiCardView
             android:id="@+id/imageInfoContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
 
             </LinearLayout>
 
-        </org.wikipedia.views.WikiCardView>
+        </org.akhil.nitcwiki.views.WikiCardView>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/mediaCaptionLayout"
@@ -85,7 +85,7 @@
             app:helperTextTextColor="?android:attr/textColorTertiary"
             app:helperText="@string/insert_media_settings_caption_description">
 
-            <org.wikipedia.views.PlainPasteEditText
+            <org.akhil.nitcwiki.views.PlainPasteEditText
                 android:id="@+id/mediaCaptionText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -112,7 +112,7 @@
             app:helperTextTextColor="?android:attr/textColorTertiary"
             app:helperText="@string/insert_media_settings_alternative_text_description">
 
-            <org.wikipedia.views.PlainPasteEditText
+            <org.akhil.nitcwiki.views.PlainPasteEditText
                 android:id="@+id/mediaAlternativeText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

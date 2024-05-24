@@ -9,7 +9,7 @@
     android:visibility="gone"
     tools:visibility="visible">
 
-    <org.wikipedia.views.ObservableWebView
+    <org.akhil.nitcwiki.views.ObservableWebView
         android:id="@+id/edit_preview_webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

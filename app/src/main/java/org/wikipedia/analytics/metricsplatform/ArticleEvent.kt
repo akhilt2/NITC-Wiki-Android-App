@@ -1,10 +1,10 @@
-package org.wikipedia.analytics.metricsplatform
+package org.akhil.nitcwiki.analytics.metricsplatform
 
 import org.wikimedia.metrics_platform.context.PageData
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.page.PageFragment
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.page.PageFragment
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
 import java.util.concurrent.TimeUnit
 
 class ArticleFindInPageInteraction(private val fragment: PageFragment) : TimedMetricsEvent() {

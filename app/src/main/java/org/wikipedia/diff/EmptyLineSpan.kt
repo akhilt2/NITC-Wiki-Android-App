@@ -1,10 +1,10 @@
-package org.wikipedia.diff
+package org.akhil.nitcwiki.diff
 
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.text.style.LineBackgroundSpan
 import androidx.annotation.ColorInt
-import org.wikipedia.util.DimenUtil
+import org.akhil.nitcwiki.util.DimenUtil
 
 class EmptyLineSpan(@ColorInt val fillColor: Int, @ColorInt val strokeColor: Int) : LineBackgroundSpan {
     override fun drawBackground(canvas: Canvas, paint: Paint, left: Int, right: Int, top: Int, baseline: Int, bottom: Int, text: CharSequence, start: Int, end: Int, lineNumber: Int) {

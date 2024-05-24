@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.wikipedia.views.WikiCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<org.akhil.nitcwiki.views.WikiCardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginStart="8dp"
@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="148dp">
 
-            <org.wikipedia.views.FaceAndColorDetectImageView
+            <org.akhil.nitcwiki.views.FaceAndColorDetectImageView
                 android:id="@+id/image"
                 style="@style/ImageViewDefault"
                 android:layout_width="match_parent"
@@ -61,4 +61,4 @@
                 android:transitionName="@string/transition_article_description" />
         </LinearLayout>
     </LinearLayout>
-</org.wikipedia.views.WikiCardView>
+</org.akhil.nitcwiki.views.WikiCardView>

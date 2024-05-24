@@ -1,9 +1,9 @@
-package org.wikipedia.feed.topread
+package org.akhil.nitcwiki.feed.topread
 
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.wikipedia.extensions.parcelable
+import org.akhil.nitcwiki.extensions.parcelable
 
 class TopReadViewModel(bundle: Bundle) : ViewModel() {
     val card = bundle.parcelable<TopReadListCard>(TopReadArticlesActivity.TOP_READ_CARD)!!

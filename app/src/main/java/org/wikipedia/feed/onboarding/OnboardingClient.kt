@@ -1,14 +1,14 @@
-package org.wikipedia.feed.onboarding
+package org.akhil.nitcwiki.feed.onboarding
 
 import android.content.Context
-import org.wikipedia.R
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.feed.FeedCoordinator
-import org.wikipedia.feed.announcement.Announcement
-import org.wikipedia.feed.dataclient.FeedClient
-import org.wikipedia.feed.model.Card
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.feed.FeedCoordinator
+import org.akhil.nitcwiki.feed.announcement.Announcement
+import org.akhil.nitcwiki.feed.dataclient.FeedClient
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.UriUtil
 
 class OnboardingClient : FeedClient {
 
@@ -25,7 +25,7 @@ class OnboardingClient : FeedClient {
         //        card = new OfflineOnboardingCard(new Announcement(
         //                "offlineOnboardingCard1",
         //                context.getString(R.string.offline_library_onboarding_text),
-        //                "https://upload.wikimedia.org/wikipedia/commons/5/5b/Illustration-OfflineLibraryPromo2_3x.png",
+        //                "https://upload.wikimedia.org.akhil.nitcwiki/commons/5/5b/Illustration-OfflineLibraryPromo2_3x.png",
         //                new Announcement.Action(context.getString(R.string.offline_library_onboarding_action), UriUtil.LOCAL_URL_OFFLINE_LIBRARY),
         //                context.getString(R.string.onboarding_got_it)));
         //        if (card.shouldShow()) {
@@ -34,7 +34,7 @@ class OnboardingClient : FeedClient {
         card = CustomizeOnboardingCard(
             Announcement(id = "customizeOnboardingCard1",
                 text = context.getString(R.string.feed_configure_onboarding_text),
-                imageUrl = "https://upload.wikimedia.org/wikipedia/commons/3/3b/Announcement_header_for_Explore_Feed_customization.png",
+                imageUrl = "https://upload.wikimedia.org.akhil.nitcwiki/commons/3/3b/Announcement_header_for_Explore_Feed_customization.png",
                 action = Announcement.Action(context.getString(R.string.feed_configure_onboarding_action), UriUtil.LOCAL_URL_CUSTOMIZE_FEED),
                 negativeText = context.getString(R.string.onboarding_got_it)
             )

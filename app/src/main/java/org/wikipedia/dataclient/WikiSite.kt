@@ -1,16 +1,16 @@
-package org.wikipedia.dataclient
+package org.akhil.nitcwiki.dataclient
 
 import android.net.Uri
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.json.UriSerializer
-import org.wikipedia.language.AppLanguageLookUpTable
-import org.wikipedia.language.LanguageUtil
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.json.UriSerializer
+import org.akhil.nitcwiki.language.AppLanguageLookUpTable
+import org.akhil.nitcwiki.language.LanguageUtil
+import org.akhil.nitcwiki.util.UriUtil
 
 /**
  * The base URL and Wikipedia language code for a MediaWiki site. Examples:
@@ -45,7 +45,7 @@ data class WikiSite(
 
     constructor(uri: Uri) : this(uri, "") {
         val tempUri = ensureScheme(uri)
-        var authority = tempUri.authority.orEmpty()
+        /*var authority = tempUri.authority.orEmpty()
         if ((BASE_DOMAIN == authority || ("www.$BASE_DOMAIN") == authority) &&
             tempUri.path?.startsWith("/wiki") == true
         ) {
@@ -71,7 +71,8 @@ data class WikiSite(
         // Use default subdomain in authority to prevent error when requesting endpoints. e.g. zh-tw.wikipedia.org
         if (authority.contains(BASE_DOMAIN) && subdomain().isNotEmpty()) {
             authority = subdomain() + "." + BASE_DOMAIN
-        }
+        }*/
+	var authority="wiki.fosscell.org"
         this.uri = Uri.Builder().scheme(tempUri.scheme).encodedAuthority(authority).build()
     }
 
@@ -121,7 +122,7 @@ data class WikiSite(
 
     companion object {
         const val DEFAULT_SCHEME = "https"
-        const val BASE_DOMAIN = "wikipedia.org"
+        const val BASE_DOMAIN = "fosscell.org"
         private var DEFAULT_BASE_URL: String? = null
 
         fun supportedAuthority(authority: String): Boolean {

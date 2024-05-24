@@ -1,7 +1,7 @@
-package org.wikipedia.page.linkpreview
+package org.akhil.nitcwiki.page.linkpreview
 
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.dataclient.page.PageSummary
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.dataclient.page.PageSummary
 
 sealed class LinkPreviewViewState {
     data object Loading : LinkPreviewViewState()

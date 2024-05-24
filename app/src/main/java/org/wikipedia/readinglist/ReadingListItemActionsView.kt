@@ -1,11 +1,11 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
-import org.wikipedia.databinding.ViewReadingListPageActionsBinding
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.databinding.ViewReadingListPageActionsBinding
+import org.akhil.nitcwiki.util.StringUtil
 
 class ReadingListItemActionsView : LinearLayout {
     interface Callback {

@@ -1,7 +1,7 @@
-package org.wikipedia.dataclient.wikidata
+package org.akhil.nitcwiki.dataclient.wikidata
 
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.mwapi.MwPostResponse
+import org.akhil.nitcwiki.dataclient.mwapi.MwPostResponse
 
 @Serializable
 class EntityPostResponse : MwPostResponse() {

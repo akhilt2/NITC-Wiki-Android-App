@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient
+package org.akhil.nitcwiki.dataclient
 
 import androidx.collection.lruCache
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
@@ -6,13 +6,13 @@ import okhttp3.Interceptor
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.Response
 import okhttp3.logging.HttpLoggingInterceptor
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.DestinationEventService
-import org.wikipedia.analytics.eventplatform.EventService
-import org.wikipedia.analytics.eventplatform.StreamConfig
-import org.wikipedia.dataclient.okhttp.OkHttpConnectionFactory
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.DestinationEventService
+import org.akhil.nitcwiki.analytics.eventplatform.EventService
+import org.akhil.nitcwiki.analytics.eventplatform.StreamConfig
+import org.akhil.nitcwiki.dataclient.okhttp.OkHttpConnectionFactory
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.settings.Prefs
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory
 import retrofit2.create

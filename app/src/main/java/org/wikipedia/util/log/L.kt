@@ -1,9 +1,9 @@
-package org.wikipedia.util.log
+package org.akhil.nitcwiki.util.log
 
 import android.util.Log
-import org.wikipedia.BuildConfig
-import org.wikipedia.WikipediaApp
-import org.wikipedia.util.ReleaseUtil
+import org.akhil.nitcwiki.BuildConfig
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.util.ReleaseUtil
 
 /** Logging utility like [Log] but with implied tags.  */
 object L {

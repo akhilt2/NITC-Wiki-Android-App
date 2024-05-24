@@ -1,4 +1,4 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import android.net.Uri
 import android.os.Bundle
@@ -9,25 +9,25 @@ import android.view.View.VISIBLE
 import android.view.ViewGroup
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.databinding.FragmentSuggestedEditsCardsItemBinding
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.descriptions.DescriptionEditActivity.Action.ADD_CAPTION
-import org.wikipedia.descriptions.DescriptionEditActivity.Action.ADD_DESCRIPTION
-import org.wikipedia.descriptions.DescriptionEditActivity.Action.TRANSLATE_CAPTION
-import org.wikipedia.descriptions.DescriptionEditActivity.Action.TRANSLATE_DESCRIPTION
-import org.wikipedia.page.Namespace
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.suggestededits.provider.EditingSuggestionsProvider
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.L10nUtil.setConditionalLayoutDirection
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
-import org.wikipedia.views.ImageZoomHelper
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.FragmentSuggestedEditsCardsItemBinding
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action.ADD_CAPTION
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action.ADD_DESCRIPTION
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action.TRANSLATE_CAPTION
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action.TRANSLATE_DESCRIPTION
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.suggestededits.provider.EditingSuggestionsProvider
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.L10nUtil.setConditionalLayoutDirection
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.ImageZoomHelper
 
 class SuggestedEditsCardsItemFragment : SuggestedEditsItemFragment() {
     private var _binding: FragmentSuggestedEditsCardsItemBinding? = null

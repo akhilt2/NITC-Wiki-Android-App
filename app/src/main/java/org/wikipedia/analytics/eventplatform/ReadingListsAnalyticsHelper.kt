@@ -1,7 +1,7 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import android.content.Context
-import org.wikipedia.readinglist.database.ReadingList
+import org.akhil.nitcwiki.readinglist.database.ReadingList
 
 object ReadingListsAnalyticsHelper {
 

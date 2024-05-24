@@ -1,8 +1,8 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
-import org.wikipedia.dataclient.okhttp.OkHttpConnectionFactory
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.dataclient.okhttp.OkHttpConnectionFactory
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
 
 class PageViewModel {
 

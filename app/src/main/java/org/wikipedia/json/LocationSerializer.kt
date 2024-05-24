@@ -1,4 +1,4 @@
-package org.wikipedia.json
+package org.akhil.nitcwiki.json
 
 import android.location.Location
 import kotlinx.serialization.KSerializer

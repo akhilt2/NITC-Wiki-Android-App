@@ -1,14 +1,14 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import org.wikipedia.R
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.analytics.eventplatform.ImageRecommendationsEvent
-import org.wikipedia.onboarding.OnboardingPageView
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.analytics.eventplatform.ImageRecommendationsEvent
+import org.akhil.nitcwiki.onboarding.OnboardingPageView
 
 class SuggestedEditsImageRecsOnboardingActivity : BaseActivity() {
 

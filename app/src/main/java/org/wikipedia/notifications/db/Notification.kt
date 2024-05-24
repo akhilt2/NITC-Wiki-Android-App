@@ -1,4 +1,4 @@
-package org.wikipedia.notifications.db
+package org.akhil.nitcwiki.notifications.db
 
 import androidx.room.Entity
 import kotlinx.serialization.SerialName
@@ -7,12 +7,12 @@ import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.decodeFromJsonElement
 import kotlinx.serialization.json.jsonPrimitive
-import org.wikipedia.Constants
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.page.Namespace
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.UriUtil
 import java.util.*
 
 @Serializable

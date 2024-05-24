@@ -1,4 +1,4 @@
-package org.wikipedia.random
+package org.akhil.nitcwiki.random
 
 import android.annotation.SuppressLint
 import android.content.Context

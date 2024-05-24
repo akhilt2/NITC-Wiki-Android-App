@@ -1,4 +1,4 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -8,14 +8,14 @@ import kotlinx.coroutines.async
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.mwapi.UserContribution
-import org.wikipedia.usercontrib.UserContribStats
-import org.wikipedia.util.Resource
-import org.wikipedia.util.ThrowableUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.mwapi.UserContribution
+import org.akhil.nitcwiki.usercontrib.UserContribStats
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.ThrowableUtil
 import java.time.temporal.ChronoUnit
 import java.util.Date
 

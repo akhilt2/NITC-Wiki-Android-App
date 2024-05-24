@@ -1,4 +1,4 @@
-package org.wikipedia.edit.insertmedia
+package org.akhil.nitcwiki.edit.insertmedia
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -13,22 +13,22 @@ import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.view.isVisible
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.ImageRecommendationsEvent
-import org.wikipedia.commons.ImagePreviewDialog
-import org.wikipedia.databinding.FragmentInsertMediaSettingsBinding
-import org.wikipedia.page.ExclusiveBottomSheetPresenter
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.richtext.RichTextUtil
-import org.wikipedia.suggestededits.PageSummaryForEdit
-import org.wikipedia.util.CustomTabsUtil
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.AppTextViewWithImages
-import org.wikipedia.views.ViewUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.ImageRecommendationsEvent
+import org.akhil.nitcwiki.commons.ImagePreviewDialog
+import org.akhil.nitcwiki.databinding.FragmentInsertMediaSettingsBinding
+import org.akhil.nitcwiki.page.ExclusiveBottomSheetPresenter
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.richtext.RichTextUtil
+import org.akhil.nitcwiki.suggestededits.PageSummaryForEdit
+import org.akhil.nitcwiki.util.CustomTabsUtil
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.AppTextViewWithImages
+import org.akhil.nitcwiki.views.ViewUtil
 
 class InsertMediaSettingsFragment : Fragment() {
 

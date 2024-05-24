@@ -1,17 +1,17 @@
-package org.wikipedia.dataclient.page
+package org.akhil.nitcwiki.dataclient.page
 
 import android.location.Location
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.json.LocationSerializer
-import org.wikipedia.page.Namespace
-import org.wikipedia.page.Page
-import org.wikipedia.page.PageProperties
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.UriUtil.getFilenameFromUploadUrl
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.json.LocationSerializer
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.page.Page
+import org.akhil.nitcwiki.page.PageProperties
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.UriUtil.getFilenameFromUploadUrl
 
 @Parcelize
 @Serializable

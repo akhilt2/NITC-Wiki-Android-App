@@ -1,9 +1,9 @@
-package org.wikipedia.savedpages
+package org.akhil.nitcwiki.savedpages
 
 import org.jsoup.Jsoup
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.util.UriUtil.resolveProtocolRelativeUrl
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.util.UriUtil.resolveProtocolRelativeUrl
+import org.akhil.nitcwiki.util.log.L
 
 object PageComponentsUrlParser {
     fun parse(html: String, site: WikiSite): List<String> {

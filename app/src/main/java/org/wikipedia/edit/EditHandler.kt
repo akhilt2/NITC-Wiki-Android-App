@@ -1,4 +1,4 @@
-package org.wikipedia.edit
+package org.akhil.nitcwiki.edit
 
 import android.view.MenuItem
 import android.view.View
@@ -7,14 +7,14 @@ import androidx.appcompat.widget.PopupMenu
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.int
 import kotlinx.serialization.json.jsonPrimitive
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.bridge.CommunicationBridge
-import org.wikipedia.bridge.CommunicationBridge.JSEventListener
-import org.wikipedia.descriptions.DescriptionEditUtil
-import org.wikipedia.page.Page
-import org.wikipedia.page.PageFragment
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.bridge.CommunicationBridge
+import org.akhil.nitcwiki.bridge.CommunicationBridge.JSEventListener
+import org.akhil.nitcwiki.descriptions.DescriptionEditUtil
+import org.akhil.nitcwiki.page.Page
+import org.akhil.nitcwiki.page.PageFragment
+import org.akhil.nitcwiki.util.log.L
 
 class EditHandler(private val fragment: PageFragment, bridge: CommunicationBridge) : JSEventListener {
 

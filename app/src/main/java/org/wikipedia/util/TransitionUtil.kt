@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.content.Context
 import android.util.Pair
@@ -6,7 +6,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.view.isVisible
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.settings.Prefs
 
 object TransitionUtil {
     fun getSharedElements(context: Context, vararg views: View): Array<Pair<View, String>> {

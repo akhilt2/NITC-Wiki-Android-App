@@ -1,4 +1,4 @@
-package org.wikipedia.activity
+package org.akhil.nitcwiki.activity
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -14,24 +14,24 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebResourceResponse
 import android.webkit.WebView
 import androidx.core.view.isVisible
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.DonorExperienceEvent
-import org.wikipedia.bridge.JavaScriptActionHandler
-import org.wikipedia.databinding.ActivitySingleWebViewBinding
-import org.wikipedia.dataclient.SharedPreferenceCookieManager
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.okhttp.OkHttpWebViewClient
-import org.wikipedia.extensions.parcelableExtra
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.LinkHandler
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.page.PageViewModel
-import org.wikipedia.staticdata.MainPageNameData
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.DonorExperienceEvent
+import org.akhil.nitcwiki.bridge.JavaScriptActionHandler
+import org.akhil.nitcwiki.databinding.ActivitySingleWebViewBinding
+import org.akhil.nitcwiki.dataclient.SharedPreferenceCookieManager
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.okhttp.OkHttpWebViewClient
+import org.akhil.nitcwiki.extensions.parcelableExtra
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.LinkHandler
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.page.PageViewModel
+import org.akhil.nitcwiki.staticdata.MainPageNameData
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.UriUtil
 
 class SingleWebViewActivity : BaseActivity() {
     private lateinit var binding: ActivitySingleWebViewBinding

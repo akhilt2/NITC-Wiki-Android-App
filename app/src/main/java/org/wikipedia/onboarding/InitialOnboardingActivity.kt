@@ -1,9 +1,9 @@
-package org.wikipedia.onboarding
+package org.akhil.nitcwiki.onboarding
 
 import android.content.Context
 import android.content.Intent
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.settings.Prefs
 
 class InitialOnboardingActivity : SingleFragmentActivity<InitialOnboardingFragment>(), OnboardingFragment.Callback {
     override fun onSkip() {}

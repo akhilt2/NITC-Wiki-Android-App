@@ -1,7 +1,7 @@
-package org.wikipedia.watchlist
+package org.akhil.nitcwiki.watchlist
 
 import androidx.annotation.StringRes
-import org.wikipedia.R
+import org.akhil.nitcwiki.R
 
 enum class WatchlistExpiry(val expiry: String, @StringRes val stringId: Int) {
     NEVER("never", R.string.watchlist_page_add_to_watchlist_snackbar_period_permanently),

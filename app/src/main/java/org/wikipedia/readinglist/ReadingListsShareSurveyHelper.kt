@@ -1,16 +1,16 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.app.Activity
 import android.content.Context
 import android.widget.TextView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.ReadingListsAnalyticsHelper
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.CustomTabsUtil
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.ReadingListsAnalyticsHelper
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.CustomTabsUtil
+import org.akhil.nitcwiki.util.StringUtil
 import java.time.LocalDate
 import java.time.Month
 

@@ -1,9 +1,9 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import io.reactivex.rxjava3.disposables.CompositeDisposable
-import org.wikipedia.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
 
 abstract class SuggestedEditsItemFragment : Fragment() {
     interface Callback {

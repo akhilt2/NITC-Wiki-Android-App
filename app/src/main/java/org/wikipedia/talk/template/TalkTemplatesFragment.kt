@@ -1,4 +1,4 @@
-package org.wikipedia.talk.template
+package org.akhil.nitcwiki.talk.template
 
 import android.annotation.SuppressLint
 import android.app.Activity.RESULT_OK
@@ -26,27 +26,27 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.tabs.TabLayout
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.analytics.eventplatform.PatrollerExperienceEvent
-import org.wikipedia.databinding.FragmentTalkTemplatesBinding
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.staticdata.TalkAliasData
-import org.wikipedia.talk.TalkReplyActivity
-import org.wikipedia.talk.TalkReplyActivity.Companion.EXTRA_TEMPLATE_MANAGEMENT
-import org.wikipedia.talk.TalkReplyActivity.Companion.RESULT_BACK_FROM_TOPIC
-import org.wikipedia.talk.TalkTopicsActivity
-import org.wikipedia.talk.db.TalkTemplate
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.Resource
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.DrawableItemDecoration
-import org.wikipedia.views.MultiSelectActionModeCallback
-import org.wikipedia.views.SwipeableItemTouchHelperCallback
-import org.wikipedia.views.ViewUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.analytics.eventplatform.PatrollerExperienceEvent
+import org.akhil.nitcwiki.databinding.FragmentTalkTemplatesBinding
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.staticdata.TalkAliasData
+import org.akhil.nitcwiki.talk.TalkReplyActivity
+import org.akhil.nitcwiki.talk.TalkReplyActivity.Companion.EXTRA_TEMPLATE_MANAGEMENT
+import org.akhil.nitcwiki.talk.TalkReplyActivity.Companion.RESULT_BACK_FROM_TOPIC
+import org.akhil.nitcwiki.talk.TalkTopicsActivity
+import org.akhil.nitcwiki.talk.db.TalkTemplate
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.DrawableItemDecoration
+import org.akhil.nitcwiki.views.MultiSelectActionModeCallback
+import org.akhil.nitcwiki.views.SwipeableItemTouchHelperCallback
+import org.akhil.nitcwiki.views.ViewUtil
 
 class TalkTemplatesFragment : Fragment() {
     private var _binding: FragmentTalkTemplatesBinding? = null

@@ -56,13 +56,13 @@
                     tools:text="Lorem ipsum" />
             </LinearLayout>
 
-            <org.wikipedia.commons.FilePageView
+            <org.akhil.nitcwiki.commons.FilePageView
                 android:id="@+id/filePageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical" />
 
-            <org.wikipedia.page.linkpreview.LinkPreviewErrorView
+            <org.akhil.nitcwiki.page.linkpreview.LinkPreviewErrorView
                 android:id="@+id/errorView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

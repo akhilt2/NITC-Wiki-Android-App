@@ -1,3 +1,3 @@
-package org.wikipedia.events
+package org.akhil.nitcwiki.events
 
 class ReadingListsEnableDialogEvent

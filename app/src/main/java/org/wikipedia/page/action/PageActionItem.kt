@@ -1,9 +1,9 @@
-package org.wikipedia.page.action
+package org.akhil.nitcwiki.page.action
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import org.wikipedia.R
-import org.wikipedia.model.EnumCode
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.model.EnumCode
 
 @Suppress("unused")
 enum class PageActionItem constructor(val id: Int,

@@ -1,9 +1,9 @@
-package org.wikipedia.pageimages.db
+package org.akhil.nitcwiki.pageimages.db
 
 import android.os.Parcelable
 import androidx.room.Entity
 import kotlinx.parcelize.Parcelize
-import org.wikipedia.page.PageTitle
+import org.akhil.nitcwiki.page.PageTitle
 
 @Parcelize
 @Entity(primaryKeys = ["lang", "namespace", "apiTitle"])

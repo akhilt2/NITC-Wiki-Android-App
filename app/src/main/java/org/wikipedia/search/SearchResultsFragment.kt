@@ -1,4 +1,4 @@
-package org.wikipedia.search
+package org.akhil.nitcwiki.search
 
 import android.location.Location
 import android.os.Bundle
@@ -18,24 +18,24 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.LongPressHandler
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.FragmentUtil.getCallback
-import org.wikipedia.analytics.eventplatform.PlacesEvent
-import org.wikipedia.databinding.FragmentSearchResultsBinding
-import org.wikipedia.databinding.ItemSearchNoResultsBinding
-import org.wikipedia.databinding.ItemSearchResultBinding
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.PageTitle
-import org.wikipedia.readinglist.LongPressMenu
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.util.L10nUtil.setConditionalLayoutDirection
-import org.wikipedia.util.ResourceUtil.getThemedColorStateList
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.DefaultViewHolder
-import org.wikipedia.views.ViewUtil.loadImageWithRoundedCorners
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.LongPressHandler
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.FragmentUtil.getCallback
+import org.akhil.nitcwiki.analytics.eventplatform.PlacesEvent
+import org.akhil.nitcwiki.databinding.FragmentSearchResultsBinding
+import org.akhil.nitcwiki.databinding.ItemSearchNoResultsBinding
+import org.akhil.nitcwiki.databinding.ItemSearchResultBinding
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.readinglist.LongPressMenu
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.util.L10nUtil.setConditionalLayoutDirection
+import org.akhil.nitcwiki.util.ResourceUtil.getThemedColorStateList
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.DefaultViewHolder
+import org.akhil.nitcwiki.views.ViewUtil.loadImageWithRoundedCorners
 
 class SearchResultsFragment : Fragment() {
     interface Callback {

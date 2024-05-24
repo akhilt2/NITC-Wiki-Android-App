@@ -1,12 +1,12 @@
-package org.wikipedia.feed.onthisday
+package org.akhil.nitcwiki.feed.onthisday
 
 import android.content.Context
 import android.content.Intent
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.extensions.parcelableExtra
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.extensions.parcelableExtra
 
 class OnThisDayActivity : SingleFragmentActivity<OnThisDayFragment>() {
 

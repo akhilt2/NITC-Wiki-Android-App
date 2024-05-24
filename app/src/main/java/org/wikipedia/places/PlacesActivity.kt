@@ -1,12 +1,12 @@
-package org.wikipedia.places
+package org.akhil.nitcwiki.places
 
 import android.content.Context
 import android.content.Intent
 import android.location.Location
-import org.wikipedia.Constants
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.extensions.parcelableExtra
-import org.wikipedia.page.PageTitle
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.extensions.parcelableExtra
+import org.akhil.nitcwiki.page.PageTitle
 
 class PlacesActivity : SingleFragmentActivity<PlacesFragment>() {
     public override fun createFragment(): PlacesFragment {

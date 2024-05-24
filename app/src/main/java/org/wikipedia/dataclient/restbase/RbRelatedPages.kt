@@ -1,7 +1,7 @@
-package org.wikipedia.dataclient.restbase
+package org.akhil.nitcwiki.dataclient.restbase
 
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.page.PageSummary
+import org.akhil.nitcwiki.dataclient.page.PageSummary
 
 @Serializable
 class RbRelatedPages {

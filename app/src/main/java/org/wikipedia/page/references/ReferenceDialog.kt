@@ -1,4 +1,4 @@
-package org.wikipedia.page.references
+package org.akhil.nitcwiki.page.references
 
 import android.app.Dialog
 import android.os.Bundle
@@ -11,16 +11,16 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.tabs.TabLayoutMediator
 import org.jsoup.Jsoup
-import org.wikipedia.R
-import org.wikipedia.activity.FragmentUtil.getCallback
-import org.wikipedia.databinding.FragmentReferencesPagerBinding
-import org.wikipedia.databinding.ViewReferencePagerItemBinding
-import org.wikipedia.page.ExtendedBottomSheetDialogFragment
-import org.wikipedia.page.LinkHandler
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.FragmentUtil.getCallback
+import org.akhil.nitcwiki.databinding.FragmentReferencesPagerBinding
+import org.akhil.nitcwiki.databinding.ViewReferencePagerItemBinding
+import org.akhil.nitcwiki.page.ExtendedBottomSheetDialogFragment
+import org.akhil.nitcwiki.page.LinkHandler
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.StringUtil
 import java.util.Locale
 
 class ReferenceDialog : ExtendedBottomSheetDialogFragment() {

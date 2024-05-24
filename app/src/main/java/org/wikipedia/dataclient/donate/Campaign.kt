@@ -1,8 +1,8 @@
-package org.wikipedia.dataclient.donate
+package org.akhil.nitcwiki.dataclient.donate
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.util.DateUtil
+import org.akhil.nitcwiki.util.DateUtil
 
 @Suppress("unused")
 @Serializable

@@ -1,4 +1,4 @@
-package org.wikipedia.feed.suggestededits
+package org.akhil.nitcwiki.feed.suggestededits
 
 import android.content.Context
 import android.os.Parcelable
@@ -10,21 +10,21 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlinx.parcelize.Parcelize
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.descriptions.DescriptionEditActivity
-import org.wikipedia.feed.FeedCoordinator
-import org.wikipedia.feed.dataclient.FeedClient
-import org.wikipedia.page.Namespace
-import org.wikipedia.page.PageTitle
-import org.wikipedia.suggestededits.PageSummaryForEdit
-import org.wikipedia.suggestededits.provider.EditingSuggestionsProvider
-import org.wikipedia.usercontrib.UserContribStats
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity
+import org.akhil.nitcwiki.feed.FeedCoordinator
+import org.akhil.nitcwiki.feed.dataclient.FeedClient
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.suggestededits.PageSummaryForEdit
+import org.akhil.nitcwiki.suggestededits.provider.EditingSuggestionsProvider
+import org.akhil.nitcwiki.usercontrib.UserContribStats
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.log.L
 import java.util.*
 
 class SuggestedEditsFeedClient : FeedClient {

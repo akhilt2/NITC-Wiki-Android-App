@@ -1,11 +1,11 @@
-package org.wikipedia.feed.dayheader
+package org.akhil.nitcwiki.feed.dayheader
 
 import android.content.Context
 import android.graphics.Rect
 import android.view.View
 import androidx.annotation.DimenRes
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.views.MarginItemDecoration
+import org.akhil.nitcwiki.views.MarginItemDecoration
 
 class DayHeaderMarginItemDecoration(context: Context, @DimenRes bottomId: Int) :
         MarginItemDecoration(0, 0, 0, context.resources.getDimensionPixelSize(bottomId)) {

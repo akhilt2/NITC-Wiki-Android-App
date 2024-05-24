@@ -1,4 +1,4 @@
-package org.wikipedia.readinglist.db
+package org.akhil.nitcwiki.readinglist.db
 
 import androidx.room.Dao
 import androidx.room.Delete
@@ -8,18 +8,18 @@ import androidx.room.Query
 import androidx.room.Transaction
 import androidx.room.Update
 import org.apache.commons.lang3.StringUtils
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.events.ArticleSavedOrDeletedEvent
-import org.wikipedia.page.Namespace
-import org.wikipedia.page.PageTitle
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.readinglist.sync.ReadingListSyncAdapter
-import org.wikipedia.savedpages.SavedPageSyncService
-import org.wikipedia.search.SearchResult
-import org.wikipedia.search.SearchResults
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.events.ArticleSavedOrDeletedEvent
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.readinglist.sync.ReadingListSyncAdapter
+import org.akhil.nitcwiki.savedpages.SavedPageSyncService
+import org.akhil.nitcwiki.search.SearchResult
+import org.akhil.nitcwiki.search.SearchResults
+import org.akhil.nitcwiki.util.StringUtil
 
 @Dao
 interface ReadingListPageDao {

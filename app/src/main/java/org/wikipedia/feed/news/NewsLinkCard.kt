@@ -1,14 +1,14 @@
-package org.wikipedia.feed.news
+package org.akhil.nitcwiki.feed.news
 
 import android.net.Uri
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.model.CardType
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.ImageUrlUtil
-import org.wikipedia.util.ImageUrlUtil.getUrlForPreferredSize
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.model.CardType
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.ImageUrlUtil
+import org.akhil.nitcwiki.util.ImageUrlUtil.getUrlForPreferredSize
 
 class NewsLinkCard(private val page: PageSummary, private val wiki: WikiSite) : Card() {
 

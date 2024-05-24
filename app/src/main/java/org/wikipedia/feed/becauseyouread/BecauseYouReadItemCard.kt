@@ -1,9 +1,9 @@
-package org.wikipedia.feed.becauseyouread
+package org.akhil.nitcwiki.feed.becauseyouread
 
 import android.net.Uri
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.model.CardType
-import org.wikipedia.page.PageTitle
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.model.CardType
+import org.akhil.nitcwiki.page.PageTitle
 
 class BecauseYouReadItemCard(private val title: PageTitle) : Card() {
 

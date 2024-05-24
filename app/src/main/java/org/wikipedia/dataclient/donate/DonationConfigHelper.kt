@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient.donate
+package org.akhil.nitcwiki.dataclient.donate
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -6,8 +6,8 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.decodeFromJsonElement
 import okhttp3.Request
-import org.wikipedia.dataclient.okhttp.OkHttpConnectionFactory
-import org.wikipedia.json.JsonUtil
+import org.akhil.nitcwiki.dataclient.okhttp.OkHttpConnectionFactory
+import org.akhil.nitcwiki.json.JsonUtil
 
 object DonationConfigHelper {
 

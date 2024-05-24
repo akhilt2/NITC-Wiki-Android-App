@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.graphics.Color
@@ -10,12 +10,12 @@ import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.PopupWindow
 import androidx.core.widget.PopupWindowCompat
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewEditHistoryFilterOverflowBinding
-import org.wikipedia.dataclient.restbase.EditCount
-import org.wikipedia.page.edithistory.EditHistoryListViewModel
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewEditHistoryFilterOverflowBinding
+import org.akhil.nitcwiki.dataclient.restbase.EditCount
+import org.akhil.nitcwiki.page.edithistory.EditHistoryListViewModel
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.StringUtil
 
 class EditHistoryFilterOverflowView(context: Context) : FrameLayout(context) {
 

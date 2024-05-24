@@ -72,7 +72,7 @@
             android:paddingEnd="@dimen/activity_horizontal_margin"
             android:background="?attr/overlay_color">
 
-            <org.wikipedia.views.AppTextView
+            <org.akhil.nitcwiki.views.AppTextView
                 android:id="@+id/description_text"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -190,7 +190,7 @@
                     tools:src="@drawable/ic_license_sharealike" />
             </LinearLayout>
 
-            <org.wikipedia.views.AppTextView
+            <org.akhil.nitcwiki.views.AppTextView
                 android:id="@+id/credit_text"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -205,7 +205,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <org.wikipedia.views.WikiErrorView
+    <org.akhil.nitcwiki.views.WikiErrorView
         android:id="@+id/error_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

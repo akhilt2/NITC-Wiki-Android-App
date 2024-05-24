@@ -1,4 +1,4 @@
-package org.wikipedia.notifications
+package org.akhil.nitcwiki.notifications
 
 import android.content.Context
 import android.graphics.Typeface
@@ -11,12 +11,12 @@ import android.widget.LinearLayout
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.view.isVisible
 import androidx.core.widget.ImageViewCompat
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.databinding.ItemNotificationFilterBinding
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.databinding.ItemNotificationFilterBinding
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.ResourceUtil
 
 class NotificationFilterItemView constructor(context: Context, attrs: AttributeSet? = null) : LinearLayout(context, attrs) {
 

@@ -1,4 +1,4 @@
-package org.wikipedia.search
+package org.akhil.nitcwiki.search
 
 import android.app.Activity.RESULT_OK
 import android.content.Intent
@@ -18,27 +18,27 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.PlacesEvent
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.databinding.FragmentSearchBinding
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.places.PlacesActivity
-import org.wikipedia.readinglist.ReadingListBehaviorsUtil
-import org.wikipedia.search.db.RecentSearch
-import org.wikipedia.settings.Prefs
-import org.wikipedia.settings.languages.WikipediaLanguagesActivity
-import org.wikipedia.settings.languages.WikipediaLanguagesFragment
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.views.LanguageScrollView
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.PlacesEvent
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.databinding.FragmentSearchBinding
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.places.PlacesActivity
+import org.akhil.nitcwiki.readinglist.ReadingListBehaviorsUtil
+import org.akhil.nitcwiki.search.db.RecentSearch
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.settings.languages.WikipediaLanguagesActivity
+import org.akhil.nitcwiki.settings.languages.WikipediaLanguagesFragment
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.views.LanguageScrollView
 import java.util.Locale
 
 class SearchFragment : Fragment(), SearchResultsFragment.Callback, RecentSearchesFragment.Callback, LanguageScrollView.Callback {

@@ -1,4 +1,4 @@
-package org.wikipedia.page.campaign
+package org.akhil.nitcwiki.page.campaign
 
 import android.content.Context
 import android.net.Uri
@@ -6,13 +6,13 @@ import android.view.LayoutInflater
 import android.widget.FrameLayout
 import androidx.core.text.method.LinkMovementMethodCompat
 import androidx.core.view.isVisible
-import org.wikipedia.analytics.eventplatform.DonorExperienceEvent
-import org.wikipedia.databinding.DialogCampaignBinding
-import org.wikipedia.dataclient.donate.Campaign
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.analytics.eventplatform.DonorExperienceEvent
+import org.akhil.nitcwiki.databinding.DialogCampaignBinding
+import org.akhil.nitcwiki.dataclient.donate.Campaign
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.UriUtil
 
 class CampaignDialogView(context: Context) : FrameLayout(context) {
     interface Callback {

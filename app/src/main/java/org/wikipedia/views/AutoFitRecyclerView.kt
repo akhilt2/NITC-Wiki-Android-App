@@ -1,11 +1,11 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.core.content.res.use
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.R
-import org.wikipedia.util.log.L.logRemoteErrorIfProd
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.util.log.L.logRemoteErrorIfProd
 import androidx.annotation.IntRange as AndroidIntRange
 
 /** [RecyclerView] that invokes a callback when the number of columns should be updated.  */

@@ -1,4 +1,4 @@
-package org.wikipedia.feed.random
+package org.akhil.nitcwiki.feed.random
 
 import android.content.Context
 import kotlinx.coroutines.CoroutineExceptionHandler
@@ -6,14 +6,14 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.feed.FeedContentType
-import org.wikipedia.feed.FeedCoordinator
-import org.wikipedia.feed.dataclient.FeedClient
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.feed.FeedContentType
+import org.akhil.nitcwiki.feed.FeedCoordinator
+import org.akhil.nitcwiki.feed.dataclient.FeedClient
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.util.log.L
 
 class RandomClient : FeedClient {
 

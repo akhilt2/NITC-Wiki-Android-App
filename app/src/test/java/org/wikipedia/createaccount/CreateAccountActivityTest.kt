@@ -1,12 +1,12 @@
-package org.wikipedia.createaccount
+package org.akhil.nitcwiki.createaccount
 
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.createaccount.CreateAccountActivity.Companion.validateInput
-import org.wikipedia.createaccount.CreateAccountActivity.ValidateResult
+import org.akhil.nitcwiki.createaccount.CreateAccountActivity.Companion.validateInput
+import org.akhil.nitcwiki.createaccount.CreateAccountActivity.ValidateResult
 
 @RunWith(RobolectricTestRunner::class)
 class CreateAccountActivityTest {

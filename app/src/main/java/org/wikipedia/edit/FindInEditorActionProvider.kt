@@ -1,15 +1,15 @@
-package org.wikipedia.edit
+package org.akhil.nitcwiki.edit
 
 import android.graphics.Rect
 import android.view.ActionMode
 import android.view.MenuItem
 import android.view.View
-import org.wikipedia.edit.richtext.SyntaxHighlighter
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.FindInPageActionProvider
-import org.wikipedia.views.FindInPageActionProvider.FindInPageListener
+import org.akhil.nitcwiki.edit.richtext.SyntaxHighlighter
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.FindInPageActionProvider
+import org.akhil.nitcwiki.views.FindInPageActionProvider.FindInPageListener
 
 class FindInEditorActionProvider(private val scrollView: View,
                                  private val textView: SyntaxHighlightableEditText,

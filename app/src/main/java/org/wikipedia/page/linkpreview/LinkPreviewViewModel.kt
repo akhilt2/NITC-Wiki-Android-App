@@ -1,4 +1,4 @@
-package org.wikipedia.page.linkpreview
+package org.akhil.nitcwiki.page.linkpreview
 
 import android.location.Location
 import android.os.Bundle
@@ -10,16 +10,16 @@ import kotlinx.coroutines.async
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.wikipedia.analytics.eventplatform.WatchlistAnalyticsHelper
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.log.L
-import org.wikipedia.watchlist.WatchlistExpiry
+import org.akhil.nitcwiki.analytics.eventplatform.WatchlistAnalyticsHelper
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.watchlist.WatchlistExpiry
 
 class LinkPreviewViewModel(bundle: Bundle) : ViewModel() {
     private val _uiState = MutableStateFlow<LinkPreviewViewState>(LinkPreviewViewState.Loading)

@@ -1,4 +1,4 @@
-package org.wikipedia.feed.model
+package org.akhil.nitcwiki.feed.model
 
 import java.util.Calendar
 import java.util.TimeZone

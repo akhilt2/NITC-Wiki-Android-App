@@ -1,11 +1,11 @@
-package org.wikipedia.feed.mainpage
+package org.akhil.nitcwiki.feed.mainpage
 
 import android.content.Context
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.feed.FeedContentType
-import org.wikipedia.feed.FeedCoordinator
-import org.wikipedia.feed.dataclient.FeedClient
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.feed.FeedContentType
+import org.akhil.nitcwiki.feed.FeedCoordinator
+import org.akhil.nitcwiki.feed.dataclient.FeedClient
 
 class MainPageClient : FeedClient {
 

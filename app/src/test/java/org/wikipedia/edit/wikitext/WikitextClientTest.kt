@@ -1,8 +1,8 @@
-package org.wikipedia.edit.wikitext
+package org.akhil.nitcwiki.edit.wikitext
 
 import org.junit.Test
-import org.wikipedia.dataclient.mwapi.MwException
-import org.wikipedia.test.MockRetrofitTest
+import org.akhil.nitcwiki.dataclient.mwapi.MwException
+import org.akhil.nitcwiki.test.MockRetrofitTest
 
 class WikitextClientTest : MockRetrofitTest() {
     @Test

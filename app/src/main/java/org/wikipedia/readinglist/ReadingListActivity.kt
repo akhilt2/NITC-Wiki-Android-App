@@ -1,14 +1,14 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.content.Context
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
-import org.wikipedia.R
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.analytics.eventplatform.ReadingListsAnalyticsHelper
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.util.ResourceUtil.getThemedColor
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.analytics.eventplatform.ReadingListsAnalyticsHelper
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.util.ResourceUtil.getThemedColor
 
 class ReadingListActivity : SingleFragmentActivity<ReadingListFragment>() {
 

@@ -1,7 +1,7 @@
-package org.wikipedia.database
+package org.akhil.nitcwiki.database
 
 import androidx.room.TypeConverter
-import org.wikipedia.page.Namespace
+import org.akhil.nitcwiki.page.Namespace
 
 class NamespaceTypeConverter {
     @TypeConverter

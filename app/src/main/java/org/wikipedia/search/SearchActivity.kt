@@ -1,11 +1,11 @@
-package org.wikipedia.search
+package org.akhil.nitcwiki.search
 
 import android.content.Context
 import android.content.Intent
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.util.log.L
 
 class SearchActivity : SingleFragmentActivity<SearchFragment>() {
     public override fun createFragment(): SearchFragment {

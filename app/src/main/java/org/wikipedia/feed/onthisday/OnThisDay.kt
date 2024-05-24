@@ -1,7 +1,7 @@
-package org.wikipedia.feed.onthisday
+package org.akhil.nitcwiki.feed.onthisday
 
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.page.PageSummary
+import org.akhil.nitcwiki.dataclient.page.PageSummary
 
 @Serializable
 class OnThisDay {

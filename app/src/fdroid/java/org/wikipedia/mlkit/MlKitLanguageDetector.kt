@@ -1,4 +1,4 @@
-package org.wikipedia.mlkit
+package org.akhil.nitcwiki.mlkit
 
 class MlKitLanguageDetector {
     interface Callback {

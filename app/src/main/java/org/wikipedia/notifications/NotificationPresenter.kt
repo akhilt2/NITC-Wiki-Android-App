@@ -1,4 +1,4 @@
-package org.wikipedia.notifications
+package org.akhil.nitcwiki.notifications
 
 import android.app.NotificationManager
 import android.app.PendingIntent
@@ -16,18 +16,18 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
 import androidx.core.graphics.applyCanvas
 import androidx.core.graphics.createBitmap
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.diff.ArticleEditDetailsActivity
-import org.wikipedia.notifications.db.Notification
-import org.wikipedia.page.PageTitle
-import org.wikipedia.richtext.RichTextUtil
-import org.wikipedia.talk.TalkTopicsActivity
-import org.wikipedia.theme.Theme
-import org.wikipedia.util.*
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.diff.ArticleEditDetailsActivity
+import org.akhil.nitcwiki.notifications.db.Notification
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.richtext.RichTextUtil
+import org.akhil.nitcwiki.talk.TalkTopicsActivity
+import org.akhil.nitcwiki.theme.Theme
+import org.akhil.nitcwiki.util.*
+import org.akhil.nitcwiki.util.log.L
 import java.util.*
 
 object NotificationPresenter {

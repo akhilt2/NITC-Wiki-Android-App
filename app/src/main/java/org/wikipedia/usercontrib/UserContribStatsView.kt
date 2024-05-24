@@ -1,4 +1,4 @@
-package org.wikipedia.usercontrib
+package org.akhil.nitcwiki.usercontrib
 
 import android.content.Context
 import android.text.method.MovementMethod
@@ -7,12 +7,12 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewUserContribStatsBinding
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewUserContribStatsBinding
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.StringUtil
 
 class UserContribStatsView constructor(context: Context, attrs: AttributeSet? = null) : ConstraintLayout(context, attrs) {
 

@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.graphics.drawable.BitmapDrawable
@@ -16,9 +16,9 @@ import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.load.resource.bitmap.DownsampleStrategy
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.CenterCropWithFaceTransformation
-import org.wikipedia.util.WhiteBackgroundTransformation
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.CenterCropWithFaceTransformation
+import org.akhil.nitcwiki.util.WhiteBackgroundTransformation
 
 class FaceAndColorDetectImageView : AppCompatImageView {
 

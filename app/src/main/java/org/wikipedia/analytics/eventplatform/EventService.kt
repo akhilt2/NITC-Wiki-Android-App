@@ -1,4 +1,4 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import io.reactivex.rxjava3.core.Observable
 import retrofit2.Response

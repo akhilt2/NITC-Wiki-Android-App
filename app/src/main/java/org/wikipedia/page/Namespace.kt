@@ -1,10 +1,10 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.extensions.getByCode
-import org.wikipedia.language.AppLanguageLookUpTable
-import org.wikipedia.model.EnumCode
-import org.wikipedia.staticdata.*
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.extensions.getByCode
+import org.akhil.nitcwiki.language.AppLanguageLookUpTable
+import org.akhil.nitcwiki.model.EnumCode
+import org.akhil.nitcwiki.staticdata.*
 import java.util.*
 
 /** An enumeration describing the different possible namespace codes. Do not attempt to use this

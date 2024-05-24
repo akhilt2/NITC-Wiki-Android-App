@@ -1,4 +1,4 @@
-package org.wikipedia.readinglist.sync
+package org.akhil.nitcwiki.readinglist.sync
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

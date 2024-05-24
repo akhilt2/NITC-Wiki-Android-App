@@ -1,11 +1,11 @@
-package org.wikipedia.edit
+package org.akhil.nitcwiki.edit
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.FrameLayout
-import org.wikipedia.databinding.ViewWikitextKeyboardFormattingBinding
-import org.wikipedia.util.FeedbackUtil
+import org.akhil.nitcwiki.databinding.ViewWikitextKeyboardFormattingBinding
+import org.akhil.nitcwiki.util.FeedbackUtil
 
 class WikiTextKeyboardFormattingView : FrameLayout {
     private val binding = ViewWikitextKeyboardFormattingBinding.inflate(LayoutInflater.from(context), this)

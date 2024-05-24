@@ -1,4 +1,4 @@
-package org.wikipedia.feed.news
+package org.akhil.nitcwiki.feed.news
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,15 +6,15 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.PagerSnapHelper
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewCardNewsBinding
-import org.wikipedia.feed.view.DefaultFeedCardView
-import org.wikipedia.feed.view.FeedAdapter
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.views.ImageZoomHelper
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewCardNewsBinding
+import org.akhil.nitcwiki.feed.view.DefaultFeedCardView
+import org.akhil.nitcwiki.feed.view.FeedAdapter
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.views.ImageZoomHelper
 
 class NewsCardView(context: Context) : DefaultFeedCardView<NewsCard>(context) {
 

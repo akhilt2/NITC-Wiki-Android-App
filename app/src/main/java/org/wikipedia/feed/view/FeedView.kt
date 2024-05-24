@@ -1,15 +1,15 @@
-package org.wikipedia.feed.view
+package org.akhil.nitcwiki.feed.view
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import org.wikipedia.R
-import org.wikipedia.feed.dayheader.DayHeaderMarginItemDecoration
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.views.AutoFitRecyclerView
-import org.wikipedia.views.HeaderMarginItemDecoration
-import org.wikipedia.views.MarginItemDecoration
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.feed.dayheader.DayHeaderMarginItemDecoration
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.views.AutoFitRecyclerView
+import org.akhil.nitcwiki.views.HeaderMarginItemDecoration
+import org.akhil.nitcwiki.views.MarginItemDecoration
 
 class FeedView constructor(context: Context, attrs: AttributeSet? = null) : AutoFitRecyclerView(context, attrs) {
     private var recyclerLayoutManager: StaggeredGridLayoutManager

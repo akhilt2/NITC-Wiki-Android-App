@@ -1,12 +1,12 @@
-package org.wikipedia.feed.progress
+package org.akhil.nitcwiki.feed.progress
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.widget.FrameLayout
-import org.wikipedia.databinding.ViewCardProgressBinding
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.view.FeedAdapter
-import org.wikipedia.feed.view.FeedCardView
+import org.akhil.nitcwiki.databinding.ViewCardProgressBinding
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.view.FeedAdapter
+import org.akhil.nitcwiki.feed.view.FeedCardView
 
 class ProgressCardView(context: Context) : FrameLayout(context), FeedCardView<Card> {
 

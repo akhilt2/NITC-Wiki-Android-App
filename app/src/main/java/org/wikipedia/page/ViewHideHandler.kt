@@ -1,14 +1,14 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
 import android.view.Gravity
 import android.view.View
-import org.wikipedia.R
-import org.wikipedia.util.DimenUtil.dpToPx
-import org.wikipedia.util.DimenUtil.getDimension
-import org.wikipedia.views.ObservableWebView
-import org.wikipedia.views.ObservableWebView.OnDownMotionEventListener
-import org.wikipedia.views.ObservableWebView.OnUpOrCancelMotionEventListener
-import org.wikipedia.views.ViewAnimations.ensureTranslationY
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.util.DimenUtil.dpToPx
+import org.akhil.nitcwiki.util.DimenUtil.getDimension
+import org.akhil.nitcwiki.views.ObservableWebView
+import org.akhil.nitcwiki.views.ObservableWebView.OnDownMotionEventListener
+import org.akhil.nitcwiki.views.ObservableWebView.OnUpOrCancelMotionEventListener
+import org.akhil.nitcwiki.views.ViewAnimations.ensureTranslationY
 
 class ViewHideHandler(private val hideableView: View,
                       private val anchoredView: View?,

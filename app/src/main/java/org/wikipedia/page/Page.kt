@@ -1,4 +1,4 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
 class Page(var title: PageTitle, var sections: List<Section> = emptyList(), var pageProperties: PageProperties) {
     val displayTitle = pageProperties.displayTitle

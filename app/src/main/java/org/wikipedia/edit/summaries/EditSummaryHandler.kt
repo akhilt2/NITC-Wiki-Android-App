@@ -1,14 +1,14 @@
-package org.wikipedia.edit.summaries
+package org.akhil.nitcwiki.edit.summaries
 
 import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.edit.db.EditSummary
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.L10nUtil.setConditionalTextDirection
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.edit.db.EditSummary
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.L10nUtil.setConditionalTextDirection
 
 class EditSummaryHandler(private val coroutineScope: CoroutineScope,
                          private val container: View,

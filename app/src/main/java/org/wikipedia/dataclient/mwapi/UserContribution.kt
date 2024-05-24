@@ -1,7 +1,7 @@
-package org.wikipedia.dataclient.mwapi
+package org.akhil.nitcwiki.dataclient.mwapi
 
 import kotlinx.serialization.Serializable
-import org.wikipedia.util.DateUtil
+import org.akhil.nitcwiki.util.DateUtil
 
 @Serializable
 class UserContribution {

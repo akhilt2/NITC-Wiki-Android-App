@@ -1,8 +1,8 @@
-package org.wikipedia.dataclient.restbase
+package org.akhil.nitcwiki.dataclient.restbase
 
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.ServiceError
-import org.wikipedia.json.JsonUtil
+import org.akhil.nitcwiki.dataclient.ServiceError
+import org.akhil.nitcwiki.json.JsonUtil
 
 @Serializable
 class RbServiceError : ServiceError {

@@ -1,4 +1,4 @@
-package org.wikipedia.history
+package org.akhil.nitcwiki.history
 
 import android.content.Context
 import android.graphics.Typeface
@@ -29,26 +29,26 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
-import org.wikipedia.BackPressedHandler
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.FragmentUtil
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.databinding.FragmentHistoryBinding
-import org.wikipedia.main.MainActivity
-import org.wikipedia.main.MainFragment
-import org.wikipedia.page.PageAvailableOfflineHandler
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.log.L
-import org.wikipedia.views.DefaultViewHolder
-import org.wikipedia.views.PageItemView
-import org.wikipedia.views.SwipeableItemTouchHelperCallback
-import org.wikipedia.views.WikiCardView
+import org.akhil.nitcwiki.BackPressedHandler
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.FragmentUtil
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.databinding.FragmentHistoryBinding
+import org.akhil.nitcwiki.main.MainActivity
+import org.akhil.nitcwiki.main.MainFragment
+import org.akhil.nitcwiki.page.PageAvailableOfflineHandler
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.DefaultViewHolder
+import org.akhil.nitcwiki.views.PageItemView
+import org.akhil.nitcwiki.views.SwipeableItemTouchHelperCallback
+import org.akhil.nitcwiki.views.WikiCardView
 
 class HistoryFragment : Fragment(), BackPressedHandler {
     interface Callback {

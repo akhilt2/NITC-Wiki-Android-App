@@ -1,9 +1,9 @@
-package org.wikipedia.page.customize
+package org.akhil.nitcwiki.page.customize
 
 import androidx.lifecycle.ViewModel
-import org.wikipedia.R
-import org.wikipedia.page.action.PageActionItem
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.page.action.PageActionItem
+import org.akhil.nitcwiki.settings.Prefs
 import java.util.*
 
 class CustomizeToolbarViewModel : ViewModel() {

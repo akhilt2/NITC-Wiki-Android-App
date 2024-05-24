@@ -12,7 +12,7 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp">
 
-        <org.wikipedia.views.PlainPasteEditText
+        <org.akhil.nitcwiki.views.PlainPasteEditText
             android:id="@+id/imageTagsSearchText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
             android:textSize="14sp"
             android:maxLines="1">
             <requestFocus />
-        </org.wikipedia.views.PlainPasteEditText>
+        </org.akhil.nitcwiki.views.PlainPasteEditText>
 
         <ImageView
             android:layout_width="24dp"

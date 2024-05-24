@@ -1,11 +1,11 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.LinearLayout
-import org.wikipedia.databinding.ViewImageDetailBinding
+import org.akhil.nitcwiki.databinding.ViewImageDetailBinding
 
 class ImageDetailView constructor(context: Context, attrs: AttributeSet? = null) : LinearLayout(context, attrs) {
     val binding = ViewImageDetailBinding.inflate(LayoutInflater.from(context), this, true)

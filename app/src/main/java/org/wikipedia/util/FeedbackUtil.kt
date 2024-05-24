@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.app.Activity
 import android.content.Context
@@ -18,21 +18,21 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
 import com.skydoves.balloon.*
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.analytics.eventplatform.BreadCrumbLogEvent
-import org.wikipedia.databinding.ViewPlainTextTooltipBinding
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.main.MainActivity
-import org.wikipedia.page.LinkMovementMethodExt
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.edithistory.EditHistoryListActivity
-import org.wikipedia.random.RandomActivity
-import org.wikipedia.readinglist.ReadingListActivity
-import org.wikipedia.suggestededits.SuggestionsActivity
-import org.wikipedia.talk.TalkTopicsActivity
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.analytics.eventplatform.BreadCrumbLogEvent
+import org.akhil.nitcwiki.databinding.ViewPlainTextTooltipBinding
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.main.MainActivity
+import org.akhil.nitcwiki.page.LinkMovementMethodExt
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.edithistory.EditHistoryListActivity
+import org.akhil.nitcwiki.random.RandomActivity
+import org.akhil.nitcwiki.readinglist.ReadingListActivity
+import org.akhil.nitcwiki.suggestededits.SuggestionsActivity
+import org.akhil.nitcwiki.talk.TalkTopicsActivity
+import org.akhil.nitcwiki.util.log.L
 
 object FeedbackUtil {
     private const val LENGTH_SHORT = 3000

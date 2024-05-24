@@ -51,7 +51,7 @@
             tools:text="1894" />
     </LinearLayout>
 
-    <org.wikipedia.views.AppTextView
+    <org.akhil.nitcwiki.views.AppTextView
         android:id="@+id/years_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
         android:textSize="16sp"
         android:textStyle="bold" />
 
-    <org.wikipedia.views.AppTextView
+    <org.akhil.nitcwiki.views.AppTextView
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

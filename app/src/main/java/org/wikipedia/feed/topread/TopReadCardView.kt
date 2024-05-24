@@ -1,12 +1,12 @@
-package org.wikipedia.feed.topread
+package org.akhil.nitcwiki.feed.topread
 
 import android.content.Context
-import org.wikipedia.feed.view.CardFooterView
-import org.wikipedia.feed.view.ListCardItemView
-import org.wikipedia.feed.view.ListCardRecyclerAdapter
-import org.wikipedia.feed.view.ListCardView
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.views.DefaultViewHolder
+import org.akhil.nitcwiki.feed.view.CardFooterView
+import org.akhil.nitcwiki.feed.view.ListCardItemView
+import org.akhil.nitcwiki.feed.view.ListCardRecyclerAdapter
+import org.akhil.nitcwiki.feed.view.ListCardView
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.views.DefaultViewHolder
 
 class TopReadCardView(context: Context) : ListCardView<TopReadListCard>(context) {
     override var card: TopReadListCard? = null

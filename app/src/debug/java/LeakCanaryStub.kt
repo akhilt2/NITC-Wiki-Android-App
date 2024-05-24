@@ -1,7 +1,7 @@
-package org.wikipedia
+package org.akhil.nitcwiki
 
 import leakcanary.LeakCanary
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.settings.Prefs
 
 fun setupLeakCanary() {
     val enabled = Prefs.isMemoryLeakTestEnabled

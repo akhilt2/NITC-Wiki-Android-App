@@ -1,9 +1,9 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.graphics.Rect
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.util.DimenUtil.roundedDpToPx
+import org.akhil.nitcwiki.util.DimenUtil.roundedDpToPx
 
 class FooterMarginItemDecoration(topDp: Int, bottomDp: Int) :
         MarginItemDecoration(0, roundedDpToPx(topDp.toFloat()), 0, roundedDpToPx(bottomDp.toFloat())) {

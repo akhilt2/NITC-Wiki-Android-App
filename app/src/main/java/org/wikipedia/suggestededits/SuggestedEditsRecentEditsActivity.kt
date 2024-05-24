@@ -1,11 +1,11 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.analytics.eventplatform.PatrollerExperienceEvent
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.analytics.eventplatform.PatrollerExperienceEvent
+import org.akhil.nitcwiki.settings.Prefs
 
 class SuggestedEditsRecentEditsActivity : SingleFragmentActivity<SuggestedEditsRecentEditsFragment>() {
 

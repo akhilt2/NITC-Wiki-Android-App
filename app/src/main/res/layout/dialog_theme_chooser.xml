@@ -74,7 +74,7 @@
                     android:textStyle="bold"
                     tools:ignore="HardcodedText" />
 
-                <org.wikipedia.views.DiscreteSeekBar
+                <org.akhil.nitcwiki.views.DiscreteSeekBar
                     android:id="@+id/text_size_seek_bar"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

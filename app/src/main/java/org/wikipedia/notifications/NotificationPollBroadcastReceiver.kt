@@ -1,4 +1,4 @@
-package org.wikipedia.notifications
+package org.akhil.nitcwiki.notifications
 
 import android.app.AlarmManager
 import android.app.PendingIntent
@@ -11,25 +11,25 @@ import androidx.core.app.PendingIntentCompat
 import androidx.core.app.RemoteInput
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.NotificationInteractionEvent
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.csrf.CsrfTokenClient
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.events.UnreadNotificationsEvent
-import org.wikipedia.extensions.parcelableExtra
-import org.wikipedia.main.MainActivity
-import org.wikipedia.notifications.db.Notification
-import org.wikipedia.page.PageTitle
-import org.wikipedia.push.WikipediaFirebaseMessagingService
-import org.wikipedia.settings.Prefs
-import org.wikipedia.talk.NotificationDirectReplyHelper
-import org.wikipedia.util.ReleaseUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.NotificationInteractionEvent
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.csrf.CsrfTokenClient
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.events.UnreadNotificationsEvent
+import org.akhil.nitcwiki.extensions.parcelableExtra
+import org.akhil.nitcwiki.main.MainActivity
+import org.akhil.nitcwiki.notifications.db.Notification
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.push.WikipediaFirebaseMessagingService
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.talk.NotificationDirectReplyHelper
+import org.akhil.nitcwiki.util.ReleaseUtil
+import org.akhil.nitcwiki.util.log.L
 import java.util.concurrent.TimeUnit
 
 class NotificationPollBroadcastReceiver : BroadcastReceiver() {

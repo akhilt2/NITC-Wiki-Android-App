@@ -1,4 +1,4 @@
-package org.wikipedia.edit.richtext
+package org.akhil.nitcwiki.edit.richtext
 
 import android.text.TextPaint
 import android.text.style.MetricAffectingSpan

@@ -1,9 +1,9 @@
-package org.wikipedia.json
+package org.akhil.nitcwiki.json
 
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.descriptors.*
 import kotlinx.serialization.encoding.*
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.util.log.L
 import java.lang.Exception
 import java.util.*
 

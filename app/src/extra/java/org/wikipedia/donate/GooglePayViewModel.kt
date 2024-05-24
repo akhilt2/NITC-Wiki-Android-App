@@ -1,4 +1,4 @@
-package org.wikipedia.donate
+package org.akhil.nitcwiki.donate
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -9,18 +9,18 @@ import kotlinx.coroutines.async
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 import org.json.JSONObject
-import org.wikipedia.BuildConfig
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.donate.DonationConfig
-import org.wikipedia.dataclient.donate.DonationConfigHelper
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.GeoUtil
-import org.wikipedia.util.Resource
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.BuildConfig
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.donate.DonationConfig
+import org.akhil.nitcwiki.dataclient.donate.DonationConfigHelper
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.GeoUtil
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.log.L
 import java.text.NumberFormat
 import java.time.Instant
 import java.util.Locale

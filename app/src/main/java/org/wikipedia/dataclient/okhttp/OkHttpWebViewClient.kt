@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient.okhttp
+package org.akhil.nitcwiki.dataclient.okhttp
 
 import android.view.KeyEvent
 import android.webkit.WebResourceRequest
@@ -8,12 +8,12 @@ import android.webkit.WebViewClient
 import okhttp3.Headers
 import okhttp3.Request
 import okhttp3.Response
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.RestService
-import org.wikipedia.page.LinkHandler
-import org.wikipedia.page.PageViewModel
-import org.wikipedia.util.UriUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.RestService
+import org.akhil.nitcwiki.page.LinkHandler
+import org.akhil.nitcwiki.page.PageViewModel
+import org.akhil.nitcwiki.util.UriUtil
+import org.akhil.nitcwiki.util.log.L
 import java.io.IOException
 import java.io.InputStream
 import java.nio.charset.Charset

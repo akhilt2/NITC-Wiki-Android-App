@@ -1,11 +1,11 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
 import androidx.annotation.StringRes
-import org.wikipedia.databinding.ViewSearchEmptyBinding
+import org.akhil.nitcwiki.databinding.ViewSearchEmptyBinding
 
 class SearchEmptyView(context: Context, attributeSet: AttributeSet) : LinearLayout(context, attributeSet) {
 

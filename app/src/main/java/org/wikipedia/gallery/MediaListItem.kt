@@ -1,11 +1,11 @@
-package org.wikipedia.gallery
+package org.akhil.nitcwiki.gallery
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.Service
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.util.UriUtil
 
 @Serializable
 @Parcelize

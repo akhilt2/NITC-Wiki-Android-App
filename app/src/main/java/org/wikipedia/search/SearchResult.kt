@@ -1,10 +1,10 @@
-package org.wikipedia.search
+package org.akhil.nitcwiki.search
 
 import android.location.Location
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.page.PageTitle
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.page.PageTitle
 
 @Serializable
 data class SearchResult(val pageTitle: PageTitle,

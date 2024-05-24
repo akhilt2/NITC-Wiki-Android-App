@@ -1,11 +1,11 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.WikiSite
 
 @RunWith(RobolectricTestRunner::class)
 class NamespaceTest {

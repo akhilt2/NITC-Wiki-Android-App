@@ -113,7 +113,7 @@
             app:endIconTint="?attr/placeholder_color"
             app:errorTextAppearance="@style/TextInputLayoutErrorTextAppearance">
 
-            <org.wikipedia.views.PlainPasteEditText
+            <org.akhil.nitcwiki.views.PlainPasteEditText
                 android:id="@+id/suggestionReportOtherEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -124,7 +124,7 @@
                 android:textSize="16sp">
 
                 <requestFocus />
-            </org.wikipedia.views.PlainPasteEditText>
+            </org.akhil.nitcwiki.views.PlainPasteEditText>
         </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>

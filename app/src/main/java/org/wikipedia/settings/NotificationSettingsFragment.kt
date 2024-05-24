@@ -1,10 +1,10 @@
-package org.wikipedia.settings
+package org.akhil.nitcwiki.settings
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.content.res.AppCompatResources
-import org.wikipedia.R
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.util.ResourceUtil
 
 class NotificationSettingsFragment : PreferenceLoaderFragment() {
     override fun loadPreferences() {

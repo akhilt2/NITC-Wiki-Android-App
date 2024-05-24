@@ -1,12 +1,12 @@
-package org.wikipedia.suggestededits
+package org.akhil.nitcwiki.suggestededits
 
 import android.app.Activity
 import com.google.android.material.snackbar.Snackbar
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.descriptions.DescriptionEditActivity.Action
-import org.wikipedia.util.FeedbackUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity.Action
+import org.akhil.nitcwiki.util.FeedbackUtil
 
 object SuggestedEditsSnackbars {
 

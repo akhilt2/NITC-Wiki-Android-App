@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient.donate
+package org.akhil.nitcwiki.dataclient.donate
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -6,10 +6,10 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.decodeFromJsonElement
 import okhttp3.Request
-import org.wikipedia.dataclient.okhttp.OkHttpConnectionFactory
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.GeoUtil
+import org.akhil.nitcwiki.dataclient.okhttp.OkHttpConnectionFactory
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.GeoUtil
 import java.time.LocalDateTime
 
 object CampaignCollection {

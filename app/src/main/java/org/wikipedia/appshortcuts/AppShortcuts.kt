@@ -1,4 +1,4 @@
-package org.wikipedia.appshortcuts
+package org.akhil.nitcwiki.appshortcuts
 
 import android.content.Context
 import android.content.Intent
@@ -10,10 +10,10 @@ import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.main.MainActivity
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.main.MainActivity
+import org.akhil.nitcwiki.util.log.L
 
 class AppShortcuts {
     companion object {

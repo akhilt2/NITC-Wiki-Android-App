@@ -1,4 +1,4 @@
-package org.wikipedia.page.references
+package org.akhil.nitcwiki.page.references
 
 import kotlinx.serialization.Serializable
 

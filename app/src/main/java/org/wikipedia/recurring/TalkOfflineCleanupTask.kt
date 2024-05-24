@@ -1,8 +1,8 @@
-package org.wikipedia.recurring
+package org.akhil.nitcwiki.recurring
 
 import android.content.Context
-import org.wikipedia.R
-import org.wikipedia.database.AppDatabase
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.database.AppDatabase
 import java.io.File
 import java.util.*
 import java.util.concurrent.TimeUnit

@@ -1,4 +1,4 @@
-package org.wikipedia.diff
+package org.akhil.nitcwiki.diff
 
 import android.content.Context
 import android.graphics.Typeface
@@ -13,11 +13,11 @@ import androidx.core.text.buildSpannedString
 import androidx.core.text.inSpans
 import androidx.core.text.set
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.R
-import org.wikipedia.dataclient.restbase.DiffResponse
-import org.wikipedia.dataclient.restbase.Revision
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.dataclient.restbase.DiffResponse
+import org.akhil.nitcwiki.dataclient.restbase.Revision
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.StringUtil
 
 object DiffUtil {
 

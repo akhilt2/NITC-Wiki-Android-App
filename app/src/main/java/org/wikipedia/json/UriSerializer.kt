@@ -1,4 +1,4 @@
-package org.wikipedia.json
+package org.akhil.nitcwiki.json
 
 import android.net.Uri
 import kotlinx.serialization.KSerializer

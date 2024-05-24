@@ -23,7 +23,7 @@
         app:layout_constraintVertical_chainStyle="packed"
         tools:text="Lorem ipsum" />
 
-    <org.wikipedia.views.GoneIfEmptyTextView
+    <org.akhil.nitcwiki.views.GoneIfEmptyTextView
         android:id="@+id/page_list_item_description"
         style="@style/List.MaterialListSubtitle"
         android:layout_width="0dp"
@@ -47,7 +47,7 @@
         app:layout_constraintTop_toTopOf="@id/page_list_item_title"
         tools:visibility="visible">
 
-        <org.wikipedia.views.CircularProgressBar
+        <org.akhil.nitcwiki.views.CircularProgressBar
             android:id="@+id/page_list_item_circular_progress_bar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

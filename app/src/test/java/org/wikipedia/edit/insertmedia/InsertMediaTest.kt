@@ -1,4 +1,4 @@
-package org.wikipedia.edit.insertmedia
+package org.akhil.nitcwiki.edit.insertmedia
 
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers

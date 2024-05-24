@@ -1,11 +1,11 @@
-package org.wikipedia.dataclient.okhttp
+package org.akhil.nitcwiki.dataclient.okhttp
 
 import okhttp3.Request
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.okhttp.OfflineCacheInterceptor.Companion.shouldSave
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.okhttp.OfflineCacheInterceptor.Companion.shouldSave
 
 class OfflineCacheInterceptorTest {
     @Test

@@ -1,8 +1,8 @@
-package org.wikipedia.feed.dayheader
+package org.akhil.nitcwiki.feed.dayheader
 
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.model.CardType
-import org.wikipedia.util.DateUtil
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.model.CardType
+import org.akhil.nitcwiki.util.DateUtil
 
 class DayHeaderCard(private val age: Int) : Card() {
 

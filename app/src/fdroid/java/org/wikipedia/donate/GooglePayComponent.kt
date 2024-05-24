@@ -1,4 +1,4 @@
-package org.wikipedia.donate
+package org.akhil.nitcwiki.donate
 
 import android.app.Activity
 import android.content.Intent

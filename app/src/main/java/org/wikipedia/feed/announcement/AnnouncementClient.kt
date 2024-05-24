@@ -1,4 +1,4 @@
-package org.wikipedia.feed.announcement
+package org.akhil.nitcwiki.feed.announcement
 
 import android.content.Context
 import androidx.annotation.VisibleForTesting
@@ -7,17 +7,17 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
-import org.wikipedia.WikipediaApp
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.feed.FeedCoordinator
-import org.wikipedia.feed.dataclient.FeedClient
-import org.wikipedia.feed.model.Card
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.GeoUtil
-import org.wikipedia.util.ReleaseUtil
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.feed.FeedCoordinator
+import org.akhil.nitcwiki.feed.dataclient.FeedClient
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.GeoUtil
+import org.akhil.nitcwiki.util.ReleaseUtil
+import org.akhil.nitcwiki.util.log.L
 import java.util.Date
 
 class AnnouncementClient : FeedClient {

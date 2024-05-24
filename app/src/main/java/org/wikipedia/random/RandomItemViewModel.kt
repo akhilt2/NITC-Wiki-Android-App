@@ -1,4 +1,4 @@
-package org.wikipedia.random
+package org.akhil.nitcwiki.random
 
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
@@ -8,12 +8,12 @@ import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.util.Resource
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.util.Resource
 
 class RandomItemViewModel(bundle: Bundle) : ViewModel() {
 

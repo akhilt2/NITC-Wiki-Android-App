@@ -1,4 +1,4 @@
-package org.wikipedia.feed.news
+package org.akhil.nitcwiki.feed.news
 
 import android.app.ActivityOptions
 import android.os.Build
@@ -13,27 +13,27 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.databinding.FragmentNewsBinding
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.view.ListCardItemView
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.PageActivity
-import org.wikipedia.readinglist.ReadingListBehaviorsUtil
-import org.wikipedia.richtext.RichTextUtil
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.GradientUtil
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.TabUtil
-import org.wikipedia.views.DefaultRecyclerAdapter
-import org.wikipedia.views.DefaultViewHolder
-import org.wikipedia.views.DrawableItemDecoration
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.FragmentNewsBinding
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.view.ListCardItemView
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.readinglist.ReadingListBehaviorsUtil
+import org.akhil.nitcwiki.richtext.RichTextUtil
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.GradientUtil
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.TabUtil
+import org.akhil.nitcwiki.views.DefaultRecyclerAdapter
+import org.akhil.nitcwiki.views.DefaultViewHolder
+import org.akhil.nitcwiki.views.DrawableItemDecoration
 
 class NewsFragment : Fragment() {
 

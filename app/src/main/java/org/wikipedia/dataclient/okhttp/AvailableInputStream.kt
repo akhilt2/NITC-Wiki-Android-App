@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient.okhttp
+package org.akhil.nitcwiki.dataclient.okhttp
 
 import java.io.IOException
 import java.io.InputStream

@@ -1,8 +1,8 @@
-package org.wikipedia.page.tabs
+package org.akhil.nitcwiki.page.tabs
 
 import kotlinx.serialization.Serializable
-import org.wikipedia.page.PageBackStackItem
-import org.wikipedia.page.PageTitle
+import org.akhil.nitcwiki.page.PageBackStackItem
+import org.akhil.nitcwiki.page.PageTitle
 
 @Serializable
 class Tab {

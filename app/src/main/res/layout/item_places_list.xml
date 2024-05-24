@@ -28,7 +28,7 @@
             android:textColor="?attr/primary_color"
             tools:text="Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum" />
 
-        <org.wikipedia.views.GoneIfEmptyTextView
+        <org.akhil.nitcwiki.views.GoneIfEmptyTextView
             android:id="@+id/listItemDescription"
             style="@style/List.MaterialListDescription"
             android:layout_width="match_parent"

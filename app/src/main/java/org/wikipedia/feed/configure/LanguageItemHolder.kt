@@ -1,11 +1,11 @@
-package org.wikipedia.feed.configure
+package org.akhil.nitcwiki.feed.configure
 
 import android.content.Context
 import android.view.View
-import org.wikipedia.R
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.views.DefaultViewHolder
-import org.wikipedia.views.LangCodeView
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.views.DefaultViewHolder
+import org.akhil.nitcwiki.views.LangCodeView
 
 class LanguageItemHolder internal constructor(private val context: Context, private val langCodeView: LangCodeView) : DefaultViewHolder<View>(langCodeView) {
     fun bindItem(langCode: String, enabled: Boolean) {

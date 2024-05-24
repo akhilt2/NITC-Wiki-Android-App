@@ -1,8 +1,8 @@
-package org.wikipedia.settings
+package org.akhil.nitcwiki.settings
 
 import android.content.Context
 import android.util.AttributeSet
-import org.wikipedia.R
+import org.akhil.nitcwiki.R
 
 open class IntPreference @JvmOverloads constructor(context: Context,
                                                    attrs: AttributeSet? = null,

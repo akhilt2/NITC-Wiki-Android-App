@@ -14,7 +14,7 @@
         android:hint="@string/talk_reply_hint"
         app:errorTextAppearance="@style/TextInputLayoutErrorTextAppearance">
 
-        <org.wikipedia.views.UserMentionEditText
+        <org.akhil.nitcwiki.views.UserMentionEditText
             android:id="@+id/inputEditText"
             style="@style/P"
             android:layout_width="match_parent"

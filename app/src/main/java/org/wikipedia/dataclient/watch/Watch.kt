@@ -1,7 +1,7 @@
-package org.wikipedia.dataclient.watch
+package org.akhil.nitcwiki.dataclient.watch
 
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.mwapi.MwResponse
+import org.akhil.nitcwiki.dataclient.mwapi.MwResponse
 
 @Serializable
 class Watch(val title: String?,

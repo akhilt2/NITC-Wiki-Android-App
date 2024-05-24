@@ -1,13 +1,13 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
 import androidx.core.content.withStyledAttributes
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewImageDetailHorizontalBinding
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewImageDetailHorizontalBinding
+import org.akhil.nitcwiki.util.StringUtil
 
 class ImageDetailHorizontalView constructor(context: Context, attrs: AttributeSet? = null) : LinearLayout(context, attrs) {
 

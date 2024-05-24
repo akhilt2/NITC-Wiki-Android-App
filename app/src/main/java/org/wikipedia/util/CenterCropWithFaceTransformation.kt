@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.graphics.*
 import android.media.FaceDetector
@@ -6,7 +6,7 @@ import androidx.core.graphics.applyCanvas
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation
 import com.bumptech.glide.load.resource.bitmap.TransformationUtils
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.util.log.L
 import java.security.MessageDigest
 
 class CenterCropWithFaceTransformation : BitmapTransformation() {
@@ -109,7 +109,7 @@ class CenterCropWithFaceTransformation : BitmapTransformation() {
     }
 
     companion object {
-        private const val ID = "org.wikipedia.views.CenterCropWithFace"
+        private const val ID = "org.akhil.nitcwiki.views.CenterCropWithFace"
         private const val BITMAP_COPY_WIDTH = 200
     }
 }

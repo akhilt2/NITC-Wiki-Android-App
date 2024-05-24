@@ -1,13 +1,13 @@
-package org.wikipedia.theme
+package org.akhil.nitcwiki.theme
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import org.wikipedia.Constants
-import org.wikipedia.activity.SingleFragmentActivity
-import org.wikipedia.page.ExclusiveBottomSheetPresenter
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.activity.SingleFragmentActivity
+import org.akhil.nitcwiki.page.ExclusiveBottomSheetPresenter
 
 class ThemeFittingRoomActivity : SingleFragmentActivity<ThemeFittingRoomFragment>(), ThemeChooserDialog.Callback {
     private var themeChooserDialog: ThemeChooserDialog? = null

@@ -1,9 +1,9 @@
-package org.wikipedia.page.linkpreview
+package org.akhil.nitcwiki.page.linkpreview
 
-import org.wikipedia.R
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.util.L10nUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.util.L10nUtil
 
 class LinkPreviewContents(pageSummary: PageSummary, wiki: WikiSite) {
     val title = pageSummary.getPageTitle(wiki)

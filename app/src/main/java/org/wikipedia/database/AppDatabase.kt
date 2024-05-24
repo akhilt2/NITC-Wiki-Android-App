@@ -1,4 +1,4 @@
-package org.wikipedia.database
+package org.akhil.nitcwiki.database
 
 import androidx.room.Database
 import androidx.room.Room
@@ -6,29 +6,29 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import org.wikipedia.WikipediaApp
-import org.wikipedia.edit.db.EditSummary
-import org.wikipedia.edit.db.EditSummaryDao
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.history.db.HistoryEntryDao
-import org.wikipedia.history.db.HistoryEntryWithImageDao
-import org.wikipedia.notifications.db.Notification
-import org.wikipedia.notifications.db.NotificationDao
-import org.wikipedia.offline.db.OfflineObject
-import org.wikipedia.offline.db.OfflineObjectDao
-import org.wikipedia.pageimages.db.PageImage
-import org.wikipedia.pageimages.db.PageImageDao
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.readinglist.db.ReadingListDao
-import org.wikipedia.readinglist.db.ReadingListPageDao
-import org.wikipedia.search.db.RecentSearch
-import org.wikipedia.search.db.RecentSearchDao
-import org.wikipedia.staticdata.MainPageNameData
-import org.wikipedia.talk.db.TalkPageSeen
-import org.wikipedia.talk.db.TalkPageSeenDao
-import org.wikipedia.talk.db.TalkTemplate
-import org.wikipedia.talk.db.TalkTemplateDao
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.edit.db.EditSummary
+import org.akhil.nitcwiki.edit.db.EditSummaryDao
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.history.db.HistoryEntryDao
+import org.akhil.nitcwiki.history.db.HistoryEntryWithImageDao
+import org.akhil.nitcwiki.notifications.db.Notification
+import org.akhil.nitcwiki.notifications.db.NotificationDao
+import org.akhil.nitcwiki.offline.db.OfflineObject
+import org.akhil.nitcwiki.offline.db.OfflineObjectDao
+import org.akhil.nitcwiki.pageimages.db.PageImage
+import org.akhil.nitcwiki.pageimages.db.PageImageDao
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.readinglist.db.ReadingListDao
+import org.akhil.nitcwiki.readinglist.db.ReadingListPageDao
+import org.akhil.nitcwiki.search.db.RecentSearch
+import org.akhil.nitcwiki.search.db.RecentSearchDao
+import org.akhil.nitcwiki.staticdata.MainPageNameData
+import org.akhil.nitcwiki.talk.db.TalkPageSeen
+import org.akhil.nitcwiki.talk.db.TalkPageSeenDao
+import org.akhil.nitcwiki.talk.db.TalkTemplate
+import org.akhil.nitcwiki.talk.db.TalkTemplateDao
 
 const val DATABASE_NAME = "wikipedia.db"
 const val DATABASE_VERSION = 26

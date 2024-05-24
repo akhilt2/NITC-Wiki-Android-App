@@ -1,4 +1,4 @@
-package org.wikipedia.theme
+package org.akhil.nitcwiki.theme
 
 import android.graphics.Typeface
 import android.os.Bundle
@@ -8,12 +8,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.functions.Consumer
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.databinding.FragmentThemeFittingRoomBinding
-import org.wikipedia.events.ChangeTextSizeEvent
-import org.wikipedia.events.WebViewInvalidateEvent
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.databinding.FragmentThemeFittingRoomBinding
+import org.akhil.nitcwiki.events.ChangeTextSizeEvent
+import org.akhil.nitcwiki.events.WebViewInvalidateEvent
+import org.akhil.nitcwiki.settings.Prefs
 
 class ThemeFittingRoomFragment : Fragment() {
     private var _binding: FragmentThemeFittingRoomBinding? = null

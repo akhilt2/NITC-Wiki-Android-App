@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.app.Activity
 import android.content.Context
@@ -19,8 +19,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.appbar.MaterialToolbar
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
 
 object DeviceUtil {
     private inline val Window.insetsControllerCompat

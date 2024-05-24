@@ -1,6 +1,6 @@
-package org.wikipedia.extensions
+package org.akhil.nitcwiki.extensions
 
-import org.wikipedia.model.EnumCode
+import org.akhil.nitcwiki.model.EnumCode
 import kotlin.enums.EnumEntries
 
 fun <E> EnumEntries<E>.getByCode(code: Int): E where E : Enum<E>, E : EnumCode {

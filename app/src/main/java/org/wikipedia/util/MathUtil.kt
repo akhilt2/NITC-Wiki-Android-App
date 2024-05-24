@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 object MathUtil {
     private const val PERCENTAGE_BASE = 100

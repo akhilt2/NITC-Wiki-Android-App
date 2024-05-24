@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.content.Context
 import android.content.res.Configuration
@@ -8,9 +8,9 @@ import android.util.TypedValue
 import android.view.Window
 import androidx.annotation.DimenRes
 import androidx.core.content.res.use
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.util.log.L
 import kotlin.math.roundToInt
 
 object DimenUtil {

@@ -1,4 +1,4 @@
-package org.wikipedia.edit.templates
+package org.akhil.nitcwiki.edit.templates
 
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
@@ -12,14 +12,14 @@ import androidx.paging.cachedIn
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.TemplateDataResponse
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.page.Namespace
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.TemplateDataResponse
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
 
 class TemplatesSearchViewModel(bundle: Bundle) : ViewModel() {
 

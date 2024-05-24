@@ -1,4 +1,4 @@
-package org.wikipedia.gallery
+package org.akhil.nitcwiki.gallery
 
 import android.annotation.SuppressLint
 import android.app.DownloadManager
@@ -14,12 +14,12 @@ import android.provider.MediaStore
 import androidx.core.content.contentValuesOf
 import androidx.core.content.getSystemService
 import androidx.core.net.toUri
-import org.wikipedia.Constants
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.feed.image.FeaturedImage
-import org.wikipedia.page.PageTitle
-import org.wikipedia.util.FileUtil
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.feed.image.FeaturedImage
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.util.FileUtil
 import java.io.File
 
 class MediaDownloadReceiver : BroadcastReceiver() {

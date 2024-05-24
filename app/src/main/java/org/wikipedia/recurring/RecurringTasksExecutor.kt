@@ -1,11 +1,11 @@
-package org.wikipedia.recurring
+package org.akhil.nitcwiki.recurring
 
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.wikipedia.WikipediaApp
-import org.wikipedia.alphaupdater.AlphaUpdateChecker
-import org.wikipedia.settings.RemoteConfigRefreshTask
-import org.wikipedia.util.ReleaseUtil
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.alphaupdater.AlphaUpdateChecker
+import org.akhil.nitcwiki.settings.RemoteConfigRefreshTask
+import org.akhil.nitcwiki.util.ReleaseUtil
 
 class RecurringTasksExecutor(private val app: WikipediaApp) {
     fun run() {

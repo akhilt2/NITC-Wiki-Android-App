@@ -1,4 +1,4 @@
-package org.wikipedia
+package org.akhil.nitcwiki
 
 import android.annotation.SuppressLint
 import android.net.Uri
@@ -11,12 +11,12 @@ import android.view.View.OnTouchListener
 import android.view.ViewGroup
 import android.webkit.WebView
 import android.webkit.WebView.HitTestResult
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.PageTitle
-import org.wikipedia.readinglist.LongPressMenu
-import org.wikipedia.util.DeviceUtil.hideSoftKeyboard
-import org.wikipedia.util.UriUtil.isValidPageLink
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.readinglist.LongPressMenu
+import org.akhil.nitcwiki.util.DeviceUtil.hideSoftKeyboard
+import org.akhil.nitcwiki.util.UriUtil.isValidPageLink
 
 class LongPressHandler(
     view: View,

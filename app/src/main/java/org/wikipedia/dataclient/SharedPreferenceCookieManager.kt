@@ -1,11 +1,11 @@
-package org.wikipedia.dataclient
+package org.akhil.nitcwiki.dataclient
 
 import okhttp3.Cookie
 import okhttp3.CookieJar
 import okhttp3.HttpUrl
 import okhttp3.HttpUrl.Companion.toHttpUrl
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.log.L
 
 class SharedPreferenceCookieManager(
     // Map: domain -> list of cookies

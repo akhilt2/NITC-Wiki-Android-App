@@ -1,12 +1,12 @@
-package org.wikipedia.feed.aggregated
+package org.akhil.nitcwiki.feed.aggregated
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.feed.image.FeaturedImage
-import org.wikipedia.feed.news.NewsItem
-import org.wikipedia.feed.onthisday.OnThisDay
-import org.wikipedia.feed.topread.TopRead
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.feed.image.FeaturedImage
+import org.akhil.nitcwiki.feed.news.NewsItem
+import org.akhil.nitcwiki.feed.onthisday.OnThisDay
+import org.akhil.nitcwiki.feed.topread.TopRead
 
 @Serializable
 class AggregatedFeedContent(

@@ -1,16 +1,16 @@
-package org.wikipedia.analytics.metricsplatform
+package org.akhil.nitcwiki.analytics.metricsplatform
 
 import org.wikimedia.metrics_platform.context.ClientData
 import org.wikimedia.metrics_platform.context.InteractionData
 import org.wikimedia.metrics_platform.context.PageData
 import org.wikimedia.metrics_platform.context.PerformerData
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.eventplatform.EventPlatformClient
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.page.Namespace
-import org.wikipedia.page.PageFragment
-import org.wikipedia.page.PageTitle
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.eventplatform.EventPlatformClient
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.page.PageFragment
+import org.akhil.nitcwiki.page.PageTitle
 
 open class MetricsEvent {
 

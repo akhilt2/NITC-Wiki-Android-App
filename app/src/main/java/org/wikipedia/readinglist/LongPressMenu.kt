@@ -1,4 +1,4 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.content.ContextWrapper
 import android.icu.text.ListFormatter
@@ -12,18 +12,18 @@ import androidx.appcompat.widget.PopupMenu
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.wikipedia.R
-import org.wikipedia.analytics.eventplatform.BreadCrumbLogEvent
-import org.wikipedia.analytics.eventplatform.PlacesEvent
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.readinglist.database.ReadingList
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.util.ClipboardUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.GeoUtil
-import org.wikipedia.util.ShareUtil
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.analytics.eventplatform.BreadCrumbLogEvent
+import org.akhil.nitcwiki.analytics.eventplatform.PlacesEvent
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.readinglist.database.ReadingList
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.util.ClipboardUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.GeoUtil
+import org.akhil.nitcwiki.util.ShareUtil
+import org.akhil.nitcwiki.util.StringUtil
 
 class LongPressMenu(
     private val anchorView: View,

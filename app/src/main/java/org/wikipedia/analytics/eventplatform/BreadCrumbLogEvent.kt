@@ -1,4 +1,4 @@
-package org.wikipedia.analytics.eventplatform
+package org.akhil.nitcwiki.analytics.eventplatform
 
 import android.app.Activity
 import android.content.Context
@@ -9,10 +9,10 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.settings.SettingsActivity
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.settings.SettingsActivity
+import org.akhil.nitcwiki.util.log.L
 
 @Suppress("unused", "CanBeParameter")
 @Serializable

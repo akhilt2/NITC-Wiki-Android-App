@@ -1,4 +1,4 @@
-package org.wikipedia.random
+package org.akhil.nitcwiki.random
 
 import android.app.ActivityOptions
 import android.graphics.drawable.Animatable
@@ -16,25 +16,25 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
 import io.reactivex.rxjava3.functions.Consumer
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.databinding.FragmentRandomBinding
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.events.ArticleSavedOrDeletedEvent
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.PageActivity
-import org.wikipedia.page.PageTitle
-import org.wikipedia.readinglist.LongPressMenu
-import org.wikipedia.readinglist.ReadingListBehaviorsUtil
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.util.AnimationUtil.PagerTransformer
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.Resource
-import org.wikipedia.util.log.L
-import org.wikipedia.views.PositionAwareFragmentStateAdapter
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.databinding.FragmentRandomBinding
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.events.ArticleSavedOrDeletedEvent
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.PageActivity
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.readinglist.LongPressMenu
+import org.akhil.nitcwiki.readinglist.ReadingListBehaviorsUtil
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.util.AnimationUtil.PagerTransformer
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.PositionAwareFragmentStateAdapter
 
 class RandomFragment : Fragment() {
 

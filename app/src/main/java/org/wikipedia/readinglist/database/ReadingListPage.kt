@@ -1,14 +1,14 @@
-package org.wikipedia.readinglist.database
+package org.akhil.nitcwiki.readinglist.database
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import org.apache.commons.lang3.StringUtils
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.page.Namespace
-import org.wikipedia.page.PageTitle
-import org.wikipedia.settings.Prefs
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.util.StringUtil
 import java.io.Serializable
 
 @Entity

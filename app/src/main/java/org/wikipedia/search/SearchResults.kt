@@ -1,9 +1,9 @@
-package org.wikipedia.search
+package org.akhil.nitcwiki.search
 
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.dataclient.mwapi.MwQueryResponse
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryResponse
 
 @Serializable
 data class SearchResults constructor(var results: MutableList<SearchResult> = mutableListOf(),

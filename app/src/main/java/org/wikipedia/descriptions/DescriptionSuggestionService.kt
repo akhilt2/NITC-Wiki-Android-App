@@ -1,4 +1,4 @@
-package org.wikipedia.descriptions
+package org.akhil.nitcwiki.descriptions
 
 import retrofit2.http.GET
 import retrofit2.http.Query

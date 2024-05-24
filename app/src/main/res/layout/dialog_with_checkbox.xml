@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <org.wikipedia.views.AppTextView
+    <org.akhil.nitcwiki.views.AppTextView
         android:id="@+id/dialog_message"
         style="@style/P.DialogBody"
         android:layout_width="match_parent"

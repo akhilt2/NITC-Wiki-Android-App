@@ -1,18 +1,18 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
 import android.location.Location
 import android.os.Parcelable
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 import kotlinx.parcelize.TypeParceler
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.dataclient.page.Protection
-import org.wikipedia.parcel.DateParceler
-import org.wikipedia.util.DateUtil
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.ImageUrlUtil
-import org.wikipedia.util.UriUtil
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.dataclient.page.Protection
+import org.akhil.nitcwiki.parcel.DateParceler
+import org.akhil.nitcwiki.util.DateUtil
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.ImageUrlUtil
+import org.akhil.nitcwiki.util.UriUtil
 import java.util.Date
 
 @Parcelize

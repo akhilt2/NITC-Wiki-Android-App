@@ -1,10 +1,10 @@
-package org.wikipedia.createaccount
+package org.akhil.nitcwiki.createaccount
 
 import io.reactivex.rxjava3.core.Observable
 import org.junit.Test
-import org.wikipedia.dataclient.Service
-import org.wikipedia.dataclient.mwapi.CreateAccountResponse
-import org.wikipedia.test.MockRetrofitTest
+import org.akhil.nitcwiki.dataclient.Service
+import org.akhil.nitcwiki.dataclient.mwapi.CreateAccountResponse
+import org.akhil.nitcwiki.test.MockRetrofitTest
 
 class CreateAccountClientTest : MockRetrofitTest() {
     private val observable: Observable<CreateAccountResponse>

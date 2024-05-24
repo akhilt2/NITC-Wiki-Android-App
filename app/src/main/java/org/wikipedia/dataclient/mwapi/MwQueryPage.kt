@@ -1,4 +1,4 @@
-package org.wikipedia.dataclient.mwapi
+package org.akhil.nitcwiki.dataclient.mwapi
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
@@ -6,12 +6,12 @@ import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.decodeFromJsonElement
-import org.wikipedia.dataclient.growthtasks.GrowthImageSuggestion
-import org.wikipedia.dataclient.page.Protection
-import org.wikipedia.gallery.ImageInfo
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.page.Namespace
-import org.wikipedia.util.DateUtil
+import org.akhil.nitcwiki.dataclient.growthtasks.GrowthImageSuggestion
+import org.akhil.nitcwiki.dataclient.page.Protection
+import org.akhil.nitcwiki.gallery.ImageInfo
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.page.Namespace
+import org.akhil.nitcwiki.util.DateUtil
 
 @Serializable
 class MwQueryPage {

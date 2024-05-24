@@ -1,7 +1,7 @@
-package org.wikipedia.history.db
+package org.akhil.nitcwiki.history.db
 
 import androidx.room.*
-import org.wikipedia.history.HistoryEntry
+import org.akhil.nitcwiki.history.HistoryEntry
 
 @Dao
 interface HistoryEntryDao {

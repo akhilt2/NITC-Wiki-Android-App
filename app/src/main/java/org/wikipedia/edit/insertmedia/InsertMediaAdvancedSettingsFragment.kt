@@ -1,4 +1,4 @@
-package org.wikipedia.edit.insertmedia
+package org.akhil.nitcwiki.edit.insertmedia
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,11 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
-import org.wikipedia.R
-import org.wikipedia.analytics.eventplatform.ImageRecommendationsEvent
-import org.wikipedia.databinding.FragmentInsertMediaAdvancedSettingsBinding
-import org.wikipedia.page.ExclusiveBottomSheetPresenter
-import org.wikipedia.util.ResourceUtil
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.analytics.eventplatform.ImageRecommendationsEvent
+import org.akhil.nitcwiki.databinding.FragmentInsertMediaAdvancedSettingsBinding
+import org.akhil.nitcwiki.page.ExclusiveBottomSheetPresenter
+import org.akhil.nitcwiki.util.ResourceUtil
 
 class InsertMediaAdvancedSettingsFragment : Fragment(), InsertMediaImagePositionDialog.Callback,
     InsertMediaImageTypeDialog.Callback, InsertMediaImageSizeDialog.Callback {

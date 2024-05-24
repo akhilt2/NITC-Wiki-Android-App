@@ -1,4 +1,4 @@
-package org.wikipedia.gallery
+package org.akhil.nitcwiki.gallery
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

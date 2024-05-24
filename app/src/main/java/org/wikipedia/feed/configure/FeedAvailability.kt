@@ -1,4 +1,4 @@
-package org.wikipedia.feed.configure
+package org.akhil.nitcwiki.feed.configure
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

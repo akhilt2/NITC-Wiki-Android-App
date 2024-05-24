@@ -1,7 +1,7 @@
-package org.wikipedia.feed.accessibility
+package org.akhil.nitcwiki.feed.accessibility
 
-import org.wikipedia.feed.model.Card
-import org.wikipedia.feed.model.CardType
+import org.akhil.nitcwiki.feed.model.Card
+import org.akhil.nitcwiki.feed.model.CardType
 
 class AccessibilityCard : Card() {
     override fun type(): CardType {

@@ -1,9 +1,9 @@
-package org.wikipedia.feed.image
+package org.akhil.nitcwiki.feed.image
 
 import kotlinx.serialization.Serializable
-import org.wikipedia.gallery.GalleryItem
-import org.wikipedia.gallery.ImageInfo
-import org.wikipedia.util.StringUtil
+import org.akhil.nitcwiki.gallery.GalleryItem
+import org.akhil.nitcwiki.gallery.ImageInfo
+import org.akhil.nitcwiki.util.StringUtil
 
 @Serializable
 class FeaturedImage : GalleryItem() {

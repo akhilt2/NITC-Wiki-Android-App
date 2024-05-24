@@ -14,7 +14,7 @@
         android:layout_marginTop="64dp"
         android:layout_marginBottom="64dp" />
 
-    <org.wikipedia.views.WikiErrorView
+    <org.akhil.nitcwiki.views.WikiErrorView
         android:id="@+id/cardItemErrorView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
                 android:id="@+id/viewArticleImagePlaceholder"
                 android:layout_width="match_parent"
                 android:layout_height="300dp">
-                <org.wikipedia.views.FaceAndColorDetectImageView
+                <org.akhil.nitcwiki.views.FaceAndColorDetectImageView
                     android:id="@+id/viewArticleImage"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -86,7 +86,7 @@
                         android:layout_height="match_parent"
                         android:background="@color/blue600" />
 
-                    <org.wikipedia.views.GoneIfEmptyTextView
+                    <org.akhil.nitcwiki.views.GoneIfEmptyTextView
                         android:id="@+id/viewArticleSubtitle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -132,31 +132,31 @@
                         android:paddingStart="16dp"
                         android:paddingEnd="16dp">
 
-                        <org.wikipedia.views.ImageDetailHorizontalView
+                        <org.akhil.nitcwiki.views.ImageDetailHorizontalView
                             android:id="@+id/viewImageFileName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             app:title="@string/suggested_edits_image_caption_summary_title_image" />
 
-                        <org.wikipedia.views.ImageDetailHorizontalView
+                        <org.akhil.nitcwiki.views.ImageDetailHorizontalView
                             android:id="@+id/viewImageArtist"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             app:title="@string/suggested_edits_image_caption_summary_title_artist" />
 
-                        <org.wikipedia.views.ImageDetailHorizontalView
+                        <org.akhil.nitcwiki.views.ImageDetailHorizontalView
                             android:id="@+id/viewImageDate"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             app:title="@string/suggested_edits_image_caption_summary_title_date"/>
 
-                        <org.wikipedia.views.ImageDetailHorizontalView
+                        <org.akhil.nitcwiki.views.ImageDetailHorizontalView
                             android:id="@+id/viewImageSource"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             app:title="@string/suggested_edits_image_caption_summary_title_source" />
 
-                        <org.wikipedia.views.ImageDetailHorizontalView
+                        <org.akhil.nitcwiki.views.ImageDetailHorizontalView
                             android:id="@+id/viewImageLicense"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"

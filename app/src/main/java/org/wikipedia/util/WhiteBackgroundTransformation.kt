@@ -1,4 +1,4 @@
-package org.wikipedia.util
+package org.akhil.nitcwiki.util
 
 import android.graphics.Bitmap
 import android.graphics.Color
@@ -8,8 +8,8 @@ import androidx.core.graphics.applyCanvas
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation
 import com.bumptech.glide.load.resource.bitmap.TransformationUtils
-import org.wikipedia.WikipediaApp
-import org.wikipedia.settings.Prefs
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.settings.Prefs
 import java.nio.charset.StandardCharsets
 import java.security.MessageDigest
 
@@ -57,7 +57,7 @@ class WhiteBackgroundTransformation : BitmapTransformation() {
     }
 
     companion object {
-        private const val ID = "org.wikipedia.util.WhiteBackgroundTransformation"
+        private const val ID = "org.akhil.nitcwiki.util.WhiteBackgroundTransformation"
         private const val PAINT_FLAGS = Paint.DITHER_FLAG or Paint.FILTER_BITMAP_FLAG
         private val ID_BYTES = ID.toByteArray(StandardCharsets.UTF_8)
         private val DEFAULT_PAINT = Paint(PAINT_FLAGS)

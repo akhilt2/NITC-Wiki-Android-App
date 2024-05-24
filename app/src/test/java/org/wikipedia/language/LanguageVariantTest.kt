@@ -1,12 +1,12 @@
-package org.wikipedia.language
+package org.akhil.nitcwiki.language
 
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.WikiSite
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.WikiSite
 import java.util.Locale
 
 @RunWith(RobolectricTestRunner::class)

@@ -1,8 +1,8 @@
-package org.wikipedia.database
+package org.akhil.nitcwiki.database
 
 import androidx.room.TypeConverter
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.notifications.db.Notification
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.notifications.db.Notification
 
 class NotificationTypeConverters {
     @TypeConverter

@@ -1,9 +1,9 @@
-package org.wikipedia.dataclient.mwapi
+package org.akhil.nitcwiki.dataclient.mwapi
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.wikipedia.dataclient.mwapi.MwServiceError.BlockInfo
-import org.wikipedia.util.DateUtil
+import org.akhil.nitcwiki.dataclient.mwapi.MwServiceError.BlockInfo
+import org.akhil.nitcwiki.util.DateUtil
 import java.util.*
 
 @Serializable

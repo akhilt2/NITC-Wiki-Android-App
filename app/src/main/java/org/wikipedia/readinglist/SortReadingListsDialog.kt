@@ -1,4 +1,4 @@
-package org.wikipedia.readinglist
+package org.akhil.nitcwiki.readinglist
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.R
-import org.wikipedia.activity.FragmentUtil.getCallback
-import org.wikipedia.databinding.DialogSortReadingListsBinding
-import org.wikipedia.databinding.ViewReadingListsSortOptionsItemBinding
-import org.wikipedia.page.ExtendedBottomSheetDialogFragment
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.activity.FragmentUtil.getCallback
+import org.akhil.nitcwiki.databinding.DialogSortReadingListsBinding
+import org.akhil.nitcwiki.databinding.ViewReadingListsSortOptionsItemBinding
+import org.akhil.nitcwiki.page.ExtendedBottomSheetDialogFragment
 
 class SortReadingListsDialog : ExtendedBottomSheetDialogFragment() {
     fun interface Callback {

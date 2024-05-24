@@ -1,4 +1,4 @@
-package org.wikipedia.language
+package org.akhil.nitcwiki.language
 
 import android.os.Bundle
 import androidx.lifecycle.MutableLiveData
@@ -7,17 +7,17 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.launch
-import org.wikipedia.Constants
-import org.wikipedia.WikipediaApp
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.SiteMatrix
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.page.PageTitle
-import org.wikipedia.staticdata.MainPageNameData
-import org.wikipedia.util.Resource
-import org.wikipedia.util.SingleLiveData
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.SiteMatrix
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.staticdata.MainPageNameData
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.SingleLiveData
+import org.akhil.nitcwiki.util.log.L
 
 class LangLinksViewModel(bundle: Bundle) : ViewModel() {
     var pageTitle = bundle.parcelable<PageTitle>(Constants.ARG_TITLE)!!

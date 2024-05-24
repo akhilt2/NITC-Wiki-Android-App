@@ -1,4 +1,4 @@
-package org.wikipedia.views
+package org.akhil.nitcwiki.views
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity

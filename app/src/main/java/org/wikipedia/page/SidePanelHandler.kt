@@ -1,4 +1,4 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
 import android.annotation.SuppressLint
 import android.graphics.Typeface
@@ -18,19 +18,19 @@ import androidx.core.view.updateLayoutParams
 import androidx.drawerlayout.widget.DrawerLayout
 import org.json.JSONException
 import org.json.JSONObject
-import org.wikipedia.R
-import org.wikipedia.analytics.eventplatform.ArticleTocInteractionEvent
-import org.wikipedia.analytics.metricsplatform.ArticleTocInteraction
-import org.wikipedia.bridge.CommunicationBridge
-import org.wikipedia.bridge.JavaScriptActionHandler
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.L10nUtil
-import org.wikipedia.util.ResourceUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.views.ObservableWebView
-import org.wikipedia.views.ObservableWebView.OnContentHeightChangedListener
-import org.wikipedia.views.PageScrollerView
-import org.wikipedia.views.SwipeableListView.OnSwipeOutListener
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.analytics.eventplatform.ArticleTocInteractionEvent
+import org.akhil.nitcwiki.analytics.metricsplatform.ArticleTocInteraction
+import org.akhil.nitcwiki.bridge.CommunicationBridge
+import org.akhil.nitcwiki.bridge.JavaScriptActionHandler
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.L10nUtil
+import org.akhil.nitcwiki.util.ResourceUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.views.ObservableWebView
+import org.akhil.nitcwiki.views.ObservableWebView.OnContentHeightChangedListener
+import org.akhil.nitcwiki.views.PageScrollerView
+import org.akhil.nitcwiki.views.SwipeableListView.OnSwipeOutListener
 
 class SidePanelHandler internal constructor(private val fragment: PageFragment,
                                             private val bridge: CommunicationBridge) :

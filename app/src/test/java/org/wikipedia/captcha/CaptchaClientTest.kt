@@ -1,10 +1,10 @@
-package org.wikipedia.captcha
+package org.akhil.nitcwiki.captcha
 
 import kotlinx.coroutines.runBlocking
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Test
-import org.wikipedia.test.MockRetrofitTest
+import org.akhil.nitcwiki.test.MockRetrofitTest
 
 class CaptchaClientTest : MockRetrofitTest() {
     @Test

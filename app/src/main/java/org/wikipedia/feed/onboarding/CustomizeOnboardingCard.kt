@@ -1,9 +1,9 @@
-package org.wikipedia.feed.onboarding
+package org.akhil.nitcwiki.feed.onboarding
 
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.feed.announcement.Announcement
-import org.wikipedia.feed.model.CardType
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.feed.announcement.Announcement
+import org.akhil.nitcwiki.feed.model.CardType
 
 class CustomizeOnboardingCard(announcement: Announcement) : OnboardingCard(announcement) {
 

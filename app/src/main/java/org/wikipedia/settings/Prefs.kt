@@ -1,27 +1,27 @@
-package org.wikipedia.settings
+package org.akhil.nitcwiki.settings
 
 import android.location.Location
 import okhttp3.Cookie
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
 import okhttp3.logging.HttpLoggingInterceptor
-import org.wikipedia.BuildConfig
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.analytics.SessionData
-import org.wikipedia.analytics.eventplatform.AppSessionEvent
-import org.wikipedia.analytics.eventplatform.StreamConfig
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.page.PageTitle
-import org.wikipedia.page.action.PageActionItem
-import org.wikipedia.page.tabs.Tab
-import org.wikipedia.suggestededits.SuggestedEditsRecentEditsFilterTypes
-import org.wikipedia.theme.Theme.Companion.fallback
-import org.wikipedia.util.DateUtil.dbDateFormat
-import org.wikipedia.util.DateUtil.dbDateParse
-import org.wikipedia.util.ReleaseUtil.isDevRelease
-import org.wikipedia.util.StringUtil
-import org.wikipedia.watchlist.WatchlistFilterTypes
+import org.akhil.nitcwiki.BuildConfig
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.analytics.SessionData
+import org.akhil.nitcwiki.analytics.eventplatform.AppSessionEvent
+import org.akhil.nitcwiki.analytics.eventplatform.StreamConfig
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.page.action.PageActionItem
+import org.akhil.nitcwiki.page.tabs.Tab
+import org.akhil.nitcwiki.suggestededits.SuggestedEditsRecentEditsFilterTypes
+import org.akhil.nitcwiki.theme.Theme.Companion.fallback
+import org.akhil.nitcwiki.util.DateUtil.dbDateFormat
+import org.akhil.nitcwiki.util.DateUtil.dbDateParse
+import org.akhil.nitcwiki.util.ReleaseUtil.isDevRelease
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.watchlist.WatchlistFilterTypes
 import java.util.Date
 
 /** Shared preferences utility for convenient POJO access.  */

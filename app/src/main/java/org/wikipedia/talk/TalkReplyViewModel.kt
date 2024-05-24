@@ -1,4 +1,4 @@
-package org.wikipedia.talk
+package org.akhil.nitcwiki.talk
 
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
@@ -8,17 +8,17 @@ import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.wikipedia.Constants
-import org.wikipedia.database.AppDatabase
-import org.wikipedia.dataclient.ServiceFactory
-import org.wikipedia.dataclient.discussiontools.ThreadItem
-import org.wikipedia.extensions.parcelable
-import org.wikipedia.page.PageTitle
-import org.wikipedia.talk.db.TalkTemplate
-import org.wikipedia.talk.template.TalkTemplatesRepository
-import org.wikipedia.util.Resource
-import org.wikipedia.util.SingleLiveData
-import org.wikipedia.util.log.L
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.database.AppDatabase
+import org.akhil.nitcwiki.dataclient.ServiceFactory
+import org.akhil.nitcwiki.dataclient.discussiontools.ThreadItem
+import org.akhil.nitcwiki.extensions.parcelable
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.talk.db.TalkTemplate
+import org.akhil.nitcwiki.talk.template.TalkTemplatesRepository
+import org.akhil.nitcwiki.util.Resource
+import org.akhil.nitcwiki.util.SingleLiveData
+import org.akhil.nitcwiki.util.log.L
 
 class TalkReplyViewModel(bundle: Bundle) : ViewModel() {
     private val talkTemplatesRepository = TalkTemplatesRepository(AppDatabase.instance.talkTemplateDao())

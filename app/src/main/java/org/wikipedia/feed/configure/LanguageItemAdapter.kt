@@ -1,13 +1,13 @@
-package org.wikipedia.feed.configure
+package org.akhil.nitcwiki.feed.configure
 
 import android.content.Context
 import android.view.ViewGroup
 import android.view.ViewGroup.MarginLayoutParams
 import androidx.recyclerview.widget.RecyclerView
-import org.wikipedia.WikipediaApp
-import org.wikipedia.feed.FeedContentType
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.views.LangCodeView
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.feed.FeedContentType
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.views.LangCodeView
 
 class LanguageItemAdapter(private val context: Context,
                           private val contentType: FeedContentType) : RecyclerView.Adapter<LanguageItemHolder>() {

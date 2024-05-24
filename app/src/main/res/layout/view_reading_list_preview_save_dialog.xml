@@ -32,7 +32,7 @@
         android:hint="@string/reading_lists_preview_save_dialog_title_hint"
         app:endIconMode="clear_text">
 
-        <org.wikipedia.views.PlainPasteEditText
+        <org.akhil.nitcwiki.views.PlainPasteEditText
             android:id="@+id/readingListTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -1,14 +1,14 @@
-package org.wikipedia.test
+package org.akhil.nitcwiki.test
 
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.page.PageSummary
-import org.wikipedia.json.JsonUtil
-import org.wikipedia.page.PageProperties
-import org.wikipedia.page.PageTitle
-import org.wikipedia.pageimages.db.PageImage
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.page.PageSummary
+import org.akhil.nitcwiki.json.JsonUtil
+import org.akhil.nitcwiki.page.PageProperties
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.pageimages.db.PageImage
 
 @RunWith(RobolectricTestRunner::class)
 class ParcelableTest {

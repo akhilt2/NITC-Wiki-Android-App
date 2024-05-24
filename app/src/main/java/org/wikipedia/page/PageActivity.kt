@@ -1,4 +1,4 @@
-package org.wikipedia.page
+package org.akhil.nitcwiki.page
 
 import android.app.SearchManager
 import android.content.Context
@@ -24,59 +24,59 @@ import androidx.preference.PreferenceManager
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.functions.Consumer
-import org.wikipedia.Constants
-import org.wikipedia.Constants.InvokeSource
-import org.wikipedia.R
-import org.wikipedia.WikipediaApp
-import org.wikipedia.activity.BaseActivity
-import org.wikipedia.activity.SingleWebViewActivity
-import org.wikipedia.analytics.eventplatform.ArticleLinkPreviewInteractionEvent
-import org.wikipedia.analytics.eventplatform.BreadCrumbLogEvent
-import org.wikipedia.analytics.eventplatform.DonorExperienceEvent
-import org.wikipedia.analytics.eventplatform.PlacesEvent
-import org.wikipedia.analytics.metricsplatform.ArticleLinkPreviewInteraction
-import org.wikipedia.auth.AccountUtil
-import org.wikipedia.commons.FilePageActivity
-import org.wikipedia.databinding.ActivityPageBinding
-import org.wikipedia.dataclient.WikiSite
-import org.wikipedia.dataclient.mwapi.MwQueryPage
-import org.wikipedia.descriptions.DescriptionEditActivity
-import org.wikipedia.descriptions.DescriptionEditRevertHelpView
-import org.wikipedia.descriptions.DescriptionEditSuccessActivity
-import org.wikipedia.edit.EditHandler
-import org.wikipedia.edit.EditSectionActivity
-import org.wikipedia.events.ArticleSavedOrDeletedEvent
-import org.wikipedia.events.ChangeTextSizeEvent
-import org.wikipedia.extensions.parcelableExtra
-import org.wikipedia.gallery.GalleryActivity
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.language.LangLinksActivity
-import org.wikipedia.notifications.AnonymousNotificationHelper
-import org.wikipedia.notifications.NotificationActivity
-import org.wikipedia.page.linkpreview.LinkPreviewDialog
-import org.wikipedia.page.tabs.TabActivity
-import org.wikipedia.readinglist.ReadingListActivity
-import org.wikipedia.search.SearchActivity
-import org.wikipedia.settings.Prefs
-import org.wikipedia.staticdata.MainPageNameData
-import org.wikipedia.staticdata.UserTalkAliasData
-import org.wikipedia.suggestededits.PageSummaryForEdit
-import org.wikipedia.suggestededits.SuggestedEditsImageTagEditActivity
-import org.wikipedia.suggestededits.SuggestedEditsSnackbars
-import org.wikipedia.talk.TalkTopicsActivity
-import org.wikipedia.usercontrib.UserContribListActivity
-import org.wikipedia.util.DeviceUtil
-import org.wikipedia.util.DimenUtil
-import org.wikipedia.util.FeedbackUtil
-import org.wikipedia.util.ReleaseUtil
-import org.wikipedia.util.StringUtil
-import org.wikipedia.util.ThrowableUtil
-import org.wikipedia.util.UriUtil
-import org.wikipedia.util.log.L
-import org.wikipedia.views.FrameLayoutNavMenuTriggerer
-import org.wikipedia.views.ObservableWebView
-import org.wikipedia.views.ViewUtil
-import org.wikipedia.watchlist.WatchlistExpiry
+import org.akhil.nitcwiki.Constants
+import org.akhil.nitcwiki.Constants.InvokeSource
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.WikipediaApp
+import org.akhil.nitcwiki.activity.BaseActivity
+import org.akhil.nitcwiki.activity.SingleWebViewActivity
+import org.akhil.nitcwiki.analytics.eventplatform.ArticleLinkPreviewInteractionEvent
+import org.akhil.nitcwiki.analytics.eventplatform.BreadCrumbLogEvent
+import org.akhil.nitcwiki.analytics.eventplatform.DonorExperienceEvent
+import org.akhil.nitcwiki.analytics.eventplatform.PlacesEvent
+import org.akhil.nitcwiki.analytics.metricsplatform.ArticleLinkPreviewInteraction
+import org.akhil.nitcwiki.auth.AccountUtil
+import org.akhil.nitcwiki.commons.FilePageActivity
+import org.akhil.nitcwiki.databinding.ActivityPageBinding
+import org.akhil.nitcwiki.dataclient.WikiSite
+import org.akhil.nitcwiki.dataclient.mwapi.MwQueryPage
+import org.akhil.nitcwiki.descriptions.DescriptionEditActivity
+import org.akhil.nitcwiki.descriptions.DescriptionEditRevertHelpView
+import org.akhil.nitcwiki.descriptions.DescriptionEditSuccessActivity
+import org.akhil.nitcwiki.edit.EditHandler
+import org.akhil.nitcwiki.edit.EditSectionActivity
+import org.akhil.nitcwiki.events.ArticleSavedOrDeletedEvent
+import org.akhil.nitcwiki.events.ChangeTextSizeEvent
+import org.akhil.nitcwiki.extensions.parcelableExtra
+import org.akhil.nitcwiki.gallery.GalleryActivity
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.language.LangLinksActivity
+import org.akhil.nitcwiki.notifications.AnonymousNotificationHelper
+import org.akhil.nitcwiki.notifications.NotificationActivity
+import org.akhil.nitcwiki.page.linkpreview.LinkPreviewDialog
+import org.akhil.nitcwiki.page.tabs.TabActivity
+import org.akhil.nitcwiki.readinglist.ReadingListActivity
+import org.akhil.nitcwiki.search.SearchActivity
+import org.akhil.nitcwiki.settings.Prefs
+import org.akhil.nitcwiki.staticdata.MainPageNameData
+import org.akhil.nitcwiki.staticdata.UserTalkAliasData
+import org.akhil.nitcwiki.suggestededits.PageSummaryForEdit
+import org.akhil.nitcwiki.suggestededits.SuggestedEditsImageTagEditActivity
+import org.akhil.nitcwiki.suggestededits.SuggestedEditsSnackbars
+import org.akhil.nitcwiki.talk.TalkTopicsActivity
+import org.akhil.nitcwiki.usercontrib.UserContribListActivity
+import org.akhil.nitcwiki.util.DeviceUtil
+import org.akhil.nitcwiki.util.DimenUtil
+import org.akhil.nitcwiki.util.FeedbackUtil
+import org.akhil.nitcwiki.util.ReleaseUtil
+import org.akhil.nitcwiki.util.StringUtil
+import org.akhil.nitcwiki.util.ThrowableUtil
+import org.akhil.nitcwiki.util.UriUtil
+import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.views.FrameLayoutNavMenuTriggerer
+import org.akhil.nitcwiki.views.ObservableWebView
+import org.akhil.nitcwiki.views.ViewUtil
+import org.akhil.nitcwiki.watchlist.WatchlistExpiry
 import java.util.Locale
 
 class PageActivity : BaseActivity(), PageFragment.Callback, LinkPreviewDialog.LoadPageCallback, FrameLayoutNavMenuTriggerer.Callback {
@@ -803,13 +803,13 @@ class PageActivity : BaseActivity(), PageFragment.Callback, LinkPreviewDialog.Lo
     companion object {
         private const val LANGUAGE_CODE_BUNDLE_KEY = "language"
         private const val EXCEPTION_MESSAGE_WEBVIEW = "webview"
-        const val ACTION_LOAD_IN_NEW_TAB = "org.wikipedia.load_in_new_tab"
-        const val ACTION_LOAD_IN_CURRENT_TAB = "org.wikipedia.load_in_current_tab"
-        const val ACTION_LOAD_IN_CURRENT_TAB_SQUASH = "org.wikipedia.load_in_current_tab_squash"
-        const val ACTION_LOAD_FROM_EXISTING_TAB = "org.wikipedia.load_from_existing_tab"
-        const val ACTION_CREATE_NEW_TAB = "org.wikipedia.create_new_tab"
-        const val ACTION_RESUME_READING = "org.wikipedia.resume_reading"
-        const val EXTRA_HISTORYENTRY = "org.wikipedia.history.historyentry"
+        const val ACTION_LOAD_IN_NEW_TAB = "org.akhil.nitcwiki.load_in_new_tab"
+        const val ACTION_LOAD_IN_CURRENT_TAB = "org.akhil.nitcwiki.load_in_current_tab"
+        const val ACTION_LOAD_IN_CURRENT_TAB_SQUASH = "org.akhil.nitcwiki.load_in_current_tab_squash"
+        const val ACTION_LOAD_FROM_EXISTING_TAB = "org.akhil.nitcwiki.load_from_existing_tab"
+        const val ACTION_CREATE_NEW_TAB = "org.akhil.nitcwiki.create_new_tab"
+        const val ACTION_RESUME_READING = "org.akhil.nitcwiki.resume_reading"
+        const val EXTRA_HISTORYENTRY = "org.akhil.nitcwiki.history.historyentry"
 
         fun newIntent(context: Context): Intent {
             return Intent(ACTION_RESUME_READING).setClass(context, PageActivity::class.java)

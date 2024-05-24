@@ -1,16 +1,16 @@
-package org.wikipedia.feed.mainpage
+package org.akhil.nitcwiki.feed.mainpage
 
 import android.content.Context
 import android.view.LayoutInflater
-import org.wikipedia.R
-import org.wikipedia.databinding.ViewStaticCardBinding
-import org.wikipedia.feed.view.CardFooterView
-import org.wikipedia.feed.view.DefaultFeedCardView
-import org.wikipedia.feed.view.FeedAdapter
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.PageTitle
-import org.wikipedia.staticdata.MainPageNameData
-import org.wikipedia.util.L10nUtil.getStringForArticleLanguage
+import org.akhil.nitcwiki.R
+import org.akhil.nitcwiki.databinding.ViewStaticCardBinding
+import org.akhil.nitcwiki.feed.view.CardFooterView
+import org.akhil.nitcwiki.feed.view.DefaultFeedCardView
+import org.akhil.nitcwiki.feed.view.FeedAdapter
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.staticdata.MainPageNameData
+import org.akhil.nitcwiki.util.L10nUtil.getStringForArticleLanguage
 
 class MainPageCardView(context: Context) : DefaultFeedCardView<MainPageCard>(context) {
 

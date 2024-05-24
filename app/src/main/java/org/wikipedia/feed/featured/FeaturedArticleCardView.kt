@@ -1,18 +1,18 @@
-package org.wikipedia.feed.featured
+package org.akhil.nitcwiki.feed.featured
 
 import android.content.Context
 import android.net.Uri
 import android.view.LayoutInflater
-import org.wikipedia.databinding.ViewCardFeaturedArticleBinding
-import org.wikipedia.feed.view.CardFooterView
-import org.wikipedia.feed.view.DefaultFeedCardView
-import org.wikipedia.feed.view.FeedAdapter
-import org.wikipedia.history.HistoryEntry
-import org.wikipedia.page.PageTitle
-import org.wikipedia.readinglist.LongPressMenu
-import org.wikipedia.readinglist.database.ReadingListPage
-import org.wikipedia.staticdata.MainPageNameData
-import org.wikipedia.views.ImageZoomHelper
+import org.akhil.nitcwiki.databinding.ViewCardFeaturedArticleBinding
+import org.akhil.nitcwiki.feed.view.CardFooterView
+import org.akhil.nitcwiki.feed.view.DefaultFeedCardView
+import org.akhil.nitcwiki.feed.view.FeedAdapter
+import org.akhil.nitcwiki.history.HistoryEntry
+import org.akhil.nitcwiki.page.PageTitle
+import org.akhil.nitcwiki.readinglist.LongPressMenu
+import org.akhil.nitcwiki.readinglist.database.ReadingListPage
+import org.akhil.nitcwiki.staticdata.MainPageNameData
+import org.akhil.nitcwiki.views.ImageZoomHelper
 
 @Suppress("LeakingThis")
 open class FeaturedArticleCardView(context: Context) : DefaultFeedCardView<FeaturedArticleCard>(context) {
