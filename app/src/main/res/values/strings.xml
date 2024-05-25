@@ -6,6 +6,8 @@
 
     <string name="wikimedia">Wikimedia</string>
 
+    <string name="nitcwiki">NITC Wiki</string>
+
     <string name="nav_item_back">Back</string>
     <string name="page_tabs_back">Back</string>
     <string name="nav_item_forward">Forward</string>

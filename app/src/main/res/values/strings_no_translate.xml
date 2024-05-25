@@ -23,8 +23,8 @@
     <string name="donor_privacy_policy_url">https://foundation.wikimedia.org/wiki/Policy:Donor_privacy_policy</string>
 
     <!-- Accounts -->
-    <string name="account_name">@string/wikimedia</string>
-    <string name="account_type">org.wikimedia</string>
+    <string name="account_name">@string/nitcwiki</string>
+    <string name="account_type">org.akhil.nitcwiki</string>
 
     <!-- Provenance parameters for sharing URLs (https://wikitech.wikimedia.org/wiki/Provenance) -->
     <string name="prov_share_image">sfia1</string>
