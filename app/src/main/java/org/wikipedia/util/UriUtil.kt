@@ -23,7 +23,7 @@ object UriUtil {
     const val LOCAL_URL_LOGIN = "#login"
     const val LOCAL_URL_CUSTOMIZE_FEED = "#customizefeed"
     const val LOCAL_URL_LANGUAGES = "#languages"
-    const val WIKI_REGEX = "/(wiki|[a-z]{2,3}|[a-z]{2,3}-.*)/"
+    const val WIKI_REGEX = "/(wiki|index.php|[a-z]{2,3}|[a-z]{2,3}-.*)/"
 
     fun decodeURL(url: String): String {
         return try {

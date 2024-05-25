@@ -11,6 +11,7 @@ import org.akhil.nitcwiki.staticdata.ContributionsNameData
 import org.akhil.nitcwiki.staticdata.MainPageNameData
 import org.akhil.nitcwiki.util.StringUtil
 import org.akhil.nitcwiki.util.UriUtil
+import org.akhil.nitcwiki.WikipediaApp
 import java.util.*
 
 /**
@@ -36,6 +37,8 @@ data class PageTitle(
     @SerialName("displayText") private var _displayText: String? = null,
     var extract: String? = null
 ) : Parcelable {
+    var darkmode:Int = if (WikipediaApp.instance.currentTheme.isDark) 1 else 0
+	get() = if (WikipediaApp.instance.currentTheme.isDark) 1 else 0
 
     var text: String
         get() = StringUtil.addUnderscores(_text)
@@ -180,7 +183,7 @@ data class PageTitle(
 
     fun getWebApiUrl(fragment: String?): String {
         return String.format(
-            "%1\$s://%2\$s/w/index.php?title=%3\$s&%4\$s",
+            "%1\$s://%2\$s/index.php?title=%3\$s&%4\$s",
             wikiSite.scheme(),
             wikiSite.authority(),
             UriUtil.encodeURL(prefixedText),
@@ -194,12 +197,13 @@ data class PageTitle(
 
     private fun getUriForDomain(domain: String): String {
         return String.format(
-            "%1\$s://%2\$s/%3\$s/%4\$s%5\$s",
+            "%1\$s://%2\$s/%3\$s/%4\$s%5\$s%6\$s",
             wikiSite.scheme(),
             domain,
-            if (LanguageUtil.isChineseVariant(domain)) wikiSite.languageCode else "wiki",
+            if (LanguageUtil.isChineseVariant(domain)) wikiSite.languageCode else "index.php",
             UriUtil.encodeURL(prefixedText),
-            if (!fragment.isNullOrEmpty()) "#" + UriUtil.encodeURL(fragment!!) else ""
+            if (!fragment.isNullOrEmpty()) "#" + UriUtil.encodeURL(fragment!!) else "",
+	    "?usedarkmode="+darkmode
         )
     }
 
