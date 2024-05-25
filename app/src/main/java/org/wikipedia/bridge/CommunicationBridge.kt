@@ -15,6 +15,7 @@ import org.akhil.nitcwiki.page.PageTitle
 import org.akhil.nitcwiki.page.PageViewModel
 import org.akhil.nitcwiki.util.UriUtil
 import org.akhil.nitcwiki.util.log.L
+import org.akhil.nitcwiki.WikipediaApp
 
 /**
  * Two-way communications bridge between JS in a WebView and Java.
@@ -30,7 +31,7 @@ class CommunicationBridge constructor(private val communicationBridgeListener: C
     private var isPcsReady = false
     private val pendingJSMessages = ArrayList<String>()
     private val pendingEvals = HashMap<String, ValueCallback<String>>()
-
+    private var darkmode=0
     fun interface JSEventListener {
         fun onMessage(messageType: String, messagePayload: JsonObject?)
     }
@@ -72,11 +73,11 @@ class CommunicationBridge constructor(private val communicationBridgeListener: C
         isMetadataReady = false
         pendingJSMessages.clear()
         pendingEvals.clear()
+	if (WikipediaApp.instance.currentTheme.isDark) {darkmode=1} else {darkmode=0} 
         if (communicationBridgeListener.model.shouldLoadAsMobileWeb) {
             communicationBridgeListener.webView.loadUrl(pageTitle.mobileUri)
         } else {
-            communicationBridgeListener.webView.loadUrl(ServiceFactory.getRestBasePath(pageTitle.wikiSite) +
-                    RestService.PAGE_HTML_ENDPOINT + UriUtil.encodeURL(pageTitle.prefixedText))
+            communicationBridgeListener.webView.loadUrl("https://wiki.fosscell.org/index.php/" + UriUtil.encodeURL(pageTitle.prefixedText) + "?usedarkmode=" + darkmode) //communicationBridgeListener.webView.loadUrl(ServiceFactory.getRestBasePath(pageTitle.wikiSite) + RestService.PAGE_HTML_ENDPOINT + UriUtil.encodeURL(pageTitle.prefixedText))
         }
     }
 

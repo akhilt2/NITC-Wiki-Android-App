@@ -38,7 +38,7 @@ interface RestService {
      * @param title the page title to be used including prefix
      */
     @Headers("x-analytics: preview=1", "Accept: $ACCEPT_HEADER_SUMMARY")
-    @GET("page/summary/{title}")
+    @GET("page/{title}")
     fun getSummaryResponse(
         @Path("title") title: String,
         @Header("Referer") referrerUrl: String?,
@@ -49,7 +49,7 @@ interface RestService {
     ): Observable<Response<PageSummary>>
 
     @Headers("x-analytics: preview=1", "Accept: $ACCEPT_HEADER_SUMMARY")
-    @GET("page/summary/{title}")
+    @GET("page/{title}")
     suspend fun getSummaryResponseSuspend(
         @Path("title") title: String,
         @Header("Referer") referrerUrl: String?,
@@ -60,14 +60,14 @@ interface RestService {
     ): Response<PageSummary>
 
     @Headers("x-analytics: preview=1", "Accept: $ACCEPT_HEADER_SUMMARY")
-    @GET("page/summary/{title}")
+    @GET("page/{title}")
     fun getSummary(
         @Header("Referer") referrerUrl: String?,
         @Path("title") title: String
     ): Observable<PageSummary>
 
     @Headers("x-analytics: preview=1", "Accept: $ACCEPT_HEADER_SUMMARY")
-    @GET("page/summary/{title}")
+    @GET("page/{title}")
     suspend fun getPageSummary(
         @Header("Referer") referrerUrl: String?,
         @Path("title") title: String
@@ -234,7 +234,7 @@ interface RestService {
     ): Metrics
 
     companion object {
-        const val REST_API_PREFIX = "/api/rest_v1"
+        const val REST_API_PREFIX = "rest.php/v1"
         const val ACCEPT_HEADER_PREFIX = "application/json; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/"
         const val ACCEPT_HEADER_SUMMARY = ACCEPT_HEADER_PREFIX + "Summary/1.2.0\""
         const val ACCEPT_HEADER_DEFINITION = ACCEPT_HEADER_PREFIX + "definition/0.7.2\""
