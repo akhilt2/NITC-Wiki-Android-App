@@ -101,7 +101,7 @@ data class WikiSite(
     }
 
     fun path(segment: String): String {
-        return "/w/$segment"
+        return "/$segment"
     }
 
     fun url(): String {
@@ -117,7 +117,7 @@ data class WikiSite(
             "wikidata"
         } else {
             subdomain().replace("-".toRegex(), "_")
-        }) + "wiki"
+        }) + "index.php"
     }
 
     companion object {

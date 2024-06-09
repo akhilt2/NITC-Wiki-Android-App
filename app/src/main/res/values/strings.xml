@@ -4,6 +4,8 @@
     <string name="app_name_beta" tools:ignore="UnusedResources">NITC Wiki Beta</string>
     <string name="app_name_alpha" tools:ignore="UnusedResources">NITC Wiki Alpha</string>
 
+    <string name="app_name_caps"><font size="20">N</font>ITC WIK<font size="20">I</font></string>
+
     <string name="wikimedia">Wikimedia</string>
 
     <string name="nitcwiki">NITC Wiki</string>
