@@ -1,6 +1,6 @@
-### Wikipedia Android app
+### NITC WIKI Android app
 
-This repository contains the source code for the official [Wikipedia Android app](https://play.google.com/store/apps/details?id=org.akhil.nitcwiki).
+This repository contains the source code for the official [NITC WIKI Android app](https://play.google.com/store/apps/details?id=org.akhil.nitcwiki).
 
 ### Documentation
 
